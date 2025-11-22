@@ -1,11 +1,10 @@
 import json
 import csv
+import os
 from collections import defaultdict
 
-INPUT_FILE = "datasets/community_infrastructure.json"
-COMMUNITIES_CSV = "communities.csv"
-SUBJECTS_CSV = "subjects.csv"
-REL_CSV = "community_subject.csv"
+from config import COMMUNITIES_PROPERTY_GRAPH_CSV, SUBJECTS_PROPERTY_GRAPH_CSV, COMMUNITIES_SUBJECTS_PROPERTY_GRAPH_CSV, \
+    COMMUNITY_INFRASTRUCTURE, PROPERTY_GRAPHS_OUTPUT
 
 
 def load_ndjson(path):
@@ -15,7 +14,7 @@ def load_ndjson(path):
 
 
 def main():
-    data = load_ndjson(INPUT_FILE)
+    data = load_ndjson(COMMUNITY_INFRASTRUCTURE)
 
     # Collect subjects for global deduplication
     subject_set = set()
@@ -49,16 +48,20 @@ def main():
                 ":TYPE": "HAS_SUBJECT"
             })
 
+    # Check that property_graph-dir exists, if not, create it
+    if not os.path.exists(PROPERTY_GRAPHS_OUTPUT):
+        os.makedirs(PROPERTY_GRAPHS_OUTPUT)
+
     # --- Write communities.csv ---
-    with open(COMMUNITIES_CSV, "w", newline="", encoding="utf-8") as f:
+    with open(COMMUNITIES_PROPERTY_GRAPH_CSV, "w+", newline="", encoding="utf-8") as f:
         fieldnames = ["communityId:ID", "acronym", "name", "description", "type", ":LABEL"]
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(community_rows)
-    print(f"Wrote {COMMUNITIES_CSV}")
+    print(f"Wrote {COMMUNITIES_PROPERTY_GRAPH_CSV}")
 
     # --- Write subjects.csv ---
-    with open(SUBJECTS_CSV, "w", newline="", encoding="utf-8") as f:
+    with open(SUBJECTS_PROPERTY_GRAPH_CSV, "w", newline="", encoding="utf-8") as f:
         fieldnames = ["subjectName:ID", ":LABEL"]
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
@@ -67,21 +70,21 @@ def main():
                 "subjectName:ID": subj,
                 ":LABEL": "Subject"
             })
-    print(f"Wrote {SUBJECTS_CSV}")
+    print(f"Wrote {SUBJECTS_PROPERTY_GRAPH_CSV}")
 
     # --- Write relationships ---
-    with open(REL_CSV, "w", newline="", encoding="utf-8") as f:
+    with open(COMMUNITIES_SUBJECTS_PROPERTY_GRAPH_CSV, "w", newline="", encoding="utf-8") as f:
         fieldnames = [":START_ID", ":END_ID", ":TYPE"]
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(rels)
-    print(f"Wrote {REL_CSV}")
+    print(f"Wrote {COMMUNITIES_SUBJECTS_PROPERTY_GRAPH_CSV}")
 
     print("\nConversion complete! Ready for Neo4j import.")
     print("Files generated:")
-    print(f" - {COMMUNITIES_CSV}")
-    print(f" - {SUBJECTS_CSV}")
-    print(f" - {REL_CSV}")
+    print(f" - {COMMUNITIES_PROPERTY_GRAPH_CSV}")
+    print(f" - {SUBJECTS_PROPERTY_GRAPH_CSV}")
+    print(f" - {COMMUNITIES_SUBJECTS_PROPERTY_GRAPH_CSV}")
 
 
 if __name__ == "__main__":
