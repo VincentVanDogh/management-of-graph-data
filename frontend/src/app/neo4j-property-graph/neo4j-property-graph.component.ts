@@ -3,17 +3,17 @@ import cytoscape from 'cytoscape';
 import neo4j from 'neo4j-driver';
 
 @Component({
-  selector: 'app-property-graph',
+  selector: 'app-neo4j-property-graph',
   template: `<div id="cy" style="width:100%; height:600px;"></div>`,
   styles: []
 })
-export class PropertyGraphComponent implements AfterViewInit {
+export class Neo4jPropertyGraphComponent implements AfterViewInit {
 
   async ngAfterViewInit() {
     // Connect to Neo4j
     const driver = neo4j.driver(
       'neo4j://localhost:7687',
-      neo4j.auth.basic('neo4j', 'tobias-gacko')  // <-- change yourpassword here
+      neo4j.auth.basic('neo4j', 'tobias-gacko')
     );
 
     const session = driver.session();
