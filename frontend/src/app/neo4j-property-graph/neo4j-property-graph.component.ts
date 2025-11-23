@@ -76,7 +76,7 @@ export class Neo4jPropertyGraphComponent implements AfterViewInit {
             selector: 'node',
             style: {
               'background-color': '#007ACC',
-              'label': 'data(name)',       // Adjust if your nodes don't have 'name', consider 'label' or another prop
+              'label': 'data(name)',
               'color': '#fff',
               'text-valign': 'center',
               'text-halign': 'center',
