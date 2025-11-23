@@ -1,5 +1,5 @@
 # Directories
-INPUT_DIR = r"./datasets"
+INPUT_DIR = r"datasets"
 PROPERTY_GRAPHS_OUTPUT = r"./property_graphs"
 RDF_GRAPHS_OUTPUT = r"./rdf"
 
@@ -15,3 +15,5 @@ COMMUNITIES_SUBJECTS_CSV = "community_subject.csv"
 COMMUNITIES_PROPERTY_GRAPH_CSV = fr"{PROPERTY_GRAPHS_OUTPUT}/communities.csv"
 SUBJECTS_PROPERTY_GRAPH_CSV = fr"{PROPERTY_GRAPHS_OUTPUT}/subjects.csv"
 COMMUNITIES_SUBJECTS_PROPERTY_GRAPH_CSV = fr"{PROPERTY_GRAPHS_OUTPUT}/community_subject.csv"
+
+CYPHER_OUTPUT_FILE = rf"{PROPERTY_GRAPHS_OUTPUT}/community_import.cypher"
