@@ -3,7 +3,6 @@ import cytoscape from 'cytoscape';
 
 // TODO: Replace with a GET request
 import communities from '../../assets/communities.json';
-// import communities from './assets/communities.json';
 
 @Component({
   selector: 'app-custom-property-graph',
@@ -12,61 +11,88 @@ import communities from '../../assets/communities.json';
 })
 export class CustomPropertyGraphComponent implements AfterViewInit {
 
+  private allData: any;
+  queryText: string = `MATCH (n)-[r]->(m)\nRETURN n, r, m LIMIT 50`;
+  private cy: any;
+
   async ngAfterViewInit() {
-    // Load JSON data from assets folder (you can also import or fetch)
-    /*
-    const response = await fetch('./assets/communities.json');
-    const data = await response.json();
-     */
+    this.allData = communities;
+    this.runQuery();
+  }
 
-    const data = communities as any;
+  onQueryKeydown(event: KeyboardEvent) {
+    if ((event.key === 'Enter' && event.shiftKey) || event.key === 'Enter' && event.ctrlKey) {
+      event.preventDefault();
+      this.runQuery();
+    }
+  }
 
-    console.log(data);
+  runQuery() {
+    const query = this.queryText;
 
-    // Convert to cytoscape elements format
+    // Parse LIMIT <number>
+    const limitMatch = query.match(/LIMIT\s+(\d+)/i);
+    const limit = limitMatch ? parseInt(limitMatch[1], 10) : Infinity;
+
+    // Very simple Cypher-like processor:
+    // MATCH (n)-[r]->(m)
+    const edges = this.allData.edges.slice(0, limit);
+    const nodesUsed = new Set<string>();
+
+    edges.forEach((e: any) => {
+      nodesUsed.add(e.source);
+      nodesUsed.add(e.target);
+    });
+
+    const nodes = this.allData.nodes.filter((n: any) => nodesUsed.has(n.id));
+
+    // Convert to Cytoscape elements
     const elements = [
-      ...data.nodes.map((node: any) => ({
-        data: {id: node.id, label: node.label, ...node}
+      ...nodes.map((node: any) => ({
+        data: { id: node.id, label: node.label, ...node }
       })),
-      ...data.edges.map((edge: any) => ({
-        data: {id: edge.id, source: edge.source, target: edge.target, label: edge.label, ...edge}
-      })),
+      ...edges.map((edge: any) => ({
+        data: { id: edge.id, source: edge.source, target: edge.target, label: edge.label, ...edge }
+      }))
     ];
 
-    cytoscape({
-      container: document.getElementById('cy')!,
+    // Render graph
+    if (this.cy) this.cy.destroy();
+
+    this.cy = cytoscape({
+      container: document.getElementById('cy'),
       elements,
       style: [
         {
           selector: 'node',
           style: {
             'background-color': '#007ACC',
-            'label': 'data(name)', // adjust accordingly
-            'color': '#fff',
-            'text-valign': 'center',
+            'label': 'data(label)',
+            'text-valign': 'top',        // place label ABOVE node
             'text-halign': 'center',
+            'text-margin-y': -8,         // move text upward
+            'color': '#000',
             'font-size': 12,
-            'width': 30,
-            'height': 30,
-            'text-wrap': 'wrap'
+            'font-weight': 'bold',
+            'width': 25,
+            'height': 25
           }
         },
         {
           selector: 'edge',
           style: {
             'width': 2,
-            'line-color': '#888',
+            'line-color': '#555',
+            'target-arrow-color': '#555',
             'target-arrow-shape': 'triangle',
-            'target-arrow-color': '#888',
             'curve-style': 'bezier',
             'label': 'data(label)',
             'font-size': 10,
-            'text-rotation': 'autorotate',
-            'color': '#555'
+            'color': '#333'
           }
         }
       ],
-      layout: {name: 'cose'}
+      layout: { name: 'cose' }
     });
   }
 }
