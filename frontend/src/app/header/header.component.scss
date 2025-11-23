@@ -1,7 +1,36 @@
 header {
   background: #cccccc;
+  display: grid;
+  justify-content: center;
+  margin: 0 0 20px 0;
+  grid-template-columns: 1fr 2fr 1fr;
+  padding: 10px 20px;
+}
+
+ul
+{
+  list-style-type: none;
+}
+
+#header-logo {
   display: flex;
   justify-content: center;
-  padding: 20px 0;
-  margin: 0 0 20px 0;
+  align-items: center;
+}
+
+#developers {
+  align-items: center;
+  display: flex;
+  justify-content: end;
+  text-align: end;
+}
+
+#header-links {
+  align-items: center;
+  display: flex;
+  justify-content: left;
+}
+
+#header-logo-img {
+  width: 15%;
 }
