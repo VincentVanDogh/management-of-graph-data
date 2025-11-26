@@ -1,0 +1,59 @@
+RDF - > the concept
+turtle -> is like the proglanguage for that model
+
+Backend -> stroing & managing rdf data(json-ld, turtle) and providing API (rest or spaqrl endpoints)
+
+Frontend -> deisplaying the rdf, calling the backend trhourgh http
+
+Since i am using angular i firstly create a .ttl file and then convert it into json-ld
+
+RDF is a graph, not a file. Entities are just nodes.
+
+A namespace in RDF is essentially a shortcut for a long IRI (Internationalized Resource Identifier).
+
+IRIs are URLs that uniquely identify classes, properties, or entities.
+
+
+------------------------------------------------------
+Step 1 — ResearchProduct
+
+Why first: It’s the central entity in OpenAIRE; all other entities relate to it in some way (authors, projects, organizations, communities, data sources).
+
+You can start with just a few fields: id, mainTitle, type, publicationDate, publisher.
+
+Links: You can gradually add links to authors, projects, organizations, etc.
+
+Step 2 — Person (Authors/Contributors)
+
+ResearchProducts have authors and contributors.
+
+Creating Person nodes early makes linking to ResearchProducts easier.
+
+Step 3 — Project
+
+ResearchProducts are often linked to Projects (fundedBy).
+
+Projects also link to Organizations and Persons.
+
+Step 4 — Organization
+
+Needed for author affiliations, project funders, or contributors.
+
+You can start with just id and name for simplicity.
+
+Step 5 — Community
+
+Only needed if your ResearchProducts belong to communities.
+
+Can be linked later once ResearchProducts, Persons, and Organizations exist.
+
+Step 6 — DataSource
+
+Only needed if you want to model where the ResearchProduct metadata was collected from.
+
+Can be simple: id, name.
+
+
+
+-------------------------
+

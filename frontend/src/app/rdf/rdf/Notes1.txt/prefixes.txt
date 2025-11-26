@@ -1,0 +1,49 @@
+Prefix is like a nickname for a URL.
+
+Defined at the top of the Turtle file with @prefix.
+
+Used before a local name (like ResearchProduct or type) to create a full IRI.
+
+Multiple prefixes can exist in a file to combine vocabularies:
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ex: <https://example.org/my-openaire/> .
+@prefix op: <http://lod.openaire.eu/vocab/> .
+
+
+Quick rules for when to use which:
+
+rdf / rdfs → Always needed for basic RDF types and classes.
+(
+    rdf → “this thing is an instance of a class”
+
+    rdfs → “this thing is a class or a property and here is its structure/description”
+
+    Term	Meaning
+rdf:type	Declares that a resource is an instance of a class
+rdf:Property	Declares that something is a property (predicate)
+rdf:Statement	Represents a triple as a resource
+
+
+Term	Meaning
+rdfs:Class	Declares a resource as a class
+rdfs:subClassOf	Declares a class as a subclass of another class
+rdfs:label	Human-readable name of a resource
+rdfs:comment	Human-readable description of a resource
+)
+xsd → When defining typed literals (dates, numbers, booleans).
+
+dc / dcterms → Standard metadata (title, creator, publisher).
+
+foaf → People, organizations, contacts.
+
+skos → Controlled vocabularies, subjects, categories.
+
+prov → Provenance of data.
+
+op → OpenAIRE-specific terms (ResearchProduct, Project, Person).
+
+ex → Your dataset instances (user-defined).
+
+schema → Optional, for interoperability with Schema.org.

@@ -1,0 +1,18 @@
+<h2>RDF Data</h2>
+
+<div *ngIf="rdfData?.length; else noData">
+  <div *ngFor="let item of rdfData" style="border: 1px solid #ccc; margin: 10px; padding: 10px;">
+    <h3>{{ item['http://schema.org/name']?.[0]?.['@value'] || item['@id'] }}</h3>
+    <p><strong>Description:</strong> {{ item['http://purl.org/dc/terms/description']?.[0]?.['@value'] }}</p>
+    <p><strong>Publisher:</strong> {{ item['http://purl.org/dc/terms/publisher']?.[0]?.['@value'] }}</p>
+    <p><strong>Contributors:</strong>
+      <span *ngFor="let c of item['http://purl.org/dc/terms/contributor']">
+        {{ c['@value'] }}<span *ngIf="!isLast(c, item['http://purl.org/dc/terms/contributor'])">, </span>
+      </span>
+    </p>
+  </div>
+</div>
+
+<ng-template #noData>
+  <p>No RDF data loaded yet.</p>
+</ng-template>
