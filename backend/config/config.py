@@ -1,7 +1,7 @@
 # Directories
-INPUT_DIR = r"datasets"
-PROPERTY_GRAPHS_OUTPUT = r"./property_graphs"
-RDF_GRAPHS_OUTPUT = r"./rdf"
+INPUT_DIR = r"../datasets"
+PROPERTY_GRAPHS_OUTPUT = r"../property_graphs"
+RDF_GRAPHS_OUTPUT = r"../rdf"
 
 # Input files
 COMMUNITY_INFRASTRUCTURE = fr"{INPUT_DIR}/community_infrastructure.json"
