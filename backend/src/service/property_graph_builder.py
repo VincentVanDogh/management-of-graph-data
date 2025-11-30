@@ -4,35 +4,15 @@ import pandas as pd
 import json
 from pathlib import Path
 
-DATA_DIR = Path("../datasets/inputs/zurich-public-transport")
-OUT_DIR = Path("../datasets/outputs/zurich-public-transport")
+from config.zurich_public_transport_config import ZURICH_PUBLIC_TRANSPORT_CONFIG
+from config.actors_and_movies_config import ACTORS_AND_MOVIES_CONFIG
+
+# DATA_DIR = Path("../datasets/inputs/zurich-public-transport")
+DATA_DIR = Path("../datasets/inputs/actors-and-movies-dataset")
+# OUT_DIR = Path("../datasets/outputs/zurich-public-transport")
+OUT_DIR = Path("../datasets/outputs/actors-and-movies-dataset")
 OUT_DIR.mkdir(exist_ok=True)
 
-# Define your config here
-config = {
-    "nodes": {
-        "haltestelle.csv": {
-            "id_col": "halt_id",
-            "label": "Stop"
-        },
-        "haltepunkt.csv": {
-            "id_col": "halt_punkt_id",
-            "label": "StopPoint"
-        }
-    },
-    "edges": {
-        "fahrzeitensollist1.csv": {
-            "source_col": "halt_id_von",
-            "target_col": "halt_id_nach",
-            "edge_label": "CONNECTED_BY"
-        },
-        "fahrzeitensollist2.csv": {
-            "source_col": "halt_id_von",
-            "target_col": "halt_id_nach",
-            "edge_label": "CONNECTED_BY"
-        }
-    }
-}
 
 # Helper function to clean and convert row to dict excluding some columns
 def row_to_props(row, exclude_cols):
@@ -40,10 +20,10 @@ def row_to_props(row, exclude_cols):
 
 # Load nodes
 all_nodes = {}  # id -> props dict, including label
-for fname, node_cfg in config["nodes"].items():
+for fname, node_cfg in ACTORS_AND_MOVIES_CONFIG["nodes"].items():
     path = DATA_DIR / fname
     print(f"Loading nodes from {fname}")
-    df = pd.read_csv(path, dtype=str).fillna("")
+    df = pd.read_csv(path, dtype=str, nrows=200_000).fillna("")
     id_col = node_cfg["id_col"]
     label = node_cfg["label"]
 
@@ -59,10 +39,10 @@ for fname, node_cfg in config["nodes"].items():
 
 # Load edges
 edges = []
-for fname, edge_cfg in config["edges"].items():
+for fname, edge_cfg in ACTORS_AND_MOVIES_CONFIG["edges"].items():
     path = DATA_DIR / fname
     print(f"Loading edges from {fname}")
-    df = pd.read_csv(path, dtype=str).fillna("")
+    df = pd.read_csv(path, dtype=str, nrows=200_000).fillna("")
     src_col = edge_cfg["source_col"]
     tgt_col = edge_cfg["target_col"]
     edge_label = edge_cfg["edge_label"]
