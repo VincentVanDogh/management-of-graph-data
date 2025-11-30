@@ -3,7 +3,7 @@ from rdflib import Graph, Literal, Namespace, URIRef
 from rdflib.namespace import RDF
 
 # Load JSON
-with open("datasets/community_infrastructure.json") as f:
+with open("../datasets/inputs/community/community_infrastructure.json") as f:
     # data = json.load(f)
     data = [json.loads(line) for line in f if line.strip()]
 
