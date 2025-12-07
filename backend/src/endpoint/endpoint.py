@@ -1,16 +1,26 @@
-from fastapi import FastAPI
-from pathlib import Path
-import json
+from fastapi import FastAPI, Depends
+from neo4j import GraphDatabase
+
+from src.service.property_graph_query import PropertyGraphQuery
 
 app = FastAPI()
 
-BASE_DIR = Path(__file__).resolve().parent.parent
-GRAPH_DIR = BASE_DIR / "property_graphs"
-JSON_PATH = GRAPH_DIR / "communities.json"
+# Create Neo4j driver once
+driver = GraphDatabase.driver("bolt://localhost:7687", auth=("neo4j", "mogm1234"))
 
+# Dependency to provide PropertyGraphQuery service instance
+def get_property_graph_query():
+    service = PropertyGraphQuery(driver)
+    try:
+        yield service
+    finally:
+        pass  # Could do cleanup here if needed
 
-@app.get("/property-graph/communities")
-async def get_property_graph():
-    with open(JSON_PATH, "r", encoding="utf-8") as f:
-        graph = json.load(f)
-    return graph
+@app.get("/zurich-transport")
+def zurich_transport(service: PropertyGraphQuery = Depends(get_property_graph_query)):
+    data = service.get_zurich_public_transport()
+    return {"results": data}
+
+@app.on_event("shutdown")
+def shutdown_event():
+    driver.close()
