@@ -1,16 +1,14 @@
-<div class="query-container">
-<textarea
-  id="queryInput"
-  [(ngModel)]="queryText"
-  placeholder="Enter Cypher-like query here..."
-  rows="4"
-  style="width: 100%; font-size: 16px;"
-  (keydown)="onQueryKeydown($event)"
-></textarea>
-
-<button (click)="runQuery()" style="margin-top: 10px;">
-  Run Query
-</button>
+<div class="graph-wrapper">
+  <!-- we will render graph here -->
+  <div id="graphContainer"></div>
 </div>
 
-<div id="cy" style="width: 100%; height: 600px; border: 1px solid #ccc; margin-top: 20px;"></div>
+<hr>
+
+<h3>Zurich public transport data</h3>
+
+<ul>
+  <li *ngFor="let item of transportData">
+    {{ item.aName }} → {{ item.bName }} (line {{ item.r.linie }})
+  </li>
+</ul>

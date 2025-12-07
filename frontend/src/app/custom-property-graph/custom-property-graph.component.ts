@@ -1,98 +1,93 @@
-import { AfterViewInit, Component } from '@angular/core';
-import cytoscape from 'cytoscape';
+import {Component, OnInit} from '@angular/core';
+import cytoscape, { Core } from 'cytoscape';
+
 
 // TODO: Replace with a GET request
 import communities from '../../assets/communities.json';
+import {PropertyGraphRelation} from "../dtos/property_graph_relation";
+import {PropertyGraphService} from "../services/property-graph.service";
 
 @Component({
   selector: 'app-custom-property-graph',
   templateUrl: './custom-property-graph.component.html',
   styleUrls: ['./custom-property-graph.component.scss']
 })
-export class CustomPropertyGraphComponent implements AfterViewInit {
+export class CustomPropertyGraphComponent implements OnInit {
 
-  private allData: any;
-  queryText: string = `MATCH (n)-[r]->(m)\nRETURN n, r, m LIMIT 50`;
-  private cy: any;
+  transportData: PropertyGraphRelation[] = [];
+  cy!: Core;
 
-  async ngAfterViewInit() {
-    this.allData = communities;
-    this.runQuery();
-  }
+  constructor(private service: PropertyGraphService) {}
 
-  onQueryKeydown(event: KeyboardEvent) {
-    if ((event.key === 'Enter' && event.shiftKey) || event.key === 'Enter' && event.ctrlKey) {
-      event.preventDefault();
-      this.runQuery();
-    }
-  }
-
-  runQuery() {
-    const query = this.queryText;
-
-    // Parse LIMIT <number>
-    const limitMatch = query.match(/LIMIT\s+(\d+)/i);
-    const limit = limitMatch ? parseInt(limitMatch[1], 10) : Infinity;
-
-    // Very simple Cypher-like processor:
-    // MATCH (n)-[r]->(m)
-    const edges = this.allData.edges.slice(0, limit);
-    const nodesUsed = new Set<string>();
-
-    edges.forEach((e: any) => {
-      nodesUsed.add(e.source);
-      nodesUsed.add(e.target);
+  ngOnInit(): void {
+    this.service.getTransportData().subscribe(data => {
+      this.transportData = data;
+      this.drawGraph(data);
     });
+  }
 
-    const nodes = this.allData.nodes.filter((n: any) => nodesUsed.has(n.id));
-
-    // Convert to Cytoscape elements
-    const elements = [
-      ...nodes.map((node: any) => ({
-        data: { id: node.id, label: node.label, ...node }
-      })),
-      ...edges.map((edge: any) => ({
-        data: { id: edge.id, source: edge.source, target: edge.target, label: edge.label, ...edge }
-      }))
-    ];
-
-    // Render graph
-    if (this.cy) this.cy.destroy();
+  drawGraph(data: PropertyGraphRelation[]): void {
 
     this.cy = cytoscape({
-      container: document.getElementById('cy'),
-      elements,
+      container: document.getElementById('graphContainer'),
+
       style: [
         {
           selector: 'node',
           style: {
-            'background-color': '#007ACC',
+            'background-color': '#0074D9',
             'label': 'data(label)',
-            'text-valign': 'top',        // place label ABOVE node
-            'text-halign': 'center',
-            'text-margin-y': -8,         // move text upward
             'color': '#000',
-            'font-size': 12,
-            'font-weight': 'bold',
-            'width': 25,
-            'height': 25
+            'font-size': '10px'
           }
         },
         {
           selector: 'edge',
           style: {
-            'width': 2,
-            'line-color': '#555',
-            'target-arrow-color': '#555',
+            'line-color': '#C0C0C0',
+            'label': 'data(label)',
+            'font-size': '8px',
             'target-arrow-shape': 'triangle',
             'curve-style': 'bezier',
-            'label': 'data(label)',
-            'font-size': 10,
-            'color': '#333'
+            'arrow-scale': 1.5
           }
         }
-      ],
-      layout: { name: 'cose' }
+      ]
     });
+
+    const nodes = new Map();  // prevent duplicates
+    const edges: any[] = [];
+
+    data.forEach(rel => {
+      // a-node
+      if (!nodes.has(rel.a.id)) {
+        nodes.set(rel.a.id, {
+          data: { id: rel.a.id, label: rel.aName }
+        });
+      }
+
+      // b-node
+      if (!nodes.has(rel.b.id)) {
+        nodes.set(rel.b.id, {
+          data: { id: rel.b.id, label: rel.bName }
+        });
+      }
+
+      // edge
+      edges.push({
+        data: {
+          id: `${rel.a.id}-${rel.b.id}-${rel.r.linie}`,
+          source: rel.a.id,
+          target: rel.b.id,
+          label: rel.r.linie
+        }
+      });
+    });
+
+    this.cy.add([...nodes.values(), ...edges]);
+    this.cy.layout({
+      name: 'cose',
+      animate: true
+    }).run();
   }
 }
