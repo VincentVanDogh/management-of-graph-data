@@ -1,3 +1,9 @@
+<textarea [(ngModel)]="cypherQuery" rows="4"></textarea>
+
+<button (click)="executeQuery(cypherQuery)">Run</button>
+
+<div id="cy"></div>
+
 <div class="graph-wrapper">
   <!-- we will render graph here -->
   <div id="graphContainer"></div>

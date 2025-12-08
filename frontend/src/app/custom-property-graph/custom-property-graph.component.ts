@@ -3,8 +3,7 @@ import cytoscape, { Core } from 'cytoscape';
 
 
 // TODO: Replace with a GET request
-import communities from '../../assets/communities.json';
-import {PropertyGraphRelation} from "../dtos/property_graph_relation";
+import {CypherResultRecord, CytoscapeElement, PropertyGraphRelation} from "../dtos/property_graph_relation";
 import {PropertyGraphService} from "../services/property-graph.service";
 
 @Component({
@@ -16,8 +15,11 @@ export class CustomPropertyGraphComponent implements OnInit {
 
   transportData: PropertyGraphRelation[] = [];
   cy!: Core;
+  cypherQuery = "MATCH (n)-[r]->(m) RETURN n,r,m LIMIT 50";
+  elements: CytoscapeElement[] = [];
 
-  constructor(private service: PropertyGraphService) {}
+  constructor(private service: PropertyGraphService) {
+  }
 
   ngOnInit(): void {
     this.service.getTransportData().subscribe(data => {
@@ -62,14 +64,14 @@ export class CustomPropertyGraphComponent implements OnInit {
       // a-node
       if (!nodes.has(rel.a.id)) {
         nodes.set(rel.a.id, {
-          data: { id: rel.a.id, label: rel.aName }
+          data: {id: rel.a.id, label: rel.aName}
         });
       }
 
       // b-node
       if (!nodes.has(rel.b.id)) {
         nodes.set(rel.b.id, {
-          data: { id: rel.b.id, label: rel.bName }
+          data: {id: rel.b.id, label: rel.bName}
         });
       }
 
@@ -90,4 +92,65 @@ export class CustomPropertyGraphComponent implements OnInit {
       animate: true
     }).run();
   }
+
+  executeQuery(query: string): void {
+    this.service.runCypherQuery(query).subscribe({
+      next: (response: any) => {
+        const results = response.results;
+        const elements: CytoscapeElement[] = [];
+        const nodesAdded = new Set<string>();
+
+        results.forEach((record: any) => {
+          // Handle node a
+          if (record.a && !nodesAdded.has(record.a.id)) {
+            elements.push({
+              data: {
+                id: record.a.id,
+                label: record.a.halt_lang ?? record.a.id,
+              }
+            });
+            nodesAdded.add(record.a.id);
+          }
+
+          // Handle node b if exists
+          if (record.b && !nodesAdded.has(record.b.id)) {
+            elements.push({
+              data: {
+                id: record.b.id,
+                label: record.b.halt_lang ?? record.b.id,
+              }
+            });
+            nodesAdded.add(record.b.id);
+          }
+
+          // Handle relationship r if exists
+          if (record.r) {
+            elements.push({
+              data: {
+                id: record.r.id ?? `${record.a.id}-${record.b.id}`,
+                source: record.a.id,
+                target: record.b.id,
+                label: record.r.linie ?? '',
+              }
+            });
+          }
+        });
+
+        this.elements = elements;
+
+        if (this.cy) {
+          this.cy.elements().remove();
+          this.cy.add(this.elements);
+          this.cy.layout({ name: 'cose' }).run();
+        }
+      },
+      error: (err) => {
+        console.error('Error executing query', err);
+      }
+    });
+  }
+
+
+
+
 }
