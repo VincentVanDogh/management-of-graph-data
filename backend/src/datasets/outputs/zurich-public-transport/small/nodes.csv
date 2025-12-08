@@ -1,0 +1,356 @@
+id:ID,properties:JSON,:LABEL
+373,"{""halt_diva"": ""6232"", ""halt_kurz"": ""FRAF07"", ""halt_lang"": ""Zürich Flughafen, Fracht"", ""halt_ist_aktiv"": ""True""}",Stop
+588,"{""halt_diva"": ""3027"", ""halt_kurz"": ""FLUG07"", ""halt_lang"": ""Zürich Flughafen, Bahnhof"", ""halt_ist_aktiv"": ""True""}",Stop
+701,"{""halt_diva"": ""1012"", ""halt_kurz"": ""GOLP"", ""halt_lang"": ""Zürich, Goldbrunnenplatz"", ""halt_ist_aktiv"": ""True""}",Stop
+751,"{""halt_diva"": ""2758"", ""halt_kurz"": ""UNTR07"", ""halt_lang"": ""Glattbrugg, Unterriet"", ""halt_ist_aktiv"": ""True""}",Stop
+1010,"{""halt_diva"": ""2160"", ""halt_kurz"": ""SCHA"", ""halt_lang"": ""Zürich, Schaufelbergerstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+1270,"{""halt_diva"": ""2680"", ""halt_kurz"": ""TRIE"", ""halt_lang"": ""Zürich, Triemli"", ""halt_ist_aktiv"": ""True""}",Stop
+1305,"{""halt_diva"": ""1472"", ""halt_kurz"": ""KUNS"", ""halt_lang"": ""Zürich, Kunsthaus"", ""halt_ist_aktiv"": ""True"", ""halt_punkt_diva"": ""64"", ""halt_id"": ""588"", ""GPS_Latitude"": ""47,449808"", ""GPS_Longitude"": ""8,563778"", ""GPS_Bearing"": ""220"", ""halt_punkt_ist_aktiv"": ""False""}",StopPoint
+1306,"{""halt_diva"": ""478"", ""halt_kurz"": ""BEZI"", ""halt_lang"": ""Zürich, Bezirksgebäude"", ""halt_ist_aktiv"": ""True"", ""halt_punkt_diva"": ""52"", ""halt_id"": ""588"", ""GPS_Latitude"": ""47,450645"", ""GPS_Longitude"": ""8,563769"", ""GPS_Bearing"": ""310"", ""halt_punkt_ist_aktiv"": ""True""}",StopPoint
+1308,"{""halt_diva"": ""736"", ""halt_kurz"": ""ETHZ"", ""halt_lang"": ""Zürich, ETH/Universitätsspital"", ""halt_ist_aktiv"": ""True"", ""halt_punkt_diva"": ""54"", ""halt_id"": ""588"", ""GPS_Latitude"": ""47,450510"", ""GPS_Longitude"": ""8,563779"", ""GPS_Bearing"": ""299"", ""halt_punkt_ist_aktiv"": ""False""}",StopPoint
+1309,"{""halt_diva"": ""564"", ""halt_kurz"": ""BUCH"", ""halt_lang"": ""Zürich, Bucheggplatz"", ""halt_ist_aktiv"": ""True"", ""halt_punkt_diva"": ""62"", ""halt_id"": ""588"", ""GPS_Latitude"": ""47,449910"", ""GPS_Longitude"": ""8,563919"", ""GPS_Bearing"": ""240"", ""halt_punkt_ist_aktiv"": ""False""}",StopPoint
+1310,"{""halt_diva"": ""821"", ""halt_kurz"": ""FARB"", ""halt_lang"": ""Zürich, Farbhof"", ""halt_ist_aktiv"": ""True""}",Stop
+1311,"{""halt_diva"": ""2572"", ""halt_kurz"": ""SOER"", ""halt_lang"": ""Zürich, Sternen Oerlikon"", ""halt_ist_aktiv"": ""True""}",Stop
+1377,"{""halt_diva"": ""6506"", ""halt_kurz"": ""BABH07"", ""halt_lang"": ""Kloten Balsberg, Bahnhof"", ""halt_ist_aktiv"": ""True""}",Stop
+1378,"{""halt_diva"": ""6507"", ""halt_kurz"": ""RBAU07"", ""halt_lang"": ""Rümlang, Bäuler"", ""halt_ist_aktiv"": ""True""}",Stop
+1379,"{""halt_diva"": ""6508"", ""halt_kurz"": ""GLIN07"", ""halt_lang"": ""Glattbrugg, Lindberghplatz"", ""halt_ist_aktiv"": ""True""}",Stop
+1406,"{""halt_diva"": ""1278"", ""halt_kurz"": ""HOEL"", ""halt_lang"": ""Zürich, Hölderlinstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+1443,"{""halt_diva"": ""1552"", ""halt_kurz"": ""LEUT"", ""halt_lang"": ""Zürich, Leutschenbach"", ""halt_ist_aktiv"": ""True""}",Stop
+1452,"{""halt_diva"": ""994"", ""halt_kurz"": ""BGLA07"", ""halt_lang"": ""Glattbrugg, Bahnhof"", ""halt_ist_aktiv"": ""True""}",Stop
+1454,"{""halt_diva"": ""1156"", ""halt_kurz"": ""HEIZ"", ""halt_lang"": ""Zürich, Heizenholz"", ""halt_ist_aktiv"": ""True""}",Stop
+1499,"{""halt_diva"": ""1710"", ""halt_kurz"": ""NEUB"", ""halt_lang"": ""Zürich, Neubühl"", ""halt_ist_aktiv"": ""True""}",Stop
+1500,"{""halt_diva"": ""2547"", ""halt_kurz"": ""BLEI"", ""halt_lang"": ""Zürich, Bahnhof Leimbach"", ""halt_ist_aktiv"": ""True""}",Stop
+1501,"{""halt_diva"": ""2294"", ""halt_kurz"": ""SCHW"", ""halt_lang"": ""Zürich, Schwamendingerplatz"", ""halt_ist_aktiv"": ""True""}",Stop
+1502,"{""halt_diva"": ""2556"", ""halt_kurz"": ""STAU"", ""halt_lang"": ""Zürich, Stauffacher"", ""halt_ist_aktiv"": ""True""}",Stop
+1503,"{""halt_diva"": ""1389"", ""halt_kurz"": ""KIEN"", ""halt_lang"": ""Zürich, Kienastenwies"", ""halt_ist_aktiv"": ""True""}",Stop
+1504,"{""halt_diva"": ""1643"", ""halt_kurz"": ""MIBU"", ""halt_lang"": ""Zürich, Milchbuck"", ""halt_ist_aktiv"": ""True""}",Stop
+1511,"{""halt_diva"": ""1660"", ""halt_kurz"": ""MORG"", ""halt_lang"": ""Zürich, Morgental"", ""halt_ist_aktiv"": ""True""}",Stop
+1523,"{""halt_diva"": ""1595"", ""halt_kurz"": ""LAEG"", ""halt_lang"": ""Zürich, Lägernstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+1525,"{""halt_diva"": ""2017"", ""halt_kurz"": ""RADI"", ""halt_lang"": ""Zürich, Radiostudio"", ""halt_ist_aktiv"": ""True""}",Stop
+1528,"{""halt_diva"": ""1861"", ""halt_kurz"": ""PARA"", ""halt_lang"": ""Zürich, Paradeplatz"", ""halt_ist_aktiv"": ""True""}",Stop
+1531,"{""halt_diva"": ""2124"", ""halt_kurz"": ""ROEM"", ""halt_lang"": ""Zürich, Römerhof"", ""halt_ist_aktiv"": ""True""}",Stop
+1532,"{""halt_diva"": ""1215"", ""halt_kurz"": ""HIRS"", ""halt_lang"": ""Zürich, Hirschwiesenstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+1534,"{""halt_diva"": ""6238"", ""halt_kurz"": ""WERE"", ""halt_lang"": ""Zürich, Werd"", ""halt_ist_aktiv"": ""True""}",Stop
+1535,"{""halt_diva"": ""48"", ""halt_kurz"": ""ALBP"", ""halt_lang"": ""Zürich, Albisriederplatz"", ""halt_ist_aktiv"": ""True""}",Stop
+1537,"{""halt_diva"": ""2237"", ""halt_kurz"": ""SZEN"", ""halt_lang"": ""Schlieren, Zentrum"", ""halt_ist_aktiv"": ""True""}",Stop
+1539,"{""halt_diva"": ""2158"", ""halt_kurz"": ""SPLA"", ""halt_lang"": ""Zürich, Schaffhauserplatz"", ""halt_ist_aktiv"": ""True""}",Stop
+1541,"{""halt_diva"": ""412"", ""halt_kurz"": ""BPLA"", ""halt_lang"": ""Zürich, Bahnhofplatz/HB"", ""halt_ist_aktiv"": ""True""}",Stop
+1542,"{""halt_diva"": ""413"", ""halt_kurz"": ""BQUA"", ""halt_lang"": ""Zürich, Bahnhofquai/HB"", ""halt_ist_aktiv"": ""True""}",Stop
+1543,"{""halt_diva"": ""1334"", ""halt_kurz"": ""IRCH"", ""halt_lang"": ""Zürich, Universität Irchel"", ""halt_ist_aktiv"": ""True""}",Stop
+1557,"{""halt_diva"": ""3042"", ""halt_kurz"": ""BWIE"", ""halt_lang"": ""Zürich, Bahnhof Wiedikon"", ""halt_ist_aktiv"": ""True""}",Stop
+1565,"{""halt_diva"": ""440"", ""halt_kurz"": ""BELL"", ""halt_lang"": ""Zürich, Bellevue"", ""halt_ist_aktiv"": ""True""}",Stop
+1571,"{""halt_diva"": ""872"", ""halt_kurz"": ""FRAN"", ""halt_lang"": ""Zürich, Frankental"", ""halt_ist_aktiv"": ""True""}",Stop
+1574,"{""halt_diva"": ""799"", ""halt_kurz"": ""EWYS"", ""halt_lang"": ""Zürich, Escher-Wyss-Platz"", ""halt_ist_aktiv"": ""True""}",Stop
+1580,"{""halt_diva"": ""88"", ""halt_kurz"": ""ALTR"", ""halt_lang"": ""Zürich, Altried"", ""halt_ist_aktiv"": ""True""}",Stop
+1581,"{""halt_diva"": ""1176"", ""halt_kurz"": ""HRTI07"", ""halt_lang"": ""Wallisellen, Herti"", ""halt_ist_aktiv"": ""True""}",Stop
+1596,"{""halt_diva"": ""2346"", ""halt_kurz"": ""SEEB"", ""halt_lang"": ""Zürich, Seebach"", ""halt_ist_aktiv"": ""True""}",Stop
+1598,"{""halt_diva"": ""1259"", ""halt_kurz"": ""HUNG"", ""halt_lang"": ""Zürich, Hungerbergstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+1687,"{""halt_diva"": ""2820"", ""halt_kurz"": ""BWAL07"", ""halt_lang"": ""Wallisellen, Bahnhof"", ""halt_ist_aktiv"": ""True""}",Stop
+1741,"{""halt_diva"": ""1648"", ""halt_kurz"": ""MITL"", ""halt_lang"": ""Zürich, Mittelleimbach"", ""halt_ist_aktiv"": ""True""}",Stop
+1816,"{""halt_diva"": ""972"", ""halt_kurz"": ""GESS"", ""halt_lang"": ""Zürich, Gessnerallee"", ""halt_ist_aktiv"": ""True""}",Stop
+1829,"{""halt_diva"": ""3034"", ""halt_kurz"": ""BOER"", ""halt_lang"": ""Zürich, Bahnhof Oerlikon"", ""halt_ist_aktiv"": ""True""}",Stop
+1845,"{""halt_diva"": ""2968"", ""halt_kurz"": ""ZEHN"", ""halt_lang"": ""Zürich, Zehntenhausplatz"", ""halt_ist_aktiv"": ""True""}",Stop
+1846,"{""halt_diva"": ""114"", ""halt_kurz"": ""AUBR"", ""halt_lang"": ""Zürich, Aubrücke"", ""halt_ist_aktiv"": ""True""}",Stop
+1852,"{""halt_diva"": ""199"", ""halt_kurz"": ""BEDE"", ""halt_lang"": ""Zürich, Bahnhof Enge/Bederstr."", ""halt_ist_aktiv"": ""True""}",Stop
+1854,"{""halt_diva"": ""2550"", ""halt_kurz"": ""SAAL"", ""halt_lang"": ""Zürich, Saalsporthalle"", ""halt_ist_aktiv"": ""True""}",Stop
+1873,"{""halt_diva"": ""845"", ""halt_kurz"": ""FELS"", ""halt_lang"": ""Zürich, Felsenrainstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+1874,"{""halt_diva"": ""3021"", ""halt_kurz"": ""BAFF"", ""halt_lang"": ""Zürich, Bahnhof Affoltern"", ""halt_ist_aktiv"": ""True""}",Stop
+1884,"{""halt_diva"": ""3154"", ""halt_kurz"": ""MEHA"", ""halt_lang"": ""Zürich, Messe/Hallenstadion"", ""halt_ist_aktiv"": ""True""}",Stop
+1885,"{""halt_diva"": ""6255"", ""halt_kurz"": ""BOEN"", ""halt_lang"": ""Zürich, Bahnhof Oerlikon Nord"", ""halt_ist_aktiv"": ""True""}",Stop
+1893,"{""halt_diva"": ""3026"", ""halt_kurz"": ""ENGE"", ""halt_lang"": ""Zürich, Bahnhof Enge"", ""halt_ist_aktiv"": ""True""}",Stop
+1895,"{""halt_diva"": ""416"", ""halt_kurz"": ""BSTR"", ""halt_lang"": ""Zürich, Bahnhofstrasse/HB"", ""halt_ist_aktiv"": ""True""}",Stop
+1905,"{""halt_diva"": ""1430"", ""halt_kurz"": ""KLUS"", ""halt_lang"": ""Zürich, Klusplatz"", ""halt_ist_aktiv"": ""True""}",Stop
+1906,"{""halt_diva"": ""1357"", ""halt_kurz"": ""KALK"", ""halt_lang"": ""Zürich,Kalkbreite/Bhf.Wiedikon"", ""halt_ist_aktiv"": ""True""}",Stop
+1907,"{""halt_diva"": ""1612"", ""halt_kurz"": ""MANG"", ""halt_lang"": ""Zürich, Manegg"", ""halt_ist_aktiv"": ""True""}",Stop
+1908,"{""halt_diva"": ""1187"", ""halt_kurz"": ""HEUR"", ""halt_lang"": ""Zürich, Heuried"", ""halt_ist_aktiv"": ""True""}",Stop
+1919,"{""halt_diva"": ""3447"", ""halt_kurz"": ""BOEO"", ""halt_lang"": ""Zürich, Bahnhof Oerlikon Ost"", ""halt_ist_aktiv"": ""True""}",Stop
+1920,"{""halt_diva"": ""439"", ""halt_kurz"": ""BELA07"", ""halt_lang"": ""Wallisellen, Belair"", ""halt_ist_aktiv"": ""True""}",Stop
+1928,"{""halt_diva"": ""6460"", ""halt_kurz"": ""ZFER"", ""halt_lang"": ""Zürich, Fernsehstudio"", ""halt_ist_aktiv"": ""True""}",Stop
+1931,"{""halt_diva"": ""6461"", ""halt_kurz"": ""GGLA07"", ""halt_lang"": ""Glattpark"", ""halt_ist_aktiv"": ""True""}",Stop
+1934,"{""halt_diva"": ""1275"", ""halt_kurz"": ""SEPL"", ""halt_lang"": ""Zürich, Seebacherplatz"", ""halt_ist_aktiv"": ""True""}",Stop
+1938,"{""halt_diva"": ""619"", ""halt_kurz"": ""CENT"", ""halt_lang"": ""Zürich, Central"", ""halt_ist_aktiv"": ""True""}",Stop
+2019,"{""halt_diva"": ""2798"", ""halt_kurz"": ""WAGO"", ""halt_lang"": ""Schlieren, Wagonsfabrik"", ""halt_ist_aktiv"": ""True""}",Stop
+2022,"{""halt_diva"": ""2128"", ""halt_kurz"": ""ROES"", ""halt_lang"": ""Zürich, Röslistrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2023,"{""halt_diva"": ""6055"", ""halt_kurz"": ""DEP2"", ""halt_lang"": ""Zürich, Depot 2 Wollishofen"", ""halt_ist_aktiv"": ""True""}",Stop
+2025,"{""halt_diva"": ""3044"", ""halt_kurz"": ""BWOL"", ""halt_lang"": ""Zürich, Bhf Wollishofen (Tram)"", ""halt_ist_aktiv"": ""True""}",Stop
+2035,"{""halt_diva"": ""2054"", ""halt_kurz"": ""RAUG"", ""halt_lang"": ""Zürich, Rennweg"", ""halt_ist_aktiv"": ""True""}",Stop
+2043,"{""halt_diva"": ""2236"", ""halt_kurz"": ""SCHL"", ""halt_lang"": ""Schlieren, Zentrum/Bahnhof"", ""halt_ist_aktiv"": ""True""}",Stop
+2045,"{""halt_diva"": ""1061"", ""halt_kurz"": ""GUGG"", ""halt_lang"": ""Zürich, Guggachstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2046,"{""halt_diva"": ""2326"", ""halt_kurz"": ""SCHO"", ""halt_lang"": ""Zürich, Schörlistrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2047,"{""halt_diva"": ""2411"", ""halt_kurz"": ""SONN"", ""halt_lang"": ""Zürich, Sonneggstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2052,"{""halt_diva"": ""998"", ""halt_kurz"": ""GLAT"", ""halt_lang"": ""Zürich, Glattwiesen"", ""halt_ist_aktiv"": ""True""}",Stop
+2060,"{""halt_diva"": ""2256"", ""halt_kurz"": ""SWIE"", ""halt_lang"": ""Zürich, Schmiede Wiedikon"", ""halt_ist_aktiv"": ""True""}",Stop
+2078,"{""halt_diva"": ""6659"", ""halt_kurz"": ""WNEU07"", ""halt_lang"": ""Wallisellen, Neugut"", ""halt_ist_aktiv"": ""True""}",Stop
+2079,"{""halt_diva"": ""6660"", ""halt_kurz"": ""DGIE07"", ""halt_lang"": ""Dübendorf, Giessen"", ""halt_ist_aktiv"": ""True""}",Stop
+2081,"{""halt_diva"": ""6032"", ""halt_kurz"": ""DEP7"", ""halt_lang"": ""Zürich, Depot 7 Irchel"", ""halt_ist_aktiv"": ""True""}",Stop
+2082,"{""halt_diva"": ""3785"", ""halt_kurz"": ""RINW"", ""halt_lang"": ""Dübendorf, Ringwiesen"", ""halt_ist_aktiv"": ""True""}",Stop
+2083,"{""halt_diva"": ""132"", ""halt_kurz"": ""ZAUZ"", ""halt_lang"": ""Zürich, Auzelg"", ""halt_ist_aktiv"": ""True""}",Stop
+2084,"{""halt_diva"": ""1453"", ""halt_kurz"": ""KREU"", ""halt_lang"": ""Zürich, Kreuzplatz"", ""halt_ist_aktiv"": ""True""}",Stop
+2085,"{""halt_diva"": ""1522"", ""halt_kurz"": ""LAUI"", ""halt_lang"": ""Zürich, Laubiweg"", ""halt_ist_aktiv"": ""True""}",Stop
+2086,"{""halt_diva"": ""435"", ""halt_kurz"": ""BECK"", ""halt_lang"": ""Zürich, Beckenhof"", ""halt_ist_aktiv"": ""True""}",Stop
+2087,"{""halt_diva"": ""1468"", ""halt_kurz"": ""KRON"", ""halt_lang"": ""Zürich, Kronenstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2088,"{""halt_diva"": ""2474"", ""halt_kurz"": ""STAM"", ""halt_lang"": ""Zürich, Stampfenbachplatz"", ""halt_ist_aktiv"": ""True""}",Stop
+2089,"{""halt_diva"": ""2045"", ""halt_kurz"": ""REGB"", ""halt_lang"": ""Zürich, Regensbergbrücke"", ""halt_ist_aktiv"": ""True""}",Stop
+2090,"{""halt_diva"": ""144"", ""halt_kurz"": ""BADA"", ""halt_lang"": ""Zürich, Bad Allenmoos"", ""halt_ist_aktiv"": ""True""}",Stop
+2092,"{""halt_diva"": ""2549"", ""halt_kurz"": ""REHA"", ""halt_lang"": ""Zürich, Rehalp"", ""halt_ist_aktiv"": ""True""}",Stop
+2104,"{""halt_diva"": ""1845"", ""halt_kurz"": ""OPER"", ""halt_lang"": ""Zürich, Opernhaus"", ""halt_ist_aktiv"": ""True""}",Stop
+2110,"{""halt_diva"": ""2879"", ""halt_kurz"": ""WETL"", ""halt_lang"": ""Zürich, Wetlistrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2111,"{""halt_diva"": ""3039"", ""halt_kurz"": ""BSTA"", ""halt_lang"": ""Zürich, Bahnhof Stadelhofen"", ""halt_ist_aktiv"": ""True""}",Stop
+2113,"{""halt_diva"": ""1144"", ""halt_kurz"": ""HEGI"", ""halt_lang"": ""Zürich, Hegibachplatz"", ""halt_ist_aktiv"": ""True""}",Stop
+2121,"{""halt_diva"": ""421"", ""halt_kurz"": ""BALG"", ""halt_lang"": ""Zürich, Balgrist"", ""halt_ist_aktiv"": ""True""}",Stop
+2144,"{""halt_diva"": ""6034"", ""halt_kurz"": ""GAR6"", ""halt_lang"": ""Zürich, Garage 6 Hardau"", ""halt_ist_aktiv"": ""True""}",Stop
+2145,"{""halt_diva"": ""2950"", ""halt_kurz"": ""WOLL"", ""halt_lang"": ""Zürich, Wollishofen"", ""halt_ist_aktiv"": ""True""}",Stop
+2146,"{""halt_diva"": ""2889"", ""halt_kurz"": ""WIDM"", ""halt_lang"": ""Zürich, Widmerstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2183,"{""halt_diva"": ""2771"", ""halt_kurz"": ""SIHN"", ""halt_lang"": ""Zürich, Sihlcity Nord"", ""halt_ist_aktiv"": ""True""}",Stop
+2187,"{""halt_diva"": ""6735"", ""halt_kurz"": ""WGLA07"", ""halt_lang"": ""Wallisellen, Glatt (Tram)"", ""halt_ist_aktiv"": ""True"", ""halt_punkt_diva"": ""1"", ""halt_id"": ""1010"", ""GPS_Latitude"": ""47,368914"", ""GPS_Longitude"": ""8,502159"", ""GPS_Bearing"": ""76"", ""halt_punkt_ist_aktiv"": ""True""}",StopPoint
+2198,"{""halt_diva"": ""944"", ""halt_kurz"": ""GEER"", ""halt_lang"": ""Zürich, Geeringstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2228,"{""halt_diva"": ""601"", ""halt_kurz"": ""BOES"", ""halt_lang"": ""Zürich, Börsenstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2244,"{""halt_diva"": ""1364"", ""halt_kurz"": ""KAPP"", ""halt_lang"": ""Zürich, Kappeli"", ""halt_ist_aktiv"": ""True""}",Stop
+2245,"{""halt_diva"": ""1548"", ""halt_kurz"": ""LETG"", ""halt_lang"": ""Zürich, Letzigrund"", ""halt_ist_aktiv"": ""True""}",Stop
+2247,"{""halt_diva"": ""1386"", ""halt_kurz"": ""KERN"", ""halt_lang"": ""Zürich, Kernstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2248,"{""halt_diva"": ""1579"", ""halt_kurz"": ""LOCH"", ""halt_lang"": ""Zürich, Lochergut"", ""halt_ist_aktiv"": ""True""}",Stop
+2250,"{""halt_diva"": ""3019"", ""halt_kurz"": ""ZYPR"", ""halt_lang"": ""Zürich, Zypressenstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2251,"{""halt_diva"": ""6030"", ""halt_kurz"": ""DEP4"", ""halt_lang"": ""Zürich, Depot 4 Elisabethenstr"", ""halt_ist_aktiv"": ""True""}",Stop
+2253,"{""halt_diva"": ""883"", ""halt_kurz"": ""FREI"", ""halt_lang"": ""Zürich, Freihofstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2256,"{""halt_diva"": ""1608"", ""halt_kurz"": ""LOEW"", ""halt_lang"": ""Zürich, Löwenplatz"", ""halt_ist_aktiv"": ""True""}",Stop
+2257,"{""halt_diva"": ""6459"", ""halt_kurz"": ""ZOER"", ""halt_lang"": ""Zürich, Oerlikerhus"", ""halt_ist_aktiv"": ""True""}",Stop
+2258,"{""halt_diva"": ""1098"", ""halt_kurz"": ""HALB"", ""halt_lang"": ""Zürich, Haldenbach"", ""halt_ist_aktiv"": ""True""}",Stop
+2260,"{""halt_diva"": ""2367"", ""halt_kurz"": ""RIGI"", ""halt_lang"": ""Zürich, Seilbahn Rigiblick"", ""halt_ist_aktiv"": ""True""}",Stop
+2262,"{""halt_diva"": ""1366"", ""halt_kurz"": ""SIHP"", ""halt_lang"": ""Zürich, Sihlpost / HB"", ""halt_ist_aktiv"": ""True""}",Stop
+2274,"{""halt_diva"": ""1550"", ""halt_kurz"": ""LETZ"", ""halt_lang"": ""Zürich, Letzistrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2275,"{""halt_diva"": ""2388"", ""halt_kurz"": ""SIGN"", ""halt_lang"": ""Zürich, Signaustrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2276,"{""halt_diva"": ""465"", ""halt_kurz"": ""BERN"", ""halt_lang"": ""Zürich, Berninaplatz"", ""halt_ist_aktiv"": ""True""}",Stop
+2287,"{""halt_diva"": ""1557"", ""halt_kurz"": ""LIMM"", ""halt_lang"": ""Zürich, Limmatplatz"", ""halt_ist_aktiv"": ""True""}",Stop
+2289,"{""halt_diva"": ""2395"", ""halt_kurz"": ""SIHL"", ""halt_lang"": ""Zürich, Sihlquai/HB"", ""halt_ist_aktiv"": ""True""}",Stop
+2290,"{""halt_diva"": ""648"", ""halt_kurz"": ""DAMM"", ""halt_lang"": ""Zürich, Dammweg"", ""halt_ist_aktiv"": ""True""}",Stop
+2292,"{""halt_diva"": ""1399"", ""halt_kurz"": ""KINK"", ""halt_lang"": ""Zürich, Kinkelstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2293,"{""halt_diva"": ""2924"", ""halt_kurz"": ""WINK"", ""halt_lang"": ""Zürich, Winkelriedstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2294,"{""halt_diva"": ""1667"", ""halt_kurz"": ""MUFG"", ""halt_lang"": ""Zürich, Museum für Gestaltung"", ""halt_ist_aktiv"": ""True""}",Stop
+2295,"{""halt_diva"": ""580"", ""halt_kurz"": ""BURG"", ""halt_lang"": ""Zürich, Burgwies"", ""halt_ist_aktiv"": ""True""}",Stop
+2298,"{""halt_diva"": ""2014"", ""halt_kurz"": ""QUEL"", ""halt_lang"": ""Zürich, Quellenstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2299,"{""halt_diva"": ""6031"", ""halt_kurz"": ""DEP5"", ""halt_lang"": ""Zürich, Depot 5 Hard"", ""halt_ist_aktiv"": ""True""}",Stop
+2300,"{""halt_diva"": ""6033"", ""halt_kurz"": ""DEP8"", ""halt_lang"": ""Zürich, Depot 8 Oerlikon"", ""halt_ist_aktiv"": ""True"", ""halt_punkt_diva"": ""50"", ""halt_id"": ""1067"", ""GPS_Latitude"": ""47,433551"", ""GPS_Longitude"": ""8,565714"", ""GPS_Bearing"": ""208"", ""halt_punkt_ist_aktiv"": ""False""}",StopPoint
+2301,"{""halt_diva"": ""6035"", ""halt_kurz"": ""GAR9"", ""halt_lang"": ""Zürich, Garage 9 Hagenholz"", ""halt_ist_aktiv"": ""True"", ""halt_punkt_diva"": ""51"", ""halt_id"": ""1067"", ""GPS_Latitude"": ""47,433508"", ""GPS_Longitude"": ""8,565861"", ""GPS_Bearing"": ""31"", ""halt_punkt_ist_aktiv"": ""False""}",StopPoint
+2302,"{""halt_diva"": ""1100"", ""halt_kurz"": ""HEGG"", ""halt_lang"": ""Zürich, Haldenegg"", ""halt_ist_aktiv"": ""True""}",Stop
+2308,"{""halt_diva"": ""1138"", ""halt_kurz"": ""HEDW"", ""halt_lang"": ""Zürich, Hedwigsteig"", ""halt_ist_aktiv"": ""True""}",Stop
+2312,"{""halt_diva"": ""894"", ""halt_kurz"": ""ENZE"", ""halt_lang"": ""Zürich, Friedhof Enzenbühl"", ""halt_ist_aktiv"": ""True""}",Stop
+2313,"{""halt_diva"": ""2151"", ""halt_kurz"": ""SALE"", ""halt_lang"": ""Zürich, Salersteig"", ""halt_ist_aktiv"": ""True""}",Stop
+2315,"{""halt_diva"": ""1507"", ""halt_kurz"": ""LANM"", ""halt_lang"": ""Zürich, Langmauerstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2316,"{""halt_diva"": ""2575"", ""halt_kurz"": ""BSTE"", ""halt_lang"": ""Zürich, Bahnhof Stettbach"", ""halt_ist_aktiv"": ""True""}",Stop
+2356,"{""halt_diva"": ""1620"", ""halt_kurz"": ""MATT"", ""halt_lang"": ""Zürich, Mattenhof"", ""halt_ist_aktiv"": ""True""}",Stop
+2367,"{""halt_diva"": ""547"", ""halt_kurz"": ""BRUN"", ""halt_lang"": ""Zürich, Brunaustrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2375,"{""halt_diva"": ""2814"", ""halt_kurz"": ""WALD"", ""halt_lang"": ""Zürich, Waldgarten"", ""halt_ist_aktiv"": ""True""}",Stop
+2383,"{""halt_diva"": ""1640"", ""halt_kurz"": ""MICA"", ""halt_lang"": ""Zürich, Micafil"", ""halt_ist_aktiv"": ""True""}",Stop
+2404,"{""halt_diva"": ""488"", ""halt_kurz"": ""BILO"", ""halt_lang"": ""Zürich, Billoweg"", ""halt_ist_aktiv"": ""True""}",Stop
+2406,"{""halt_diva"": ""2666"", ""halt_kurz"": ""TIER"", ""halt_lang"": ""Zürich, Tierspital"", ""halt_ist_aktiv"": ""True""}",Stop
+2413,"{""halt_diva"": ""1666"", ""halt_kurz"": ""MUSR"", ""halt_lang"": ""Zürich, Museum Rietberg"", ""halt_ist_aktiv"": ""True""}",Stop
+2414,"{""halt_diva"": ""2582"", ""halt_kurz"": ""STOC"", ""halt_lang"": ""Zürich, Stockerstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2422,"{""halt_diva"": ""1179"", ""halt_kurz"": ""HERZ"", ""halt_lang"": ""Zürich, Herzogenmühlestrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2423,"{""halt_diva"": ""6626"", ""halt_kurz"": ""BLUM"", ""halt_lang"": ""Zürich, Blumenfeldstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2424,"{""halt_diva"": ""6627"", ""halt_kurz"": ""ASPH"", ""halt_lang"": ""Zürich, Aspholz"", ""halt_ist_aktiv"": ""True""}",Stop
+2425,"{""halt_diva"": ""6628"", ""halt_kurz"": ""MUEH"", ""halt_lang"": ""Zürich, Mühlacker"", ""halt_ist_aktiv"": ""True""}",Stop
+2428,"{""halt_diva"": ""617"", ""halt_kurz"": ""CARL"", ""halt_lang"": ""Zürich, Carl-Spitteler-Strasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2429,"{""halt_diva"": ""1705"", ""halt_kurz"": ""NEUA"", ""halt_lang"": ""Zürich, Neuaffoltern"", ""halt_ist_aktiv"": ""True""}",Stop
+2434,"{""halt_diva"": ""1362"", ""halt_kurz"": ""KAPF"", ""halt_lang"": ""Zürich, Kapfstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2435,"{""halt_diva"": ""708"", ""halt_kurz"": ""DREI"", ""halt_lang"": ""Zürich, Dreispitz"", ""halt_ist_aktiv"": ""True""}",Stop
+2437,"{""halt_diva"": ""455"", ""halt_kurz"": ""BERH"", ""halt_lang"": ""Zürich, Berghaldenstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2438,"{""halt_diva"": ""713"", ""halt_kurz"": ""DRUS"", ""halt_lang"": ""Zürich, Drusbergstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2439,"{""halt_diva"": ""2737"", ""halt_kurz"": ""UAFF"", ""halt_lang"": ""Zürich, Unteraffoltern"", ""halt_ist_aktiv"": ""True""}",Stop
+2442,"{""halt_diva"": ""1821"", ""halt_kurz"": ""OBEW"", ""halt_lang"": ""Zürich, Oberwiesenstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2444,"{""halt_diva"": ""2836"", ""halt_kurz"": ""WASE"", ""halt_lang"": ""Zürich, Waserstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2445,"{""halt_diva"": ""914"", ""halt_kurz"": ""FRON"", ""halt_lang"": ""Zürich, Fronwald"", ""halt_ist_aktiv"": ""True""}",Stop
+2450,"{""halt_diva"": ""1584"", ""halt_kurz"": ""LOOR"", ""halt_lang"": ""Zürich, Loorenstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2451,"{""halt_diva"": ""3760"", ""halt_kurz"": ""HALO"", ""halt_lang"": ""Zürich, Hallenbad Oerlikon"", ""halt_ist_aktiv"": ""True""}",Stop
+2453,"{""halt_diva"": ""3764"", ""halt_kurz"": ""MAXB"", ""halt_lang"": ""Zürich, Max-Bill-Platz"", ""halt_ist_aktiv"": ""True""}",Stop
+2454,"{""halt_diva"": ""1000"", ""halt_kurz"": ""GLAU"", ""halt_lang"": ""Zürich, Glaubtenstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2456,"{""halt_diva"": ""2688"", ""halt_kurz"": ""TULP"", ""halt_lang"": ""Zürich, Tulpenstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2457,"{""halt_diva"": ""767"", ""halt_kurz"": ""EINF"", ""halt_lang"": ""Zürich, Einfangstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2465,"{""halt_diva"": ""2145"", ""halt_kurz"": ""SAAT"", ""halt_lang"": ""Zürich, Saatlenstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2468,"{""halt_diva"": ""2069"", ""halt_kurz"": ""RIEG"", ""halt_lang"": ""Zürich, Riedgraben"", ""halt_ist_aktiv"": ""True""}",Stop
+2472,"{""halt_diva"": ""1160"", ""halt_kurz"": ""HERB"", ""halt_lang"": ""Zürich, Herbstweg"", ""halt_ist_aktiv"": ""True""}",Stop
+2473,"{""halt_diva"": ""2251"", ""halt_kurz"": ""SYFI"", ""halt_lang"": ""Zürich, Schlyfi"", ""halt_ist_aktiv"": ""True""}",Stop
+2482,"{""halt_diva"": ""1587"", ""halt_kurz"": ""LUCH"", ""halt_lang"": ""Zürich, Luchswiesen"", ""halt_ist_aktiv"": ""True""}",Stop
+2487,"{""halt_diva"": ""2005"", ""halt_kurz"": ""PWOL"", ""halt_lang"": ""Zürich, Post Wollishofen"", ""halt_ist_aktiv"": ""True""}",Stop
+2488,"{""halt_diva"": ""586"", ""halt_kurz"": ""BUTZ"", ""halt_lang"": ""Zürich, Butzenstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2489,"{""halt_diva"": ""2008"", ""halt_kurz"": ""PROB"", ""halt_lang"": ""Zürich, Probstei"", ""halt_ist_aktiv"": ""True""}",Stop
+2505,"{""halt_diva"": ""935"", ""halt_kurz"": ""GASO"", ""halt_lang"": ""Schlieren, Gasometerbrücke"", ""halt_ist_aktiv"": ""True""}",Stop
+2508,"{""halt_diva"": ""2689"", ""halt_kurz"": ""TUNN"", ""halt_lang"": ""Zürich, Tunnelstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2509,"{""halt_diva"": ""1856"", ""halt_kurz"": ""OTTI"", ""halt_lang"": ""Zürich, Ottikerstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2510,"{""halt_diva"": ""2107"", ""halt_kurz"": ""ROSW"", ""halt_lang"": ""Zürich, Roswiesen"", ""halt_ist_aktiv"": ""True""}",Stop
+2520,"{""halt_diva"": ""1690"", ""halt_kurz"": ""MULL"", ""halt_lang"": ""Schlieren, Mülligen"", ""halt_ist_aktiv"": ""True""}",Stop
+2524,"{""halt_diva"": ""2551"", ""halt_kurz"": ""BSEL"", ""halt_lang"": ""Zürich, Bahnhof Selnau"", ""halt_ist_aktiv"": ""True""}",Stop
+2526,"{""halt_diva"": ""1122"", ""halt_kurz"": ""HARP"", ""halt_lang"": ""Zürich, Hardplatz"", ""halt_ist_aktiv"": ""True""}",Stop
+2527,"{""halt_diva"": ""1234"", ""halt_kurz"": ""BANL"", ""halt_lang"": ""Zürich, Bäckeranlage"", ""halt_ist_aktiv"": ""True""}",Stop
+2528,"{""halt_diva"": ""1158"", ""halt_kurz"": ""HELV"", ""halt_lang"": ""Zürich, Helvetiaplatz"", ""halt_ist_aktiv"": ""True""}",Stop
+2529,"{""halt_diva"": ""1076"", ""halt_kurz"": ""GUET"", ""halt_lang"": ""Zürich, Güterbahnhof"", ""halt_ist_aktiv"": ""True""}",Stop
+2531,"{""halt_diva"": ""2276"", ""halt_kurz"": ""BUCL"", ""halt_lang"": ""Zürich, Schulhaus Buchlern"", ""halt_ist_aktiv"": ""True""}",Stop
+2532,"{""halt_diva"": ""716"", ""halt_kurz"": ""DUNK"", ""halt_lang"": ""Zürich, Dunkelhölzli"", ""halt_ist_aktiv"": ""True""}",Stop
+2535,"{""halt_diva"": ""1570"", ""halt_kurz"": ""LIND"", ""halt_lang"": ""Zürich, Lindenplatz"", ""halt_ist_aktiv"": ""True""}",Stop
+2536,"{""halt_diva"": ""5001"", ""halt_kurz"": ""BALN"", ""halt_lang"": ""Zürich, Bahnhof Altstetten N"", ""halt_ist_aktiv"": ""True""}",Stop
+2538,"{""halt_diva"": ""592"", ""halt_kurz"": ""BAEN"", ""halt_lang"": ""Zürich, Bändliweg"", ""halt_ist_aktiv"": ""True""}",Stop
+2540,"{""halt_diva"": ""3022"", ""halt_kurz"": ""BALT"", ""halt_lang"": ""Zürich, Bahnhof Altstetten"", ""halt_ist_aktiv"": ""True""}",Stop
+2542,"{""halt_diva"": ""2033"", ""halt_kurz"": ""RAUH"", ""halt_lang"": ""Zürich, Rautihalde"", ""halt_ist_aktiv"": ""True""}",Stop
+2543,"{""halt_diva"": ""2034"", ""halt_kurz"": ""RAUT"", ""halt_lang"": ""Zürich, Rautistrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2544,"{""halt_diva"": ""1041"", ""halt_kurz"": ""GRUN"", ""halt_lang"": ""Zürich, Grünaustrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2546,"{""halt_diva"": ""2152"", ""halt_kurz"": ""SALZ"", ""halt_lang"": ""Zürich, Salzweg"", ""halt_ist_aktiv"": ""True""}",Stop
+2550,"{""halt_diva"": ""1519"", ""halt_kurz"": ""LAUB"", ""halt_lang"": ""Zürich, Laubegg"", ""halt_ist_aktiv"": ""True""}",Stop
+2553,"{""halt_diva"": ""1175"", ""halt_kurz"": ""HERT"", ""halt_lang"": ""Zürich, Hertensteinstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2563,"{""halt_diva"": ""1528"", ""halt_kurz"": ""LEHE"", ""halt_lang"": ""Zürich, Lehenstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2564,"{""halt_diva"": ""3705"", ""halt_kurz"": ""ALBD"", ""halt_lang"": ""Zürich, Albisriederdörfli"", ""halt_ist_aktiv"": ""True""}",Stop
+2565,"{""halt_diva"": ""1354"", ""halt_kurz"": ""JUGI"", ""halt_lang"": ""Zürich, Jugendherberge"", ""halt_ist_aktiv"": ""True""}",Stop
+2566,"{""halt_diva"": ""3706"", ""halt_kurz"": ""AHOS"", ""halt_lang"": ""Zürich, Althoos"", ""halt_ist_aktiv"": ""True""}",Stop
+2567,"{""halt_diva"": ""2618"", ""halt_kurz"": ""SUSE"", ""halt_lang"": ""Zürich, Susenbergstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2568,"{""halt_diva"": ""1356"", ""halt_kurz"": ""KALB"", ""halt_lang"": ""Zürich, Kalchbühlweg"", ""halt_ist_aktiv"": ""True""}",Stop
+2570,"{""halt_diva"": ""1358"", ""halt_kurz"": ""KANO"", ""halt_lang"": ""Zürich, Kanonengasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2571,"{""halt_diva"": ""1359"", ""halt_kurz"": ""KANT"", ""halt_lang"": ""Zürich, Kantonsschule"", ""halt_ist_aktiv"": ""True""}",Stop
+2572,"{""halt_diva"": ""2447"", ""halt_kurz"": ""SPOH"", ""halt_lang"": ""Zürich, Hardturm"", ""halt_ist_aktiv"": ""True""}",Stop
+2573,"{""halt_diva"": ""1611"", ""halt_kurz"": ""MAIE"", ""halt_lang"": ""Zürich, Maienweg"", ""halt_ist_aktiv"": ""True""}",Stop
+2575,"{""halt_diva"": ""2449"", ""halt_kurz"": ""SPOW"", ""halt_lang"": ""Zürich, Sportweg"", ""halt_ist_aktiv"": ""True""}",Stop
+2576,"{""halt_diva"": ""1614"", ""halt_kurz"": ""MANS"", ""halt_lang"": ""Zürich, Manesseplatz"", ""halt_ist_aktiv"": ""True""}",Stop
+2578,"{""halt_diva"": ""1615"", ""halt_kurz"": ""MARB"", ""halt_lang"": ""Zürich, Marbachweg"", ""halt_ist_aktiv"": ""True""}",Stop
+2579,"{""halt_diva"": ""1441"", ""halt_kurz"": ""PKAE"", ""halt_lang"": ""Zürich, Pflegezentr. Käferberg"", ""halt_ist_aktiv"": ""True""}",Stop
+2580,"{""halt_diva"": ""2707"", ""halt_kurz"": ""TUEF"", ""halt_lang"": ""Zürich, Tüffenwies"", ""halt_ist_aktiv"": ""True""}",Stop
+2581,"{""halt_diva"": ""1445"", ""halt_kurz"": ""KNOR"", ""halt_lang"": ""Zürich, Krematorium Nordheim"", ""halt_ist_aktiv"": ""True""}",Stop
+2582,"{""halt_diva"": ""1446"", ""halt_kurz"": ""KSIH"", ""halt_lang"": ""Zürich, Krematorium Sihlfeld"", ""halt_ist_aktiv"": ""True""}",Stop
+2587,"{""halt_diva"": ""2364"", ""halt_kurz"": ""SEGA"", ""halt_lang"": ""Zürich, Segantinistrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2589,"{""halt_diva"": ""3453"", ""halt_kurz"": ""TECH"", ""halt_lang"": ""Zürich, Technopark"", ""halt_ist_aktiv"": ""True""}",Stop
+2590,"{""halt_diva"": ""615"", ""halt_kurz"": ""BURK"", ""halt_lang"": ""Zürich, Bürkliplatz"", ""halt_ist_aktiv"": ""True""}",Stop
+2591,"{""halt_diva"": ""2366"", ""halt_kurz"": ""SEID"", ""halt_lang"": ""Zürich, Seidelhof"", ""halt_ist_aktiv"": ""True""}",Stop
+2593,"{""halt_diva"": ""3457"", ""halt_kurz"": ""LERA"", ""halt_lang"": ""Zürich, Lerchenrain"", ""halt_ist_aktiv"": ""True""}",Stop
+2595,"{""halt_diva"": ""3458"", ""halt_kurz"": ""PSCH"", ""halt_lang"": ""Zürich, Schauenberg"", ""halt_ist_aktiv"": ""True""}",Stop
+2598,"{""halt_diva"": ""2450"", ""halt_kurz"": ""SPRE"", ""halt_lang"": ""Zürich, Sprecherstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2600,"{""halt_diva"": ""2451"", ""halt_kurz"": ""SPYR"", ""halt_lang"": ""Zürich, Spyriplatz"", ""halt_ist_aktiv"": ""True""}",Stop
+2603,"{""halt_diva"": ""1539"", ""halt_kurz"": ""LERC"", ""halt_lang"": ""Zürich, Lerchenhalde"", ""halt_ist_aktiv"": ""True""}",Stop
+2606,"{""halt_diva"": ""1194"", ""halt_kurz"": ""HINT"", ""halt_lang"": ""Zürich, Hinterbergstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2607,"{""halt_diva"": ""1626"", ""halt_kurz"": ""MEIE"", ""halt_lang"": ""Zürich, Meierhofplatz"", ""halt_ist_aktiv"": ""True""}",Stop
+2609,"{""halt_diva"": ""3804"", ""halt_kurz"": ""NBRU"", ""halt_lang"": ""Zürich, Neunbrunnen"", ""halt_ist_aktiv"": ""True""}",Stop
+2610,"{""halt_diva"": ""1280"", ""halt_kurz"": ""HOEB"", ""halt_lang"": ""Zürich, Hönggerberg"", ""halt_ist_aktiv"": ""True""}",Stop
+2612,"{""halt_diva"": ""1456"", ""halt_kurz"": ""KRES"", ""halt_lang"": ""Zürich, Kreuzstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2613,"{""halt_diva"": ""6648"", ""halt_kurz"": ""WURZ"", ""halt_lang"": ""Zürich, Würzgraben"", ""halt_ist_aktiv"": ""True""}",Stop
+2614,"{""halt_diva"": ""2800"", ""halt_kurz"": ""WAIF"", ""halt_lang"": ""Zürich, Waidfussweg"", ""halt_ist_aktiv"": ""True""}",Stop
+2615,"{""halt_diva"": ""1286"", ""halt_kurz"": ""HOES"", ""halt_lang"": ""Zürich, Höschgasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2617,"{""halt_diva"": ""2801"", ""halt_kurz"": ""WAIH"", ""halt_lang"": ""Zürich, Waidhof"", ""halt_ist_aktiv"": ""True""}",Stop
+2618,"{""halt_diva"": ""1288"", ""halt_kurz"": ""HUEG"", ""halt_lang"": ""Zürich, Hügelstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2619,"{""halt_diva"": ""2803"", ""halt_kurz"": ""WAIS"", ""halt_lang"": ""Zürich, Waidspital"", ""halt_ist_aktiv"": ""True""}",Stop
+2620,"{""halt_diva"": ""3466"", ""halt_kurz"": ""FRST"", ""halt_lang"": ""Zürich, Freiestrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2621,"{""halt_diva"": ""3469"", ""halt_kurz"": ""HOFS"", ""halt_lang"": ""Zürich, Hofstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2622,"{""halt_diva"": ""1547"", ""halt_kurz"": ""LETT"", ""halt_lang"": ""Zürich, Lettenstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2627,"{""halt_diva"": ""2638"", ""halt_kurz"": ""TALW"", ""halt_lang"": ""Zürich, Talwiesenstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2629,"{""halt_diva"": ""1379"", ""halt_kurz"": ""KEMP"", ""halt_lang"": ""Zürich, Kempfhofsteig"", ""halt_ist_aktiv"": ""True""}",Stop
+2630,"{""halt_diva"": ""718"", ""halt_kurz"": ""TONA"", ""halt_lang"": ""Zürich, Toni-Areal"", ""halt_ist_aktiv"": ""True""}",Stop
+2632,"{""halt_diva"": ""546"", ""halt_kurz"": ""BRUM"", ""halt_lang"": ""Zürich, Brunau/Mutschellenstr."", ""halt_ist_aktiv"": ""True""}",Stop
+2633,"{""halt_diva"": ""2722"", ""halt_kurz"": ""UETL"", ""halt_lang"": ""Zürich, Uetlihof"", ""halt_ist_aktiv"": ""True""}",Stop
+2634,"{""halt_diva"": ""2298"", ""halt_kurz"": ""SHOL"", ""halt_lang"": ""Zürich, Schwandenholz"", ""halt_ist_aktiv"": ""True""}",Stop
+2635,"{""halt_diva"": ""800"", ""halt_kurz"": ""EGUT"", ""halt_lang"": ""Zürich, Eschergutweg"", ""halt_ist_aktiv"": ""True""}",Stop
+2636,"{""halt_diva"": ""1292"", ""halt_kurz"": ""HUER"", ""halt_lang"": ""Zürich, Hürstholz"", ""halt_ist_aktiv"": ""True""}",Stop
+2637,"{""halt_diva"": ""3470"", ""halt_kurz"": ""HSTG"", ""halt_lang"": ""Zürich, Hölderlinsteig"", ""halt_ist_aktiv"": ""True""}",Stop
+2638,"{""halt_diva"": ""3645"", ""halt_kurz"": ""BOGA"", ""halt_lang"": ""Zürich, Botanischer Garten"", ""halt_ist_aktiv"": ""True""}",Stop
+2639,"{""halt_diva"": ""3648"", ""halt_kurz"": ""KLOB"", ""halt_lang"": ""Zürich, Klosbach"", ""halt_ist_aktiv"": ""True""}",Stop
+2640,"{""halt_diva"": ""2385"", ""halt_kurz"": ""SIEM"", ""halt_lang"": ""Zürich, Siemens"", ""halt_ist_aktiv"": ""True""}",Stop
+2641,"{""halt_diva"": ""1724"", ""halt_kurz"": ""NEUM"", ""halt_lang"": ""Zürich, Neumarkt"", ""halt_ist_aktiv"": ""True""}",Stop
+2645,"{""halt_diva"": ""467"", ""halt_kurz"": ""BERO"", ""halt_lang"": ""Zürich, Bernoulli-Häuser"", ""halt_ist_aktiv"": ""True""}",Stop
+2646,"{""halt_diva"": ""468"", ""halt_kurz"": ""BERT"", ""halt_lang"": ""Zürich, Bertastrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2647,"{""halt_diva"": ""1641"", ""halt_kurz"": ""MICH"", ""halt_lang"": ""Zürich, Michelstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2648,"{""halt_diva"": ""3566"", ""halt_kurz"": ""SHOE"", ""halt_lang"": ""Zürich, Schützenhaus Höngg"", ""halt_ist_aktiv"": ""True""}",Stop
+2650,"{""halt_diva"": ""1644"", ""halt_kurz"": ""MILA"", ""halt_lang"": ""Zürich, Militär-/Langstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2651,"{""halt_diva"": ""2907"", ""halt_kurz"": ""WILD"", ""halt_lang"": ""Zürich, Wildbachstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2655,"{""halt_diva"": ""470"", ""halt_kurz"": ""BESE"", ""halt_lang"": ""Zürich, Besenrainstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2656,"{""halt_diva"": ""471"", ""halt_kurz"": ""BETH"", ""halt_lang"": ""Zürich, Bethanien"", ""halt_ist_aktiv"": ""True""}",Stop
+2657,"{""halt_diva"": ""2396"", ""halt_kurz"": ""SIHS"", ""halt_lang"": ""Zürich, Sihlstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2658,"{""halt_diva"": ""2398"", ""halt_kurz"": ""SIHW"", ""halt_lang"": ""Zürich, Sihlweidstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2660,"{""halt_diva"": ""902"", ""halt_kurz"": ""FRIB"", ""halt_lang"": ""Zürich, Friesenberg"", ""halt_ist_aktiv"": ""True""}",Stop
+2662,"{""halt_diva"": ""904"", ""halt_kurz"": ""FRIE"", ""halt_lang"": ""Zürich, Friesenbergstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2665,"{""halt_diva"": ""2659"", ""halt_kurz"": ""THUJ"", ""halt_lang"": ""Zürich, Thujastrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2666,"{""halt_diva"": ""735"", ""halt_kurz"": ""ETHH"", ""halt_lang"": ""Zürich, ETH Hönggerberg"", ""halt_ist_aktiv"": ""True""}",Stop
+2671,"{""halt_diva"": ""2831"", ""halt_kurz"": ""WART"", ""halt_lang"": ""Zürich, Wartau"", ""halt_ist_aktiv"": ""True""}",Stop
+2672,"{""halt_diva"": ""1744"", ""halt_kurz"": ""NORH"", ""halt_lang"": ""Zürich, Nordheimstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2673,"{""halt_diva"": ""1745"", ""halt_kurz"": ""NORS"", ""halt_lang"": ""Zürich, Nordstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2678,"{""halt_diva"": ""916"", ""halt_kurz"": ""FRYM"", ""halt_lang"": ""Zürich, Frymannstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2680,"{""halt_diva"": ""917"", ""halt_kurz"": ""FROE"", ""halt_lang"": ""Zürich, Fröhlichstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2682,"{""halt_diva"": ""573"", ""halt_kurz"": ""BUHN"", ""halt_lang"": ""Zürich, Buhnstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2683,"{""halt_diva"": ""3587"", ""halt_kurz"": ""BERU"", ""halt_lang"": ""Zürich, Berufswahlschule"", ""halt_ist_aktiv"": ""True""}",Stop
+2687,"{""halt_diva"": ""2754"", ""halt_kurz"": ""UNTM"", ""halt_lang"": ""Zürich, Untermoosstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2689,"{""halt_diva"": ""832"", ""halt_kurz"": ""FELD"", ""halt_lang"": ""Zürich, Feldeggstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2693,"{""halt_diva"": ""1753"", ""halt_kurz"": ""NUER"", ""halt_lang"": ""Zürich, Nürenbergstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2699,"{""halt_diva"": ""3005"", ""halt_kurz"": ""ZOO"", ""halt_lang"": ""Zürich, Zoo"", ""halt_ist_aktiv"": ""True""}",Stop
+2700,"{""halt_diva"": ""6019"", ""halt_kurz"": ""WAFB"", ""halt_lang"": ""Zürich, Waffenplatz-/Bederstr."", ""halt_ist_aktiv"": ""True""}",Stop
+2701,"{""halt_diva"": ""2673"", ""halt_kurz"": ""TOBL"", ""halt_lang"": ""Zürich, Toblerplatz"", ""halt_ist_aktiv"": ""True""}",Stop
+2702,"{""halt_diva"": ""498"", ""halt_kurz"": ""BIRD"", ""halt_lang"": ""Zürich, Birchdörfli"", ""halt_ist_aktiv"": ""True""}",Stop
+2705,"{""halt_diva"": ""927"", ""halt_kurz"": ""FOER"", ""halt_lang"": ""Zürich, Förrlibuckstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2707,"{""halt_diva"": ""3768"", ""halt_kurz"": ""STBU"", ""halt_lang"": ""Zürich, Staudenbühl"", ""halt_ist_aktiv"": ""True""}",Stop
+2711,"{""halt_diva"": ""2935"", ""halt_kurz"": ""WINZ"", ""halt_lang"": ""Zürich, Winzerstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2712,"{""halt_diva"": ""2937"", ""halt_kurz"": ""WIPK"", ""halt_lang"": ""Zürich, Wipkingerplatz"", ""halt_ist_aktiv"": ""True""}",Stop
+2713,"{""halt_diva"": ""840"", ""halt_kurz"": ""FELL"", ""halt_lang"": ""Zürich, Fellenbergstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2714,"{""halt_diva"": ""2596"", ""halt_kurz"": ""STRV"", ""halt_lang"": ""Zürich, Strassenverkehrsamt"", ""halt_ist_aktiv"": ""True""}",Stop
+2721,"{""halt_diva"": ""3011"", ""halt_kurz"": ""ZWEI"", ""halt_lang"": ""Zürich, Zweiackerstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2722,"{""halt_diva"": ""1272"", ""halt_kurz"": ""HOEF"", ""halt_lang"": ""Zürich, Höfliweg"", ""halt_ist_aktiv"": ""True""}",Stop
+2729,"{""halt_diva"": ""1590"", ""halt_kurz"": ""LUEG"", ""halt_lang"": ""Zürich, Luegisland"", ""halt_ist_aktiv"": ""True""}",Stop
+2730,"{""halt_diva"": ""1592"", ""halt_kurz"": ""LUGG"", ""halt_lang"": ""Zürich, Luggwegstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2731,"{""halt_diva"": ""3015"", ""halt_kurz"": ""ZWIE"", ""halt_lang"": ""Zürich, Zwielplatz"", ""halt_ist_aktiv"": ""True""}",Stop
+2734,"{""halt_diva"": ""2858"", ""halt_kurz"": ""WEIH"", ""halt_lang"": ""Zürich, Weihersteig"", ""halt_ist_aktiv"": ""True""}",Stop
+2738,"{""halt_diva"": ""3018"", ""halt_kurz"": ""ZWIN"", ""halt_lang"": ""Zürich, Zwinglihaus"", ""halt_ist_aktiv"": ""True""}",Stop
+2740,"{""halt_diva"": ""7"", ""halt_kurz"": ""AARG"", ""halt_lang"": ""Zürich, Aargauerstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2743,"{""halt_diva"": ""6117"", ""halt_kurz"": ""SRIE"", ""halt_lang"": ""Zürich, Stierenried"", ""halt_ist_aktiv"": ""True"", ""halt_punkt_diva"": ""21"", ""halt_id"": ""1270"", ""GPS_Latitude"": ""47,368020"", ""GPS_Longitude"": ""8,495680"", ""GPS_Bearing"": ""73"", ""halt_punkt_ist_aktiv"": ""True""}",StopPoint
+2745,"{""halt_diva"": ""2776"", ""halt_kurz"": ""VERE"", ""halt_lang"": ""Zürich, Verenastrasse"", ""halt_ist_aktiv"": ""True"", ""halt_punkt_diva"": ""1"", ""halt_id"": ""1270"", ""GPS_Latitude"": ""47,367807"", ""GPS_Longitude"": ""8,495344"", ""GPS_Bearing"": ""261"", ""halt_punkt_ist_aktiv"": ""False""}",StopPoint
+2748,"{""halt_diva"": ""2779"", ""halt_kurz"": ""VOGE"", ""halt_lang"": ""Zürich, Vogelsangstrasse"", ""halt_ist_aktiv"": ""True"", ""halt_punkt_diva"": ""90"", ""halt_id"": ""1270"", ""GPS_Latitude"": ""47,367726"", ""GPS_Longitude"": ""8,495383"", ""GPS_Bearing"": ""200"", ""halt_punkt_ist_aktiv"": ""True""}",StopPoint
+2749,"{""halt_diva"": ""2104"", ""halt_kurz"": ""ROSE"", ""halt_lang"": ""Zürich, Rosengartenstrasse"", ""halt_ist_aktiv"": ""True"", ""halt_punkt_diva"": ""51"", ""halt_id"": ""1270"", ""GPS_Latitude"": ""47,367996"", ""GPS_Longitude"": ""8,495295"", ""GPS_Bearing"": ""54"", ""halt_punkt_ist_aktiv"": ""True""}",StopPoint
+2750,"{""halt_diva"": ""857"", ""halt_kurz"": ""FWEG"", ""halt_lang"": ""Zürich, Fischerweg"", ""halt_ist_aktiv"": ""True""}",Stop
+2752,"{""halt_diva"": ""2108"", ""halt_kurz"": ""ROTB"", ""halt_lang"": ""Zürich, Rotbuchstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2756,"{""halt_diva"": ""3029"", ""halt_kurz"": ""HSBB"", ""halt_lang"": ""Zürich, Bahnhof Hardbrücke"", ""halt_ist_aktiv"": ""True""}",Stop
+2758,"{""halt_diva"": ""3786"", ""halt_kurz"": ""OKEN"", ""halt_lang"": ""Zürich, Okenstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2761,"{""halt_diva"": ""3788"", ""halt_kurz"": ""MAIL"", ""halt_lang"": ""Zürich, Maillartstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2763,"{""halt_diva"": ""3789"", ""halt_kurz"": ""BOLL"", ""halt_lang"": ""Zürich, Bollingerweg"", ""halt_ist_aktiv"": ""True""}",Stop
+2766,"{""halt_diva"": ""2788"", ""halt_kurz"": ""VOLT"", ""halt_lang"": ""Zürich, Voltastrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2768,"{""halt_diva"": ""2113"", ""halt_kurz"": ""RBRU"", ""halt_lang"": ""Zürich, Rudolf-Brun-Brücke"", ""halt_ist_aktiv"": ""True""}",Stop
+2770,"{""halt_diva"": ""1026"", ""halt_kurz"": ""GRIM"", ""halt_lang"": ""Zürich, Grimselstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2772,"{""halt_diva"": ""2872"", ""halt_kurz"": ""WERD"", ""halt_lang"": ""Zürich, Werdhölzli"", ""halt_ist_aktiv"": ""True""}",Stop
+2774,"{""halt_diva"": ""2030"", ""halt_kurz"": ""RATH"", ""halt_lang"": ""Zürich, Rathaus"", ""halt_ist_aktiv"": ""True""}",Stop
+2777,"{""halt_diva"": ""3123"", ""halt_kurz"": ""IMGU"", ""halt_lang"": ""Zürich, Im Gut"", ""halt_ist_aktiv"": ""True""}",Stop
+2778,"{""halt_diva"": ""2035"", ""halt_kurz"": ""REBE"", ""halt_lang"": ""Zürich, Rebbergsteig"", ""halt_ist_aktiv"": ""True""}",Stop
+2779,"{""halt_diva"": ""788"", ""halt_kurz"": ""ENGV"", ""halt_lang"": ""Zürich, Englischviertelstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2781,"{""halt_diva"": ""2795"", ""halt_kurz"": ""WAFF"", ""halt_lang"": ""Zürich, Waffenplatzstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2784,"{""halt_diva"": ""2799"", ""halt_kurz"": ""WAIB"", ""halt_lang"": ""Zürich, Waidbadstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2787,"{""halt_diva"": ""2127"", ""halt_kurz"": ""ROEN"", ""halt_lang"": ""Zürich, Röntgenstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2788,"{""halt_diva"": ""3041"", ""halt_kurz"": ""BTIE"", ""halt_lang"": ""Zürich, Bahnhof Tiefenbrunnen"", ""halt_ist_aktiv"": ""True""}",Stop
+2789,"{""halt_diva"": ""3043"", ""halt_kurz"": ""BWIP"", ""halt_lang"": ""Zürich, Bahnhof Wipkingen"", ""halt_ist_aktiv"": ""True""}",Stop
+2791,"{""halt_diva"": ""3045"", ""halt_kurz"": ""ZUER"", ""halt_lang"": ""Zürich, Zürichbergstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2792,"{""halt_diva"": ""1120"", ""halt_kurz"": ""HARH"", ""halt_lang"": ""Zürich, Hardhof"", ""halt_ist_aktiv"": ""True""}",Stop
+2799,"{""halt_diva"": ""1889"", ""halt_kurz"": ""PLAT"", ""halt_lang"": ""Zürich, Platte"", ""halt_ist_aktiv"": ""True""}",Stop
+2800,"{""halt_diva"": ""3138"", ""halt_kurz"": ""KABU"", ""halt_lang"": ""Zürich, Kappenbühlweg"", ""halt_ist_aktiv"": ""True""}",Stop
+2804,"{""halt_diva"": ""2306"", ""halt_kurz"": ""SCHT"", ""halt_lang"": ""Zürich, Schwert"", ""halt_ist_aktiv"": ""True""}",Stop
+2807,"{""halt_diva"": ""1307"", ""halt_kurz"": ""IHAG"", ""halt_lang"": ""Zürich, Im Hagacker"", ""halt_ist_aktiv"": ""True""}",Stop
+2808,"{""halt_diva"": ""2899"", ""halt_kurz"": ""WIES"", ""halt_lang"": ""Zürich, Wieslergasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2809,"{""halt_diva"": ""46"", ""halt_kurz"": ""ALBG"", ""halt_lang"": ""Zürich, Albisgütli"", ""halt_ist_aktiv"": ""True""}",Stop
+2810,"{""halt_diva"": ""47"", ""halt_kurz"": ""ALBR"", ""halt_lang"": ""Zürich, Albisrieden"", ""halt_ist_aktiv"": ""True""}",Stop
+2811,"{""halt_diva"": ""979"", ""halt_kurz"": ""GIBL"", ""halt_lang"": ""Zürich, Giblenstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2812,"{""halt_diva"": ""1139"", ""halt_kurz"": ""HEER"", ""halt_lang"": ""Zürich, Heerenwiesen"", ""halt_ist_aktiv"": ""True""}",Stop
+2814,"{""halt_diva"": ""2055"", ""halt_kurz"": ""RENT"", ""halt_lang"": ""Zürich, Rentenanstalt"", ""halt_ist_aktiv"": ""True"", ""halt_punkt_diva"": ""51"", ""halt_id"": ""1300"", ""GPS_Latitude"": ""47,291267"", ""GPS_Longitude"": ""8,564721"", ""GPS_Bearing"": ""250"", ""halt_punkt_ist_aktiv"": ""False""}",StopPoint
+2815,"{""halt_diva"": ""1220"", ""halt_kurz"": ""HIRZ"", ""halt_lang"": ""Zürich, Hirzenbach"", ""halt_ist_aktiv"": ""True""}",Stop
+2817,"{""halt_diva"": ""3148"", ""halt_kurz"": ""LETP"", ""halt_lang"": ""Zürich, Letzipark"", ""halt_ist_aktiv"": ""True""}",Stop
+2818,"{""halt_diva"": ""137"", ""halt_kurz"": ""BACH"", ""halt_lang"": ""Zürich, Bachmattstrasse"", ""halt_ist_aktiv"": ""True""}",Stop
+2821,"{""halt_diva"": ""2140"", ""halt_kurz"": ""RUET"", ""halt_lang"": ""Zürich, Rütihof"", ""halt_ist_aktiv"": ""True""}",Stop
+2823,"{""halt_diva"": ""895"", ""halt_kurz"": ""FHOE"", ""halt_lang"": ""Zürich, Friedhof Hönggerberg"", ""halt_ist_aktiv"": ""True""}",Stop
+2824,"{""halt_diva"": ""2142"", ""halt_kurz"": ""SBBW"", ""halt_lang"": ""Zürich, SBB-Werkstätte"", ""halt_ist_aktiv"": ""True""}",Stop
+2825,"{""halt_diva"": ""896"", ""halt_kurz"": ""FSWA"", ""halt_lang"": ""Zürich, Friedhof Schwandenholz"", ""halt_ist_aktiv"": ""True""}",Stop
+2826,"{""halt_diva"": ""897"", ""halt_kurz"": ""FSIH"", ""halt_lang"": ""Zürich, Friedhof Sihlfeld"", ""halt_ist_aktiv"": ""True""}",Stop
+2828,"{""halt_diva"": ""1310"", ""halt_kurz"": ""IHUS"", ""halt_lang"": ""Zürich, Im Hüsli"", ""halt_ist_aktiv"": ""True"", ""halt_punkt_diva"": ""1"", ""halt_id"": ""1306"", ""GPS_Latitude"": ""47,374213"", ""GPS_Longitude"": ""8,525305"", ""GPS_Bearing"": ""297"", ""halt_punkt_ist_aktiv"": ""False""}",StopPoint
+2829,"{""halt_diva"": ""2147"", ""halt_kurz"": ""SACK"", ""halt_lang"": ""Zürich, Sackzelg"", ""halt_ist_aktiv"": ""True"", ""halt_punkt_diva"": ""0"", ""halt_id"": ""1306"", ""GPS_Latitude"": ""47,373946"", ""GPS_Longitude"": ""8,525869"", ""GPS_Bearing"": ""119"", ""halt_punkt_ist_aktiv"": ""False""}",StopPoint
+2831,"{""halt_diva"": ""2402"", ""halt_kurz"": ""SING"", ""halt_lang"": ""Zürich, Singlistrasse"", ""halt_ist_aktiv"": ""True"", ""halt_punkt_diva"": ""86"", ""halt_id"": ""1308"", ""GPS_Latitude"": ""47,374422"", ""GPS_Longitude"": ""8,547754"", ""GPS_Bearing"": ""170"", ""halt_punkt_ist_aktiv"": ""True""}",StopPoint
+2834,"{""halt_diva"": ""1316"", ""halt_kurz"": ""IWIN"", ""halt_lang"": ""Zürich, Im Wingert"", ""halt_ist_aktiv"": ""True"", ""halt_punkt_diva"": ""1"", ""halt_id"": ""1308"", ""GPS_Latitude"": ""47,376617"", ""GPS_Longitude"": ""8,548700"", ""GPS_Bearing"": ""163"", ""halt_punkt_ist_aktiv"": ""True""}",StopPoint
+2836,"{""halt_diva"": ""1143"", ""halt_kurz"": ""HEGA"", ""halt_lang"": ""Zürich, Hegianwandweg"", ""halt_ist_aktiv"": ""True"", ""halt_punkt_diva"": ""83"", ""halt_id"": ""1308"", ""halt_punkt_ist_aktiv"": ""False""}",StopPoint
+2837,"{""halt_diva"": ""3150"", ""halt_kurz"": ""AMBO"", ""halt_lang"": ""Zürich, Am Börtli"", ""halt_ist_aktiv"": ""True"", ""halt_punkt_diva"": ""2"", ""halt_id"": ""1308"", ""GPS_Latitude"": ""47,377791"", ""GPS_Longitude"": ""8,548234"", ""GPS_Bearing"": ""347"", ""halt_punkt_ist_aktiv"": ""True""}",StopPoint
+2838,"{""halt_diva"": ""3151"", ""halt_kurz"": ""APPE"", ""halt_lang"": ""Zürich, Appenzellerstrasse"", ""halt_ist_aktiv"": ""True"", ""halt_punkt_diva"": ""88"", ""halt_id"": ""1308"", ""halt_punkt_ist_aktiv"": ""False""}",StopPoint
+2840,"{""halt_diva"": ""3155"", ""halt_kurz"": ""ALTW"", ""halt_lang"": ""Zürich, Schulhaus Altweg"", ""halt_ist_aktiv"": ""True"", ""halt_punkt_diva"": ""81"", ""halt_id"": ""1308"", ""GPS_Latitude"": ""47,375583"", ""GPS_Longitude"": ""8,548599"", ""halt_punkt_ist_aktiv"": ""True""}",StopPoint
+2845,"{""halt_diva"": ""1407"", ""halt_kurz"": ""KFLU"", ""halt_lang"": ""Zürich, Kirche Fluntern"", ""halt_ist_aktiv"": ""True"", ""halt_punkt_diva"": ""84"", ""halt_id"": ""1308"", ""GPS_Latitude"": ""47,377241"", ""GPS_Longitude"": ""8,547428"", ""halt_punkt_ist_aktiv"": ""True""}",StopPoint
+2849,"{""halt_diva"": ""1239"", ""halt_kurz"": ""HOLZ"", ""halt_lang"": ""Zürich, Holzerhurd"", ""halt_ist_aktiv"": ""True"", ""halt_punkt_diva"": ""12"", ""halt_id"": ""1309"", ""GPS_Latitude"": ""47,398324"", ""GPS_Longitude"": ""8,533401"", ""GPS_Bearing"": ""174"", ""halt_punkt_ist_aktiv"": ""False""}",StopPoint
+2851,"{""halt_diva"": ""1320"", ""halt_kurz"": ""IDEY"", ""halt_lang"": ""Zürich, In der Ey"", ""halt_ist_aktiv"": ""True"", ""halt_punkt_diva"": ""1"", ""halt_id"": ""1309"", ""GPS_Latitude"": ""47,398442"", ""GPS_Longitude"": ""8,533284"", ""GPS_Bearing"": ""345"", ""halt_punkt_ist_aktiv"": ""False""}",StopPoint
+2853,"{""halt_diva"": ""67"", ""halt_kurz"": ""ATRO"", ""halt_lang"": ""Zürich, Alte Trotte"", ""halt_ist_aktiv"": ""True"", ""halt_punkt_diva"": ""90"", ""halt_id"": ""1309"", ""GPS_Latitude"": ""47,398609"", ""GPS_Longitude"": ""8,532731"", ""halt_punkt_ist_aktiv"": ""True""}",StopPoint
+2854,"{""halt_diva"": ""1157"", ""halt_kurz"": ""HELM"", ""halt_lang"": ""Zürich, Helmhaus"", ""halt_ist_aktiv"": ""True"", ""halt_punkt_diva"": ""2"", ""halt_id"": ""1309"", ""GPS_Latitude"": ""47,398546"", ""GPS_Longitude"": ""8,532729"", ""GPS_Bearing"": ""108"", ""halt_punkt_ist_aktiv"": ""False""}",StopPoint
+2857,"{""halt_diva"": ""1073"", ""halt_kurz"": ""GUTS"", ""halt_lang"": ""Zürich, Gutstrasse"", ""halt_ist_aktiv"": ""True"", ""halt_punkt_diva"": ""10"", ""halt_id"": ""1309"", ""GPS_Latitude"": ""47,398236"", ""GPS_Longitude"": ""8,533213"", ""GPS_Bearing"": ""345"", ""halt_punkt_ist_aktiv"": ""False""}",StopPoint
+2861,"{""halt_diva"": ""2164"", ""halt_kurz"": ""SCHZ"", ""halt_lang"": ""Zürich, Scheuchzerstrasse"", ""halt_ist_aktiv"": ""True"", ""halt_punkt_diva"": ""11"", ""halt_id"": ""1310"", ""GPS_Latitude"": ""47,390798"", ""GPS_Longitude"": ""8,479416"", ""GPS_Bearing"": ""47"", ""halt_punkt_ist_aktiv"": ""False""}",StopPoint
+2862,"{""halt_diva"": ""1503"", ""halt_kurz"": ""LANG"", ""halt_lang"": ""Zürich, Langgrütstrasse"", ""halt_ist_aktiv"": ""True"", ""halt_punkt_diva"": ""21"", ""halt_id"": ""1310"", ""GPS_Latitude"": ""47,390343"", ""GPS_Longitude"": ""8,479089"", ""GPS_Bearing"": ""30"", ""halt_punkt_ist_aktiv"": ""False""}",StopPoint
+2868,"{""halt_diva"": ""1162"", ""halt_kurz"": ""HERD"", ""halt_lang"": ""Zürich, Herdernstrasse"", ""halt_ist_aktiv"": ""True"", ""halt_punkt_diva"": ""81"", ""halt_id"": ""1311"", ""GPS_Latitude"": ""47,410576"", ""GPS_Longitude"": ""8,546598"", ""GPS_Bearing"": ""30"", ""halt_punkt_ist_aktiv"": ""True""}",StopPoint
+2870,"{""halt_diva"": ""1251"", ""halt_kurz"": ""HOTT"", ""halt_lang"": ""Zürich, Hottingerplatz"", ""halt_ist_aktiv"": ""True"", ""halt_punkt_diva"": ""2"", ""halt_id"": ""1311"", ""GPS_Latitude"": ""47,410225"", ""GPS_Longitude"": ""8,546564"", ""GPS_Bearing"": ""262"", ""halt_punkt_ist_aktiv"": ""False""}",StopPoint
+2871,"{""halt_diva"": ""1252"", ""halt_kurz"": ""HUBE"", ""halt_lang"": ""Zürich, Hubertus"", ""halt_ist_aktiv"": ""True"", ""halt_punkt_diva"": ""21"", ""halt_id"": ""1311"", ""GPS_Latitude"": ""47,409588"", ""GPS_Longitude"": ""8,546366"", ""GPS_Bearing"": ""344"", ""halt_punkt_ist_aktiv"": ""True""}",StopPoint
+2893,"{""halt_diva"": ""6759"", ""halt_kurz"": ""SBAU"", ""halt_lang"": ""Zürich, Schiffbau"", ""halt_ist_aktiv"": ""True""}",Stop
+3158,"{""halt_diva"": ""6975"", ""halt_kurz"": ""GLNO"", ""halt_lang"": ""Zürich, Glaubtenstrasse Nord"", ""halt_ist_aktiv"": ""True""}",Stop

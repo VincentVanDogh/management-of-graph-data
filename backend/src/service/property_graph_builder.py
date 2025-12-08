@@ -5,26 +5,34 @@ from pathlib import Path
 
 from config.zurich_public_transport_config import ZURICH_PUBLIC_TRANSPORT_CONFIG
 
-DATA_DIR = Path("../datasets/inputs/zurich-public-transport")
-# DATA_DIR = Path("../datasets/inputs/actors-and-movies-dataset")
+DATA_DIR = Path("../datasets/inputs/zurich-public-transport/filtered")
 OUT_DIR = Path("../datasets/outputs/zurich-public-transport/small")
-# OUT_DIR = Path("../datasets/outputs/actors-and-movies-dataset")
 OUT_DIR.mkdir(exist_ok=True)
 
-MAX_EDGES = 1000   # <<< CHANGE THIS to control how much data to extract
+MAX_EDGES = 14000
 
-
-# -------------------------------------------------------------------------
-# Helper: Clean properties
-# -------------------------------------------------------------------------
+# -------------------------------------------
+# helper
+# -------------------------------------------
 def row_to_props(row, exclude_cols):
-    return {k: v for k, v in row.items() if k not in exclude_cols and pd.notna(v) and v != ""}
+    return {
+        k: v
+        for k, v in row.items()
+        if k not in exclude_cols and pd.notna(v) and v != ""
+    }
 
 
-# -------------------------------------------------------------------------
-# Step 1 — Load ONLY first N edges (across all edge CSVs)
-# -------------------------------------------------------------------------
-print(f"Loading up to {MAX_EDGES} edges...")
+# -------------------------------------------
+# Optionally define allowed lines here
+# Set to None or empty set to disable filtering
+# -------------------------------------------
+# ALLOWED_LINES = {"2", "3", "4", "5", "6"}
+ALLOWED_LINES = None  # Uncomment this line to disable filtering and get all lines
+
+# -------------------------------------------
+# Step 1 --- Load edges with optional filtering on lines
+# -------------------------------------------
+print(f"Loading up to {MAX_EDGES} edges" + (f" from lines {sorted(ALLOWED_LINES)}..." if ALLOWED_LINES else " from all lines..."))
 
 edges = []
 needed_node_ids = set()
@@ -37,11 +45,21 @@ for fname, edge_cfg in ZURICH_PUBLIC_TRANSPORT_CONFIG["edges"].items():
     tgt_col = edge_cfg["target_col"]
     edge_label = edge_cfg["edge_label"]
 
-    # Stream file in chunks to avoid loading full dataset
     for chunk in pd.read_csv(path, dtype=str, chunksize=50_000):
         chunk = chunk.fillna("")
 
-        for _, row in chunk.iterrows():
+        # Determine the column with line info
+        line_col = "linie"
+        if line_col not in chunk.columns:
+            raise ValueError(f"Column '{line_col}' not found in {fname}")
+
+        # Filter edges by allowed lines if filtering is active
+        if ALLOWED_LINES:
+            filtered_chunk = chunk[chunk[line_col].isin(ALLOWED_LINES)]
+        else:
+            filtered_chunk = chunk
+
+        for _, row in filtered_chunk.iterrows():
             if len(edges) >= MAX_EDGES:
                 break
 
@@ -62,9 +80,9 @@ for fname, edge_cfg in ZURICH_PUBLIC_TRANSPORT_CONFIG["edges"].items():
 print(f"Collected {len(edges)} edges involving {len(needed_node_ids)} nodes.")
 
 
-# -------------------------------------------------------------------------
-# Step 2 — Load ONLY THE NODES referred by edges
-# -------------------------------------------------------------------------
+# -------------------------------------------
+# Step 2 — collect only required nodes
+# -------------------------------------------
 all_nodes = {}
 
 print("Loading only required nodes...")
@@ -79,7 +97,6 @@ for fname, node_cfg in ZURICH_PUBLIC_TRANSPORT_CONFIG["nodes"].items():
     for chunk in pd.read_csv(path, dtype=str, chunksize=50_000):
         chunk = chunk.fillna("")
 
-        # Filter rows that contain needed IDs
         filtered = chunk[chunk[id_col].isin(needed_node_ids)]
 
         for _, row in filtered.iterrows():
@@ -87,19 +104,18 @@ for fname, node_cfg in ZURICH_PUBLIC_TRANSPORT_CONFIG["nodes"].items():
             props = row_to_props(row, exclude_cols=[id_col])
             props["label"] = label
 
-            # merge if duplicate ID across multiple files
             if node_id not in all_nodes:
                 all_nodes[node_id] = props
             else:
                 all_nodes[node_id].update(props)
 
-print(f"Loaded {len(all_nodes)} nodes linked to edges.")
+print(f"Loaded {len(all_nodes)} nodes.")
 
 
-# -------------------------------------------------------------------------
-# Step 3 — Export nodes CSV
-# -------------------------------------------------------------------------
-with open(OUT_DIR / "nodes.csv", "w", encoding="utf-8", newline='') as f:
+# -------------------------------------------
+# Step 3 — export nodes
+# -------------------------------------------
+with open(OUT_DIR / "nodes.csv", "w", encoding="utf-8", newline="") as f:
     writer = csv.writer(f)
     writer.writerow(["id:ID", "properties:JSON", ":LABEL"])
 
@@ -109,10 +125,10 @@ with open(OUT_DIR / "nodes.csv", "w", encoding="utf-8", newline='') as f:
         writer.writerow([nid, props_json, label])
 
 
-# -------------------------------------------------------------------------
-# Step 4 — Export edges CSV (only edges referencing loaded nodes)
-# -------------------------------------------------------------------------
-with open(OUT_DIR / "edges.csv", "w", encoding='utf-8', newline='') as f:
+# -------------------------------------------
+# Step 4 — export edges
+# -------------------------------------------
+with open(OUT_DIR / "edges.csv", "w", encoding="utf-8", newline="") as f:
     writer = csv.writer(f)
     writer.writerow([":START_ID", ":END_ID", ":TYPE", "properties:JSON"])
 
@@ -120,4 +136,5 @@ with open(OUT_DIR / "edges.csv", "w", encoding='utf-8', newline='') as f:
         props_json = json.dumps(props, ensure_ascii=False)
         writer.writerow([src, tgt, label, props_json])
 
-print(f"Export complete: {len(all_nodes)} nodes, {len(edges)} edges.")
+print("Done!")
+print(f"Exported {len(all_nodes)} nodes and {len(edges)} edges.")

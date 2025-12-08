@@ -96,6 +96,7 @@ export class CustomPropertyGraphComponent implements OnInit {
   executeQuery(query: string): void {
     this.service.runCypherQuery(query).subscribe({
       next: (response: any) => {
+        console.log(response)
         const results = response.results;
         const elements: CytoscapeElement[] = [];
         const nodesAdded = new Set<string>();
