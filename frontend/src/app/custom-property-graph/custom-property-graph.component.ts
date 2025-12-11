@@ -15,16 +15,44 @@ export class CustomPropertyGraphComponent implements OnInit {
 
   transportData: PropertyGraphRelation[] = [];
   cy!: Core;
-  cypherQuery = "MATCH (n)-[r]->(m) RETURN n,r,m LIMIT 50";
+  // cypherQuery = "MATCH (n)-[r]->(m) RETURN n,r,m LIMIT 50";
+  cypherQuery = "MATCH (a)-[r:CONNECTED_BY]->(b) RETURN a, r, b, a.halt_lang AS aName, b.halt_lang AS bName LIMIT 500;";
+
   elements: CytoscapeElement[] = [];
+  pastQueries: string[] = [];
 
   constructor(private service: PropertyGraphService) {
   }
 
   ngOnInit(): void {
-    this.service.getTransportData().subscribe(data => {
-      this.transportData = data;
-      this.drawGraph(data);
+    // Run initial query immediately
+    this.executeQuery(this.cypherQuery);
+
+    // Initialize Cytoscape container
+    this.cy = cytoscape({
+      container: document.getElementById('graphContainer'),
+      style: [
+        {
+          selector: 'node',
+          style: {
+            'background-color': '#0074D9',
+            'label': 'data(label)',
+            'color': '#000',
+            'font-size': '10px'
+          }
+        },
+        {
+          selector: 'edge',
+          style: {
+            'line-color': '#C0C0C0',
+            'label': 'data(label)',
+            'font-size': '8px',
+            'target-arrow-shape': 'triangle',
+            'curve-style': 'bezier',
+            'arrow-scale': 1.5
+          }
+        }
+      ]
     });
   }
 
@@ -100,6 +128,10 @@ export class CustomPropertyGraphComponent implements OnInit {
         const results = response.results;
         const elements: CytoscapeElement[] = [];
         const nodesAdded = new Set<string>();
+
+        // Update past queries list
+        const queries = response.queries ?? [];
+        this.pastQueries = queries.map((q: any) => q.query);
 
         results.forEach((record: any) => {
           // Handle node a
