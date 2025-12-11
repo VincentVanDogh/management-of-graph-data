@@ -201,15 +201,6 @@ class PropertyGraphQuery:
             "bName": (b.get("halt_lang") if b else None) if isinstance(b, dict) else None,
         }
 
-    def run_shortest_path(self):
-        query = """
-            MATCH p = shortestPath((start {halt_kurz: 'REHA'})-[*]-(end {halt_kurz: 'SIGN'}))
-            RETURN p
-        """
-        with self.driver.session() as session:
-            result = session.run(query)
-            return self._normalize_path(result)
-
     def _normalize_path(self, result):
         output = []
 
