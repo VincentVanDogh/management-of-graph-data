@@ -8,8 +8,33 @@ except Exception:
     Node = Relationship = Path = object
 
 class PropertyGraphQuery:
-    def __init__(self, driver):
+    def __init__(self, driver, redis_client):
         self.driver = driver
+        self.redis_client = redis_client
+
+    def get_query_list(self, query_str: str):
+        # Create Redis keys
+        LIST_KEY = "query_history"
+        SET_KEY = "query_history_set"
+
+        # Remove old copy if exists
+        if self.redis_client.sismember(SET_KEY, query_str):
+            # Remove all old entries of this query from list
+            self.redis_client.lrem(LIST_KEY, 0, query_str)
+        else:
+            # Add to set for dedup tracking
+            self.redis_client.sadd(SET_KEY, query_str)
+
+        # Always push newest version to top
+        self.redis_client.lpush(LIST_KEY, query_str)
+
+        # Trim list to max 50 entries for safety
+        self.redis_client.ltrim(LIST_KEY, 0, 49)
+
+
+        # Get last 10 most recent queries
+        queries = self.redis_client.lrange(LIST_KEY, 0, 9)
+        return [{"query": q} for q in queries]
 
     def run_cypher_query(self, query: str):
         with self.driver.session() as session:

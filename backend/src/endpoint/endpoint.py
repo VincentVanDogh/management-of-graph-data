@@ -29,7 +29,7 @@ class QueryRequest(BaseModel):
 
 # Dependency to provide PropertyGraphQuery service instance
 def get_property_graph_query():
-    service = PropertyGraphQuery(driver)
+    service = PropertyGraphQuery(driver, redis_client)
     try:
         yield service
     finally:
@@ -41,23 +41,9 @@ def run_cypher(
     request: QueryRequest,
     service: PropertyGraphQuery = Depends(get_property_graph_query)
 ):
-    # Store query in Redis (as JSON with timestamp)
-    entry = {
-        "query": request.query,
-        "timestamp": time.time()
-    }
-    redis_client.lpush("query_history", json.dumps(entry))
-
-    # Get query result
-    data = service.run_cypher_query(request.query)
-
-    # Get redis queries
-    raw_queries = redis_client.lrange("query_history", 0, 10)
-    queries = [json.loads(e) for e in raw_queries]
-
     return {
-        "results": data,
-        "queries": queries
+        "results": service.run_cypher_query(request.query),
+        "queries": service.get_query_list(request.query)
     }
 
 @app.get("/queries")
