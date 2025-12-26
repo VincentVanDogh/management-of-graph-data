@@ -1,4 +1,4 @@
-from fastapi import FastAPI, Depends
+from fastapi import FastAPI, Depends, UploadFile, HTTPException
 from neo4j import GraphDatabase
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
@@ -6,7 +6,12 @@ from redis import Redis
 import time
 import json
 
-from src.service.property_graph_query import PropertyGraphQuery
+from service.property_graph_query import PropertyGraphQuery
+from fastapi import APIRouter, UploadFile, File, Depends
+from sqlalchemy.orm import Session
+
+from endpoint.dependencies import get_db, get_dataset_service
+from service.dataset_service import DatasetService
 
 app = FastAPI()
 
@@ -60,3 +65,29 @@ def clear_queries():
 @app.on_event("shutdown")
 def shutdown_event():
     driver.close()
+
+@app.post("/upload")
+def upload_dataset(
+    file: UploadFile = File(...),
+    db: Session = Depends(get_db),
+    service: DatasetService = Depends(get_dataset_service)
+):
+    return service.upload(db, file)
+
+@app.get("/csv-list")
+def list_datasets(
+    db: Session = Depends(get_db),
+    service: DatasetService = Depends(get_dataset_service)
+):
+    return service.list_all(db)
+
+@app.delete("/{dataset_id}")
+def delete_dataset(
+    dataset_id: int,
+    db: Session = Depends(get_db),
+    service: DatasetService = Depends(get_dataset_service)
+):
+    deleted = service.delete(db, dataset_id)
+    if not deleted:
+        raise HTTPException(status_code=404, detail="Dataset not found")
+    return {"deleted": dataset_id}
