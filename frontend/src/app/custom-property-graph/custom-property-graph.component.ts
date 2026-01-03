@@ -5,6 +5,7 @@ import cytoscape, { Core } from 'cytoscape';
 // TODO: Replace with a GET request
 import {CypherResultRecord, CytoscapeElement, PropertyGraphRelation} from "../dtos/property_graph_relation";
 import {PropertyGraphService} from "../services/property-graph.service";
+import {HttpClient} from "@angular/common/http";
 
 @Component({
   selector: 'app-custom-property-graph',
@@ -21,7 +22,9 @@ export class CustomPropertyGraphComponent implements OnInit {
   elements: CytoscapeElement[] = [];
   pastQueries: string[] = [];
 
-  constructor(private service: PropertyGraphService) {
+  selectedFiles: File[] = [];
+
+  constructor(private service: PropertyGraphService, private http: HttpClient) {
   }
 
   ngOnInit(): void {
@@ -57,7 +60,6 @@ export class CustomPropertyGraphComponent implements OnInit {
   }
 
   drawGraph(data: PropertyGraphRelation[]): void {
-
     this.cy = cytoscape({
       container: document.getElementById('graphContainer'),
 
@@ -183,7 +185,50 @@ export class CustomPropertyGraphComponent implements OnInit {
     });
   }
 
+  // Logic for uploading CSV-files to the backend:
+  onFilesSelected(event: Event) {
+    const input = event.target as HTMLInputElement;
+    if (!input.files) return;
 
+    for (let i = 0; i < input.files.length; i++) {
+      const file = input.files[i];
+
+      // only CSV
+      if (!file.name.toLowerCase().endsWith('.csv')) continue;
+
+      // prevent duplicates (by filename)
+      const exists = this.selectedFiles.some(f => f.name === file.name);
+      if (!exists) {
+        this.selectedFiles.push(file);
+      }
+    }
+
+    // reset input so same file can be re-selected later if removed
+    input.value = '';
+  }
+
+  removeFile(index: number) {
+    this.selectedFiles.splice(index, 1);
+  }
+
+  uploadFiles() {
+    const formData = new FormData();
+
+    // IMPORTANT: key must be "file" to match FastAPI
+    this.selectedFiles.forEach(file => {
+      formData.append('file', file);
+    });
+
+    this.http.post('http://127.0.0.1:8000/upload', formData)
+      .subscribe({
+        next: (res) => {
+          console.log('Upload success:', res);
+        },
+        error: (err) => {
+          console.error('Upload failed:', err);
+        }
+      });
+  }
 
 
 }

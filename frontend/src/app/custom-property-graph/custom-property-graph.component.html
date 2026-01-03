@@ -1,3 +1,46 @@
+<div class="upload-data">
+  <h3>Upload data (CSV)</h3>
+
+  <!-- Hidden file input -->
+  <input
+    type="file"
+    #fileInput
+    accept=".csv"
+    multiple
+    style="display: none"
+    (change)="onFilesSelected($event)"
+  />
+
+  <!-- Select files button -->
+  <button (click)="fileInput.click()">Select files</button>
+
+  <!-- Selected files list -->
+  <ul *ngIf="selectedFiles.length > 0" class="file-list">
+    <li *ngFor="let file of selectedFiles; let i = index">
+      <span>
+        {{ file.name }} ({{ file.size | number }} bytes)
+      </span>
+
+      <!-- Remove button -->
+      <button
+        class="remove-btn"
+        (click)="removeFile(i)"
+        title="Remove file"
+      >
+        ✕
+      </button>
+    </li>
+  </ul>
+
+  <!-- Upload button -->
+  <button
+    (click)="uploadFiles()"
+    [disabled]="selectedFiles.length === 0"
+  >
+    Upload
+  </button>
+</div>
+
 <div class="past-queries">
   <h3>Past Queries</h3>
   <ul>
@@ -17,13 +60,3 @@
   <!-- we will render graph here -->
   <div id="graphContainer"></div>
 </div>
-
-<hr>
-
-<h3>Zurich public transport data</h3>
-
-<ul>
-  <li *ngFor="let item of transportData">
-    {{ item.aName }} → {{ item.bName }} (line {{ item.r.linie }})
-  </li>
-</ul>
