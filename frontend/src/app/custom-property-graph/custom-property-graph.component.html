@@ -57,86 +57,81 @@
   </table>
 </div>
 
-<h3>Node Definition</h3>
+<!-- NODES AND EDGES -->
+<h3>Define Node Type</h3>
 
-<label>Node ID</label>
-<select [(ngModel)]="graphSchema.node.idColumn">
-  <option [ngValue]="null">-- select --</option>
-  <option *ngFor="let h of uniqueHeaders" [value]="h">
-    {{ h }}
-  </option>
+<select #nodeId (change)="nodeDraft.idColumn = nodeId.value">
+  <option value="" disabled selected>Node ID column</option>
+  <option *ngFor="let h of uniqueHeaders" [value]="h">{{ h }}</option>
 </select>
 
-<label>Node Label</label>
-<input type="text" [(ngModel)]="graphSchema.node.label" />
+<input
+  type="text"
+  placeholder="Node label"
+  [(ngModel)]="nodeDraft.label"
+/>
 
-<label>Node Properties</label>
-<select
-    #propertySelect
-    (change)="addNodeProperty(propertySelect.value)"
->
-  <option value="" disabled selected>Select property</option>
-  <option *ngFor="let h of uniqueHeaders" [value]="h">
-    {{ h }}
-  </option>
+<select #nodeProp (change)="addNodeProperty(nodeProp.value)">
+  <option value="" disabled selected>Add property</option>
+  <option *ngFor="let h of uniqueHeaders" [value]="h">{{ h }}</option>
 </select>
 
 <div class="chips">
-  <span *ngFor="let p of graphSchema.node.properties">
+  <span *ngFor="let p of nodeDraft.properties">
     {{ p }}
     <button (click)="removeNodeProperty(p)">✕</button>
   </span>
 </div>
 
-<h3>Edge Schema</h3>
+<button (click)="addNodeType()">➕ Add Node Type</button>
 
-<label>Edge start ID</label>
-<select
-    #edgeStartSelect
-    (change)="graphSchema.edge.startIdColumn = edgeStartSelect.value"
->
-  <option value="" disabled selected>Select column</option>
-  <option *ngFor="let h of uniqueHeaders" [value]="h">
-    {{ h }}
-  </option>
+<h3>Define Edge Type</h3>
+
+<select #startId (change)="edgeDraft.startIdColumn = startId.value">
+  <option value="" disabled selected>Start ID column</option>
+  <option *ngFor="let h of uniqueHeaders" [value]="h">{{ h }}</option>
 </select>
 
-<label>Edge end ID</label>
-<select
-    #edgeEndSelect
-    (change)="graphSchema.edge.endIdColumn = edgeEndSelect.value"
->
-  <option value="" disabled selected>Select column</option>
-  <option *ngFor="let h of uniqueHeaders" [value]="h">
-    {{ h }}
-  </option>
+<select #endId (change)="edgeDraft.endIdColumn = endId.value">
+  <option value="" disabled selected>End ID column</option>
+  <option *ngFor="let h of uniqueHeaders" [value]="h">{{ h }}</option>
 </select>
 
-<label>Edge label</label>
 <input
   type="text"
-  [(ngModel)]="graphSchema.edge.label"
-  placeholder="e.g. CONNECTED_BY"
+  placeholder="Edge label"
+  [(ngModel)]="edgeDraft.label"
 />
 
-<label>Edge properties</label>
-<select
-    #edgePropSelect
-    (change)="addEdgeProperty(edgePropSelect.value)"
->
+<select #edgeProp (change)="addEdgeProperty(edgeProp.value)">
   <option value="" disabled selected>Add property</option>
-  <option *ngFor="let h of uniqueHeaders" [value]="h">
-    {{ h }}
-  </option>
+  <option *ngFor="let h of uniqueHeaders" [value]="h">{{ h }}</option>
 </select>
 
 <div class="chips">
-  <span *ngFor="let p of graphSchema.edge.properties">
+  <span *ngFor="let p of edgeDraft.properties">
     {{ p }}
     <button (click)="removeEdgeProperty(p)">✕</button>
   </span>
 </div>
 
+<button (click)="addEdgeType()">➕ Add Edge Type</button>
+<!-- END OF NODE AND EDGES -->
+
+<h3>Node Types</h3>
+<ul>
+  <li *ngFor="let n of nodeTypes">
+    {{ n.label }} (ID: {{ n.idColumn }}) → {{ n.properties.join(', ') }}
+  </li>
+</ul>
+
+<h3>Edge Types</h3>
+<ul>
+  <li *ngFor="let e of edgeTypes">
+    {{ e.label }} ({{ e.startIdColumn }} → {{ e.endIdColumn }})
+    → {{ e.properties.join(', ') }}
+  </li>
+</ul>
 
 
 <div class="past-queries">

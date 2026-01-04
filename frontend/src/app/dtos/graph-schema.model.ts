@@ -1,10 +1,10 @@
-export interface NodeSchema {
+export interface NodeTypeSchema  {
   idColumn: string | null;
   label: string;
   properties: string[];
 }
 
-export interface EdgeSchema {
+export interface EdgeTypeSchema  {
   startIdColumn: string | null;
   endIdColumn: string | null;
   label: string;
@@ -12,6 +12,6 @@ export interface EdgeSchema {
 }
 
 export interface GraphSchema {
-  node: NodeSchema;
-  edge: EdgeSchema;
+  node: NodeTypeSchema;
+  edge: EdgeTypeSchema ;
 }

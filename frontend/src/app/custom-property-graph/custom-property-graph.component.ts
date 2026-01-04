@@ -6,7 +6,7 @@ import cytoscape, { Core } from 'cytoscape';
 import {CytoscapeElement, PropertyGraphRelation} from "../dtos/property_graph_relation";
 import {PropertyGraphService} from "../services/property-graph.service";
 import {HttpClient} from "@angular/common/http";
-import {GraphSchema} from "../dtos/graph-schema.model";
+import {EdgeTypeSchema, GraphSchema, NodeTypeSchema} from "../dtos/graph-schema.model";
 
 @Component({
   selector: 'app-custom-property-graph',
@@ -39,6 +39,31 @@ export class CustomPropertyGraphComponent implements OnInit {
       properties: []
     }
   };
+
+  emptyNodeDraft(): NodeTypeSchema {
+    return {
+      idColumn: '',
+      label: '',
+      properties: []
+    };
+  }
+
+  emptyEdgeDraft(): EdgeTypeSchema {
+    return {
+      startIdColumn: '',
+      endIdColumn: '',
+      label: '',
+      properties: []
+    };
+  }
+
+  // Drafts (what user is currently editing)
+  nodeDraft: NodeTypeSchema = this.emptyNodeDraft();
+  edgeDraft: EdgeTypeSchema = this.emptyEdgeDraft();
+
+// Saved schemas
+  nodeTypes: NodeTypeSchema[] = [];
+  edgeTypes: EdgeTypeSchema[] = [];
 
 
   constructor(private service: PropertyGraphService, private http: HttpClient) {
@@ -308,31 +333,52 @@ export class CustomPropertyGraphComponent implements OnInit {
     return Array.from(headerSet);
   }
 
-  addNodeProperty(header: string) {
-    if (
-      header &&
-      !this.graphSchema.node.properties.includes(header)
-    ) {
-      this.graphSchema.node.properties.push(header);
+  addNodeProperty(column: string) {
+    if (!column) return;
+    if (!this.nodeDraft.properties.includes(column)) {
+      this.nodeDraft.properties.push(column);
     }
   }
 
-  removeNodeProperty(header: string) {
-    this.graphSchema.node.properties =
-      this.graphSchema.node.properties.filter(h => h !== header);
+  removeNodeProperty(column: string) {
+    this.nodeDraft.properties =
+      this.nodeDraft.properties.filter(p => p !== column);
   }
 
   addEdgeProperty(column: string) {
     if (!column) return;
-
-    if (!this.graphSchema.edge.properties.includes(column)) {
-      this.graphSchema.edge.properties.push(column);
+    if (!this.edgeDraft.properties.includes(column)) {
+      this.edgeDraft.properties.push(column);
     }
   }
 
   removeEdgeProperty(column: string) {
-    this.graphSchema.edge.properties =
-      this.graphSchema.edge.properties.filter(p => p !== column);
+    this.edgeDraft.properties =
+      this.edgeDraft.properties.filter(p => p !== column);
+  }
+
+  addNodeType() {
+    if (!this.nodeDraft.idColumn || !this.nodeDraft.label) {
+      alert('Node requires ID column and label');
+      return;
+    }
+
+    this.nodeTypes.push({ ...this.nodeDraft });
+    this.nodeDraft = this.emptyNodeDraft();
+  }
+
+  addEdgeType() {
+    if (
+      !this.edgeDraft.startIdColumn ||
+      !this.edgeDraft.endIdColumn ||
+      !this.edgeDraft.label
+    ) {
+      alert('Edge requires start ID, end ID and label');
+      return;
+    }
+
+    this.edgeTypes.push({ ...this.edgeDraft });
+    this.edgeDraft = this.emptyEdgeDraft();
   }
 
 }
