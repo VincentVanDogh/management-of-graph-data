@@ -1,4 +1,6 @@
-from fastapi import FastAPI, Depends, UploadFile, HTTPException
+from typing import List
+
+from fastapi import FastAPI, Depends, UploadFile, HTTPException, Form
 from neo4j import GraphDatabase
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
@@ -91,3 +93,35 @@ def delete_dataset(
     if not deleted:
         raise HTTPException(status_code=404, detail="Dataset not found")
     return {"deleted": dataset_id}
+
+@app.get("/datasets/{dataset_id}/content")
+def get_dataset_content(
+    dataset_id: int,
+    limit: int = 100,
+    db: Session = Depends(get_db),
+    service: DatasetService = Depends(get_dataset_service)
+):
+    return service.get_csv_content(db, dataset_id, limit)
+
+@app.post("/schema_datasets")
+async def upload_dataset(
+    files: List[UploadFile] = File(...),
+    schema: str = Form(...)
+):
+    schema_dict = json.loads(schema)
+
+    # Inspect incoming data
+    print("Schema:", schema_dict)
+    print("Files:", [f.filename for f in files])
+
+    # TODO:
+    # - store files
+    # - store schema in MongoDB
+    # - link CSV filenames to schema entries
+    # - upload schema on Neo4j
+
+    return {
+        "message": "Dataset uploaded successfully",
+        "files": [f.filename for f in files],
+        "schema": schema_dict
+    }

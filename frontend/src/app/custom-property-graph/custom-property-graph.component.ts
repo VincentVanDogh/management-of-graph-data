@@ -23,22 +23,7 @@ export class CustomPropertyGraphComponent implements OnInit {
   elements: CytoscapeElement[] = [];
   pastQueries: string[] = [];
 
-  // selectedFiles: File[] = [];
   selectedFiles: CsvFilePreview[] = [];
-
-  graphSchema: GraphSchema = {
-    node: {
-      idColumn: null,
-      label: '',
-      properties: []
-    },
-    edge: {
-      startIdColumn: null,
-      endIdColumn: null,
-      label: '',
-      properties: []
-    }
-  };
 
   emptyNodeDraft(): NodeTypeSchema {
     return {
@@ -61,7 +46,7 @@ export class CustomPropertyGraphComponent implements OnInit {
   nodeDraft: NodeTypeSchema = this.emptyNodeDraft();
   edgeDraft: EdgeTypeSchema = this.emptyEdgeDraft();
 
-// Saved schemas
+  // Saved schemas
   nodeTypes: NodeTypeSchema[] = [];
   edgeTypes: EdgeTypeSchema[] = [];
 
@@ -227,35 +212,6 @@ export class CustomPropertyGraphComponent implements OnInit {
     });
   }
 
-  validateSchema(): string[] {
-    const errors: string[] = [];
-
-    if (!this.graphSchema.node.idColumn) {
-      errors.push('Node ID must be selected');
-    }
-
-    if (!this.graphSchema.node.label.trim()) {
-      errors.push('Node label is required');
-    }
-
-    if (
-      this.graphSchema.edge.startIdColumn &&
-      !this.graphSchema.edge.endIdColumn
-    ) {
-      errors.push('Edge start requires edge end');
-    }
-
-    if (
-      this.graphSchema.edge.startIdColumn &&
-      !this.graphSchema.edge.label.trim()
-    ) {
-      errors.push('Edge label is required');
-    }
-
-    return errors;
-  }
-
-
 
   // Logic for uploading CSV-files to the backend:
   onFilesSelected(event: Event) {
@@ -300,30 +256,51 @@ export class CustomPropertyGraphComponent implements OnInit {
     this.selectedFiles.splice(index, 1);
   }
 
-  uploadFiles() {
-    const errors = this.validateSchema();
+  uploadFilesWithSchema() {
+    const schemaPayload = {
+      datasetName: 'Transport Dataset',
 
-    if (errors.length > 0) {
-      console.warn('Invalid schema', errors);
-      return;
-    }
+      nodeTypes: this.nodeTypes.map(n => ({
+        label: n.label,
+        idColumn: n.idColumn,
+        properties: n.properties
+      })),
+
+      edgeTypes: this.edgeTypes.map(e => ({
+        startIdColumn: e.startIdColumn,
+        endIdColumn: e.endIdColumn,
+        properties: e.properties,
+        label: e.label
+      }))
+    };
+
     const formData = new FormData();
 
-    // IMPORTANT: FastAPI expects key = "file"
+    // CSV files
     this.selectedFiles.forEach(item => {
-      formData.append('file', item.file, item.file.name);
+      formData.append('files', item.file, item.file.name);
     });
 
-    this.http.post('http://127.0.0.1:8000/upload', formData)
-      .subscribe({
-        next: (res) => {
-          console.log('Upload success:', res);
-        },
-        error: (err) => {
-          console.error('Upload failed:', err);
-        }
-      });
+    // Schema JSON
+    /*
+    formData.append(
+      'schema',
+      new Blob([JSON.stringify(schemaPayload)], { type: 'application/json' })
+    );
+     */
+    const schemaJson = JSON.stringify(schemaPayload);
+    formData.append('schema', schemaJson);
+
+
+    this.http.post(
+      'http://127.0.0.1:8000/schema_datasets',
+      formData
+    ).subscribe({
+      next: res => console.log('Upload success', formData),
+      error: err => console.error('Upload failed', formData)
+    });
   }
+
 
   get uniqueHeaders(): string[] {
     const headerSet = new Set<string>();
