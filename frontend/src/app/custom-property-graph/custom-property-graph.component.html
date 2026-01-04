@@ -57,6 +57,87 @@
   </table>
 </div>
 
+<h3>Node Definition</h3>
+
+<label>Node ID</label>
+<select [(ngModel)]="graphSchema.node.idColumn">
+  <option [ngValue]="null">-- select --</option>
+  <option *ngFor="let h of uniqueHeaders" [value]="h">
+    {{ h }}
+  </option>
+</select>
+
+<label>Node Label</label>
+<input type="text" [(ngModel)]="graphSchema.node.label" />
+
+<label>Node Properties</label>
+<select
+    #propertySelect
+    (change)="addNodeProperty(propertySelect.value)"
+>
+  <option value="" disabled selected>Select property</option>
+  <option *ngFor="let h of uniqueHeaders" [value]="h">
+    {{ h }}
+  </option>
+</select>
+
+<div class="chips">
+  <span *ngFor="let p of graphSchema.node.properties">
+    {{ p }}
+    <button (click)="removeNodeProperty(p)">✕</button>
+  </span>
+</div>
+
+<h3>Edge Schema</h3>
+
+<label>Edge start ID</label>
+<select
+    #edgeStartSelect
+    (change)="graphSchema.edge.startIdColumn = edgeStartSelect.value"
+>
+  <option value="" disabled selected>Select column</option>
+  <option *ngFor="let h of uniqueHeaders" [value]="h">
+    {{ h }}
+  </option>
+</select>
+
+<label>Edge end ID</label>
+<select
+    #edgeEndSelect
+    (change)="graphSchema.edge.endIdColumn = edgeEndSelect.value"
+>
+  <option value="" disabled selected>Select column</option>
+  <option *ngFor="let h of uniqueHeaders" [value]="h">
+    {{ h }}
+  </option>
+</select>
+
+<label>Edge label</label>
+<input
+  type="text"
+  [(ngModel)]="graphSchema.edge.label"
+  placeholder="e.g. CONNECTED_BY"
+/>
+
+<label>Edge properties</label>
+<select
+    #edgePropSelect
+    (change)="addEdgeProperty(edgePropSelect.value)"
+>
+  <option value="" disabled selected>Add property</option>
+  <option *ngFor="let h of uniqueHeaders" [value]="h">
+    {{ h }}
+  </option>
+</select>
+
+<div class="chips">
+  <span *ngFor="let p of graphSchema.edge.properties">
+    {{ p }}
+    <button (click)="removeEdgeProperty(p)">✕</button>
+  </span>
+</div>
+
+
 
 <div class="past-queries">
   <h3>Past Queries</h3>

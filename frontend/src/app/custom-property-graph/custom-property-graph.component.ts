@@ -6,6 +6,7 @@ import cytoscape, { Core } from 'cytoscape';
 import {CytoscapeElement, PropertyGraphRelation} from "../dtos/property_graph_relation";
 import {PropertyGraphService} from "../services/property-graph.service";
 import {HttpClient} from "@angular/common/http";
+import {GraphSchema} from "../dtos/graph-schema.model";
 
 @Component({
   selector: 'app-custom-property-graph',
@@ -24,6 +25,21 @@ export class CustomPropertyGraphComponent implements OnInit {
 
   // selectedFiles: File[] = [];
   selectedFiles: CsvFilePreview[] = [];
+
+  graphSchema: GraphSchema = {
+    node: {
+      idColumn: null,
+      label: '',
+      properties: []
+    },
+    edge: {
+      startIdColumn: null,
+      endIdColumn: null,
+      label: '',
+      properties: []
+    }
+  };
+
 
   constructor(private service: PropertyGraphService, private http: HttpClient) {
   }
@@ -186,6 +202,36 @@ export class CustomPropertyGraphComponent implements OnInit {
     });
   }
 
+  validateSchema(): string[] {
+    const errors: string[] = [];
+
+    if (!this.graphSchema.node.idColumn) {
+      errors.push('Node ID must be selected');
+    }
+
+    if (!this.graphSchema.node.label.trim()) {
+      errors.push('Node label is required');
+    }
+
+    if (
+      this.graphSchema.edge.startIdColumn &&
+      !this.graphSchema.edge.endIdColumn
+    ) {
+      errors.push('Edge start requires edge end');
+    }
+
+    if (
+      this.graphSchema.edge.startIdColumn &&
+      !this.graphSchema.edge.label.trim()
+    ) {
+      errors.push('Edge label is required');
+    }
+
+    return errors;
+  }
+
+
+
   // Logic for uploading CSV-files to the backend:
   onFilesSelected(event: Event) {
     const input = event.target as HTMLInputElement;
@@ -230,6 +276,12 @@ export class CustomPropertyGraphComponent implements OnInit {
   }
 
   uploadFiles() {
+    const errors = this.validateSchema();
+
+    if (errors.length > 0) {
+      console.warn('Invalid schema', errors);
+      return;
+    }
     const formData = new FormData();
 
     // IMPORTANT: FastAPI expects key = "file"
@@ -250,11 +302,37 @@ export class CustomPropertyGraphComponent implements OnInit {
 
   get uniqueHeaders(): string[] {
     const headerSet = new Set<string>();
-
-    this.selectedFiles.forEach(item => {
-      item.headers.forEach(h => headerSet.add(h));
-    });
-
+    this.selectedFiles.forEach(f =>
+      f.headers.forEach(h => headerSet.add(h))
+    );
     return Array.from(headerSet);
   }
+
+  addNodeProperty(header: string) {
+    if (
+      header &&
+      !this.graphSchema.node.properties.includes(header)
+    ) {
+      this.graphSchema.node.properties.push(header);
+    }
+  }
+
+  removeNodeProperty(header: string) {
+    this.graphSchema.node.properties =
+      this.graphSchema.node.properties.filter(h => h !== header);
+  }
+
+  addEdgeProperty(column: string) {
+    if (!column) return;
+
+    if (!this.graphSchema.edge.properties.includes(column)) {
+      this.graphSchema.edge.properties.push(column);
+    }
+  }
+
+  removeEdgeProperty(column: string) {
+    this.graphSchema.edge.properties =
+      this.graphSchema.edge.properties.filter(p => p !== column);
+  }
+
 }
