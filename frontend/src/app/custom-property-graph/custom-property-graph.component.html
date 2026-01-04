@@ -16,19 +16,20 @@
 
   <!-- Selected files list -->
   <ul *ngIf="selectedFiles.length > 0" class="file-list">
-    <li *ngFor="let file of selectedFiles; let i = index">
-      <span>
-        {{ file.name }} ({{ file.size | number }} bytes)
-      </span>
+    <li *ngFor="let item of selectedFiles; let i = index">
 
-      <!-- Remove button -->
-      <button
-        class="remove-btn"
-        (click)="removeFile(i)"
-        title="Remove file"
-      >
-        ✕
-      </button>
+      <div class="file-header">
+        <strong>{{ item.file.name }}</strong>
+        ({{ item.file.size | number }} bytes)
+
+        <button
+          class="remove-btn"
+          (click)="removeFile(i)"
+          title="Remove file"
+        >
+          ✕
+        </button>
+      </div>
     </li>
   </ul>
 
@@ -40,6 +41,22 @@
     Upload
   </button>
 </div>
+
+<!-- GLOBAL CSV HEADERS -->
+<div *ngIf="uniqueHeaders.length > 0" class="csv-headers-section">
+  <h3>Detected CSV Headers</h3>
+
+  <table class="csv-header-table">
+    <thead>
+    <tr>
+      <th *ngFor="let header of uniqueHeaders">
+        {{ header }}
+      </th>
+    </tr>
+    </thead>
+  </table>
+</div>
+
 
 <div class="past-queries">
   <h3>Past Queries</h3>

@@ -3,7 +3,7 @@ import cytoscape, { Core } from 'cytoscape';
 
 
 // TODO: Replace with a GET request
-import {CypherResultRecord, CytoscapeElement, PropertyGraphRelation} from "../dtos/property_graph_relation";
+import {CytoscapeElement, PropertyGraphRelation} from "../dtos/property_graph_relation";
 import {PropertyGraphService} from "../services/property-graph.service";
 import {HttpClient} from "@angular/common/http";
 
@@ -22,7 +22,8 @@ export class CustomPropertyGraphComponent implements OnInit {
   elements: CytoscapeElement[] = [];
   pastQueries: string[] = [];
 
-  selectedFiles: File[] = [];
+  // selectedFiles: File[] = [];
+  selectedFiles: CsvFilePreview[] = [];
 
   constructor(private service: PropertyGraphService, private http: HttpClient) {
   }
@@ -190,22 +191,39 @@ export class CustomPropertyGraphComponent implements OnInit {
     const input = event.target as HTMLInputElement;
     if (!input.files) return;
 
-    for (let i = 0; i < input.files.length; i++) {
-      const file = input.files[i];
+    Array.from(input.files).forEach(file => {
+      if (!file.name.toLowerCase().endsWith('.csv')) return;
 
-      // only CSV
-      if (!file.name.toLowerCase().endsWith('.csv')) continue;
+      // prevent duplicates
+      if (this.selectedFiles.some(f => f.file.name === file.name)) return;
 
-      // prevent duplicates (by filename)
-      const exists = this.selectedFiles.some(f => f.name === file.name);
-      if (!exists) {
-        this.selectedFiles.push(file);
-      }
-    }
+      const reader = new FileReader();
 
-    // reset input so same file can be re-selected later if removed
+      reader.onload = () => {
+        const text = reader.result as string;
+
+        // first row only
+        const firstLine = text.split(/\r?\n/)[0];
+
+        // delimiter detection
+        const delimiter = firstLine.includes(';') ? ';' : ',';
+
+        const headers = firstLine
+          .split(delimiter)
+          .map(h => h.trim());
+
+        this.selectedFiles.push({
+          file,
+          headers
+        });
+      };
+
+      reader.readAsText(file);
+    });
+
     input.value = '';
   }
+
 
   removeFile(index: number) {
     this.selectedFiles.splice(index, 1);
@@ -214,9 +232,9 @@ export class CustomPropertyGraphComponent implements OnInit {
   uploadFiles() {
     const formData = new FormData();
 
-    // IMPORTANT: key must be "file" to match FastAPI
-    this.selectedFiles.forEach(file => {
-      formData.append('file', file);
+    // IMPORTANT: FastAPI expects key = "file"
+    this.selectedFiles.forEach(item => {
+      formData.append('file', item.file, item.file.name);
     });
 
     this.http.post('http://127.0.0.1:8000/upload', formData)
@@ -230,5 +248,13 @@ export class CustomPropertyGraphComponent implements OnInit {
       });
   }
 
+  get uniqueHeaders(): string[] {
+    const headerSet = new Set<string>();
 
+    this.selectedFiles.forEach(item => {
+      item.headers.forEach(h => headerSet.add(h));
+    });
+
+    return Array.from(headerSet);
+  }
 }
