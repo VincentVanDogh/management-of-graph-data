@@ -8,12 +8,12 @@ from redis import Redis
 import time
 import json
 
-from service.property_graph_query import PropertyGraphQuery
+from src.service.property_graph_query import PropertyGraphQuery
 from fastapi import APIRouter, UploadFile, File, Depends
 from sqlalchemy.orm import Session
 
-from endpoint.dependencies import get_db, get_dataset_service
-from service.dataset_service import DatasetService
+from src.endpoint.dependencies import get_db, get_dataset_service
+from src.service.dataset_service import DatasetService
 
 app = FastAPI()
 
@@ -106,7 +106,8 @@ def get_dataset_content(
 @app.post("/schema_datasets")
 async def upload_dataset(
     files: List[UploadFile] = File(...),
-    schema: str = Form(...)
+    schema: str = Form(...),
+    mongodb_service: DatasetService = Depends(get_dataset_service)
 ):
     schema_dict = json.loads(schema)
 
@@ -114,14 +115,50 @@ async def upload_dataset(
     print("Schema:", schema_dict)
     print("Files:", [f.filename for f in files])
 
-    # TODO:
-    # - store files
-    # - store schema in MongoDB
-    # - link CSV filenames to schema entries
-    # - upload schema on Neo4j
+    dataset = await mongodb_service.create_dataset_with_schema(
+        dataset_name=schema_dict["datasetName"],
+        files=files,
+        schema=schema_dict
+    )
 
     return {
         "message": "Dataset uploaded successfully",
         "files": [f.filename for f in files],
         "schema": schema_dict
     }
+
+@app.get("/schema_datasets/by-name")
+def get_dataset_by_name(
+    name: str,
+    dataset_service: DatasetService = Depends(get_dataset_service)
+):
+    print(f"Searching for dataset by name: {name}")
+    dataset = dataset_service.get_dataset_by_name(name)
+    if not dataset:
+        raise HTTPException(status_code=404, detail="Dataset not found")
+    return dataset
+
+@app.get("/schema_datasets/{dataset_id}")
+def get_dataset(
+    dataset_id: str,
+    dataset_service = Depends(get_dataset_service)
+):
+    dataset = dataset_service.get_dataset(dataset_id)
+
+    if not dataset:
+        raise HTTPException(status_code=404, detail="Dataset not found")
+
+    return dataset
+
+@app.get("/schema_datasets")
+def get_all_datasets(
+    dataset_service = Depends(get_dataset_service)
+):
+    return dataset_service.get_all_datasets()
+
+@app.get("/schema_datasets/name/{name}")
+def get_dataset_by_name(
+    name: str,
+    dataset_service = Depends(get_dataset_service)
+):
+    return dataset_service.get_dataset_by_name(name)

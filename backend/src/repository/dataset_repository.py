@@ -1,19 +1,22 @@
-from sqlalchemy.orm import Session
-from models.dataset import Dataset
+from bson import ObjectId
+
 
 class DatasetRepository:
-    def create(self, db: Session, dataset: Dataset):
-        db.add(dataset)
-        db.commit()
-        db.refresh(dataset)
+    def __init__(self, db):
+        self.collection = db["datasets"]
+
+    def create(self, dataset: dict):
+        result = self.collection.insert_one(dataset)
+        dataset["_id"] = result.inserted_id
         return dataset
 
-    def find_all(self, db: Session):
-        return db.query(Dataset).all()
+    def find_by_id(self, dataset_id: str):
+        return self.collection.find_one({
+            "_id": ObjectId(dataset_id)
+        })
 
-    def find_by_id(self, db: Session, dataset_id: int):
-        return db.query(Dataset).filter(Dataset.id == dataset_id).first()
+    def find_all(self):
+        return list(self.collection.find())
 
-    def delete(self, db: Session, dataset: Dataset):
-        db.delete(dataset)
-        db.commit()
+    def find_by_name(self, name: str):
+        return self.collection.find_one({"name": name})
