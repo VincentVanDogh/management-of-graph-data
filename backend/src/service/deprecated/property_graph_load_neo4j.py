@@ -9,9 +9,9 @@ password = "mogm1234"
 
 # --- CSV files ---
 # nodes_file = "../datasets/outputs/actors-and-movies-dataset/nodes_small.csv"
-nodes_file = "../datasets/outputs/zurich-public-transport/small/nodes.csv"
+nodes_file = "../../datasets/outputs/zurich-public-transport/small/nodes.csv"
 # edges_file = "../datasets/outputs/actors-and-movies-dataset/edges_small.csv"
-edges_file = "../datasets/outputs/zurich-public-transport/small/edges.csv"
+edges_file = "../../datasets/outputs/zurich-public-transport/small/edges.csv"
 
 driver = GraphDatabase.driver(uri, auth=(user, password))
 

@@ -1,3 +1,4 @@
+from database.neo4j import Neo4jService
 from src.database.mongo import db
 
 from src.database.database import SessionLocal
@@ -23,3 +24,14 @@ def get_db():
         yield db
     finally:
         db.close()
+
+def get_neo4j():
+    neo = Neo4jService(
+        uri="bolt://localhost:7687",
+        user="neo4j",
+        password="password"
+    )
+    try:
+        yield neo
+    finally:
+        neo.close()

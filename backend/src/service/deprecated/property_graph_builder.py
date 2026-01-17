@@ -5,8 +5,8 @@ from pathlib import Path
 
 from config.zurich_public_transport_config import ZURICH_PUBLIC_TRANSPORT_CONFIG
 
-DATA_DIR = Path("../datasets/inputs/zurich-public-transport/filtered")
-OUT_DIR = Path("../datasets/outputs/zurich-public-transport/small")
+DATA_DIR = Path("../../datasets/inputs/zurich-public-transport/filtered")
+OUT_DIR = Path("../../datasets/outputs/zurich-public-transport/small")
 OUT_DIR.mkdir(exist_ok=True)
 
 MAX_EDGES = 14000

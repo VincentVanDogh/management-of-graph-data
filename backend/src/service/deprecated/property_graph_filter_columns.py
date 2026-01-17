@@ -2,7 +2,7 @@ import pandas as pd
 from pathlib import Path
 
 # Paths
-DATA_DIR = Path("../datasets/inputs/zurich-public-transport")
+DATA_DIR = Path("../../datasets/inputs/zurich-public-transport")
 INPUT_FILES = ["fahrzeitensollist1.csv", "fahrzeitensollist2.csv"]
 
 OUTPUT_DIR = DATA_DIR / "filtered"

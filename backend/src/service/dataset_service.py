@@ -29,20 +29,24 @@ class DatasetService:
         files: List[UploadFile],
         schema: dict
     ):
-        # 1️⃣ Create dataset
+        dataset_id = str(uuid.uuid4())
+        dataset_dir = f"./data/{dataset_id}"
+
         dataset = self.dataset_repo.create({
+            "_id": dataset_id,  # optional – only if you want string IDs
             "name": dataset_name,
             "created_at": datetime.utcnow(),
-            "status": "UPLOADED"
+            "status": "UPLOADED",
+            "storage_path": dataset_dir
         })
 
         dataset_id = dataset["_id"]
 
-        # 2️⃣ Persist node & edge schemas
+        # 2. Persist node & edge schemas
         self.schema_repo.save_node_types(dataset_id, schema["nodeTypes"])
         self.schema_repo.save_edge_types(dataset_id, schema["edgeTypes"])
 
-        # 3️⃣ Store CSV files + metadata
+        # 3. Store CSV files + metadata
         for file in files:
             await self._store_csv_file(dataset_id, file)
 

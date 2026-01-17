@@ -1,18 +1,18 @@
 from typing import List
 
-from fastapi import FastAPI, Depends, UploadFile, HTTPException, Form
+from fastapi import FastAPI, HTTPException, Form
 from neo4j import GraphDatabase
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from redis import Redis
-import time
 import json
 
-from src.service.property_graph_query import PropertyGraphQuery
-from fastapi import APIRouter, UploadFile, File, Depends
+from service.deprecated.property_graph_query import PropertyGraphQuery
+from fastapi import UploadFile, File, Depends
 from sqlalchemy.orm import Session
 
-from src.endpoint.dependencies import get_db, get_dataset_service
+from service.graph_pipeline import GraphPipeline
+from src.endpoint.dependencies import get_db, get_dataset_service, get_neo4j
 from src.service.dataset_service import DatasetService
 
 app = FastAPI()
@@ -162,3 +162,26 @@ def get_dataset_by_name(
     dataset_service = Depends(get_dataset_service)
 ):
     return dataset_service.get_dataset_by_name(name)
+
+@app.post("/datasets/{dataset_id}/build-graph")
+def build_graph(
+    dataset_id: str,
+    dataset_service = Depends(get_dataset_service),
+    neo4j = Depends(get_neo4j)
+):
+    dataset = dataset_service.get_dataset(dataset_id)
+
+    if not dataset:
+        raise HTTPException(status_code=404, detail="Dataset not found")
+
+    schema = {
+        "nodeTypes": dataset["nodeTypes"],
+        "edgeTypes": dataset["edgeTypes"]
+    }
+
+    dataset_dir = dataset["csvFiles"]
+
+    pipeline = GraphPipeline(neo4j)
+    pipeline.build_graph(dataset_dir, schema)
+
+    return {"status": "Graph created successfully"}
