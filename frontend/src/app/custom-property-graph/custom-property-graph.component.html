@@ -57,12 +57,32 @@
   </table>
 </div>
 
+<div class="dataset-section">
+  <h3>Dataset Information</h3>
+  <label for="datasetName">Dataset Name:</label>
+  <input
+    id="datasetName"
+    type="text"
+    [(ngModel)]="datasetName"
+    placeholder="Enter dataset name"
+  />
+</div>
+
+<hr />
+
 <!-- NODES AND EDGES -->
 <h3>Define Node Type</h3>
 
-<select #nodeId (change)="nodeDraft.idColumn = nodeId.value">
+<!-- Select CSV file for nodes -->
+<select #nodeCsvFile (change)="onNodeCsvFileSelected(nodeCsvFile.value)">
+  <option value="" disabled selected>Select CSV file for nodes</option>
+  <option *ngFor="let file of selectedFiles" [value]="file.file.name">{{ file.file.name }}</option>
+</select>
+
+<!-- Then select node ID column from selected CSV -->
+<select #nodeId (change)="nodeDraft.idColumn = nodeId.value" [disabled]="!nodeCsvFileSelected">
   <option value="" disabled selected>Node ID column</option>
-  <option *ngFor="let h of uniqueHeaders" [value]="h">{{ h }}</option>
+  <option *ngFor="let h of nodeCsvHeaders" [value]="h">{{ h }}</option>
 </select>
 
 <input
@@ -71,9 +91,9 @@
   [(ngModel)]="nodeDraft.label"
 />
 
-<select #nodeProp (change)="addNodeProperty(nodeProp.value)">
+<select #nodeProp (change)="addNodeProperty(nodeProp.value)" [disabled]="!nodeCsvFileSelected">
   <option value="" disabled selected>Add property</option>
-  <option *ngFor="let h of uniqueHeaders" [value]="h">{{ h }}</option>
+  <option *ngFor="let h of nodeCsvHeaders" [value]="h">{{ h }}</option>
 </select>
 
 <div class="chips">
@@ -85,16 +105,25 @@
 
 <button (click)="addNodeType()">➕ Add Node Type</button>
 
+<hr />
+
 <h3>Define Edge Type</h3>
 
-<select #startId (change)="edgeDraft.startIdColumn = startId.value">
-  <option value="" disabled selected>Start ID column</option>
-  <option *ngFor="let h of uniqueHeaders" [value]="h">{{ h }}</option>
+<!-- Select CSV file for edges -->
+<select #edgeCsvFile (change)="onEdgeCsvFileSelected(edgeCsvFile.value)">
+  <option value="" disabled selected>Select CSV file for edges</option>
+  <option *ngFor="let file of selectedFiles" [value]="file.file.name">{{ file.file.name }}</option>
 </select>
 
-<select #endId (change)="edgeDraft.endIdColumn = endId.value">
+<!-- Then select edge start and end id columns -->
+<select #startId (change)="edgeDraft.startIdColumn = startId.value" [disabled]="!edgeCsvFileSelected">
+  <option value="" disabled selected>Start ID column</option>
+  <option *ngFor="let h of edgeCsvHeaders" [value]="h">{{ h }}</option>
+</select>
+
+<select #endId (change)="edgeDraft.endIdColumn = endId.value" [disabled]="!edgeCsvFileSelected">
   <option value="" disabled selected>End ID column</option>
-  <option *ngFor="let h of uniqueHeaders" [value]="h">{{ h }}</option>
+  <option *ngFor="let h of edgeCsvHeaders" [value]="h">{{ h }}</option>
 </select>
 
 <input
@@ -103,9 +132,9 @@
   [(ngModel)]="edgeDraft.label"
 />
 
-<select #edgeProp (change)="addEdgeProperty(edgeProp.value)">
+<select #edgeProp (change)="addEdgeProperty(edgeProp.value)" [disabled]="!edgeCsvFileSelected">
   <option value="" disabled selected>Add property</option>
-  <option *ngFor="let h of uniqueHeaders" [value]="h">{{ h }}</option>
+  <option *ngFor="let h of edgeCsvHeaders" [value]="h">{{ h }}</option>
 </select>
 
 <div class="chips">
@@ -116,6 +145,7 @@
 </div>
 
 <button (click)="addEdgeType()">➕ Add Edge Type</button>
+
 <!-- END OF NODE AND EDGES -->
 
 <h3>Node Types</h3>

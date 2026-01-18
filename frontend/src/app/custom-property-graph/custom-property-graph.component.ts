@@ -25,11 +25,14 @@ export class CustomPropertyGraphComponent implements OnInit {
 
   selectedFiles: CsvFilePreview[] = [];
 
+  datasetName: string = '';
+
   emptyNodeDraft(): NodeTypeSchema {
     return {
       idColumn: '',
       label: '',
-      properties: []
+      properties: [],
+      csvFileName: ""
     };
   }
 
@@ -38,7 +41,8 @@ export class CustomPropertyGraphComponent implements OnInit {
       startIdColumn: '',
       endIdColumn: '',
       label: '',
-      properties: []
+      properties: [],
+      csvFileName: ""
     };
   }
 
@@ -258,19 +262,21 @@ export class CustomPropertyGraphComponent implements OnInit {
 
   uploadFilesWithSchema() {
     const schemaPayload = {
-      datasetName: 'Transport Dataset',
+      datasetName: this.datasetName,
 
       nodeTypes: this.nodeTypes.map(n => ({
         label: n.label,
         idColumn: n.idColumn,
-        properties: n.properties
+        properties: n.properties,
+        csvFileName: n.csvFileName
       })),
 
       edgeTypes: this.edgeTypes.map(e => ({
         startIdColumn: e.startIdColumn,
         endIdColumn: e.endIdColumn,
         properties: e.properties,
-        label: e.label
+        label: e.label,
+        csvFileName: e.csvFileName
       }))
     };
 
@@ -302,6 +308,86 @@ export class CustomPropertyGraphComponent implements OnInit {
   }
 
 
+  // Track which CSV file is selected for node and edge
+  nodeCsvFileSelected: string | null = null;
+  edgeCsvFileSelected: string | null = null;
+
+  // Headers for the selected CSV files
+  nodeCsvHeaders: string[] = [];
+  edgeCsvHeaders: string[] = []
+
+  // Call this on node CSV file selection change
+  onNodeCsvFileSelected(fileName: string) {
+    this.nodeCsvFileSelected = fileName;
+    const file = this.selectedFiles.find(f => f.file.name === fileName);
+    this.nodeCsvHeaders = file ? file.headers : [];
+
+    // Reset nodeDraft columns to avoid stale data
+    this.nodeDraft.idColumn = '';
+    this.nodeDraft.properties = [];
+  }
+
+  // Call this on edge CSV file selection change
+  onEdgeCsvFileSelected(fileName: string) {
+    this.edgeCsvFileSelected = fileName;
+    const file = this.selectedFiles.find(f => f.file.name === fileName);
+    this.edgeCsvHeaders = file ? file.headers : [];
+
+    // Reset edgeDraft columns to avoid stale data
+    this.edgeDraft.startIdColumn = '';
+    this.edgeDraft.endIdColumn = '';
+    this.edgeDraft.properties = [];
+  }
+
+  addNodeType() {
+    if (!this.nodeCsvFileSelected) {
+      alert('Please select a CSV file for the node type');
+      return;
+    }
+    if (!this.nodeDraft.idColumn || !this.nodeDraft.label) {
+      alert('Node requires ID column and label');
+      return;
+    }
+
+    this.nodeTypes.push({
+      csvFileName: this.nodeCsvFileSelected,
+      label: this.nodeDraft.label,
+      idColumn: this.nodeDraft.idColumn,
+      properties: this.nodeDraft.properties
+    });
+
+    this.nodeDraft = this.emptyNodeDraft();
+    this.nodeCsvFileSelected = null;
+    this.nodeCsvHeaders = [];
+  }
+
+  addEdgeType() {
+    if (!this.edgeCsvFileSelected) {
+      alert('Please select a CSV file for the edge type');
+      return;
+    }
+    if (
+      !this.edgeDraft.startIdColumn ||
+      !this.edgeDraft.endIdColumn ||
+      !this.edgeDraft.label
+    ) {
+      alert('Edge requires start ID, end ID and label');
+      return;
+    }
+
+    this.edgeTypes.push({
+      csvFileName: this.edgeCsvFileSelected,
+      label: this.edgeDraft.label,
+      startIdColumn: this.edgeDraft.startIdColumn,
+      endIdColumn: this.edgeDraft.endIdColumn,
+      properties: this.edgeDraft.properties
+    });
+
+    this.edgeDraft = this.emptyEdgeDraft();
+    this.edgeCsvFileSelected = null;
+    this.edgeCsvHeaders = [];
+  }
+
   get uniqueHeaders(): string[] {
     const headerSet = new Set<string>();
     this.selectedFiles.forEach(f =>
@@ -332,30 +418,6 @@ export class CustomPropertyGraphComponent implements OnInit {
   removeEdgeProperty(column: string) {
     this.edgeDraft.properties =
       this.edgeDraft.properties.filter(p => p !== column);
-  }
-
-  addNodeType() {
-    if (!this.nodeDraft.idColumn || !this.nodeDraft.label) {
-      alert('Node requires ID column and label');
-      return;
-    }
-
-    this.nodeTypes.push({ ...this.nodeDraft });
-    this.nodeDraft = this.emptyNodeDraft();
-  }
-
-  addEdgeType() {
-    if (
-      !this.edgeDraft.startIdColumn ||
-      !this.edgeDraft.endIdColumn ||
-      !this.edgeDraft.label
-    ) {
-      alert('Edge requires start ID, end ID and label');
-      return;
-    }
-
-    this.edgeTypes.push({ ...this.edgeDraft });
-    this.edgeDraft = this.emptyEdgeDraft();
   }
 
 }

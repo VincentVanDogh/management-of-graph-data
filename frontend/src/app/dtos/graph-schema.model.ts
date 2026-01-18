@@ -2,6 +2,7 @@ export interface NodeTypeSchema  {
   idColumn: string | null;
   label: string;
   properties: string[];
+  csvFileName: string;
 }
 
 export interface EdgeTypeSchema  {
@@ -9,6 +10,7 @@ export interface EdgeTypeSchema  {
   endIdColumn: string | null;
   label: string;
   properties: string[];
+  csvFileName: string;
 }
 
 export interface GraphSchema {
