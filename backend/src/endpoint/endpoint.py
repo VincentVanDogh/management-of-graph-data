@@ -9,12 +9,11 @@ from pydantic import BaseModel
 from redis import Redis
 import json
 
-from service.deprecated.property_graph_query import PropertyGraphQuery
 from fastapi import UploadFile, File, Depends
-from sqlalchemy.orm import Session
 
 from service.graph_pipeline import GraphPipeline
-from src.endpoint.dependencies import get_db, get_dataset_service, get_neo4j
+from service.property_graph_query import PropertyGraphQuery
+from src.endpoint.dependencies import get_dataset_service, get_neo4j
 from src.service.dataset_service import DatasetService
 
 app = FastAPI()
@@ -44,7 +43,7 @@ def get_property_graph_query():
     finally:
         pass  # Could do cleanup here if needed
 
-# TODO: Change it to a GET-request, where the "MATCH ..." request is paramt, not in the JSON body
+# TODO: Change it to a GET-request, where the "MATCH ..." request is param, not in the JSON body
 @app.post("/cypher")
 def run_cypher(
     request: QueryRequest,
@@ -70,40 +69,6 @@ def clear_queries():
 def shutdown_event():
     driver.close()
 
-@app.post("/upload")
-def upload_dataset(
-    file: UploadFile = File(...),
-    db: Session = Depends(get_db),
-    service: DatasetService = Depends(get_dataset_service)
-):
-    return service.upload(db, file)
-
-@app.get("/csv-list")
-def list_datasets(
-    db: Session = Depends(get_db),
-    service: DatasetService = Depends(get_dataset_service)
-):
-    return service.list_all(db)
-
-@app.delete("/{dataset_id}")
-def delete_dataset(
-    dataset_id: int,
-    db: Session = Depends(get_db),
-    service: DatasetService = Depends(get_dataset_service)
-):
-    deleted = service.delete(db, dataset_id)
-    if not deleted:
-        raise HTTPException(status_code=404, detail="Dataset not found")
-    return {"deleted": dataset_id}
-
-@app.get("/datasets/{dataset_id}/content")
-def get_dataset_content(
-    dataset_id: int,
-    limit: int = 100,
-    db: Session = Depends(get_db),
-    service: DatasetService = Depends(get_dataset_service)
-):
-    return service.get_csv_content(db, dataset_id, limit)
 
 @app.post("/schema_datasets")
 async def upload_dataset(

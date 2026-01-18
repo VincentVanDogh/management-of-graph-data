@@ -1,7 +1,6 @@
 from database.neo4j import Neo4jService
 from src.database.mongo import db
 
-from src.database.database import SessionLocal
 from src.repository.dataset_repository import DatasetRepository
 from src.repository.csv_repository import CsvRepository
 from src.repository.schema_repository import SchemaRepository
@@ -17,13 +16,6 @@ def get_dataset_service() -> DatasetService:
         csv_repo=csv_repo,
         schema_repo=schema_repo
     )
-
-def get_db():
-    db = SessionLocal()
-    try:
-        yield db
-    finally:
-        db.close()
 
 def get_neo4j():
     neo = Neo4jService(
