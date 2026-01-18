@@ -1,6 +1,7 @@
 import csv
 from typing import List
 
+from pathlib import Path
 from fastapi import FastAPI, HTTPException, Form
 from neo4j import GraphDatabase
 from fastapi.middleware.cors import CORSMiddleware
@@ -108,11 +109,12 @@ def get_dataset_content(
 async def upload_dataset(
     files: List[UploadFile] = File(...),
     schema: str = Form(...),
-    mongodb_service: DatasetService = Depends(get_dataset_service)
+    mongodb_service: DatasetService = Depends(get_dataset_service),
+    dataset_service=Depends(get_dataset_service),
+    neo4j = Depends(get_neo4j),
 ):
     schema_dict = json.loads(schema)
 
-    # Inspect incoming data
     print("Schema:", schema_dict)
     print("Files:", [f.filename for f in files])
 
@@ -122,8 +124,30 @@ async def upload_dataset(
         schema=schema_dict
     )
 
+    dataset_id = str(dataset["_id"])  # Assuming dataset has an "id" field after creation
+
+    dataset = dataset_service.get_dataset(dataset_id)
+
+    schema_for_build = {
+        "nodeTypes": dataset.get("nodeTypes", []),
+        "edgeTypes": dataset.get("edgeTypes", [])
+    }
+    csv_files = dataset.get("csvFiles", [])
+    if not csv_files:
+        raise HTTPException(status_code=400, detail="No CSV files found")
+
+    csv_path_map = {
+        f["filename"]: str(Path(f["stored_path"]).resolve())
+        for f in csv_files
+    }
+
+    pipeline = GraphPipeline(neo4j)
+
+    pipeline.build_graph(csv_path_map, schema_for_build)
+    mongodb_service.mark_graph_built(dataset_id)
+
     return {
-        "message": "Dataset uploaded successfully",
+        "message": "Dataset uploaded and graph creation started successfully",
         "files": [f.filename for f in files],
         "schema": schema_dict
     }
@@ -163,45 +187,6 @@ def get_dataset_by_name(
     dataset_service = Depends(get_dataset_service)
 ):
     return dataset_service.get_dataset_by_name(name)
-
-
-from pathlib import Path
-
-@app.post("/datasets/{dataset_id}/build-graph")
-def build_graph(
-    dataset_id: str,
-    dataset_service = Depends(get_dataset_service),
-    neo4j = Depends(get_neo4j)
-):
-    dataset = dataset_service.get_dataset(dataset_id)
-    if not dataset:
-        raise HTTPException(status_code=404, detail="Dataset not found")
-    print(dataset)
-
-    schema = {
-        "nodeTypes": dataset.get("nodeTypes", []),
-        "edgeTypes": dataset.get("edgeTypes", [])
-    }
-
-    csv_files = dataset.get("csvFiles", [])
-    if not csv_files:
-        raise HTTPException(status_code=400, detail="No CSV files found")
-
-    # Build filename: absolute path map
-    csv_path_map = {
-        f["filename"]: str(Path(f["stored_path"]).resolve())
-        for f in csv_files
-    }
-
-    print("CSV PATH MAP:", csv_path_map)
-
-    pipeline = GraphPipeline(neo4j)
-    pipeline.build_graph(csv_path_map, schema)
-
-    dataset_service.mark_graph_built(dataset_id)
-
-    return {"status": "Graph created successfully"}
-
 
 
 @app.delete("/admin/datasets")
