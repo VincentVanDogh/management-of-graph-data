@@ -1,0 +1,5401 @@
+{
+  "nodes": [
+    {
+      "id": "http://example.org/zurich/station/1010",
+      "label": "1010"
+    },
+    {
+      "id": "Z\u00fcrich, Schaufelbergerstrasse",
+      "label": "Z\u00fcrich, Schaufelbergerstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/1270",
+      "label": "1270"
+    },
+    {
+      "id": "Z\u00fcrich, Triemli",
+      "label": "Z\u00fcrich, Triemli"
+    },
+    {
+      "id": "http://example.org/zurich/station/1305",
+      "label": "1305"
+    },
+    {
+      "id": "Z\u00fcrich, Kunsthaus",
+      "label": "Z\u00fcrich, Kunsthaus"
+    },
+    {
+      "id": "http://example.org/zurich/station/1306",
+      "label": "1306"
+    },
+    {
+      "id": "Z\u00fcrich, Bezirksgeb\u00e4ude",
+      "label": "Z\u00fcrich, Bezirksgeb\u00e4ude"
+    },
+    {
+      "id": "http://example.org/zurich/station/1308",
+      "label": "1308"
+    },
+    {
+      "id": "Z\u00fcrich, ETH/Universit\u00e4tsspital",
+      "label": "Z\u00fcrich, ETH/Universit\u00e4tsspital"
+    },
+    {
+      "id": "http://example.org/zurich/station/1309",
+      "label": "1309"
+    },
+    {
+      "id": "Z\u00fcrich, Bucheggplatz",
+      "label": "Z\u00fcrich, Bucheggplatz"
+    },
+    {
+      "id": "http://example.org/zurich/station/1310",
+      "label": "1310"
+    },
+    {
+      "id": "Z\u00fcrich, Farbhof",
+      "label": "Z\u00fcrich, Farbhof"
+    },
+    {
+      "id": "http://example.org/zurich/station/1311",
+      "label": "1311"
+    },
+    {
+      "id": "Z\u00fcrich, Sternen Oerlikon",
+      "label": "Z\u00fcrich, Sternen Oerlikon"
+    },
+    {
+      "id": "http://example.org/zurich/station/1362",
+      "label": "1362"
+    },
+    {
+      "id": "Z\u00fcrich, Im Ebnet",
+      "label": "Z\u00fcrich, Im Ebnet"
+    },
+    {
+      "id": "http://example.org/zurich/station/1393",
+      "label": "1393"
+    },
+    {
+      "id": "Z\u00fcrich, Sch\u00fcrgistrasse",
+      "label": "Z\u00fcrich, Sch\u00fcrgistrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/1406",
+      "label": "1406"
+    },
+    {
+      "id": "Z\u00fcrich, H\u00f6lderlinstrasse",
+      "label": "Z\u00fcrich, H\u00f6lderlinstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/1443",
+      "label": "1443"
+    },
+    {
+      "id": "Z\u00fcrich, Leutschenbach",
+      "label": "Z\u00fcrich, Leutschenbach"
+    },
+    {
+      "id": "http://example.org/zurich/station/1454",
+      "label": "1454"
+    },
+    {
+      "id": "Z\u00fcrich, Heizenholz",
+      "label": "Z\u00fcrich, Heizenholz"
+    },
+    {
+      "id": "http://example.org/zurich/station/1499",
+      "label": "1499"
+    },
+    {
+      "id": "Z\u00fcrich, Neub\u00fchl",
+      "label": "Z\u00fcrich, Neub\u00fchl"
+    },
+    {
+      "id": "http://example.org/zurich/station/1500",
+      "label": "1500"
+    },
+    {
+      "id": "Z\u00fcrich, Bahnhof Leimbach",
+      "label": "Z\u00fcrich, Bahnhof Leimbach"
+    },
+    {
+      "id": "http://example.org/zurich/station/1501",
+      "label": "1501"
+    },
+    {
+      "id": "Z\u00fcrich, Schwamendingerplatz",
+      "label": "Z\u00fcrich, Schwamendingerplatz"
+    },
+    {
+      "id": "http://example.org/zurich/station/1502",
+      "label": "1502"
+    },
+    {
+      "id": "Z\u00fcrich, Stauffacher",
+      "label": "Z\u00fcrich, Stauffacher"
+    },
+    {
+      "id": "http://example.org/zurich/station/1503",
+      "label": "1503"
+    },
+    {
+      "id": "Z\u00fcrich, Kienastenwies",
+      "label": "Z\u00fcrich, Kienastenwies"
+    },
+    {
+      "id": "http://example.org/zurich/station/1504",
+      "label": "1504"
+    },
+    {
+      "id": "Z\u00fcrich, Milchbuck",
+      "label": "Z\u00fcrich, Milchbuck"
+    },
+    {
+      "id": "http://example.org/zurich/station/1511",
+      "label": "1511"
+    },
+    {
+      "id": "Z\u00fcrich, Morgental",
+      "label": "Z\u00fcrich, Morgental"
+    },
+    {
+      "id": "http://example.org/zurich/station/1523",
+      "label": "1523"
+    },
+    {
+      "id": "Z\u00fcrich, L\u00e4gernstrasse",
+      "label": "Z\u00fcrich, L\u00e4gernstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/1525",
+      "label": "1525"
+    },
+    {
+      "id": "Z\u00fcrich, Radiostudio",
+      "label": "Z\u00fcrich, Radiostudio"
+    },
+    {
+      "id": "http://example.org/zurich/station/1528",
+      "label": "1528"
+    },
+    {
+      "id": "Z\u00fcrich, Paradeplatz",
+      "label": "Z\u00fcrich, Paradeplatz"
+    },
+    {
+      "id": "http://example.org/zurich/station/1531",
+      "label": "1531"
+    },
+    {
+      "id": "Z\u00fcrich, R\u00f6merhof",
+      "label": "Z\u00fcrich, R\u00f6merhof"
+    },
+    {
+      "id": "http://example.org/zurich/station/1532",
+      "label": "1532"
+    },
+    {
+      "id": "Z\u00fcrich, Hirschwiesenstrasse",
+      "label": "Z\u00fcrich, Hirschwiesenstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/1534",
+      "label": "1534"
+    },
+    {
+      "id": "Z\u00fcrich, Werd",
+      "label": "Z\u00fcrich, Werd"
+    },
+    {
+      "id": "http://example.org/zurich/station/1535",
+      "label": "1535"
+    },
+    {
+      "id": "Z\u00fcrich, Albisriederplatz",
+      "label": "Z\u00fcrich, Albisriederplatz"
+    },
+    {
+      "id": "http://example.org/zurich/station/1539",
+      "label": "1539"
+    },
+    {
+      "id": "Z\u00fcrich, Schaffhauserplatz",
+      "label": "Z\u00fcrich, Schaffhauserplatz"
+    },
+    {
+      "id": "http://example.org/zurich/station/1541",
+      "label": "1541"
+    },
+    {
+      "id": "Z\u00fcrich, Bahnhofplatz/HB",
+      "label": "Z\u00fcrich, Bahnhofplatz/HB"
+    },
+    {
+      "id": "http://example.org/zurich/station/1542",
+      "label": "1542"
+    },
+    {
+      "id": "Z\u00fcrich, Bahnhofquai/HB",
+      "label": "Z\u00fcrich, Bahnhofquai/HB"
+    },
+    {
+      "id": "http://example.org/zurich/station/1543",
+      "label": "1543"
+    },
+    {
+      "id": "Z\u00fcrich, Universit\u00e4t Irchel",
+      "label": "Z\u00fcrich, Universit\u00e4t Irchel"
+    },
+    {
+      "id": "http://example.org/zurich/station/1557",
+      "label": "1557"
+    },
+    {
+      "id": "Z\u00fcrich, Bahnhof Wiedikon",
+      "label": "Z\u00fcrich, Bahnhof Wiedikon"
+    },
+    {
+      "id": "http://example.org/zurich/station/1565",
+      "label": "1565"
+    },
+    {
+      "id": "Z\u00fcrich, Bellevue",
+      "label": "Z\u00fcrich, Bellevue"
+    },
+    {
+      "id": "http://example.org/zurich/station/1571",
+      "label": "1571"
+    },
+    {
+      "id": "Z\u00fcrich, Frankental",
+      "label": "Z\u00fcrich, Frankental"
+    },
+    {
+      "id": "http://example.org/zurich/station/1574",
+      "label": "1574"
+    },
+    {
+      "id": "Z\u00fcrich, Escher-Wyss-Platz",
+      "label": "Z\u00fcrich, Escher-Wyss-Platz"
+    },
+    {
+      "id": "http://example.org/zurich/station/1580",
+      "label": "1580"
+    },
+    {
+      "id": "Z\u00fcrich, Altried",
+      "label": "Z\u00fcrich, Altried"
+    },
+    {
+      "id": "http://example.org/zurich/station/1596",
+      "label": "1596"
+    },
+    {
+      "id": "Z\u00fcrich, Seebach",
+      "label": "Z\u00fcrich, Seebach"
+    },
+    {
+      "id": "http://example.org/zurich/station/1598",
+      "label": "1598"
+    },
+    {
+      "id": "Z\u00fcrich, Hungerbergstrasse",
+      "label": "Z\u00fcrich, Hungerbergstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/1677",
+      "label": "1677"
+    },
+    {
+      "id": "Z\u00fcrich, Ausserdorfstrasse",
+      "label": "Z\u00fcrich, Ausserdorfstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/1741",
+      "label": "1741"
+    },
+    {
+      "id": "Z\u00fcrich, Mittelleimbach",
+      "label": "Z\u00fcrich, Mittelleimbach"
+    },
+    {
+      "id": "http://example.org/zurich/station/1773",
+      "label": "1773"
+    },
+    {
+      "id": "Z\u00fcrich, Triemlispital",
+      "label": "Z\u00fcrich, Triemlispital"
+    },
+    {
+      "id": "http://example.org/zurich/station/1797",
+      "label": "1797"
+    },
+    {
+      "id": "Z\u00fcrich, Birch-/Glatttalstrasse",
+      "label": "Z\u00fcrich, Birch-/Glatttalstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/1816",
+      "label": "1816"
+    },
+    {
+      "id": "Z\u00fcrich, Gessnerallee",
+      "label": "Z\u00fcrich, Gessnerallee"
+    },
+    {
+      "id": "http://example.org/zurich/station/1829",
+      "label": "1829"
+    },
+    {
+      "id": "Z\u00fcrich, Bahnhof Oerlikon",
+      "label": "Z\u00fcrich, Bahnhof Oerlikon"
+    },
+    {
+      "id": "http://example.org/zurich/station/1843",
+      "label": "1843"
+    },
+    {
+      "id": "Z\u00fcrich, Riedhofstrasse",
+      "label": "Z\u00fcrich, Riedhofstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/1845",
+      "label": "1845"
+    },
+    {
+      "id": "Z\u00fcrich, Zehntenhausplatz",
+      "label": "Z\u00fcrich, Zehntenhausplatz"
+    },
+    {
+      "id": "http://example.org/zurich/station/1846",
+      "label": "1846"
+    },
+    {
+      "id": "Z\u00fcrich, Aubr\u00fccke",
+      "label": "Z\u00fcrich, Aubr\u00fccke"
+    },
+    {
+      "id": "http://example.org/zurich/station/1851",
+      "label": "1851"
+    },
+    {
+      "id": "Z\u00fcrich, Sihlcity",
+      "label": "Z\u00fcrich, Sihlcity"
+    },
+    {
+      "id": "http://example.org/zurich/station/1852",
+      "label": "1852"
+    },
+    {
+      "id": "Z\u00fcrich, Bahnhof Enge/Bederstr.",
+      "label": "Z\u00fcrich, Bahnhof Enge/Bederstr."
+    },
+    {
+      "id": "http://example.org/zurich/station/1854",
+      "label": "1854"
+    },
+    {
+      "id": "Z\u00fcrich, Saalsporthalle",
+      "label": "Z\u00fcrich, Saalsporthalle"
+    },
+    {
+      "id": "http://example.org/zurich/station/1873",
+      "label": "1873"
+    },
+    {
+      "id": "Z\u00fcrich, Felsenrainstrasse",
+      "label": "Z\u00fcrich, Felsenrainstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/1874",
+      "label": "1874"
+    },
+    {
+      "id": "Z\u00fcrich, Bahnhof Affoltern",
+      "label": "Z\u00fcrich, Bahnhof Affoltern"
+    },
+    {
+      "id": "http://example.org/zurich/station/1884",
+      "label": "1884"
+    },
+    {
+      "id": "Z\u00fcrich, Messe/Hallenstadion",
+      "label": "Z\u00fcrich, Messe/Hallenstadion"
+    },
+    {
+      "id": "http://example.org/zurich/station/1885",
+      "label": "1885"
+    },
+    {
+      "id": "Z\u00fcrich, Bahnhof Oerlikon Nord",
+      "label": "Z\u00fcrich, Bahnhof Oerlikon Nord"
+    },
+    {
+      "id": "http://example.org/zurich/station/1890",
+      "label": "1890"
+    },
+    {
+      "id": "Z\u00fcrich, Neum\u00fchlequai",
+      "label": "Z\u00fcrich, Neum\u00fchlequai"
+    },
+    {
+      "id": "http://example.org/zurich/station/1893",
+      "label": "1893"
+    },
+    {
+      "id": "Z\u00fcrich, Bahnhof Enge",
+      "label": "Z\u00fcrich, Bahnhof Enge"
+    },
+    {
+      "id": "http://example.org/zurich/station/1895",
+      "label": "1895"
+    },
+    {
+      "id": "Z\u00fcrich, Bahnhofstrasse/HB",
+      "label": "Z\u00fcrich, Bahnhofstrasse/HB"
+    },
+    {
+      "id": "http://example.org/zurich/station/1905",
+      "label": "1905"
+    },
+    {
+      "id": "Z\u00fcrich, Klusplatz",
+      "label": "Z\u00fcrich, Klusplatz"
+    },
+    {
+      "id": "http://example.org/zurich/station/1906",
+      "label": "1906"
+    },
+    {
+      "id": "Z\u00fcrich,Kalkbreite/Bhf.Wiedikon",
+      "label": "Z\u00fcrich,Kalkbreite/Bhf.Wiedikon"
+    },
+    {
+      "id": "http://example.org/zurich/station/1907",
+      "label": "1907"
+    },
+    {
+      "id": "Z\u00fcrich, Manegg",
+      "label": "Z\u00fcrich, Manegg"
+    },
+    {
+      "id": "http://example.org/zurich/station/1908",
+      "label": "1908"
+    },
+    {
+      "id": "Z\u00fcrich, Heuried",
+      "label": "Z\u00fcrich, Heuried"
+    },
+    {
+      "id": "http://example.org/zurich/station/1916",
+      "label": "1916"
+    },
+    {
+      "id": "Z\u00fcrich, Ettenfeld",
+      "label": "Z\u00fcrich, Ettenfeld"
+    },
+    {
+      "id": "http://example.org/zurich/station/1919",
+      "label": "1919"
+    },
+    {
+      "id": "Z\u00fcrich, Bahnhof Oerlikon Ost",
+      "label": "Z\u00fcrich, Bahnhof Oerlikon Ost"
+    },
+    {
+      "id": "http://example.org/zurich/station/1928",
+      "label": "1928"
+    },
+    {
+      "id": "Z\u00fcrich, Fernsehstudio",
+      "label": "Z\u00fcrich, Fernsehstudio"
+    },
+    {
+      "id": "http://example.org/zurich/station/1934",
+      "label": "1934"
+    },
+    {
+      "id": "Z\u00fcrich, Seebacherplatz",
+      "label": "Z\u00fcrich, Seebacherplatz"
+    },
+    {
+      "id": "http://example.org/zurich/station/1938",
+      "label": "1938"
+    },
+    {
+      "id": "Z\u00fcrich, Central",
+      "label": "Z\u00fcrich, Central"
+    },
+    {
+      "id": "http://example.org/zurich/station/2022",
+      "label": "2022"
+    },
+    {
+      "id": "Z\u00fcrich, R\u00f6slistrasse",
+      "label": "Z\u00fcrich, R\u00f6slistrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2023",
+      "label": "2023"
+    },
+    {
+      "id": "Z\u00fcrich, Depot 2 Wollishofen",
+      "label": "Z\u00fcrich, Depot 2 Wollishofen"
+    },
+    {
+      "id": "http://example.org/zurich/station/2025",
+      "label": "2025"
+    },
+    {
+      "id": "Z\u00fcrich, Bhf Wollishofen (Tram)",
+      "label": "Z\u00fcrich, Bhf Wollishofen (Tram)"
+    },
+    {
+      "id": "http://example.org/zurich/station/2035",
+      "label": "2035"
+    },
+    {
+      "id": "Z\u00fcrich, Rennweg",
+      "label": "Z\u00fcrich, Rennweg"
+    },
+    {
+      "id": "http://example.org/zurich/station/2045",
+      "label": "2045"
+    },
+    {
+      "id": "Z\u00fcrich, Guggachstrasse",
+      "label": "Z\u00fcrich, Guggachstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2046",
+      "label": "2046"
+    },
+    {
+      "id": "Z\u00fcrich, Sch\u00f6rlistrasse",
+      "label": "Z\u00fcrich, Sch\u00f6rlistrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2047",
+      "label": "2047"
+    },
+    {
+      "id": "Z\u00fcrich, Sonneggstrasse",
+      "label": "Z\u00fcrich, Sonneggstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2052",
+      "label": "2052"
+    },
+    {
+      "id": "Z\u00fcrich, Glattwiesen",
+      "label": "Z\u00fcrich, Glattwiesen"
+    },
+    {
+      "id": "http://example.org/zurich/station/2060",
+      "label": "2060"
+    },
+    {
+      "id": "Z\u00fcrich, Schmiede Wiedikon",
+      "label": "Z\u00fcrich, Schmiede Wiedikon"
+    },
+    {
+      "id": "http://example.org/zurich/station/2081",
+      "label": "2081"
+    },
+    {
+      "id": "Z\u00fcrich, Depot 7 Irchel",
+      "label": "Z\u00fcrich, Depot 7 Irchel"
+    },
+    {
+      "id": "http://example.org/zurich/station/2083",
+      "label": "2083"
+    },
+    {
+      "id": "Z\u00fcrich, Auzelg",
+      "label": "Z\u00fcrich, Auzelg"
+    },
+    {
+      "id": "http://example.org/zurich/station/2084",
+      "label": "2084"
+    },
+    {
+      "id": "Z\u00fcrich, Kreuzplatz",
+      "label": "Z\u00fcrich, Kreuzplatz"
+    },
+    {
+      "id": "http://example.org/zurich/station/2085",
+      "label": "2085"
+    },
+    {
+      "id": "Z\u00fcrich, Laubiweg",
+      "label": "Z\u00fcrich, Laubiweg"
+    },
+    {
+      "id": "http://example.org/zurich/station/2086",
+      "label": "2086"
+    },
+    {
+      "id": "Z\u00fcrich, Beckenhof",
+      "label": "Z\u00fcrich, Beckenhof"
+    },
+    {
+      "id": "http://example.org/zurich/station/2087",
+      "label": "2087"
+    },
+    {
+      "id": "Z\u00fcrich, Kronenstrasse",
+      "label": "Z\u00fcrich, Kronenstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2088",
+      "label": "2088"
+    },
+    {
+      "id": "Z\u00fcrich, Stampfenbachplatz",
+      "label": "Z\u00fcrich, Stampfenbachplatz"
+    },
+    {
+      "id": "http://example.org/zurich/station/2089",
+      "label": "2089"
+    },
+    {
+      "id": "Z\u00fcrich, Regensbergbr\u00fccke",
+      "label": "Z\u00fcrich, Regensbergbr\u00fccke"
+    },
+    {
+      "id": "http://example.org/zurich/station/2090",
+      "label": "2090"
+    },
+    {
+      "id": "Z\u00fcrich, Bad Allenmoos",
+      "label": "Z\u00fcrich, Bad Allenmoos"
+    },
+    {
+      "id": "http://example.org/zurich/station/2092",
+      "label": "2092"
+    },
+    {
+      "id": "Z\u00fcrich, Rehalp",
+      "label": "Z\u00fcrich, Rehalp"
+    },
+    {
+      "id": "http://example.org/zurich/station/2104",
+      "label": "2104"
+    },
+    {
+      "id": "Z\u00fcrich, Opernhaus",
+      "label": "Z\u00fcrich, Opernhaus"
+    },
+    {
+      "id": "http://example.org/zurich/station/2110",
+      "label": "2110"
+    },
+    {
+      "id": "Z\u00fcrich, Wetlistrasse",
+      "label": "Z\u00fcrich, Wetlistrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2111",
+      "label": "2111"
+    },
+    {
+      "id": "Z\u00fcrich, Bahnhof Stadelhofen",
+      "label": "Z\u00fcrich, Bahnhof Stadelhofen"
+    },
+    {
+      "id": "http://example.org/zurich/station/2113",
+      "label": "2113"
+    },
+    {
+      "id": "Z\u00fcrich, Hegibachplatz",
+      "label": "Z\u00fcrich, Hegibachplatz"
+    },
+    {
+      "id": "http://example.org/zurich/station/2121",
+      "label": "2121"
+    },
+    {
+      "id": "Z\u00fcrich, Balgrist",
+      "label": "Z\u00fcrich, Balgrist"
+    },
+    {
+      "id": "http://example.org/zurich/station/2137",
+      "label": "2137"
+    },
+    {
+      "id": "Z\u00fcrich, Sunnau",
+      "label": "Z\u00fcrich, Sunnau"
+    },
+    {
+      "id": "http://example.org/zurich/station/2139",
+      "label": "2139"
+    },
+    {
+      "id": "Z\u00fcrich, Dangelstrasse",
+      "label": "Z\u00fcrich, Dangelstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2144",
+      "label": "2144"
+    },
+    {
+      "id": "Z\u00fcrich, Garage 6 Hardau",
+      "label": "Z\u00fcrich, Garage 6 Hardau"
+    },
+    {
+      "id": "http://example.org/zurich/station/2145",
+      "label": "2145"
+    },
+    {
+      "id": "Z\u00fcrich, Wollishofen",
+      "label": "Z\u00fcrich, Wollishofen"
+    },
+    {
+      "id": "http://example.org/zurich/station/2146",
+      "label": "2146"
+    },
+    {
+      "id": "Z\u00fcrich, Widmerstrasse",
+      "label": "Z\u00fcrich, Widmerstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2183",
+      "label": "2183"
+    },
+    {
+      "id": "Z\u00fcrich, Sihlcity Nord",
+      "label": "Z\u00fcrich, Sihlcity Nord"
+    },
+    {
+      "id": "http://example.org/zurich/station/2198",
+      "label": "2198"
+    },
+    {
+      "id": "Z\u00fcrich, Geeringstrasse",
+      "label": "Z\u00fcrich, Geeringstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2228",
+      "label": "2228"
+    },
+    {
+      "id": "Z\u00fcrich, B\u00f6rsenstrasse",
+      "label": "Z\u00fcrich, B\u00f6rsenstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2244",
+      "label": "2244"
+    },
+    {
+      "id": "Z\u00fcrich, Kappeli",
+      "label": "Z\u00fcrich, Kappeli"
+    },
+    {
+      "id": "http://example.org/zurich/station/2245",
+      "label": "2245"
+    },
+    {
+      "id": "Z\u00fcrich, Letzigrund",
+      "label": "Z\u00fcrich, Letzigrund"
+    },
+    {
+      "id": "http://example.org/zurich/station/2247",
+      "label": "2247"
+    },
+    {
+      "id": "Z\u00fcrich, Kernstrasse",
+      "label": "Z\u00fcrich, Kernstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2248",
+      "label": "2248"
+    },
+    {
+      "id": "Z\u00fcrich, Lochergut",
+      "label": "Z\u00fcrich, Lochergut"
+    },
+    {
+      "id": "http://example.org/zurich/station/2250",
+      "label": "2250"
+    },
+    {
+      "id": "Z\u00fcrich, Zypressenstrasse",
+      "label": "Z\u00fcrich, Zypressenstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2251",
+      "label": "2251"
+    },
+    {
+      "id": "Z\u00fcrich, Depot 4 Elisabethenstr",
+      "label": "Z\u00fcrich, Depot 4 Elisabethenstr"
+    },
+    {
+      "id": "http://example.org/zurich/station/2253",
+      "label": "2253"
+    },
+    {
+      "id": "Z\u00fcrich, Freihofstrasse",
+      "label": "Z\u00fcrich, Freihofstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2254",
+      "label": "2254"
+    },
+    {
+      "id": "Z\u00fcrich, Zentralwerkst\u00e4tte",
+      "label": "Z\u00fcrich, Zentralwerkst\u00e4tte"
+    },
+    {
+      "id": "http://example.org/zurich/station/2256",
+      "label": "2256"
+    },
+    {
+      "id": "Z\u00fcrich, L\u00f6wenplatz",
+      "label": "Z\u00fcrich, L\u00f6wenplatz"
+    },
+    {
+      "id": "http://example.org/zurich/station/2257",
+      "label": "2257"
+    },
+    {
+      "id": "Z\u00fcrich, Oerlikerhus",
+      "label": "Z\u00fcrich, Oerlikerhus"
+    },
+    {
+      "id": "http://example.org/zurich/station/2258",
+      "label": "2258"
+    },
+    {
+      "id": "Z\u00fcrich, Haldenbach",
+      "label": "Z\u00fcrich, Haldenbach"
+    },
+    {
+      "id": "http://example.org/zurich/station/2260",
+      "label": "2260"
+    },
+    {
+      "id": "Z\u00fcrich, Seilbahn Rigiblick",
+      "label": "Z\u00fcrich, Seilbahn Rigiblick"
+    },
+    {
+      "id": "http://example.org/zurich/station/2262",
+      "label": "2262"
+    },
+    {
+      "id": "Z\u00fcrich, Sihlpost / HB",
+      "label": "Z\u00fcrich, Sihlpost / HB"
+    },
+    {
+      "id": "http://example.org/zurich/station/2274",
+      "label": "2274"
+    },
+    {
+      "id": "Z\u00fcrich, Letzistrasse",
+      "label": "Z\u00fcrich, Letzistrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2275",
+      "label": "2275"
+    },
+    {
+      "id": "Z\u00fcrich, Signaustrasse",
+      "label": "Z\u00fcrich, Signaustrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2276",
+      "label": "2276"
+    },
+    {
+      "id": "Z\u00fcrich, Berninaplatz",
+      "label": "Z\u00fcrich, Berninaplatz"
+    },
+    {
+      "id": "http://example.org/zurich/station/2287",
+      "label": "2287"
+    },
+    {
+      "id": "Z\u00fcrich, Limmatplatz",
+      "label": "Z\u00fcrich, Limmatplatz"
+    },
+    {
+      "id": "http://example.org/zurich/station/2289",
+      "label": "2289"
+    },
+    {
+      "id": "Z\u00fcrich, Sihlquai/HB",
+      "label": "Z\u00fcrich, Sihlquai/HB"
+    },
+    {
+      "id": "http://example.org/zurich/station/2290",
+      "label": "2290"
+    },
+    {
+      "id": "Z\u00fcrich, Dammweg",
+      "label": "Z\u00fcrich, Dammweg"
+    },
+    {
+      "id": "http://example.org/zurich/station/2292",
+      "label": "2292"
+    },
+    {
+      "id": "Z\u00fcrich, Kinkelstrasse",
+      "label": "Z\u00fcrich, Kinkelstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2293",
+      "label": "2293"
+    },
+    {
+      "id": "Z\u00fcrich, Winkelriedstrasse",
+      "label": "Z\u00fcrich, Winkelriedstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2294",
+      "label": "2294"
+    },
+    {
+      "id": "Z\u00fcrich, Museum f\u00fcr Gestaltung",
+      "label": "Z\u00fcrich, Museum f\u00fcr Gestaltung"
+    },
+    {
+      "id": "http://example.org/zurich/station/2295",
+      "label": "2295"
+    },
+    {
+      "id": "Z\u00fcrich, Burgwies",
+      "label": "Z\u00fcrich, Burgwies"
+    },
+    {
+      "id": "http://example.org/zurich/station/2298",
+      "label": "2298"
+    },
+    {
+      "id": "Z\u00fcrich, Quellenstrasse",
+      "label": "Z\u00fcrich, Quellenstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2299",
+      "label": "2299"
+    },
+    {
+      "id": "Z\u00fcrich, Depot 5 Hard",
+      "label": "Z\u00fcrich, Depot 5 Hard"
+    },
+    {
+      "id": "http://example.org/zurich/station/2300",
+      "label": "2300"
+    },
+    {
+      "id": "Z\u00fcrich, Depot 8 Oerlikon",
+      "label": "Z\u00fcrich, Depot 8 Oerlikon"
+    },
+    {
+      "id": "http://example.org/zurich/station/2301",
+      "label": "2301"
+    },
+    {
+      "id": "Z\u00fcrich, Garage 9 Hagenholz",
+      "label": "Z\u00fcrich, Garage 9 Hagenholz"
+    },
+    {
+      "id": "http://example.org/zurich/station/2302",
+      "label": "2302"
+    },
+    {
+      "id": "Z\u00fcrich, Haldenegg",
+      "label": "Z\u00fcrich, Haldenegg"
+    },
+    {
+      "id": "http://example.org/zurich/station/2308",
+      "label": "2308"
+    },
+    {
+      "id": "Z\u00fcrich, Hedwigsteig",
+      "label": "Z\u00fcrich, Hedwigsteig"
+    },
+    {
+      "id": "http://example.org/zurich/station/2312",
+      "label": "2312"
+    },
+    {
+      "id": "Z\u00fcrich, Friedhof Enzenb\u00fchl",
+      "label": "Z\u00fcrich, Friedhof Enzenb\u00fchl"
+    },
+    {
+      "id": "http://example.org/zurich/station/2313",
+      "label": "2313"
+    },
+    {
+      "id": "Z\u00fcrich, Salersteig",
+      "label": "Z\u00fcrich, Salersteig"
+    },
+    {
+      "id": "http://example.org/zurich/station/2315",
+      "label": "2315"
+    },
+    {
+      "id": "Z\u00fcrich, Langmauerstrasse",
+      "label": "Z\u00fcrich, Langmauerstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2316",
+      "label": "2316"
+    },
+    {
+      "id": "Z\u00fcrich, Bahnhof Stettbach",
+      "label": "Z\u00fcrich, Bahnhof Stettbach"
+    },
+    {
+      "id": "http://example.org/zurich/station/2356",
+      "label": "2356"
+    },
+    {
+      "id": "Z\u00fcrich, Mattenhof",
+      "label": "Z\u00fcrich, Mattenhof"
+    },
+    {
+      "id": "http://example.org/zurich/station/2367",
+      "label": "2367"
+    },
+    {
+      "id": "Z\u00fcrich, Brunaustrasse",
+      "label": "Z\u00fcrich, Brunaustrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2375",
+      "label": "2375"
+    },
+    {
+      "id": "Z\u00fcrich, Waldgarten",
+      "label": "Z\u00fcrich, Waldgarten"
+    },
+    {
+      "id": "http://example.org/zurich/station/2383",
+      "label": "2383"
+    },
+    {
+      "id": "Z\u00fcrich, Micafil",
+      "label": "Z\u00fcrich, Micafil"
+    },
+    {
+      "id": "http://example.org/zurich/station/2404",
+      "label": "2404"
+    },
+    {
+      "id": "Z\u00fcrich, Billoweg",
+      "label": "Z\u00fcrich, Billoweg"
+    },
+    {
+      "id": "http://example.org/zurich/station/2406",
+      "label": "2406"
+    },
+    {
+      "id": "Z\u00fcrich, Tierspital",
+      "label": "Z\u00fcrich, Tierspital"
+    },
+    {
+      "id": "http://example.org/zurich/station/2413",
+      "label": "2413"
+    },
+    {
+      "id": "Z\u00fcrich, Museum Rietberg",
+      "label": "Z\u00fcrich, Museum Rietberg"
+    },
+    {
+      "id": "http://example.org/zurich/station/2414",
+      "label": "2414"
+    },
+    {
+      "id": "Z\u00fcrich, Stockerstrasse",
+      "label": "Z\u00fcrich, Stockerstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2422",
+      "label": "2422"
+    },
+    {
+      "id": "Z\u00fcrich, Herzogenm\u00fchlestrasse",
+      "label": "Z\u00fcrich, Herzogenm\u00fchlestrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2423",
+      "label": "2423"
+    },
+    {
+      "id": "Z\u00fcrich, Blumenfeldstrasse",
+      "label": "Z\u00fcrich, Blumenfeldstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2424",
+      "label": "2424"
+    },
+    {
+      "id": "Z\u00fcrich, Aspholz",
+      "label": "Z\u00fcrich, Aspholz"
+    },
+    {
+      "id": "http://example.org/zurich/station/2425",
+      "label": "2425"
+    },
+    {
+      "id": "Z\u00fcrich, M\u00fchlacker",
+      "label": "Z\u00fcrich, M\u00fchlacker"
+    },
+    {
+      "id": "http://example.org/zurich/station/2426",
+      "label": "2426"
+    },
+    {
+      "id": "Z\u00fcrich, Glockenacker",
+      "label": "Z\u00fcrich, Glockenacker"
+    },
+    {
+      "id": "http://example.org/zurich/station/2428",
+      "label": "2428"
+    },
+    {
+      "id": "Z\u00fcrich, Carl-Spitteler-Strasse",
+      "label": "Z\u00fcrich, Carl-Spitteler-Strasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2429",
+      "label": "2429"
+    },
+    {
+      "id": "Z\u00fcrich, Neuaffoltern",
+      "label": "Z\u00fcrich, Neuaffoltern"
+    },
+    {
+      "id": "http://example.org/zurich/station/2434",
+      "label": "2434"
+    },
+    {
+      "id": "Z\u00fcrich, Kapfstrasse",
+      "label": "Z\u00fcrich, Kapfstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2435",
+      "label": "2435"
+    },
+    {
+      "id": "Z\u00fcrich, Dreispitz",
+      "label": "Z\u00fcrich, Dreispitz"
+    },
+    {
+      "id": "http://example.org/zurich/station/2437",
+      "label": "2437"
+    },
+    {
+      "id": "Z\u00fcrich, Berghaldenstrasse",
+      "label": "Z\u00fcrich, Berghaldenstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2438",
+      "label": "2438"
+    },
+    {
+      "id": "Z\u00fcrich, Drusbergstrasse",
+      "label": "Z\u00fcrich, Drusbergstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2439",
+      "label": "2439"
+    },
+    {
+      "id": "Z\u00fcrich, Unteraffoltern",
+      "label": "Z\u00fcrich, Unteraffoltern"
+    },
+    {
+      "id": "http://example.org/zurich/station/2440",
+      "label": "2440"
+    },
+    {
+      "id": "Z\u00fcrich, Friedrichstrasse",
+      "label": "Z\u00fcrich, Friedrichstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2441",
+      "label": "2441"
+    },
+    {
+      "id": "Z\u00fcrich, Frohburg",
+      "label": "Z\u00fcrich, Frohburg"
+    },
+    {
+      "id": "http://example.org/zurich/station/2442",
+      "label": "2442"
+    },
+    {
+      "id": "Z\u00fcrich, Oberwiesenstrasse",
+      "label": "Z\u00fcrich, Oberwiesenstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2444",
+      "label": "2444"
+    },
+    {
+      "id": "Z\u00fcrich, Waserstrasse",
+      "label": "Z\u00fcrich, Waserstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2445",
+      "label": "2445"
+    },
+    {
+      "id": "Z\u00fcrich, Fronwald",
+      "label": "Z\u00fcrich, Fronwald"
+    },
+    {
+      "id": "http://example.org/zurich/station/2450",
+      "label": "2450"
+    },
+    {
+      "id": "Z\u00fcrich, Loorenstrasse",
+      "label": "Z\u00fcrich, Loorenstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2451",
+      "label": "2451"
+    },
+    {
+      "id": "Z\u00fcrich, Hallenbad Oerlikon",
+      "label": "Z\u00fcrich, Hallenbad Oerlikon"
+    },
+    {
+      "id": "http://example.org/zurich/station/2453",
+      "label": "2453"
+    },
+    {
+      "id": "Z\u00fcrich, Max-Bill-Platz",
+      "label": "Z\u00fcrich, Max-Bill-Platz"
+    },
+    {
+      "id": "http://example.org/zurich/station/2454",
+      "label": "2454"
+    },
+    {
+      "id": "Z\u00fcrich, Glaubtenstrasse",
+      "label": "Z\u00fcrich, Glaubtenstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2456",
+      "label": "2456"
+    },
+    {
+      "id": "Z\u00fcrich, Tulpenstrasse",
+      "label": "Z\u00fcrich, Tulpenstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2457",
+      "label": "2457"
+    },
+    {
+      "id": "Z\u00fcrich, Einfangstrasse",
+      "label": "Z\u00fcrich, Einfangstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2460",
+      "label": "2460"
+    },
+    {
+      "id": "Z\u00fcrich, Dorflinde",
+      "label": "Z\u00fcrich, Dorflinde"
+    },
+    {
+      "id": "http://example.org/zurich/station/2463",
+      "label": "2463"
+    },
+    {
+      "id": "Z\u00fcrich, Friedackerstrasse",
+      "label": "Z\u00fcrich, Friedackerstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2465",
+      "label": "2465"
+    },
+    {
+      "id": "Z\u00fcrich, Saatlenstrasse",
+      "label": "Z\u00fcrich, Saatlenstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2466",
+      "label": "2466"
+    },
+    {
+      "id": "Z\u00fcrich, Friedhof Witikon",
+      "label": "Z\u00fcrich, Friedhof Witikon"
+    },
+    {
+      "id": "http://example.org/zurich/station/2468",
+      "label": "2468"
+    },
+    {
+      "id": "Z\u00fcrich, Riedgraben",
+      "label": "Z\u00fcrich, Riedgraben"
+    },
+    {
+      "id": "http://example.org/zurich/station/2469",
+      "label": "2469"
+    },
+    {
+      "id": "Z\u00fcrich, Bahnhof Affoltern S\u00fcd",
+      "label": "Z\u00fcrich, Bahnhof Affoltern S\u00fcd"
+    },
+    {
+      "id": "http://example.org/zurich/station/2472",
+      "label": "2472"
+    },
+    {
+      "id": "Z\u00fcrich, Herbstweg",
+      "label": "Z\u00fcrich, Herbstweg"
+    },
+    {
+      "id": "http://example.org/zurich/station/2473",
+      "label": "2473"
+    },
+    {
+      "id": "Z\u00fcrich, Schlyfi",
+      "label": "Z\u00fcrich, Schlyfi"
+    },
+    {
+      "id": "http://example.org/zurich/station/2482",
+      "label": "2482"
+    },
+    {
+      "id": "Z\u00fcrich, Luchswiesen",
+      "label": "Z\u00fcrich, Luchswiesen"
+    },
+    {
+      "id": "http://example.org/zurich/station/2487",
+      "label": "2487"
+    },
+    {
+      "id": "Z\u00fcrich, Post Wollishofen",
+      "label": "Z\u00fcrich, Post Wollishofen"
+    },
+    {
+      "id": "http://example.org/zurich/station/2488",
+      "label": "2488"
+    },
+    {
+      "id": "Z\u00fcrich, Butzenstrasse",
+      "label": "Z\u00fcrich, Butzenstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2489",
+      "label": "2489"
+    },
+    {
+      "id": "Z\u00fcrich, Probstei",
+      "label": "Z\u00fcrich, Probstei"
+    },
+    {
+      "id": "http://example.org/zurich/station/2506",
+      "label": "2506"
+    },
+    {
+      "id": "Z\u00fcrich, Bhf Wollishofen (Bus)",
+      "label": "Z\u00fcrich, Bhf Wollishofen (Bus)"
+    },
+    {
+      "id": "http://example.org/zurich/station/2508",
+      "label": "2508"
+    },
+    {
+      "id": "Z\u00fcrich, Tunnelstrasse",
+      "label": "Z\u00fcrich, Tunnelstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2509",
+      "label": "2509"
+    },
+    {
+      "id": "Z\u00fcrich, Ottikerstrasse",
+      "label": "Z\u00fcrich, Ottikerstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2510",
+      "label": "2510"
+    },
+    {
+      "id": "Z\u00fcrich, Roswiesen",
+      "label": "Z\u00fcrich, Roswiesen"
+    },
+    {
+      "id": "http://example.org/zurich/station/2511",
+      "label": "2511"
+    },
+    {
+      "id": "Z\u00fcrich, Rote Fabrik",
+      "label": "Z\u00fcrich, Rote Fabrik"
+    },
+    {
+      "id": "http://example.org/zurich/station/2524",
+      "label": "2524"
+    },
+    {
+      "id": "Z\u00fcrich, Bahnhof Selnau",
+      "label": "Z\u00fcrich, Bahnhof Selnau"
+    },
+    {
+      "id": "http://example.org/zurich/station/2526",
+      "label": "2526"
+    },
+    {
+      "id": "Z\u00fcrich, Hardplatz",
+      "label": "Z\u00fcrich, Hardplatz"
+    },
+    {
+      "id": "http://example.org/zurich/station/2527",
+      "label": "2527"
+    },
+    {
+      "id": "Z\u00fcrich, B\u00e4ckeranlage",
+      "label": "Z\u00fcrich, B\u00e4ckeranlage"
+    },
+    {
+      "id": "http://example.org/zurich/station/2528",
+      "label": "2528"
+    },
+    {
+      "id": "Z\u00fcrich, Helvetiaplatz",
+      "label": "Z\u00fcrich, Helvetiaplatz"
+    },
+    {
+      "id": "http://example.org/zurich/station/2529",
+      "label": "2529"
+    },
+    {
+      "id": "Z\u00fcrich, G\u00fcterbahnhof",
+      "label": "Z\u00fcrich, G\u00fcterbahnhof"
+    },
+    {
+      "id": "http://example.org/zurich/station/2530",
+      "label": "2530"
+    },
+    {
+      "id": "Z\u00fcrich, Am Suteracher",
+      "label": "Z\u00fcrich, Am Suteracher"
+    },
+    {
+      "id": "http://example.org/zurich/station/2531",
+      "label": "2531"
+    },
+    {
+      "id": "Z\u00fcrich, Schulhaus Buchlern",
+      "label": "Z\u00fcrich, Schulhaus Buchlern"
+    },
+    {
+      "id": "http://example.org/zurich/station/2532",
+      "label": "2532"
+    },
+    {
+      "id": "Z\u00fcrich, Dunkelh\u00f6lzli",
+      "label": "Z\u00fcrich, Dunkelh\u00f6lzli"
+    },
+    {
+      "id": "http://example.org/zurich/station/2533",
+      "label": "2533"
+    },
+    {
+      "id": "Z\u00fcrich, Bristenstrasse",
+      "label": "Z\u00fcrich, Bristenstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2534",
+      "label": "2534"
+    },
+    {
+      "id": "Z\u00fcrich, Solidapark",
+      "label": "Z\u00fcrich, Solidapark"
+    },
+    {
+      "id": "http://example.org/zurich/station/2535",
+      "label": "2535"
+    },
+    {
+      "id": "Z\u00fcrich, Lindenplatz",
+      "label": "Z\u00fcrich, Lindenplatz"
+    },
+    {
+      "id": "http://example.org/zurich/station/2536",
+      "label": "2536"
+    },
+    {
+      "id": "Z\u00fcrich, Bahnhof Altstetten N",
+      "label": "Z\u00fcrich, Bahnhof Altstetten N"
+    },
+    {
+      "id": "http://example.org/zurich/station/2537",
+      "label": "2537"
+    },
+    {
+      "id": "Z\u00fcrich, Loogarten",
+      "label": "Z\u00fcrich, Loogarten"
+    },
+    {
+      "id": "http://example.org/zurich/station/2538",
+      "label": "2538"
+    },
+    {
+      "id": "Z\u00fcrich, B\u00e4ndliweg",
+      "label": "Z\u00fcrich, B\u00e4ndliweg"
+    },
+    {
+      "id": "http://example.org/zurich/station/2539",
+      "label": "2539"
+    },
+    {
+      "id": "Z\u00fcrich, Feusisbergli",
+      "label": "Z\u00fcrich, Feusisbergli"
+    },
+    {
+      "id": "http://example.org/zurich/station/2540",
+      "label": "2540"
+    },
+    {
+      "id": "Z\u00fcrich, Bahnhof Altstetten",
+      "label": "Z\u00fcrich, Bahnhof Altstetten"
+    },
+    {
+      "id": "http://example.org/zurich/station/2541",
+      "label": "2541"
+    },
+    {
+      "id": "Z\u00fcrich, Neeserweg",
+      "label": "Z\u00fcrich, Neeserweg"
+    },
+    {
+      "id": "http://example.org/zurich/station/2542",
+      "label": "2542"
+    },
+    {
+      "id": "Z\u00fcrich, Rautihalde",
+      "label": "Z\u00fcrich, Rautihalde"
+    },
+    {
+      "id": "http://example.org/zurich/station/2543",
+      "label": "2543"
+    },
+    {
+      "id": "Z\u00fcrich, Rautistrasse",
+      "label": "Z\u00fcrich, Rautistrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2544",
+      "label": "2544"
+    },
+    {
+      "id": "Z\u00fcrich, Gr\u00fcnaustrasse",
+      "label": "Z\u00fcrich, Gr\u00fcnaustrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2545",
+      "label": "2545"
+    },
+    {
+      "id": "Z\u00fcrich, Friedhof Eichb\u00fchl",
+      "label": "Z\u00fcrich, Friedhof Eichb\u00fchl"
+    },
+    {
+      "id": "http://example.org/zurich/station/2546",
+      "label": "2546"
+    },
+    {
+      "id": "Z\u00fcrich, Salzweg",
+      "label": "Z\u00fcrich, Salzweg"
+    },
+    {
+      "id": "http://example.org/zurich/station/2547",
+      "label": "2547"
+    },
+    {
+      "id": "Z\u00fcrich, Baslerstrasse",
+      "label": "Z\u00fcrich, Baslerstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2550",
+      "label": "2550"
+    },
+    {
+      "id": "Z\u00fcrich, Laubegg",
+      "label": "Z\u00fcrich, Laubegg"
+    },
+    {
+      "id": "http://example.org/zurich/station/2551",
+      "label": "2551"
+    },
+    {
+      "id": "Z\u00fcrich, Sukkulentensammlung",
+      "label": "Z\u00fcrich, Sukkulentensammlung"
+    },
+    {
+      "id": "http://example.org/zurich/station/2553",
+      "label": "2553"
+    },
+    {
+      "id": "Z\u00fcrich, Hertensteinstrasse",
+      "label": "Z\u00fcrich, Hertensteinstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2561",
+      "label": "2561"
+    },
+    {
+      "id": "Z\u00fcrich, Bircher-Benner",
+      "label": "Z\u00fcrich, Bircher-Benner"
+    },
+    {
+      "id": "http://example.org/zurich/station/2562",
+      "label": "2562"
+    },
+    {
+      "id": "Z\u00fcrich, Birchstrasse",
+      "label": "Z\u00fcrich, Birchstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2563",
+      "label": "2563"
+    },
+    {
+      "id": "Z\u00fcrich, Lehenstrasse",
+      "label": "Z\u00fcrich, Lehenstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2564",
+      "label": "2564"
+    },
+    {
+      "id": "Z\u00fcrich, Albisriederd\u00f6rfli",
+      "label": "Z\u00fcrich, Albisriederd\u00f6rfli"
+    },
+    {
+      "id": "http://example.org/zurich/station/2565",
+      "label": "2565"
+    },
+    {
+      "id": "Z\u00fcrich, Jugendherberge",
+      "label": "Z\u00fcrich, Jugendherberge"
+    },
+    {
+      "id": "http://example.org/zurich/station/2566",
+      "label": "2566"
+    },
+    {
+      "id": "Z\u00fcrich, Althoos",
+      "label": "Z\u00fcrich, Althoos"
+    },
+    {
+      "id": "http://example.org/zurich/station/2567",
+      "label": "2567"
+    },
+    {
+      "id": "Z\u00fcrich, Susenbergstrasse",
+      "label": "Z\u00fcrich, Susenbergstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2568",
+      "label": "2568"
+    },
+    {
+      "id": "Z\u00fcrich, Kalchb\u00fchlweg",
+      "label": "Z\u00fcrich, Kalchb\u00fchlweg"
+    },
+    {
+      "id": "http://example.org/zurich/station/2570",
+      "label": "2570"
+    },
+    {
+      "id": "Z\u00fcrich, Kanonengasse",
+      "label": "Z\u00fcrich, Kanonengasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2571",
+      "label": "2571"
+    },
+    {
+      "id": "Z\u00fcrich, Kantonsschule",
+      "label": "Z\u00fcrich, Kantonsschule"
+    },
+    {
+      "id": "http://example.org/zurich/station/2572",
+      "label": "2572"
+    },
+    {
+      "id": "Z\u00fcrich, Hardturm",
+      "label": "Z\u00fcrich, Hardturm"
+    },
+    {
+      "id": "http://example.org/zurich/station/2573",
+      "label": "2573"
+    },
+    {
+      "id": "Z\u00fcrich, Maienweg",
+      "label": "Z\u00fcrich, Maienweg"
+    },
+    {
+      "id": "http://example.org/zurich/station/2575",
+      "label": "2575"
+    },
+    {
+      "id": "Z\u00fcrich, Sportweg",
+      "label": "Z\u00fcrich, Sportweg"
+    },
+    {
+      "id": "http://example.org/zurich/station/2576",
+      "label": "2576"
+    },
+    {
+      "id": "Z\u00fcrich, Manesseplatz",
+      "label": "Z\u00fcrich, Manesseplatz"
+    },
+    {
+      "id": "http://example.org/zurich/station/2578",
+      "label": "2578"
+    },
+    {
+      "id": "Z\u00fcrich, Marbachweg",
+      "label": "Z\u00fcrich, Marbachweg"
+    },
+    {
+      "id": "http://example.org/zurich/station/2579",
+      "label": "2579"
+    },
+    {
+      "id": "Z\u00fcrich, Pflegezentr. K\u00e4ferberg",
+      "label": "Z\u00fcrich, Pflegezentr. K\u00e4ferberg"
+    },
+    {
+      "id": "http://example.org/zurich/station/2580",
+      "label": "2580"
+    },
+    {
+      "id": "Z\u00fcrich, T\u00fcffenwies",
+      "label": "Z\u00fcrich, T\u00fcffenwies"
+    },
+    {
+      "id": "http://example.org/zurich/station/2581",
+      "label": "2581"
+    },
+    {
+      "id": "Z\u00fcrich, Krematorium Nordheim",
+      "label": "Z\u00fcrich, Krematorium Nordheim"
+    },
+    {
+      "id": "http://example.org/zurich/station/2582",
+      "label": "2582"
+    },
+    {
+      "id": "Z\u00fcrich, Krematorium Sihlfeld",
+      "label": "Z\u00fcrich, Krematorium Sihlfeld"
+    },
+    {
+      "id": "http://example.org/zurich/station/2584",
+      "label": "2584"
+    },
+    {
+      "id": "Z\u00fcrich, Chaletweg",
+      "label": "Z\u00fcrich, Chaletweg"
+    },
+    {
+      "id": "http://example.org/zurich/station/2586",
+      "label": "2586"
+    },
+    {
+      "id": "Z\u00fcrich, M\u00f6tteliweg",
+      "label": "Z\u00fcrich, M\u00f6tteliweg"
+    },
+    {
+      "id": "http://example.org/zurich/station/2587",
+      "label": "2587"
+    },
+    {
+      "id": "Z\u00fcrich, Segantinistrasse",
+      "label": "Z\u00fcrich, Segantinistrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2589",
+      "label": "2589"
+    },
+    {
+      "id": "Z\u00fcrich, Technopark",
+      "label": "Z\u00fcrich, Technopark"
+    },
+    {
+      "id": "http://example.org/zurich/station/2590",
+      "label": "2590"
+    },
+    {
+      "id": "Z\u00fcrich, B\u00fcrkliplatz",
+      "label": "Z\u00fcrich, B\u00fcrkliplatz"
+    },
+    {
+      "id": "http://example.org/zurich/station/2591",
+      "label": "2591"
+    },
+    {
+      "id": "Z\u00fcrich, Seidelhof",
+      "label": "Z\u00fcrich, Seidelhof"
+    },
+    {
+      "id": "http://example.org/zurich/station/2593",
+      "label": "2593"
+    },
+    {
+      "id": "Z\u00fcrich, Lerchenrain",
+      "label": "Z\u00fcrich, Lerchenrain"
+    },
+    {
+      "id": "http://example.org/zurich/station/2594",
+      "label": "2594"
+    },
+    {
+      "id": "Z\u00fcrich, Leimgr\u00fcbelstrasse",
+      "label": "Z\u00fcrich, Leimgr\u00fcbelstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2595",
+      "label": "2595"
+    },
+    {
+      "id": "Z\u00fcrich, Schauenberg",
+      "label": "Z\u00fcrich, Schauenberg"
+    },
+    {
+      "id": "http://example.org/zurich/station/2598",
+      "label": "2598"
+    },
+    {
+      "id": "Z\u00fcrich, Sprecherstrasse",
+      "label": "Z\u00fcrich, Sprecherstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2599",
+      "label": "2599"
+    },
+    {
+      "id": "Z\u00fcrich, Binz Center",
+      "label": "Z\u00fcrich, Binz Center"
+    },
+    {
+      "id": "http://example.org/zurich/station/2600",
+      "label": "2600"
+    },
+    {
+      "id": "Z\u00fcrich, Spyriplatz",
+      "label": "Z\u00fcrich, Spyriplatz"
+    },
+    {
+      "id": "http://example.org/zurich/station/2601",
+      "label": "2601"
+    },
+    {
+      "id": "Z\u00fcrich, Bocklerstrasse",
+      "label": "Z\u00fcrich, Bocklerstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2603",
+      "label": "2603"
+    },
+    {
+      "id": "Z\u00fcrich, Lerchenhalde",
+      "label": "Z\u00fcrich, Lerchenhalde"
+    },
+    {
+      "id": "http://example.org/zurich/station/2604",
+      "label": "2604"
+    },
+    {
+      "id": "Z\u00fcrich, Chinagarten",
+      "label": "Z\u00fcrich, Chinagarten"
+    },
+    {
+      "id": "http://example.org/zurich/station/2605",
+      "label": "2605"
+    },
+    {
+      "id": "Z\u00fcrich, Brandschenkestrasse",
+      "label": "Z\u00fcrich, Brandschenkestrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2606",
+      "label": "2606"
+    },
+    {
+      "id": "Z\u00fcrich, Hinterbergstrasse",
+      "label": "Z\u00fcrich, Hinterbergstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2607",
+      "label": "2607"
+    },
+    {
+      "id": "Z\u00fcrich, Meierhofplatz",
+      "label": "Z\u00fcrich, Meierhofplatz"
+    },
+    {
+      "id": "http://example.org/zurich/station/2608",
+      "label": "2608"
+    },
+    {
+      "id": "Z\u00fcrich, Schumacherweg",
+      "label": "Z\u00fcrich, Schumacherweg"
+    },
+    {
+      "id": "http://example.org/zurich/station/2609",
+      "label": "2609"
+    },
+    {
+      "id": "Z\u00fcrich, Neunbrunnen",
+      "label": "Z\u00fcrich, Neunbrunnen"
+    },
+    {
+      "id": "http://example.org/zurich/station/2610",
+      "label": "2610"
+    },
+    {
+      "id": "Z\u00fcrich, H\u00f6nggerberg",
+      "label": "Z\u00fcrich, H\u00f6nggerberg"
+    },
+    {
+      "id": "http://example.org/zurich/station/2612",
+      "label": "2612"
+    },
+    {
+      "id": "Z\u00fcrich, Kreuzstrasse",
+      "label": "Z\u00fcrich, Kreuzstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2613",
+      "label": "2613"
+    },
+    {
+      "id": "Z\u00fcrich, W\u00fcrzgraben",
+      "label": "Z\u00fcrich, W\u00fcrzgraben"
+    },
+    {
+      "id": "http://example.org/zurich/station/2614",
+      "label": "2614"
+    },
+    {
+      "id": "Z\u00fcrich, Waidfussweg",
+      "label": "Z\u00fcrich, Waidfussweg"
+    },
+    {
+      "id": "http://example.org/zurich/station/2615",
+      "label": "2615"
+    },
+    {
+      "id": "Z\u00fcrich, H\u00f6schgasse",
+      "label": "Z\u00fcrich, H\u00f6schgasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2617",
+      "label": "2617"
+    },
+    {
+      "id": "Z\u00fcrich, Waidhof",
+      "label": "Z\u00fcrich, Waidhof"
+    },
+    {
+      "id": "http://example.org/zurich/station/2618",
+      "label": "2618"
+    },
+    {
+      "id": "Z\u00fcrich, H\u00fcgelstrasse",
+      "label": "Z\u00fcrich, H\u00fcgelstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2619",
+      "label": "2619"
+    },
+    {
+      "id": "Z\u00fcrich, Waidspital",
+      "label": "Z\u00fcrich, Waidspital"
+    },
+    {
+      "id": "http://example.org/zurich/station/2620",
+      "label": "2620"
+    },
+    {
+      "id": "Z\u00fcrich, Freiestrasse",
+      "label": "Z\u00fcrich, Freiestrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2621",
+      "label": "2621"
+    },
+    {
+      "id": "Z\u00fcrich, Hofstrasse",
+      "label": "Z\u00fcrich, Hofstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2622",
+      "label": "2622"
+    },
+    {
+      "id": "Z\u00fcrich, Lettenstrasse",
+      "label": "Z\u00fcrich, Lettenstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2624",
+      "label": "2624"
+    },
+    {
+      "id": "Z\u00fcrich, Dreiwiesen",
+      "label": "Z\u00fcrich, Dreiwiesen"
+    },
+    {
+      "id": "http://example.org/zurich/station/2625",
+      "label": "2625"
+    },
+    {
+      "id": "Z\u00fcrich, Stadtgrenze",
+      "label": "Z\u00fcrich, Stadtgrenze"
+    },
+    {
+      "id": "http://example.org/zurich/station/2626",
+      "label": "2626"
+    },
+    {
+      "id": "Z\u00fcrich, Letzipark West",
+      "label": "Z\u00fcrich, Letzipark West"
+    },
+    {
+      "id": "http://example.org/zurich/station/2627",
+      "label": "2627"
+    },
+    {
+      "id": "Z\u00fcrich, Talwiesenstrasse",
+      "label": "Z\u00fcrich, Talwiesenstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2629",
+      "label": "2629"
+    },
+    {
+      "id": "Z\u00fcrich, Kempfhofsteig",
+      "label": "Z\u00fcrich, Kempfhofsteig"
+    },
+    {
+      "id": "http://example.org/zurich/station/2630",
+      "label": "2630"
+    },
+    {
+      "id": "Z\u00fcrich, Toni-Areal",
+      "label": "Z\u00fcrich, Toni-Areal"
+    },
+    {
+      "id": "http://example.org/zurich/station/2632",
+      "label": "2632"
+    },
+    {
+      "id": "Z\u00fcrich, Brunau/Mutschellenstr.",
+      "label": "Z\u00fcrich, Brunau/Mutschellenstr."
+    },
+    {
+      "id": "http://example.org/zurich/station/2633",
+      "label": "2633"
+    },
+    {
+      "id": "Z\u00fcrich, Uetlihof",
+      "label": "Z\u00fcrich, Uetlihof"
+    },
+    {
+      "id": "http://example.org/zurich/station/2634",
+      "label": "2634"
+    },
+    {
+      "id": "Z\u00fcrich, Schwandenholz",
+      "label": "Z\u00fcrich, Schwandenholz"
+    },
+    {
+      "id": "http://example.org/zurich/station/2635",
+      "label": "2635"
+    },
+    {
+      "id": "Z\u00fcrich, Eschergutweg",
+      "label": "Z\u00fcrich, Eschergutweg"
+    },
+    {
+      "id": "http://example.org/zurich/station/2636",
+      "label": "2636"
+    },
+    {
+      "id": "Z\u00fcrich, H\u00fcrstholz",
+      "label": "Z\u00fcrich, H\u00fcrstholz"
+    },
+    {
+      "id": "http://example.org/zurich/station/2637",
+      "label": "2637"
+    },
+    {
+      "id": "Z\u00fcrich, H\u00f6lderlinsteig",
+      "label": "Z\u00fcrich, H\u00f6lderlinsteig"
+    },
+    {
+      "id": "http://example.org/zurich/station/2638",
+      "label": "2638"
+    },
+    {
+      "id": "Z\u00fcrich, Botanischer Garten",
+      "label": "Z\u00fcrich, Botanischer Garten"
+    },
+    {
+      "id": "http://example.org/zurich/station/2639",
+      "label": "2639"
+    },
+    {
+      "id": "Z\u00fcrich, Klosbach",
+      "label": "Z\u00fcrich, Klosbach"
+    },
+    {
+      "id": "http://example.org/zurich/station/2640",
+      "label": "2640"
+    },
+    {
+      "id": "Z\u00fcrich, Siemens",
+      "label": "Z\u00fcrich, Siemens"
+    },
+    {
+      "id": "http://example.org/zurich/station/2641",
+      "label": "2641"
+    },
+    {
+      "id": "Z\u00fcrich, Neumarkt",
+      "label": "Z\u00fcrich, Neumarkt"
+    },
+    {
+      "id": "http://example.org/zurich/station/2643",
+      "label": "2643"
+    },
+    {
+      "id": "Z\u00fcrich, Schweizer R\u00fcck",
+      "label": "Z\u00fcrich, Schweizer R\u00fcck"
+    },
+    {
+      "id": "http://example.org/zurich/station/2645",
+      "label": "2645"
+    },
+    {
+      "id": "Z\u00fcrich, Bernoulli-H\u00e4user",
+      "label": "Z\u00fcrich, Bernoulli-H\u00e4user"
+    },
+    {
+      "id": "http://example.org/zurich/station/2646",
+      "label": "2646"
+    },
+    {
+      "id": "Z\u00fcrich, Bertastrasse",
+      "label": "Z\u00fcrich, Bertastrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2647",
+      "label": "2647"
+    },
+    {
+      "id": "Z\u00fcrich, Michelstrasse",
+      "label": "Z\u00fcrich, Michelstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2648",
+      "label": "2648"
+    },
+    {
+      "id": "Z\u00fcrich, Sch\u00fctzenhaus H\u00f6ngg",
+      "label": "Z\u00fcrich, Sch\u00fctzenhaus H\u00f6ngg"
+    },
+    {
+      "id": "http://example.org/zurich/station/2650",
+      "label": "2650"
+    },
+    {
+      "id": "Z\u00fcrich, Milit\u00e4r-/Langstrasse",
+      "label": "Z\u00fcrich, Milit\u00e4r-/Langstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2651",
+      "label": "2651"
+    },
+    {
+      "id": "Z\u00fcrich, Wildbachstrasse",
+      "label": "Z\u00fcrich, Wildbachstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2655",
+      "label": "2655"
+    },
+    {
+      "id": "Z\u00fcrich, Besenrainstrasse",
+      "label": "Z\u00fcrich, Besenrainstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2656",
+      "label": "2656"
+    },
+    {
+      "id": "Z\u00fcrich, Bethanien",
+      "label": "Z\u00fcrich, Bethanien"
+    },
+    {
+      "id": "http://example.org/zurich/station/2657",
+      "label": "2657"
+    },
+    {
+      "id": "Z\u00fcrich, Sihlstrasse",
+      "label": "Z\u00fcrich, Sihlstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2658",
+      "label": "2658"
+    },
+    {
+      "id": "Z\u00fcrich, Sihlweidstrasse",
+      "label": "Z\u00fcrich, Sihlweidstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2660",
+      "label": "2660"
+    },
+    {
+      "id": "Z\u00fcrich, Friesenberg",
+      "label": "Z\u00fcrich, Friesenberg"
+    },
+    {
+      "id": "http://example.org/zurich/station/2662",
+      "label": "2662"
+    },
+    {
+      "id": "Z\u00fcrich, Friesenbergstrasse",
+      "label": "Z\u00fcrich, Friesenbergstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2665",
+      "label": "2665"
+    },
+    {
+      "id": "Z\u00fcrich, Thujastrasse",
+      "label": "Z\u00fcrich, Thujastrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2666",
+      "label": "2666"
+    },
+    {
+      "id": "Z\u00fcrich, ETH H\u00f6nggerberg",
+      "label": "Z\u00fcrich, ETH H\u00f6nggerberg"
+    },
+    {
+      "id": "http://example.org/zurich/station/2667",
+      "label": "2667"
+    },
+    {
+      "id": "Z\u00fcrich, K\u00e4shaldenstrasse",
+      "label": "Z\u00fcrich, K\u00e4shaldenstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2671",
+      "label": "2671"
+    },
+    {
+      "id": "Z\u00fcrich, Wartau",
+      "label": "Z\u00fcrich, Wartau"
+    },
+    {
+      "id": "http://example.org/zurich/station/2672",
+      "label": "2672"
+    },
+    {
+      "id": "Z\u00fcrich, Nordheimstrasse",
+      "label": "Z\u00fcrich, Nordheimstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2673",
+      "label": "2673"
+    },
+    {
+      "id": "Z\u00fcrich, Nordstrasse",
+      "label": "Z\u00fcrich, Nordstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2674",
+      "label": "2674"
+    },
+    {
+      "id": "Z\u00fcrich, Seerose",
+      "label": "Z\u00fcrich, Seerose"
+    },
+    {
+      "id": "http://example.org/zurich/station/2677",
+      "label": "2677"
+    },
+    {
+      "id": "Z\u00fcrich, Grubenstrasse",
+      "label": "Z\u00fcrich, Grubenstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2678",
+      "label": "2678"
+    },
+    {
+      "id": "Z\u00fcrich, Frymannstrasse",
+      "label": "Z\u00fcrich, Frymannstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2680",
+      "label": "2680"
+    },
+    {
+      "id": "Z\u00fcrich, Fr\u00f6hlichstrasse",
+      "label": "Z\u00fcrich, Fr\u00f6hlichstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2682",
+      "label": "2682"
+    },
+    {
+      "id": "Z\u00fcrich, Buhnstrasse",
+      "label": "Z\u00fcrich, Buhnstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2683",
+      "label": "2683"
+    },
+    {
+      "id": "Z\u00fcrich, Berufswahlschule",
+      "label": "Z\u00fcrich, Berufswahlschule"
+    },
+    {
+      "id": "http://example.org/zurich/station/2687",
+      "label": "2687"
+    },
+    {
+      "id": "Z\u00fcrich, Untermoosstrasse",
+      "label": "Z\u00fcrich, Untermoosstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2689",
+      "label": "2689"
+    },
+    {
+      "id": "Z\u00fcrich, Feldeggstrasse",
+      "label": "Z\u00fcrich, Feldeggstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2693",
+      "label": "2693"
+    },
+    {
+      "id": "Z\u00fcrich, N\u00fcrenbergstrasse",
+      "label": "Z\u00fcrich, N\u00fcrenbergstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2694",
+      "label": "2694"
+    },
+    {
+      "id": "Z\u00fcrich, Orionstrasse",
+      "label": "Z\u00fcrich, Orionstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2695",
+      "label": "2695"
+    },
+    {
+      "id": "Z\u00fcrich, Winzerstrasse S\u00fcd",
+      "label": "Z\u00fcrich, Winzerstrasse S\u00fcd"
+    },
+    {
+      "id": "http://example.org/zurich/station/2698",
+      "label": "2698"
+    },
+    {
+      "id": "Z\u00fcrich, Tobelhof",
+      "label": "Z\u00fcrich, Tobelhof"
+    },
+    {
+      "id": "http://example.org/zurich/station/2699",
+      "label": "2699"
+    },
+    {
+      "id": "Z\u00fcrich, Zoo",
+      "label": "Z\u00fcrich, Zoo"
+    },
+    {
+      "id": "http://example.org/zurich/station/2700",
+      "label": "2700"
+    },
+    {
+      "id": "Z\u00fcrich, Waffenplatz-/Bederstr.",
+      "label": "Z\u00fcrich, Waffenplatz-/Bederstr."
+    },
+    {
+      "id": "http://example.org/zurich/station/2701",
+      "label": "2701"
+    },
+    {
+      "id": "Z\u00fcrich, Toblerplatz",
+      "label": "Z\u00fcrich, Toblerplatz"
+    },
+    {
+      "id": "http://example.org/zurich/station/2702",
+      "label": "2702"
+    },
+    {
+      "id": "Z\u00fcrich, Birchd\u00f6rfli",
+      "label": "Z\u00fcrich, Birchd\u00f6rfli"
+    },
+    {
+      "id": "http://example.org/zurich/station/2705",
+      "label": "2705"
+    },
+    {
+      "id": "Z\u00fcrich, F\u00f6rrlibuckstrasse",
+      "label": "Z\u00fcrich, F\u00f6rrlibuckstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2707",
+      "label": "2707"
+    },
+    {
+      "id": "Z\u00fcrich, Staudenb\u00fchl",
+      "label": "Z\u00fcrich, Staudenb\u00fchl"
+    },
+    {
+      "id": "http://example.org/zurich/station/2709",
+      "label": "2709"
+    },
+    {
+      "id": "Z\u00fcrich, EPI-Klinik",
+      "label": "Z\u00fcrich, EPI-Klinik"
+    },
+    {
+      "id": "http://example.org/zurich/station/2710",
+      "label": "2710"
+    },
+    {
+      "id": "Z\u00fcrich, Winzerhalde",
+      "label": "Z\u00fcrich, Winzerhalde"
+    },
+    {
+      "id": "http://example.org/zurich/station/2711",
+      "label": "2711"
+    },
+    {
+      "id": "Z\u00fcrich, Winzerstrasse",
+      "label": "Z\u00fcrich, Winzerstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2712",
+      "label": "2712"
+    },
+    {
+      "id": "Z\u00fcrich, Wipkingerplatz",
+      "label": "Z\u00fcrich, Wipkingerplatz"
+    },
+    {
+      "id": "http://example.org/zurich/station/2713",
+      "label": "2713"
+    },
+    {
+      "id": "Z\u00fcrich, Fellenbergstrasse",
+      "label": "Z\u00fcrich, Fellenbergstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2714",
+      "label": "2714"
+    },
+    {
+      "id": "Z\u00fcrich, Strassenverkehrsamt",
+      "label": "Z\u00fcrich, Strassenverkehrsamt"
+    },
+    {
+      "id": "http://example.org/zurich/station/2716",
+      "label": "2716"
+    },
+    {
+      "id": "Z\u00fcrich, Glaubtenstrasse S\u00fcd",
+      "label": "Z\u00fcrich, Glaubtenstrasse S\u00fcd"
+    },
+    {
+      "id": "http://example.org/zurich/station/2718",
+      "label": "2718"
+    },
+    {
+      "id": "Z\u00fcrich, Goldackerweg",
+      "label": "Z\u00fcrich, Goldackerweg"
+    },
+    {
+      "id": "http://example.org/zurich/station/2721",
+      "label": "2721"
+    },
+    {
+      "id": "Z\u00fcrich, Zweiackerstrasse",
+      "label": "Z\u00fcrich, Zweiackerstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2722",
+      "label": "2722"
+    },
+    {
+      "id": "Z\u00fcrich, H\u00f6fliweg",
+      "label": "Z\u00fcrich, H\u00f6fliweg"
+    },
+    {
+      "id": "http://example.org/zurich/station/2729",
+      "label": "2729"
+    },
+    {
+      "id": "Z\u00fcrich, Luegisland",
+      "label": "Z\u00fcrich, Luegisland"
+    },
+    {
+      "id": "http://example.org/zurich/station/2730",
+      "label": "2730"
+    },
+    {
+      "id": "Z\u00fcrich, Luggwegstrasse",
+      "label": "Z\u00fcrich, Luggwegstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2731",
+      "label": "2731"
+    },
+    {
+      "id": "Z\u00fcrich, Zwielplatz",
+      "label": "Z\u00fcrich, Zwielplatz"
+    },
+    {
+      "id": "http://example.org/zurich/station/2734",
+      "label": "2734"
+    },
+    {
+      "id": "Z\u00fcrich, Weihersteig",
+      "label": "Z\u00fcrich, Weihersteig"
+    },
+    {
+      "id": "http://example.org/zurich/station/2735",
+      "label": "2735"
+    },
+    {
+      "id": "Z\u00fcrich, Zoo/Forrenweid",
+      "label": "Z\u00fcrich, Zoo/Forrenweid"
+    },
+    {
+      "id": "http://example.org/zurich/station/2738",
+      "label": "2738"
+    },
+    {
+      "id": "Z\u00fcrich, Zwinglihaus",
+      "label": "Z\u00fcrich, Zwinglihaus"
+    },
+    {
+      "id": "http://example.org/zurich/station/2740",
+      "label": "2740"
+    },
+    {
+      "id": "Z\u00fcrich, Aargauerstrasse",
+      "label": "Z\u00fcrich, Aargauerstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2742",
+      "label": "2742"
+    },
+    {
+      "id": "Z\u00fcrich, Elektrowatt",
+      "label": "Z\u00fcrich, Elektrowatt"
+    },
+    {
+      "id": "http://example.org/zurich/station/2743",
+      "label": "2743"
+    },
+    {
+      "id": "Z\u00fcrich, Stierenried",
+      "label": "Z\u00fcrich, Stierenried"
+    },
+    {
+      "id": "http://example.org/zurich/station/2744",
+      "label": "2744"
+    },
+    {
+      "id": "Z\u00fcrich, B\u00e4renbohlstrasse",
+      "label": "Z\u00fcrich, B\u00e4renbohlstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2745",
+      "label": "2745"
+    },
+    {
+      "id": "Z\u00fcrich, Verenastrasse",
+      "label": "Z\u00fcrich, Verenastrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2748",
+      "label": "2748"
+    },
+    {
+      "id": "Z\u00fcrich, Vogelsangstrasse",
+      "label": "Z\u00fcrich, Vogelsangstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2749",
+      "label": "2749"
+    },
+    {
+      "id": "Z\u00fcrich, Rosengartenstrasse",
+      "label": "Z\u00fcrich, Rosengartenstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2750",
+      "label": "2750"
+    },
+    {
+      "id": "Z\u00fcrich, Fischerweg",
+      "label": "Z\u00fcrich, Fischerweg"
+    },
+    {
+      "id": "http://example.org/zurich/station/2752",
+      "label": "2752"
+    },
+    {
+      "id": "Z\u00fcrich, Rotbuchstrasse",
+      "label": "Z\u00fcrich, Rotbuchstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2756",
+      "label": "2756"
+    },
+    {
+      "id": "Z\u00fcrich, Bahnhof Hardbr\u00fccke",
+      "label": "Z\u00fcrich, Bahnhof Hardbr\u00fccke"
+    },
+    {
+      "id": "http://example.org/zurich/station/2758",
+      "label": "2758"
+    },
+    {
+      "id": "Z\u00fcrich, Okenstrasse",
+      "label": "Z\u00fcrich, Okenstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2761",
+      "label": "2761"
+    },
+    {
+      "id": "Z\u00fcrich, Maillartstrasse",
+      "label": "Z\u00fcrich, Maillartstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2763",
+      "label": "2763"
+    },
+    {
+      "id": "Z\u00fcrich, Bollingerweg",
+      "label": "Z\u00fcrich, Bollingerweg"
+    },
+    {
+      "id": "http://example.org/zurich/station/2764",
+      "label": "2764"
+    },
+    {
+      "id": "Z\u00fcrich, H\u00fcrlimannplatz",
+      "label": "Z\u00fcrich, H\u00fcrlimannplatz"
+    },
+    {
+      "id": "http://example.org/zurich/station/2765",
+      "label": "2765"
+    },
+    {
+      "id": "Z\u00fcrich, Wonnebergstrasse",
+      "label": "Z\u00fcrich, Wonnebergstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2766",
+      "label": "2766"
+    },
+    {
+      "id": "Z\u00fcrich, Voltastrasse",
+      "label": "Z\u00fcrich, Voltastrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2768",
+      "label": "2768"
+    },
+    {
+      "id": "Z\u00fcrich, Rudolf-Brun-Br\u00fccke",
+      "label": "Z\u00fcrich, Rudolf-Brun-Br\u00fccke"
+    },
+    {
+      "id": "http://example.org/zurich/station/2769",
+      "label": "2769"
+    },
+    {
+      "id": "Z\u00fcrich, Flurstrasse",
+      "label": "Z\u00fcrich, Flurstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2770",
+      "label": "2770"
+    },
+    {
+      "id": "Z\u00fcrich, Grimselstrasse",
+      "label": "Z\u00fcrich, Grimselstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2771",
+      "label": "2771"
+    },
+    {
+      "id": "Z\u00fcrich, Fl\u00fchgasse",
+      "label": "Z\u00fcrich, Fl\u00fchgasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2772",
+      "label": "2772"
+    },
+    {
+      "id": "Z\u00fcrich, Werdh\u00f6lzli",
+      "label": "Z\u00fcrich, Werdh\u00f6lzli"
+    },
+    {
+      "id": "http://example.org/zurich/station/2773",
+      "label": "2773"
+    },
+    {
+      "id": "Z\u00fcrich, K\u00f6schenr\u00fcti",
+      "label": "Z\u00fcrich, K\u00f6schenr\u00fcti"
+    },
+    {
+      "id": "http://example.org/zurich/station/2774",
+      "label": "2774"
+    },
+    {
+      "id": "Z\u00fcrich, Rathaus",
+      "label": "Z\u00fcrich, Rathaus"
+    },
+    {
+      "id": "http://example.org/zurich/station/2775",
+      "label": "2775"
+    },
+    {
+      "id": "Z\u00fcrich, Albisrank",
+      "label": "Z\u00fcrich, Albisrank"
+    },
+    {
+      "id": "http://example.org/zurich/station/2777",
+      "label": "2777"
+    },
+    {
+      "id": "Z\u00fcrich, Im Gut",
+      "label": "Z\u00fcrich, Im Gut"
+    },
+    {
+      "id": "http://example.org/zurich/station/2778",
+      "label": "2778"
+    },
+    {
+      "id": "Z\u00fcrich, Rebbergsteig",
+      "label": "Z\u00fcrich, Rebbergsteig"
+    },
+    {
+      "id": "http://example.org/zurich/station/2779",
+      "label": "2779"
+    },
+    {
+      "id": "Z\u00fcrich, Englischviertelstrasse",
+      "label": "Z\u00fcrich, Englischviertelstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2781",
+      "label": "2781"
+    },
+    {
+      "id": "Z\u00fcrich, Waffenplatzstrasse",
+      "label": "Z\u00fcrich, Waffenplatzstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2783",
+      "label": "2783"
+    },
+    {
+      "id": "Z\u00fcrich, R\u00e4ffelstrasse",
+      "label": "Z\u00fcrich, R\u00e4ffelstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2784",
+      "label": "2784"
+    },
+    {
+      "id": "Z\u00fcrich, Waidbadstrasse",
+      "label": "Z\u00fcrich, Waidbadstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2787",
+      "label": "2787"
+    },
+    {
+      "id": "Z\u00fcrich, R\u00f6ntgenstrasse",
+      "label": "Z\u00fcrich, R\u00f6ntgenstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2788",
+      "label": "2788"
+    },
+    {
+      "id": "Z\u00fcrich, Bahnhof Tiefenbrunnen",
+      "label": "Z\u00fcrich, Bahnhof Tiefenbrunnen"
+    },
+    {
+      "id": "http://example.org/zurich/station/2789",
+      "label": "2789"
+    },
+    {
+      "id": "Z\u00fcrich, Bahnhof Wipkingen",
+      "label": "Z\u00fcrich, Bahnhof Wipkingen"
+    },
+    {
+      "id": "http://example.org/zurich/station/2791",
+      "label": "2791"
+    },
+    {
+      "id": "Z\u00fcrich, Z\u00fcrichbergstrasse",
+      "label": "Z\u00fcrich, Z\u00fcrichbergstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2792",
+      "label": "2792"
+    },
+    {
+      "id": "Z\u00fcrich, Hardhof",
+      "label": "Z\u00fcrich, Hardhof"
+    },
+    {
+      "id": "http://example.org/zurich/station/2799",
+      "label": "2799"
+    },
+    {
+      "id": "Z\u00fcrich, Platte",
+      "label": "Z\u00fcrich, Platte"
+    },
+    {
+      "id": "http://example.org/zurich/station/2800",
+      "label": "2800"
+    },
+    {
+      "id": "Z\u00fcrich, Kappenb\u00fchlweg",
+      "label": "Z\u00fcrich, Kappenb\u00fchlweg"
+    },
+    {
+      "id": "http://example.org/zurich/station/2802",
+      "label": "2802"
+    },
+    {
+      "id": "Z\u00fcrich, Schweighof",
+      "label": "Z\u00fcrich, Schweighof"
+    },
+    {
+      "id": "http://example.org/zurich/station/2803",
+      "label": "2803"
+    },
+    {
+      "id": "Z\u00fcrich, Freilagerstrasse",
+      "label": "Z\u00fcrich, Freilagerstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2804",
+      "label": "2804"
+    },
+    {
+      "id": "Z\u00fcrich, Schwert",
+      "label": "Z\u00fcrich, Schwert"
+    },
+    {
+      "id": "http://example.org/zurich/station/2807",
+      "label": "2807"
+    },
+    {
+      "id": "Z\u00fcrich, Im Hagacker",
+      "label": "Z\u00fcrich, Im Hagacker"
+    },
+    {
+      "id": "http://example.org/zurich/station/2808",
+      "label": "2808"
+    },
+    {
+      "id": "Z\u00fcrich, Wieslergasse",
+      "label": "Z\u00fcrich, Wieslergasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2809",
+      "label": "2809"
+    },
+    {
+      "id": "Z\u00fcrich, Albisg\u00fctli",
+      "label": "Z\u00fcrich, Albisg\u00fctli"
+    },
+    {
+      "id": "http://example.org/zurich/station/2810",
+      "label": "2810"
+    },
+    {
+      "id": "Z\u00fcrich, Albisrieden",
+      "label": "Z\u00fcrich, Albisrieden"
+    },
+    {
+      "id": "http://example.org/zurich/station/2811",
+      "label": "2811"
+    },
+    {
+      "id": "Z\u00fcrich, Giblenstrasse",
+      "label": "Z\u00fcrich, Giblenstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2812",
+      "label": "2812"
+    },
+    {
+      "id": "Z\u00fcrich, Heerenwiesen",
+      "label": "Z\u00fcrich, Heerenwiesen"
+    },
+    {
+      "id": "http://example.org/zurich/station/2813",
+      "label": "2813"
+    },
+    {
+      "id": "Z\u00fcrich, Landiwiese",
+      "label": "Z\u00fcrich, Landiwiese"
+    },
+    {
+      "id": "http://example.org/zurich/station/2814",
+      "label": "2814"
+    },
+    {
+      "id": "Z\u00fcrich, Rentenanstalt",
+      "label": "Z\u00fcrich, Rentenanstalt"
+    },
+    {
+      "id": "http://example.org/zurich/station/2815",
+      "label": "2815"
+    },
+    {
+      "id": "Z\u00fcrich, Hirzenbach",
+      "label": "Z\u00fcrich, Hirzenbach"
+    },
+    {
+      "id": "http://example.org/zurich/station/2816",
+      "label": "2816"
+    },
+    {
+      "id": "Z\u00fcrich, Auzelg Ost",
+      "label": "Z\u00fcrich, Auzelg Ost"
+    },
+    {
+      "id": "http://example.org/zurich/station/2817",
+      "label": "2817"
+    },
+    {
+      "id": "Z\u00fcrich, Letzipark",
+      "label": "Z\u00fcrich, Letzipark"
+    },
+    {
+      "id": "http://example.org/zurich/station/2818",
+      "label": "2818"
+    },
+    {
+      "id": "Z\u00fcrich, Bachmattstrasse",
+      "label": "Z\u00fcrich, Bachmattstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2821",
+      "label": "2821"
+    },
+    {
+      "id": "Z\u00fcrich, R\u00fctihof",
+      "label": "Z\u00fcrich, R\u00fctihof"
+    },
+    {
+      "id": "http://example.org/zurich/station/2823",
+      "label": "2823"
+    },
+    {
+      "id": "Z\u00fcrich, Friedhof H\u00f6nggerberg",
+      "label": "Z\u00fcrich, Friedhof H\u00f6nggerberg"
+    },
+    {
+      "id": "http://example.org/zurich/station/2824",
+      "label": "2824"
+    },
+    {
+      "id": "Z\u00fcrich, SBB-Werkst\u00e4tte",
+      "label": "Z\u00fcrich, SBB-Werkst\u00e4tte"
+    },
+    {
+      "id": "http://example.org/zurich/station/2825",
+      "label": "2825"
+    },
+    {
+      "id": "Z\u00fcrich, Friedhof Schwandenholz",
+      "label": "Z\u00fcrich, Friedhof Schwandenholz"
+    },
+    {
+      "id": "http://example.org/zurich/station/2826",
+      "label": "2826"
+    },
+    {
+      "id": "Z\u00fcrich, Friedhof Sihlfeld",
+      "label": "Z\u00fcrich, Friedhof Sihlfeld"
+    },
+    {
+      "id": "http://example.org/zurich/station/2828",
+      "label": "2828"
+    },
+    {
+      "id": "Z\u00fcrich, Im H\u00fcsli",
+      "label": "Z\u00fcrich, Im H\u00fcsli"
+    },
+    {
+      "id": "http://example.org/zurich/station/2829",
+      "label": "2829"
+    },
+    {
+      "id": "Z\u00fcrich, Sackzelg",
+      "label": "Z\u00fcrich, Sackzelg"
+    },
+    {
+      "id": "http://example.org/zurich/station/2830",
+      "label": "2830"
+    },
+    {
+      "id": "Z\u00fcrich, Im Kl\u00f6sterli",
+      "label": "Z\u00fcrich, Im Kl\u00f6sterli"
+    },
+    {
+      "id": "http://example.org/zurich/station/2831",
+      "label": "2831"
+    },
+    {
+      "id": "Z\u00fcrich, Singlistrasse",
+      "label": "Z\u00fcrich, Singlistrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2832",
+      "label": "2832"
+    },
+    {
+      "id": "Z\u00fcrich, Im Walder",
+      "label": "Z\u00fcrich, Im Walder"
+    },
+    {
+      "id": "http://example.org/zurich/station/2834",
+      "label": "2834"
+    },
+    {
+      "id": "Z\u00fcrich, Im Wingert",
+      "label": "Z\u00fcrich, Im Wingert"
+    },
+    {
+      "id": "http://example.org/zurich/station/2836",
+      "label": "2836"
+    },
+    {
+      "id": "Z\u00fcrich, Hegianwandweg",
+      "label": "Z\u00fcrich, Hegianwandweg"
+    },
+    {
+      "id": "http://example.org/zurich/station/2837",
+      "label": "2837"
+    },
+    {
+      "id": "Z\u00fcrich, Am B\u00f6rtli",
+      "label": "Z\u00fcrich, Am B\u00f6rtli"
+    },
+    {
+      "id": "http://example.org/zurich/station/2838",
+      "label": "2838"
+    },
+    {
+      "id": "Z\u00fcrich, Appenzellerstrasse",
+      "label": "Z\u00fcrich, Appenzellerstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2840",
+      "label": "2840"
+    },
+    {
+      "id": "Z\u00fcrich, Schulhaus Altweg",
+      "label": "Z\u00fcrich, Schulhaus Altweg"
+    },
+    {
+      "id": "http://example.org/zurich/station/2841",
+      "label": "2841"
+    },
+    {
+      "id": "Z\u00fcrich, Hohenklingensteig",
+      "label": "Z\u00fcrich, Hohenklingensteig"
+    },
+    {
+      "id": "http://example.org/zurich/station/2843",
+      "label": "2843"
+    },
+    {
+      "id": "Z\u00fcrich, Sch\u00f6nauring",
+      "label": "Z\u00fcrich, Sch\u00f6nauring"
+    },
+    {
+      "id": "http://example.org/zurich/station/2845",
+      "label": "2845"
+    },
+    {
+      "id": "Z\u00fcrich, Kirche Fluntern",
+      "label": "Z\u00fcrich, Kirche Fluntern"
+    },
+    {
+      "id": "http://example.org/zurich/station/2847",
+      "label": "2847"
+    },
+    {
+      "id": "Z\u00fcrich, Himmeri",
+      "label": "Z\u00fcrich, Himmeri"
+    },
+    {
+      "id": "http://example.org/zurich/station/2849",
+      "label": "2849"
+    },
+    {
+      "id": "Z\u00fcrich, Holzerhurd",
+      "label": "Z\u00fcrich, Holzerhurd"
+    },
+    {
+      "id": "http://example.org/zurich/station/2851",
+      "label": "2851"
+    },
+    {
+      "id": "Z\u00fcrich, In der Ey",
+      "label": "Z\u00fcrich, In der Ey"
+    },
+    {
+      "id": "http://example.org/zurich/station/2853",
+      "label": "2853"
+    },
+    {
+      "id": "Z\u00fcrich, Alte Trotte",
+      "label": "Z\u00fcrich, Alte Trotte"
+    },
+    {
+      "id": "http://example.org/zurich/station/2854",
+      "label": "2854"
+    },
+    {
+      "id": "Z\u00fcrich, Helmhaus",
+      "label": "Z\u00fcrich, Helmhaus"
+    },
+    {
+      "id": "http://example.org/zurich/station/2857",
+      "label": "2857"
+    },
+    {
+      "id": "Z\u00fcrich, Gutstrasse",
+      "label": "Z\u00fcrich, Gutstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2861",
+      "label": "2861"
+    },
+    {
+      "id": "Z\u00fcrich, Scheuchzerstrasse",
+      "label": "Z\u00fcrich, Scheuchzerstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2862",
+      "label": "2862"
+    },
+    {
+      "id": "Z\u00fcrich, Langgr\u00fctstrasse",
+      "label": "Z\u00fcrich, Langgr\u00fctstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2867",
+      "label": "2867"
+    },
+    {
+      "id": "Z\u00fcrich, Altenhofstrasse",
+      "label": "Z\u00fcrich, Altenhofstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2868",
+      "label": "2868"
+    },
+    {
+      "id": "Z\u00fcrich, Herdernstrasse",
+      "label": "Z\u00fcrich, Herdernstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2869",
+      "label": "2869"
+    },
+    {
+      "id": "Z\u00fcrich, Bleulerstrasse",
+      "label": "Z\u00fcrich, Bleulerstrasse"
+    },
+    {
+      "id": "http://example.org/zurich/station/2870",
+      "label": "2870"
+    },
+    {
+      "id": "Z\u00fcrich, Hottingerplatz",
+      "label": "Z\u00fcrich, Hottingerplatz"
+    },
+    {
+      "id": "http://example.org/zurich/station/2871",
+      "label": "2871"
+    },
+    {
+      "id": "Z\u00fcrich, Hubertus",
+      "label": "Z\u00fcrich, Hubertus"
+    },
+    {
+      "id": "http://example.org/zurich/station/2891",
+      "label": "2891"
+    },
+    {
+      "id": "Z\u00fcrich, Binz",
+      "label": "Z\u00fcrich, Binz"
+    },
+    {
+      "id": "http://example.org/zurich/station/2893",
+      "label": "2893"
+    },
+    {
+      "id": "Z\u00fcrich, Schiffbau",
+      "label": "Z\u00fcrich, Schiffbau"
+    },
+    {
+      "id": "http://example.org/zurich/station/3102",
+      "label": "3102"
+    },
+    {
+      "id": "Z\u00fcrich, Abstellplatz Garage 6",
+      "label": "Z\u00fcrich, Abstellplatz Garage 6"
+    },
+    {
+      "id": "http://example.org/zurich/station/3104",
+      "label": "3104"
+    },
+    {
+      "id": "Z\u00fcrich, Wenden Zentralwerkst\u00e4t",
+      "label": "Z\u00fcrich, Wenden Zentralwerkst\u00e4t"
+    },
+    {
+      "id": "http://example.org/zurich/station/3158",
+      "label": "3158"
+    },
+    {
+      "id": "Z\u00fcrich, Glaubtenstrasse Nord",
+      "label": "Z\u00fcrich, Glaubtenstrasse Nord"
+    },
+    {
+      "id": "http://example.org/zurich/station/373",
+      "label": "373"
+    },
+    {
+      "id": "Z\u00fcrich Flughafen, Fracht",
+      "label": "Z\u00fcrich Flughafen, Fracht"
+    },
+    {
+      "id": "http://example.org/zurich/station/588",
+      "label": "588"
+    },
+    {
+      "id": "Z\u00fcrich Flughafen, Bahnhof",
+      "label": "Z\u00fcrich Flughafen, Bahnhof"
+    },
+    {
+      "id": "http://example.org/zurich/station/701",
+      "label": "701"
+    },
+    {
+      "id": "Z\u00fcrich, Goldbrunnenplatz",
+      "label": "Z\u00fcrich, Goldbrunnenplatz"
+    }
+  ],
+  "edges": [
+    {
+      "source": "http://example.org/zurich/station/1010",
+      "target": "Z\u00fcrich, Schaufelbergerstrasse",
+      "label": "Z\u00fcrich, Schaufelbergerstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/1270",
+      "target": "Z\u00fcrich, Triemli",
+      "label": "Z\u00fcrich, Triemli"
+    },
+    {
+      "source": "http://example.org/zurich/station/1305",
+      "target": "Z\u00fcrich, Kunsthaus",
+      "label": "Z\u00fcrich, Kunsthaus"
+    },
+    {
+      "source": "http://example.org/zurich/station/1306",
+      "target": "Z\u00fcrich, Bezirksgeb\u00e4ude",
+      "label": "Z\u00fcrich, Bezirksgeb\u00e4ude"
+    },
+    {
+      "source": "http://example.org/zurich/station/1308",
+      "target": "Z\u00fcrich, ETH/Universit\u00e4tsspital",
+      "label": "Z\u00fcrich, ETH/Universit\u00e4tsspital"
+    },
+    {
+      "source": "http://example.org/zurich/station/1309",
+      "target": "Z\u00fcrich, Bucheggplatz",
+      "label": "Z\u00fcrich, Bucheggplatz"
+    },
+    {
+      "source": "http://example.org/zurich/station/1310",
+      "target": "Z\u00fcrich, Farbhof",
+      "label": "Z\u00fcrich, Farbhof"
+    },
+    {
+      "source": "http://example.org/zurich/station/1311",
+      "target": "Z\u00fcrich, Sternen Oerlikon",
+      "label": "Z\u00fcrich, Sternen Oerlikon"
+    },
+    {
+      "source": "http://example.org/zurich/station/1362",
+      "target": "Z\u00fcrich, Im Ebnet",
+      "label": "Z\u00fcrich, Im Ebnet"
+    },
+    {
+      "source": "http://example.org/zurich/station/1393",
+      "target": "Z\u00fcrich, Sch\u00fcrgistrasse",
+      "label": "Z\u00fcrich, Sch\u00fcrgistrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/1406",
+      "target": "Z\u00fcrich, H\u00f6lderlinstrasse",
+      "label": "Z\u00fcrich, H\u00f6lderlinstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/1443",
+      "target": "Z\u00fcrich, Leutschenbach",
+      "label": "Z\u00fcrich, Leutschenbach"
+    },
+    {
+      "source": "http://example.org/zurich/station/1454",
+      "target": "Z\u00fcrich, Heizenholz",
+      "label": "Z\u00fcrich, Heizenholz"
+    },
+    {
+      "source": "http://example.org/zurich/station/1499",
+      "target": "Z\u00fcrich, Neub\u00fchl",
+      "label": "Z\u00fcrich, Neub\u00fchl"
+    },
+    {
+      "source": "http://example.org/zurich/station/1500",
+      "target": "Z\u00fcrich, Bahnhof Leimbach",
+      "label": "Z\u00fcrich, Bahnhof Leimbach"
+    },
+    {
+      "source": "http://example.org/zurich/station/1501",
+      "target": "Z\u00fcrich, Schwamendingerplatz",
+      "label": "Z\u00fcrich, Schwamendingerplatz"
+    },
+    {
+      "source": "http://example.org/zurich/station/1502",
+      "target": "Z\u00fcrich, Stauffacher",
+      "label": "Z\u00fcrich, Stauffacher"
+    },
+    {
+      "source": "http://example.org/zurich/station/1503",
+      "target": "Z\u00fcrich, Kienastenwies",
+      "label": "Z\u00fcrich, Kienastenwies"
+    },
+    {
+      "source": "http://example.org/zurich/station/1504",
+      "target": "Z\u00fcrich, Milchbuck",
+      "label": "Z\u00fcrich, Milchbuck"
+    },
+    {
+      "source": "http://example.org/zurich/station/1511",
+      "target": "Z\u00fcrich, Morgental",
+      "label": "Z\u00fcrich, Morgental"
+    },
+    {
+      "source": "http://example.org/zurich/station/1523",
+      "target": "Z\u00fcrich, L\u00e4gernstrasse",
+      "label": "Z\u00fcrich, L\u00e4gernstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/1525",
+      "target": "Z\u00fcrich, Radiostudio",
+      "label": "Z\u00fcrich, Radiostudio"
+    },
+    {
+      "source": "http://example.org/zurich/station/1528",
+      "target": "Z\u00fcrich, Paradeplatz",
+      "label": "Z\u00fcrich, Paradeplatz"
+    },
+    {
+      "source": "http://example.org/zurich/station/1531",
+      "target": "Z\u00fcrich, R\u00f6merhof",
+      "label": "Z\u00fcrich, R\u00f6merhof"
+    },
+    {
+      "source": "http://example.org/zurich/station/1532",
+      "target": "Z\u00fcrich, Hirschwiesenstrasse",
+      "label": "Z\u00fcrich, Hirschwiesenstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/1534",
+      "target": "Z\u00fcrich, Werd",
+      "label": "Z\u00fcrich, Werd"
+    },
+    {
+      "source": "http://example.org/zurich/station/1535",
+      "target": "Z\u00fcrich, Albisriederplatz",
+      "label": "Z\u00fcrich, Albisriederplatz"
+    },
+    {
+      "source": "http://example.org/zurich/station/1539",
+      "target": "Z\u00fcrich, Schaffhauserplatz",
+      "label": "Z\u00fcrich, Schaffhauserplatz"
+    },
+    {
+      "source": "http://example.org/zurich/station/1541",
+      "target": "Z\u00fcrich, Bahnhofplatz/HB",
+      "label": "Z\u00fcrich, Bahnhofplatz/HB"
+    },
+    {
+      "source": "http://example.org/zurich/station/1542",
+      "target": "Z\u00fcrich, Bahnhofquai/HB",
+      "label": "Z\u00fcrich, Bahnhofquai/HB"
+    },
+    {
+      "source": "http://example.org/zurich/station/1543",
+      "target": "Z\u00fcrich, Universit\u00e4t Irchel",
+      "label": "Z\u00fcrich, Universit\u00e4t Irchel"
+    },
+    {
+      "source": "http://example.org/zurich/station/1557",
+      "target": "Z\u00fcrich, Bahnhof Wiedikon",
+      "label": "Z\u00fcrich, Bahnhof Wiedikon"
+    },
+    {
+      "source": "http://example.org/zurich/station/1565",
+      "target": "Z\u00fcrich, Bellevue",
+      "label": "Z\u00fcrich, Bellevue"
+    },
+    {
+      "source": "http://example.org/zurich/station/1571",
+      "target": "Z\u00fcrich, Frankental",
+      "label": "Z\u00fcrich, Frankental"
+    },
+    {
+      "source": "http://example.org/zurich/station/1574",
+      "target": "Z\u00fcrich, Escher-Wyss-Platz",
+      "label": "Z\u00fcrich, Escher-Wyss-Platz"
+    },
+    {
+      "source": "http://example.org/zurich/station/1580",
+      "target": "Z\u00fcrich, Altried",
+      "label": "Z\u00fcrich, Altried"
+    },
+    {
+      "source": "http://example.org/zurich/station/1596",
+      "target": "Z\u00fcrich, Seebach",
+      "label": "Z\u00fcrich, Seebach"
+    },
+    {
+      "source": "http://example.org/zurich/station/1598",
+      "target": "Z\u00fcrich, Hungerbergstrasse",
+      "label": "Z\u00fcrich, Hungerbergstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/1677",
+      "target": "Z\u00fcrich, Ausserdorfstrasse",
+      "label": "Z\u00fcrich, Ausserdorfstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/1741",
+      "target": "Z\u00fcrich, Mittelleimbach",
+      "label": "Z\u00fcrich, Mittelleimbach"
+    },
+    {
+      "source": "http://example.org/zurich/station/1773",
+      "target": "Z\u00fcrich, Triemlispital",
+      "label": "Z\u00fcrich, Triemlispital"
+    },
+    {
+      "source": "http://example.org/zurich/station/1797",
+      "target": "Z\u00fcrich, Birch-/Glatttalstrasse",
+      "label": "Z\u00fcrich, Birch-/Glatttalstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/1816",
+      "target": "Z\u00fcrich, Gessnerallee",
+      "label": "Z\u00fcrich, Gessnerallee"
+    },
+    {
+      "source": "http://example.org/zurich/station/1829",
+      "target": "Z\u00fcrich, Bahnhof Oerlikon",
+      "label": "Z\u00fcrich, Bahnhof Oerlikon"
+    },
+    {
+      "source": "http://example.org/zurich/station/1843",
+      "target": "Z\u00fcrich, Riedhofstrasse",
+      "label": "Z\u00fcrich, Riedhofstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/1845",
+      "target": "Z\u00fcrich, Zehntenhausplatz",
+      "label": "Z\u00fcrich, Zehntenhausplatz"
+    },
+    {
+      "source": "http://example.org/zurich/station/1846",
+      "target": "Z\u00fcrich, Aubr\u00fccke",
+      "label": "Z\u00fcrich, Aubr\u00fccke"
+    },
+    {
+      "source": "http://example.org/zurich/station/1851",
+      "target": "Z\u00fcrich, Sihlcity",
+      "label": "Z\u00fcrich, Sihlcity"
+    },
+    {
+      "source": "http://example.org/zurich/station/1852",
+      "target": "Z\u00fcrich, Bahnhof Enge/Bederstr.",
+      "label": "Z\u00fcrich, Bahnhof Enge/Bederstr."
+    },
+    {
+      "source": "http://example.org/zurich/station/1854",
+      "target": "Z\u00fcrich, Saalsporthalle",
+      "label": "Z\u00fcrich, Saalsporthalle"
+    },
+    {
+      "source": "http://example.org/zurich/station/1873",
+      "target": "Z\u00fcrich, Felsenrainstrasse",
+      "label": "Z\u00fcrich, Felsenrainstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/1874",
+      "target": "Z\u00fcrich, Bahnhof Affoltern",
+      "label": "Z\u00fcrich, Bahnhof Affoltern"
+    },
+    {
+      "source": "http://example.org/zurich/station/1884",
+      "target": "Z\u00fcrich, Messe/Hallenstadion",
+      "label": "Z\u00fcrich, Messe/Hallenstadion"
+    },
+    {
+      "source": "http://example.org/zurich/station/1885",
+      "target": "Z\u00fcrich, Bahnhof Oerlikon Nord",
+      "label": "Z\u00fcrich, Bahnhof Oerlikon Nord"
+    },
+    {
+      "source": "http://example.org/zurich/station/1890",
+      "target": "Z\u00fcrich, Neum\u00fchlequai",
+      "label": "Z\u00fcrich, Neum\u00fchlequai"
+    },
+    {
+      "source": "http://example.org/zurich/station/1893",
+      "target": "Z\u00fcrich, Bahnhof Enge",
+      "label": "Z\u00fcrich, Bahnhof Enge"
+    },
+    {
+      "source": "http://example.org/zurich/station/1895",
+      "target": "Z\u00fcrich, Bahnhofstrasse/HB",
+      "label": "Z\u00fcrich, Bahnhofstrasse/HB"
+    },
+    {
+      "source": "http://example.org/zurich/station/1905",
+      "target": "Z\u00fcrich, Klusplatz",
+      "label": "Z\u00fcrich, Klusplatz"
+    },
+    {
+      "source": "http://example.org/zurich/station/1906",
+      "target": "Z\u00fcrich,Kalkbreite/Bhf.Wiedikon",
+      "label": "Z\u00fcrich,Kalkbreite/Bhf.Wiedikon"
+    },
+    {
+      "source": "http://example.org/zurich/station/1907",
+      "target": "Z\u00fcrich, Manegg",
+      "label": "Z\u00fcrich, Manegg"
+    },
+    {
+      "source": "http://example.org/zurich/station/1908",
+      "target": "Z\u00fcrich, Heuried",
+      "label": "Z\u00fcrich, Heuried"
+    },
+    {
+      "source": "http://example.org/zurich/station/1916",
+      "target": "Z\u00fcrich, Ettenfeld",
+      "label": "Z\u00fcrich, Ettenfeld"
+    },
+    {
+      "source": "http://example.org/zurich/station/1919",
+      "target": "Z\u00fcrich, Bahnhof Oerlikon Ost",
+      "label": "Z\u00fcrich, Bahnhof Oerlikon Ost"
+    },
+    {
+      "source": "http://example.org/zurich/station/1928",
+      "target": "Z\u00fcrich, Fernsehstudio",
+      "label": "Z\u00fcrich, Fernsehstudio"
+    },
+    {
+      "source": "http://example.org/zurich/station/1934",
+      "target": "Z\u00fcrich, Seebacherplatz",
+      "label": "Z\u00fcrich, Seebacherplatz"
+    },
+    {
+      "source": "http://example.org/zurich/station/1938",
+      "target": "Z\u00fcrich, Central",
+      "label": "Z\u00fcrich, Central"
+    },
+    {
+      "source": "http://example.org/zurich/station/2022",
+      "target": "Z\u00fcrich, R\u00f6slistrasse",
+      "label": "Z\u00fcrich, R\u00f6slistrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2023",
+      "target": "Z\u00fcrich, Depot 2 Wollishofen",
+      "label": "Z\u00fcrich, Depot 2 Wollishofen"
+    },
+    {
+      "source": "http://example.org/zurich/station/2025",
+      "target": "Z\u00fcrich, Bhf Wollishofen (Tram)",
+      "label": "Z\u00fcrich, Bhf Wollishofen (Tram)"
+    },
+    {
+      "source": "http://example.org/zurich/station/2035",
+      "target": "Z\u00fcrich, Rennweg",
+      "label": "Z\u00fcrich, Rennweg"
+    },
+    {
+      "source": "http://example.org/zurich/station/2045",
+      "target": "Z\u00fcrich, Guggachstrasse",
+      "label": "Z\u00fcrich, Guggachstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2046",
+      "target": "Z\u00fcrich, Sch\u00f6rlistrasse",
+      "label": "Z\u00fcrich, Sch\u00f6rlistrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2047",
+      "target": "Z\u00fcrich, Sonneggstrasse",
+      "label": "Z\u00fcrich, Sonneggstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2052",
+      "target": "Z\u00fcrich, Glattwiesen",
+      "label": "Z\u00fcrich, Glattwiesen"
+    },
+    {
+      "source": "http://example.org/zurich/station/2060",
+      "target": "Z\u00fcrich, Schmiede Wiedikon",
+      "label": "Z\u00fcrich, Schmiede Wiedikon"
+    },
+    {
+      "source": "http://example.org/zurich/station/2081",
+      "target": "Z\u00fcrich, Depot 7 Irchel",
+      "label": "Z\u00fcrich, Depot 7 Irchel"
+    },
+    {
+      "source": "http://example.org/zurich/station/2083",
+      "target": "Z\u00fcrich, Auzelg",
+      "label": "Z\u00fcrich, Auzelg"
+    },
+    {
+      "source": "http://example.org/zurich/station/2084",
+      "target": "Z\u00fcrich, Kreuzplatz",
+      "label": "Z\u00fcrich, Kreuzplatz"
+    },
+    {
+      "source": "http://example.org/zurich/station/2085",
+      "target": "Z\u00fcrich, Laubiweg",
+      "label": "Z\u00fcrich, Laubiweg"
+    },
+    {
+      "source": "http://example.org/zurich/station/2086",
+      "target": "Z\u00fcrich, Beckenhof",
+      "label": "Z\u00fcrich, Beckenhof"
+    },
+    {
+      "source": "http://example.org/zurich/station/2087",
+      "target": "Z\u00fcrich, Kronenstrasse",
+      "label": "Z\u00fcrich, Kronenstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2088",
+      "target": "Z\u00fcrich, Stampfenbachplatz",
+      "label": "Z\u00fcrich, Stampfenbachplatz"
+    },
+    {
+      "source": "http://example.org/zurich/station/2089",
+      "target": "Z\u00fcrich, Regensbergbr\u00fccke",
+      "label": "Z\u00fcrich, Regensbergbr\u00fccke"
+    },
+    {
+      "source": "http://example.org/zurich/station/2090",
+      "target": "Z\u00fcrich, Bad Allenmoos",
+      "label": "Z\u00fcrich, Bad Allenmoos"
+    },
+    {
+      "source": "http://example.org/zurich/station/2092",
+      "target": "Z\u00fcrich, Rehalp",
+      "label": "Z\u00fcrich, Rehalp"
+    },
+    {
+      "source": "http://example.org/zurich/station/2104",
+      "target": "Z\u00fcrich, Opernhaus",
+      "label": "Z\u00fcrich, Opernhaus"
+    },
+    {
+      "source": "http://example.org/zurich/station/2110",
+      "target": "Z\u00fcrich, Wetlistrasse",
+      "label": "Z\u00fcrich, Wetlistrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2111",
+      "target": "Z\u00fcrich, Bahnhof Stadelhofen",
+      "label": "Z\u00fcrich, Bahnhof Stadelhofen"
+    },
+    {
+      "source": "http://example.org/zurich/station/2113",
+      "target": "Z\u00fcrich, Hegibachplatz",
+      "label": "Z\u00fcrich, Hegibachplatz"
+    },
+    {
+      "source": "http://example.org/zurich/station/2121",
+      "target": "Z\u00fcrich, Balgrist",
+      "label": "Z\u00fcrich, Balgrist"
+    },
+    {
+      "source": "http://example.org/zurich/station/2137",
+      "target": "Z\u00fcrich, Sunnau",
+      "label": "Z\u00fcrich, Sunnau"
+    },
+    {
+      "source": "http://example.org/zurich/station/2139",
+      "target": "Z\u00fcrich, Dangelstrasse",
+      "label": "Z\u00fcrich, Dangelstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2144",
+      "target": "Z\u00fcrich, Garage 6 Hardau",
+      "label": "Z\u00fcrich, Garage 6 Hardau"
+    },
+    {
+      "source": "http://example.org/zurich/station/2145",
+      "target": "Z\u00fcrich, Wollishofen",
+      "label": "Z\u00fcrich, Wollishofen"
+    },
+    {
+      "source": "http://example.org/zurich/station/2146",
+      "target": "Z\u00fcrich, Widmerstrasse",
+      "label": "Z\u00fcrich, Widmerstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2183",
+      "target": "Z\u00fcrich, Sihlcity Nord",
+      "label": "Z\u00fcrich, Sihlcity Nord"
+    },
+    {
+      "source": "http://example.org/zurich/station/2198",
+      "target": "Z\u00fcrich, Geeringstrasse",
+      "label": "Z\u00fcrich, Geeringstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2228",
+      "target": "Z\u00fcrich, B\u00f6rsenstrasse",
+      "label": "Z\u00fcrich, B\u00f6rsenstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2244",
+      "target": "Z\u00fcrich, Kappeli",
+      "label": "Z\u00fcrich, Kappeli"
+    },
+    {
+      "source": "http://example.org/zurich/station/2245",
+      "target": "Z\u00fcrich, Letzigrund",
+      "label": "Z\u00fcrich, Letzigrund"
+    },
+    {
+      "source": "http://example.org/zurich/station/2247",
+      "target": "Z\u00fcrich, Kernstrasse",
+      "label": "Z\u00fcrich, Kernstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2248",
+      "target": "Z\u00fcrich, Lochergut",
+      "label": "Z\u00fcrich, Lochergut"
+    },
+    {
+      "source": "http://example.org/zurich/station/2250",
+      "target": "Z\u00fcrich, Zypressenstrasse",
+      "label": "Z\u00fcrich, Zypressenstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2251",
+      "target": "Z\u00fcrich, Depot 4 Elisabethenstr",
+      "label": "Z\u00fcrich, Depot 4 Elisabethenstr"
+    },
+    {
+      "source": "http://example.org/zurich/station/2253",
+      "target": "Z\u00fcrich, Freihofstrasse",
+      "label": "Z\u00fcrich, Freihofstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2254",
+      "target": "Z\u00fcrich, Zentralwerkst\u00e4tte",
+      "label": "Z\u00fcrich, Zentralwerkst\u00e4tte"
+    },
+    {
+      "source": "http://example.org/zurich/station/2256",
+      "target": "Z\u00fcrich, L\u00f6wenplatz",
+      "label": "Z\u00fcrich, L\u00f6wenplatz"
+    },
+    {
+      "source": "http://example.org/zurich/station/2257",
+      "target": "Z\u00fcrich, Oerlikerhus",
+      "label": "Z\u00fcrich, Oerlikerhus"
+    },
+    {
+      "source": "http://example.org/zurich/station/2258",
+      "target": "Z\u00fcrich, Haldenbach",
+      "label": "Z\u00fcrich, Haldenbach"
+    },
+    {
+      "source": "http://example.org/zurich/station/2260",
+      "target": "Z\u00fcrich, Seilbahn Rigiblick",
+      "label": "Z\u00fcrich, Seilbahn Rigiblick"
+    },
+    {
+      "source": "http://example.org/zurich/station/2262",
+      "target": "Z\u00fcrich, Sihlpost / HB",
+      "label": "Z\u00fcrich, Sihlpost / HB"
+    },
+    {
+      "source": "http://example.org/zurich/station/2274",
+      "target": "Z\u00fcrich, Letzistrasse",
+      "label": "Z\u00fcrich, Letzistrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2275",
+      "target": "Z\u00fcrich, Signaustrasse",
+      "label": "Z\u00fcrich, Signaustrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2276",
+      "target": "Z\u00fcrich, Berninaplatz",
+      "label": "Z\u00fcrich, Berninaplatz"
+    },
+    {
+      "source": "http://example.org/zurich/station/2287",
+      "target": "Z\u00fcrich, Limmatplatz",
+      "label": "Z\u00fcrich, Limmatplatz"
+    },
+    {
+      "source": "http://example.org/zurich/station/2289",
+      "target": "Z\u00fcrich, Sihlquai/HB",
+      "label": "Z\u00fcrich, Sihlquai/HB"
+    },
+    {
+      "source": "http://example.org/zurich/station/2290",
+      "target": "Z\u00fcrich, Dammweg",
+      "label": "Z\u00fcrich, Dammweg"
+    },
+    {
+      "source": "http://example.org/zurich/station/2292",
+      "target": "Z\u00fcrich, Kinkelstrasse",
+      "label": "Z\u00fcrich, Kinkelstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2293",
+      "target": "Z\u00fcrich, Winkelriedstrasse",
+      "label": "Z\u00fcrich, Winkelriedstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2294",
+      "target": "Z\u00fcrich, Museum f\u00fcr Gestaltung",
+      "label": "Z\u00fcrich, Museum f\u00fcr Gestaltung"
+    },
+    {
+      "source": "http://example.org/zurich/station/2295",
+      "target": "Z\u00fcrich, Burgwies",
+      "label": "Z\u00fcrich, Burgwies"
+    },
+    {
+      "source": "http://example.org/zurich/station/2298",
+      "target": "Z\u00fcrich, Quellenstrasse",
+      "label": "Z\u00fcrich, Quellenstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2299",
+      "target": "Z\u00fcrich, Depot 5 Hard",
+      "label": "Z\u00fcrich, Depot 5 Hard"
+    },
+    {
+      "source": "http://example.org/zurich/station/2300",
+      "target": "Z\u00fcrich, Depot 8 Oerlikon",
+      "label": "Z\u00fcrich, Depot 8 Oerlikon"
+    },
+    {
+      "source": "http://example.org/zurich/station/2301",
+      "target": "Z\u00fcrich, Garage 9 Hagenholz",
+      "label": "Z\u00fcrich, Garage 9 Hagenholz"
+    },
+    {
+      "source": "http://example.org/zurich/station/2302",
+      "target": "Z\u00fcrich, Haldenegg",
+      "label": "Z\u00fcrich, Haldenegg"
+    },
+    {
+      "source": "http://example.org/zurich/station/2308",
+      "target": "Z\u00fcrich, Hedwigsteig",
+      "label": "Z\u00fcrich, Hedwigsteig"
+    },
+    {
+      "source": "http://example.org/zurich/station/2312",
+      "target": "Z\u00fcrich, Friedhof Enzenb\u00fchl",
+      "label": "Z\u00fcrich, Friedhof Enzenb\u00fchl"
+    },
+    {
+      "source": "http://example.org/zurich/station/2313",
+      "target": "Z\u00fcrich, Salersteig",
+      "label": "Z\u00fcrich, Salersteig"
+    },
+    {
+      "source": "http://example.org/zurich/station/2315",
+      "target": "Z\u00fcrich, Langmauerstrasse",
+      "label": "Z\u00fcrich, Langmauerstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2316",
+      "target": "Z\u00fcrich, Bahnhof Stettbach",
+      "label": "Z\u00fcrich, Bahnhof Stettbach"
+    },
+    {
+      "source": "http://example.org/zurich/station/2356",
+      "target": "Z\u00fcrich, Mattenhof",
+      "label": "Z\u00fcrich, Mattenhof"
+    },
+    {
+      "source": "http://example.org/zurich/station/2367",
+      "target": "Z\u00fcrich, Brunaustrasse",
+      "label": "Z\u00fcrich, Brunaustrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2375",
+      "target": "Z\u00fcrich, Waldgarten",
+      "label": "Z\u00fcrich, Waldgarten"
+    },
+    {
+      "source": "http://example.org/zurich/station/2383",
+      "target": "Z\u00fcrich, Micafil",
+      "label": "Z\u00fcrich, Micafil"
+    },
+    {
+      "source": "http://example.org/zurich/station/2404",
+      "target": "Z\u00fcrich, Billoweg",
+      "label": "Z\u00fcrich, Billoweg"
+    },
+    {
+      "source": "http://example.org/zurich/station/2406",
+      "target": "Z\u00fcrich, Tierspital",
+      "label": "Z\u00fcrich, Tierspital"
+    },
+    {
+      "source": "http://example.org/zurich/station/2413",
+      "target": "Z\u00fcrich, Museum Rietberg",
+      "label": "Z\u00fcrich, Museum Rietberg"
+    },
+    {
+      "source": "http://example.org/zurich/station/2414",
+      "target": "Z\u00fcrich, Stockerstrasse",
+      "label": "Z\u00fcrich, Stockerstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2422",
+      "target": "Z\u00fcrich, Herzogenm\u00fchlestrasse",
+      "label": "Z\u00fcrich, Herzogenm\u00fchlestrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2423",
+      "target": "Z\u00fcrich, Blumenfeldstrasse",
+      "label": "Z\u00fcrich, Blumenfeldstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2424",
+      "target": "Z\u00fcrich, Aspholz",
+      "label": "Z\u00fcrich, Aspholz"
+    },
+    {
+      "source": "http://example.org/zurich/station/2425",
+      "target": "Z\u00fcrich, M\u00fchlacker",
+      "label": "Z\u00fcrich, M\u00fchlacker"
+    },
+    {
+      "source": "http://example.org/zurich/station/2426",
+      "target": "Z\u00fcrich, Glockenacker",
+      "label": "Z\u00fcrich, Glockenacker"
+    },
+    {
+      "source": "http://example.org/zurich/station/2428",
+      "target": "Z\u00fcrich, Carl-Spitteler-Strasse",
+      "label": "Z\u00fcrich, Carl-Spitteler-Strasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2429",
+      "target": "Z\u00fcrich, Neuaffoltern",
+      "label": "Z\u00fcrich, Neuaffoltern"
+    },
+    {
+      "source": "http://example.org/zurich/station/2434",
+      "target": "Z\u00fcrich, Kapfstrasse",
+      "label": "Z\u00fcrich, Kapfstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2435",
+      "target": "Z\u00fcrich, Dreispitz",
+      "label": "Z\u00fcrich, Dreispitz"
+    },
+    {
+      "source": "http://example.org/zurich/station/2437",
+      "target": "Z\u00fcrich, Berghaldenstrasse",
+      "label": "Z\u00fcrich, Berghaldenstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2438",
+      "target": "Z\u00fcrich, Drusbergstrasse",
+      "label": "Z\u00fcrich, Drusbergstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2439",
+      "target": "Z\u00fcrich, Unteraffoltern",
+      "label": "Z\u00fcrich, Unteraffoltern"
+    },
+    {
+      "source": "http://example.org/zurich/station/2440",
+      "target": "Z\u00fcrich, Friedrichstrasse",
+      "label": "Z\u00fcrich, Friedrichstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2441",
+      "target": "Z\u00fcrich, Frohburg",
+      "label": "Z\u00fcrich, Frohburg"
+    },
+    {
+      "source": "http://example.org/zurich/station/2442",
+      "target": "Z\u00fcrich, Oberwiesenstrasse",
+      "label": "Z\u00fcrich, Oberwiesenstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2444",
+      "target": "Z\u00fcrich, Waserstrasse",
+      "label": "Z\u00fcrich, Waserstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2445",
+      "target": "Z\u00fcrich, Fronwald",
+      "label": "Z\u00fcrich, Fronwald"
+    },
+    {
+      "source": "http://example.org/zurich/station/2450",
+      "target": "Z\u00fcrich, Loorenstrasse",
+      "label": "Z\u00fcrich, Loorenstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2451",
+      "target": "Z\u00fcrich, Hallenbad Oerlikon",
+      "label": "Z\u00fcrich, Hallenbad Oerlikon"
+    },
+    {
+      "source": "http://example.org/zurich/station/2453",
+      "target": "Z\u00fcrich, Max-Bill-Platz",
+      "label": "Z\u00fcrich, Max-Bill-Platz"
+    },
+    {
+      "source": "http://example.org/zurich/station/2454",
+      "target": "Z\u00fcrich, Glaubtenstrasse",
+      "label": "Z\u00fcrich, Glaubtenstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2456",
+      "target": "Z\u00fcrich, Tulpenstrasse",
+      "label": "Z\u00fcrich, Tulpenstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2457",
+      "target": "Z\u00fcrich, Einfangstrasse",
+      "label": "Z\u00fcrich, Einfangstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2460",
+      "target": "Z\u00fcrich, Dorflinde",
+      "label": "Z\u00fcrich, Dorflinde"
+    },
+    {
+      "source": "http://example.org/zurich/station/2463",
+      "target": "Z\u00fcrich, Friedackerstrasse",
+      "label": "Z\u00fcrich, Friedackerstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2465",
+      "target": "Z\u00fcrich, Saatlenstrasse",
+      "label": "Z\u00fcrich, Saatlenstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2466",
+      "target": "Z\u00fcrich, Friedhof Witikon",
+      "label": "Z\u00fcrich, Friedhof Witikon"
+    },
+    {
+      "source": "http://example.org/zurich/station/2468",
+      "target": "Z\u00fcrich, Riedgraben",
+      "label": "Z\u00fcrich, Riedgraben"
+    },
+    {
+      "source": "http://example.org/zurich/station/2469",
+      "target": "Z\u00fcrich, Bahnhof Affoltern S\u00fcd",
+      "label": "Z\u00fcrich, Bahnhof Affoltern S\u00fcd"
+    },
+    {
+      "source": "http://example.org/zurich/station/2472",
+      "target": "Z\u00fcrich, Herbstweg",
+      "label": "Z\u00fcrich, Herbstweg"
+    },
+    {
+      "source": "http://example.org/zurich/station/2473",
+      "target": "Z\u00fcrich, Schlyfi",
+      "label": "Z\u00fcrich, Schlyfi"
+    },
+    {
+      "source": "http://example.org/zurich/station/2482",
+      "target": "Z\u00fcrich, Luchswiesen",
+      "label": "Z\u00fcrich, Luchswiesen"
+    },
+    {
+      "source": "http://example.org/zurich/station/2487",
+      "target": "Z\u00fcrich, Post Wollishofen",
+      "label": "Z\u00fcrich, Post Wollishofen"
+    },
+    {
+      "source": "http://example.org/zurich/station/2488",
+      "target": "Z\u00fcrich, Butzenstrasse",
+      "label": "Z\u00fcrich, Butzenstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2489",
+      "target": "Z\u00fcrich, Probstei",
+      "label": "Z\u00fcrich, Probstei"
+    },
+    {
+      "source": "http://example.org/zurich/station/2506",
+      "target": "Z\u00fcrich, Bhf Wollishofen (Bus)",
+      "label": "Z\u00fcrich, Bhf Wollishofen (Bus)"
+    },
+    {
+      "source": "http://example.org/zurich/station/2508",
+      "target": "Z\u00fcrich, Tunnelstrasse",
+      "label": "Z\u00fcrich, Tunnelstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2509",
+      "target": "Z\u00fcrich, Ottikerstrasse",
+      "label": "Z\u00fcrich, Ottikerstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2510",
+      "target": "Z\u00fcrich, Roswiesen",
+      "label": "Z\u00fcrich, Roswiesen"
+    },
+    {
+      "source": "http://example.org/zurich/station/2511",
+      "target": "Z\u00fcrich, Rote Fabrik",
+      "label": "Z\u00fcrich, Rote Fabrik"
+    },
+    {
+      "source": "http://example.org/zurich/station/2524",
+      "target": "Z\u00fcrich, Bahnhof Selnau",
+      "label": "Z\u00fcrich, Bahnhof Selnau"
+    },
+    {
+      "source": "http://example.org/zurich/station/2526",
+      "target": "Z\u00fcrich, Hardplatz",
+      "label": "Z\u00fcrich, Hardplatz"
+    },
+    {
+      "source": "http://example.org/zurich/station/2527",
+      "target": "Z\u00fcrich, B\u00e4ckeranlage",
+      "label": "Z\u00fcrich, B\u00e4ckeranlage"
+    },
+    {
+      "source": "http://example.org/zurich/station/2528",
+      "target": "Z\u00fcrich, Helvetiaplatz",
+      "label": "Z\u00fcrich, Helvetiaplatz"
+    },
+    {
+      "source": "http://example.org/zurich/station/2529",
+      "target": "Z\u00fcrich, G\u00fcterbahnhof",
+      "label": "Z\u00fcrich, G\u00fcterbahnhof"
+    },
+    {
+      "source": "http://example.org/zurich/station/2530",
+      "target": "Z\u00fcrich, Am Suteracher",
+      "label": "Z\u00fcrich, Am Suteracher"
+    },
+    {
+      "source": "http://example.org/zurich/station/2531",
+      "target": "Z\u00fcrich, Schulhaus Buchlern",
+      "label": "Z\u00fcrich, Schulhaus Buchlern"
+    },
+    {
+      "source": "http://example.org/zurich/station/2532",
+      "target": "Z\u00fcrich, Dunkelh\u00f6lzli",
+      "label": "Z\u00fcrich, Dunkelh\u00f6lzli"
+    },
+    {
+      "source": "http://example.org/zurich/station/2533",
+      "target": "Z\u00fcrich, Bristenstrasse",
+      "label": "Z\u00fcrich, Bristenstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2534",
+      "target": "Z\u00fcrich, Solidapark",
+      "label": "Z\u00fcrich, Solidapark"
+    },
+    {
+      "source": "http://example.org/zurich/station/2535",
+      "target": "Z\u00fcrich, Lindenplatz",
+      "label": "Z\u00fcrich, Lindenplatz"
+    },
+    {
+      "source": "http://example.org/zurich/station/2536",
+      "target": "Z\u00fcrich, Bahnhof Altstetten N",
+      "label": "Z\u00fcrich, Bahnhof Altstetten N"
+    },
+    {
+      "source": "http://example.org/zurich/station/2537",
+      "target": "Z\u00fcrich, Loogarten",
+      "label": "Z\u00fcrich, Loogarten"
+    },
+    {
+      "source": "http://example.org/zurich/station/2538",
+      "target": "Z\u00fcrich, B\u00e4ndliweg",
+      "label": "Z\u00fcrich, B\u00e4ndliweg"
+    },
+    {
+      "source": "http://example.org/zurich/station/2539",
+      "target": "Z\u00fcrich, Feusisbergli",
+      "label": "Z\u00fcrich, Feusisbergli"
+    },
+    {
+      "source": "http://example.org/zurich/station/2540",
+      "target": "Z\u00fcrich, Bahnhof Altstetten",
+      "label": "Z\u00fcrich, Bahnhof Altstetten"
+    },
+    {
+      "source": "http://example.org/zurich/station/2541",
+      "target": "Z\u00fcrich, Neeserweg",
+      "label": "Z\u00fcrich, Neeserweg"
+    },
+    {
+      "source": "http://example.org/zurich/station/2542",
+      "target": "Z\u00fcrich, Rautihalde",
+      "label": "Z\u00fcrich, Rautihalde"
+    },
+    {
+      "source": "http://example.org/zurich/station/2543",
+      "target": "Z\u00fcrich, Rautistrasse",
+      "label": "Z\u00fcrich, Rautistrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2544",
+      "target": "Z\u00fcrich, Gr\u00fcnaustrasse",
+      "label": "Z\u00fcrich, Gr\u00fcnaustrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2545",
+      "target": "Z\u00fcrich, Friedhof Eichb\u00fchl",
+      "label": "Z\u00fcrich, Friedhof Eichb\u00fchl"
+    },
+    {
+      "source": "http://example.org/zurich/station/2546",
+      "target": "Z\u00fcrich, Salzweg",
+      "label": "Z\u00fcrich, Salzweg"
+    },
+    {
+      "source": "http://example.org/zurich/station/2547",
+      "target": "Z\u00fcrich, Baslerstrasse",
+      "label": "Z\u00fcrich, Baslerstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2550",
+      "target": "Z\u00fcrich, Laubegg",
+      "label": "Z\u00fcrich, Laubegg"
+    },
+    {
+      "source": "http://example.org/zurich/station/2551",
+      "target": "Z\u00fcrich, Sukkulentensammlung",
+      "label": "Z\u00fcrich, Sukkulentensammlung"
+    },
+    {
+      "source": "http://example.org/zurich/station/2553",
+      "target": "Z\u00fcrich, Hertensteinstrasse",
+      "label": "Z\u00fcrich, Hertensteinstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2561",
+      "target": "Z\u00fcrich, Bircher-Benner",
+      "label": "Z\u00fcrich, Bircher-Benner"
+    },
+    {
+      "source": "http://example.org/zurich/station/2562",
+      "target": "Z\u00fcrich, Birchstrasse",
+      "label": "Z\u00fcrich, Birchstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2563",
+      "target": "Z\u00fcrich, Lehenstrasse",
+      "label": "Z\u00fcrich, Lehenstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2564",
+      "target": "Z\u00fcrich, Albisriederd\u00f6rfli",
+      "label": "Z\u00fcrich, Albisriederd\u00f6rfli"
+    },
+    {
+      "source": "http://example.org/zurich/station/2565",
+      "target": "Z\u00fcrich, Jugendherberge",
+      "label": "Z\u00fcrich, Jugendherberge"
+    },
+    {
+      "source": "http://example.org/zurich/station/2566",
+      "target": "Z\u00fcrich, Althoos",
+      "label": "Z\u00fcrich, Althoos"
+    },
+    {
+      "source": "http://example.org/zurich/station/2567",
+      "target": "Z\u00fcrich, Susenbergstrasse",
+      "label": "Z\u00fcrich, Susenbergstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2568",
+      "target": "Z\u00fcrich, Kalchb\u00fchlweg",
+      "label": "Z\u00fcrich, Kalchb\u00fchlweg"
+    },
+    {
+      "source": "http://example.org/zurich/station/2570",
+      "target": "Z\u00fcrich, Kanonengasse",
+      "label": "Z\u00fcrich, Kanonengasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2571",
+      "target": "Z\u00fcrich, Kantonsschule",
+      "label": "Z\u00fcrich, Kantonsschule"
+    },
+    {
+      "source": "http://example.org/zurich/station/2572",
+      "target": "Z\u00fcrich, Hardturm",
+      "label": "Z\u00fcrich, Hardturm"
+    },
+    {
+      "source": "http://example.org/zurich/station/2573",
+      "target": "Z\u00fcrich, Maienweg",
+      "label": "Z\u00fcrich, Maienweg"
+    },
+    {
+      "source": "http://example.org/zurich/station/2575",
+      "target": "Z\u00fcrich, Sportweg",
+      "label": "Z\u00fcrich, Sportweg"
+    },
+    {
+      "source": "http://example.org/zurich/station/2576",
+      "target": "Z\u00fcrich, Manesseplatz",
+      "label": "Z\u00fcrich, Manesseplatz"
+    },
+    {
+      "source": "http://example.org/zurich/station/2578",
+      "target": "Z\u00fcrich, Marbachweg",
+      "label": "Z\u00fcrich, Marbachweg"
+    },
+    {
+      "source": "http://example.org/zurich/station/2579",
+      "target": "Z\u00fcrich, Pflegezentr. K\u00e4ferberg",
+      "label": "Z\u00fcrich, Pflegezentr. K\u00e4ferberg"
+    },
+    {
+      "source": "http://example.org/zurich/station/2580",
+      "target": "Z\u00fcrich, T\u00fcffenwies",
+      "label": "Z\u00fcrich, T\u00fcffenwies"
+    },
+    {
+      "source": "http://example.org/zurich/station/2581",
+      "target": "Z\u00fcrich, Krematorium Nordheim",
+      "label": "Z\u00fcrich, Krematorium Nordheim"
+    },
+    {
+      "source": "http://example.org/zurich/station/2582",
+      "target": "Z\u00fcrich, Krematorium Sihlfeld",
+      "label": "Z\u00fcrich, Krematorium Sihlfeld"
+    },
+    {
+      "source": "http://example.org/zurich/station/2584",
+      "target": "Z\u00fcrich, Chaletweg",
+      "label": "Z\u00fcrich, Chaletweg"
+    },
+    {
+      "source": "http://example.org/zurich/station/2586",
+      "target": "Z\u00fcrich, M\u00f6tteliweg",
+      "label": "Z\u00fcrich, M\u00f6tteliweg"
+    },
+    {
+      "source": "http://example.org/zurich/station/2587",
+      "target": "Z\u00fcrich, Segantinistrasse",
+      "label": "Z\u00fcrich, Segantinistrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2589",
+      "target": "Z\u00fcrich, Technopark",
+      "label": "Z\u00fcrich, Technopark"
+    },
+    {
+      "source": "http://example.org/zurich/station/2590",
+      "target": "Z\u00fcrich, B\u00fcrkliplatz",
+      "label": "Z\u00fcrich, B\u00fcrkliplatz"
+    },
+    {
+      "source": "http://example.org/zurich/station/2591",
+      "target": "Z\u00fcrich, Seidelhof",
+      "label": "Z\u00fcrich, Seidelhof"
+    },
+    {
+      "source": "http://example.org/zurich/station/2593",
+      "target": "Z\u00fcrich, Lerchenrain",
+      "label": "Z\u00fcrich, Lerchenrain"
+    },
+    {
+      "source": "http://example.org/zurich/station/2594",
+      "target": "Z\u00fcrich, Leimgr\u00fcbelstrasse",
+      "label": "Z\u00fcrich, Leimgr\u00fcbelstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2595",
+      "target": "Z\u00fcrich, Schauenberg",
+      "label": "Z\u00fcrich, Schauenberg"
+    },
+    {
+      "source": "http://example.org/zurich/station/2598",
+      "target": "Z\u00fcrich, Sprecherstrasse",
+      "label": "Z\u00fcrich, Sprecherstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2599",
+      "target": "Z\u00fcrich, Binz Center",
+      "label": "Z\u00fcrich, Binz Center"
+    },
+    {
+      "source": "http://example.org/zurich/station/2600",
+      "target": "Z\u00fcrich, Spyriplatz",
+      "label": "Z\u00fcrich, Spyriplatz"
+    },
+    {
+      "source": "http://example.org/zurich/station/2601",
+      "target": "Z\u00fcrich, Bocklerstrasse",
+      "label": "Z\u00fcrich, Bocklerstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2603",
+      "target": "Z\u00fcrich, Lerchenhalde",
+      "label": "Z\u00fcrich, Lerchenhalde"
+    },
+    {
+      "source": "http://example.org/zurich/station/2604",
+      "target": "Z\u00fcrich, Chinagarten",
+      "label": "Z\u00fcrich, Chinagarten"
+    },
+    {
+      "source": "http://example.org/zurich/station/2605",
+      "target": "Z\u00fcrich, Brandschenkestrasse",
+      "label": "Z\u00fcrich, Brandschenkestrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2606",
+      "target": "Z\u00fcrich, Hinterbergstrasse",
+      "label": "Z\u00fcrich, Hinterbergstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2607",
+      "target": "Z\u00fcrich, Meierhofplatz",
+      "label": "Z\u00fcrich, Meierhofplatz"
+    },
+    {
+      "source": "http://example.org/zurich/station/2608",
+      "target": "Z\u00fcrich, Schumacherweg",
+      "label": "Z\u00fcrich, Schumacherweg"
+    },
+    {
+      "source": "http://example.org/zurich/station/2609",
+      "target": "Z\u00fcrich, Neunbrunnen",
+      "label": "Z\u00fcrich, Neunbrunnen"
+    },
+    {
+      "source": "http://example.org/zurich/station/2610",
+      "target": "Z\u00fcrich, H\u00f6nggerberg",
+      "label": "Z\u00fcrich, H\u00f6nggerberg"
+    },
+    {
+      "source": "http://example.org/zurich/station/2612",
+      "target": "Z\u00fcrich, Kreuzstrasse",
+      "label": "Z\u00fcrich, Kreuzstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2613",
+      "target": "Z\u00fcrich, W\u00fcrzgraben",
+      "label": "Z\u00fcrich, W\u00fcrzgraben"
+    },
+    {
+      "source": "http://example.org/zurich/station/2614",
+      "target": "Z\u00fcrich, Waidfussweg",
+      "label": "Z\u00fcrich, Waidfussweg"
+    },
+    {
+      "source": "http://example.org/zurich/station/2615",
+      "target": "Z\u00fcrich, H\u00f6schgasse",
+      "label": "Z\u00fcrich, H\u00f6schgasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2617",
+      "target": "Z\u00fcrich, Waidhof",
+      "label": "Z\u00fcrich, Waidhof"
+    },
+    {
+      "source": "http://example.org/zurich/station/2618",
+      "target": "Z\u00fcrich, H\u00fcgelstrasse",
+      "label": "Z\u00fcrich, H\u00fcgelstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2619",
+      "target": "Z\u00fcrich, Waidspital",
+      "label": "Z\u00fcrich, Waidspital"
+    },
+    {
+      "source": "http://example.org/zurich/station/2620",
+      "target": "Z\u00fcrich, Freiestrasse",
+      "label": "Z\u00fcrich, Freiestrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2621",
+      "target": "Z\u00fcrich, Hofstrasse",
+      "label": "Z\u00fcrich, Hofstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2622",
+      "target": "Z\u00fcrich, Lettenstrasse",
+      "label": "Z\u00fcrich, Lettenstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2624",
+      "target": "Z\u00fcrich, Dreiwiesen",
+      "label": "Z\u00fcrich, Dreiwiesen"
+    },
+    {
+      "source": "http://example.org/zurich/station/2625",
+      "target": "Z\u00fcrich, Stadtgrenze",
+      "label": "Z\u00fcrich, Stadtgrenze"
+    },
+    {
+      "source": "http://example.org/zurich/station/2626",
+      "target": "Z\u00fcrich, Letzipark West",
+      "label": "Z\u00fcrich, Letzipark West"
+    },
+    {
+      "source": "http://example.org/zurich/station/2627",
+      "target": "Z\u00fcrich, Talwiesenstrasse",
+      "label": "Z\u00fcrich, Talwiesenstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2629",
+      "target": "Z\u00fcrich, Kempfhofsteig",
+      "label": "Z\u00fcrich, Kempfhofsteig"
+    },
+    {
+      "source": "http://example.org/zurich/station/2630",
+      "target": "Z\u00fcrich, Toni-Areal",
+      "label": "Z\u00fcrich, Toni-Areal"
+    },
+    {
+      "source": "http://example.org/zurich/station/2632",
+      "target": "Z\u00fcrich, Brunau/Mutschellenstr.",
+      "label": "Z\u00fcrich, Brunau/Mutschellenstr."
+    },
+    {
+      "source": "http://example.org/zurich/station/2633",
+      "target": "Z\u00fcrich, Uetlihof",
+      "label": "Z\u00fcrich, Uetlihof"
+    },
+    {
+      "source": "http://example.org/zurich/station/2634",
+      "target": "Z\u00fcrich, Schwandenholz",
+      "label": "Z\u00fcrich, Schwandenholz"
+    },
+    {
+      "source": "http://example.org/zurich/station/2635",
+      "target": "Z\u00fcrich, Eschergutweg",
+      "label": "Z\u00fcrich, Eschergutweg"
+    },
+    {
+      "source": "http://example.org/zurich/station/2636",
+      "target": "Z\u00fcrich, H\u00fcrstholz",
+      "label": "Z\u00fcrich, H\u00fcrstholz"
+    },
+    {
+      "source": "http://example.org/zurich/station/2637",
+      "target": "Z\u00fcrich, H\u00f6lderlinsteig",
+      "label": "Z\u00fcrich, H\u00f6lderlinsteig"
+    },
+    {
+      "source": "http://example.org/zurich/station/2638",
+      "target": "Z\u00fcrich, Botanischer Garten",
+      "label": "Z\u00fcrich, Botanischer Garten"
+    },
+    {
+      "source": "http://example.org/zurich/station/2639",
+      "target": "Z\u00fcrich, Klosbach",
+      "label": "Z\u00fcrich, Klosbach"
+    },
+    {
+      "source": "http://example.org/zurich/station/2640",
+      "target": "Z\u00fcrich, Siemens",
+      "label": "Z\u00fcrich, Siemens"
+    },
+    {
+      "source": "http://example.org/zurich/station/2641",
+      "target": "Z\u00fcrich, Neumarkt",
+      "label": "Z\u00fcrich, Neumarkt"
+    },
+    {
+      "source": "http://example.org/zurich/station/2643",
+      "target": "Z\u00fcrich, Schweizer R\u00fcck",
+      "label": "Z\u00fcrich, Schweizer R\u00fcck"
+    },
+    {
+      "source": "http://example.org/zurich/station/2645",
+      "target": "Z\u00fcrich, Bernoulli-H\u00e4user",
+      "label": "Z\u00fcrich, Bernoulli-H\u00e4user"
+    },
+    {
+      "source": "http://example.org/zurich/station/2646",
+      "target": "Z\u00fcrich, Bertastrasse",
+      "label": "Z\u00fcrich, Bertastrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2647",
+      "target": "Z\u00fcrich, Michelstrasse",
+      "label": "Z\u00fcrich, Michelstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2648",
+      "target": "Z\u00fcrich, Sch\u00fctzenhaus H\u00f6ngg",
+      "label": "Z\u00fcrich, Sch\u00fctzenhaus H\u00f6ngg"
+    },
+    {
+      "source": "http://example.org/zurich/station/2650",
+      "target": "Z\u00fcrich, Milit\u00e4r-/Langstrasse",
+      "label": "Z\u00fcrich, Milit\u00e4r-/Langstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2651",
+      "target": "Z\u00fcrich, Wildbachstrasse",
+      "label": "Z\u00fcrich, Wildbachstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2655",
+      "target": "Z\u00fcrich, Besenrainstrasse",
+      "label": "Z\u00fcrich, Besenrainstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2656",
+      "target": "Z\u00fcrich, Bethanien",
+      "label": "Z\u00fcrich, Bethanien"
+    },
+    {
+      "source": "http://example.org/zurich/station/2657",
+      "target": "Z\u00fcrich, Sihlstrasse",
+      "label": "Z\u00fcrich, Sihlstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2658",
+      "target": "Z\u00fcrich, Sihlweidstrasse",
+      "label": "Z\u00fcrich, Sihlweidstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2660",
+      "target": "Z\u00fcrich, Friesenberg",
+      "label": "Z\u00fcrich, Friesenberg"
+    },
+    {
+      "source": "http://example.org/zurich/station/2662",
+      "target": "Z\u00fcrich, Friesenbergstrasse",
+      "label": "Z\u00fcrich, Friesenbergstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2665",
+      "target": "Z\u00fcrich, Thujastrasse",
+      "label": "Z\u00fcrich, Thujastrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2666",
+      "target": "Z\u00fcrich, ETH H\u00f6nggerberg",
+      "label": "Z\u00fcrich, ETH H\u00f6nggerberg"
+    },
+    {
+      "source": "http://example.org/zurich/station/2667",
+      "target": "Z\u00fcrich, K\u00e4shaldenstrasse",
+      "label": "Z\u00fcrich, K\u00e4shaldenstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2671",
+      "target": "Z\u00fcrich, Wartau",
+      "label": "Z\u00fcrich, Wartau"
+    },
+    {
+      "source": "http://example.org/zurich/station/2672",
+      "target": "Z\u00fcrich, Nordheimstrasse",
+      "label": "Z\u00fcrich, Nordheimstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2673",
+      "target": "Z\u00fcrich, Nordstrasse",
+      "label": "Z\u00fcrich, Nordstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2674",
+      "target": "Z\u00fcrich, Seerose",
+      "label": "Z\u00fcrich, Seerose"
+    },
+    {
+      "source": "http://example.org/zurich/station/2677",
+      "target": "Z\u00fcrich, Grubenstrasse",
+      "label": "Z\u00fcrich, Grubenstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2678",
+      "target": "Z\u00fcrich, Frymannstrasse",
+      "label": "Z\u00fcrich, Frymannstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2680",
+      "target": "Z\u00fcrich, Fr\u00f6hlichstrasse",
+      "label": "Z\u00fcrich, Fr\u00f6hlichstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2682",
+      "target": "Z\u00fcrich, Buhnstrasse",
+      "label": "Z\u00fcrich, Buhnstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2683",
+      "target": "Z\u00fcrich, Berufswahlschule",
+      "label": "Z\u00fcrich, Berufswahlschule"
+    },
+    {
+      "source": "http://example.org/zurich/station/2687",
+      "target": "Z\u00fcrich, Untermoosstrasse",
+      "label": "Z\u00fcrich, Untermoosstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2689",
+      "target": "Z\u00fcrich, Feldeggstrasse",
+      "label": "Z\u00fcrich, Feldeggstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2693",
+      "target": "Z\u00fcrich, N\u00fcrenbergstrasse",
+      "label": "Z\u00fcrich, N\u00fcrenbergstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2694",
+      "target": "Z\u00fcrich, Orionstrasse",
+      "label": "Z\u00fcrich, Orionstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2695",
+      "target": "Z\u00fcrich, Winzerstrasse S\u00fcd",
+      "label": "Z\u00fcrich, Winzerstrasse S\u00fcd"
+    },
+    {
+      "source": "http://example.org/zurich/station/2698",
+      "target": "Z\u00fcrich, Tobelhof",
+      "label": "Z\u00fcrich, Tobelhof"
+    },
+    {
+      "source": "http://example.org/zurich/station/2699",
+      "target": "Z\u00fcrich, Zoo",
+      "label": "Z\u00fcrich, Zoo"
+    },
+    {
+      "source": "http://example.org/zurich/station/2700",
+      "target": "Z\u00fcrich, Waffenplatz-/Bederstr.",
+      "label": "Z\u00fcrich, Waffenplatz-/Bederstr."
+    },
+    {
+      "source": "http://example.org/zurich/station/2701",
+      "target": "Z\u00fcrich, Toblerplatz",
+      "label": "Z\u00fcrich, Toblerplatz"
+    },
+    {
+      "source": "http://example.org/zurich/station/2702",
+      "target": "Z\u00fcrich, Birchd\u00f6rfli",
+      "label": "Z\u00fcrich, Birchd\u00f6rfli"
+    },
+    {
+      "source": "http://example.org/zurich/station/2705",
+      "target": "Z\u00fcrich, F\u00f6rrlibuckstrasse",
+      "label": "Z\u00fcrich, F\u00f6rrlibuckstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2707",
+      "target": "Z\u00fcrich, Staudenb\u00fchl",
+      "label": "Z\u00fcrich, Staudenb\u00fchl"
+    },
+    {
+      "source": "http://example.org/zurich/station/2709",
+      "target": "Z\u00fcrich, EPI-Klinik",
+      "label": "Z\u00fcrich, EPI-Klinik"
+    },
+    {
+      "source": "http://example.org/zurich/station/2710",
+      "target": "Z\u00fcrich, Winzerhalde",
+      "label": "Z\u00fcrich, Winzerhalde"
+    },
+    {
+      "source": "http://example.org/zurich/station/2711",
+      "target": "Z\u00fcrich, Winzerstrasse",
+      "label": "Z\u00fcrich, Winzerstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2712",
+      "target": "Z\u00fcrich, Wipkingerplatz",
+      "label": "Z\u00fcrich, Wipkingerplatz"
+    },
+    {
+      "source": "http://example.org/zurich/station/2713",
+      "target": "Z\u00fcrich, Fellenbergstrasse",
+      "label": "Z\u00fcrich, Fellenbergstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2714",
+      "target": "Z\u00fcrich, Strassenverkehrsamt",
+      "label": "Z\u00fcrich, Strassenverkehrsamt"
+    },
+    {
+      "source": "http://example.org/zurich/station/2716",
+      "target": "Z\u00fcrich, Glaubtenstrasse S\u00fcd",
+      "label": "Z\u00fcrich, Glaubtenstrasse S\u00fcd"
+    },
+    {
+      "source": "http://example.org/zurich/station/2718",
+      "target": "Z\u00fcrich, Goldackerweg",
+      "label": "Z\u00fcrich, Goldackerweg"
+    },
+    {
+      "source": "http://example.org/zurich/station/2721",
+      "target": "Z\u00fcrich, Zweiackerstrasse",
+      "label": "Z\u00fcrich, Zweiackerstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2722",
+      "target": "Z\u00fcrich, H\u00f6fliweg",
+      "label": "Z\u00fcrich, H\u00f6fliweg"
+    },
+    {
+      "source": "http://example.org/zurich/station/2729",
+      "target": "Z\u00fcrich, Luegisland",
+      "label": "Z\u00fcrich, Luegisland"
+    },
+    {
+      "source": "http://example.org/zurich/station/2730",
+      "target": "Z\u00fcrich, Luggwegstrasse",
+      "label": "Z\u00fcrich, Luggwegstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2731",
+      "target": "Z\u00fcrich, Zwielplatz",
+      "label": "Z\u00fcrich, Zwielplatz"
+    },
+    {
+      "source": "http://example.org/zurich/station/2734",
+      "target": "Z\u00fcrich, Weihersteig",
+      "label": "Z\u00fcrich, Weihersteig"
+    },
+    {
+      "source": "http://example.org/zurich/station/2735",
+      "target": "Z\u00fcrich, Zoo/Forrenweid",
+      "label": "Z\u00fcrich, Zoo/Forrenweid"
+    },
+    {
+      "source": "http://example.org/zurich/station/2738",
+      "target": "Z\u00fcrich, Zwinglihaus",
+      "label": "Z\u00fcrich, Zwinglihaus"
+    },
+    {
+      "source": "http://example.org/zurich/station/2740",
+      "target": "Z\u00fcrich, Aargauerstrasse",
+      "label": "Z\u00fcrich, Aargauerstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2742",
+      "target": "Z\u00fcrich, Elektrowatt",
+      "label": "Z\u00fcrich, Elektrowatt"
+    },
+    {
+      "source": "http://example.org/zurich/station/2743",
+      "target": "Z\u00fcrich, Stierenried",
+      "label": "Z\u00fcrich, Stierenried"
+    },
+    {
+      "source": "http://example.org/zurich/station/2744",
+      "target": "Z\u00fcrich, B\u00e4renbohlstrasse",
+      "label": "Z\u00fcrich, B\u00e4renbohlstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2745",
+      "target": "Z\u00fcrich, Verenastrasse",
+      "label": "Z\u00fcrich, Verenastrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2748",
+      "target": "Z\u00fcrich, Vogelsangstrasse",
+      "label": "Z\u00fcrich, Vogelsangstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2749",
+      "target": "Z\u00fcrich, Rosengartenstrasse",
+      "label": "Z\u00fcrich, Rosengartenstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2750",
+      "target": "Z\u00fcrich, Fischerweg",
+      "label": "Z\u00fcrich, Fischerweg"
+    },
+    {
+      "source": "http://example.org/zurich/station/2752",
+      "target": "Z\u00fcrich, Rotbuchstrasse",
+      "label": "Z\u00fcrich, Rotbuchstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2756",
+      "target": "Z\u00fcrich, Bahnhof Hardbr\u00fccke",
+      "label": "Z\u00fcrich, Bahnhof Hardbr\u00fccke"
+    },
+    {
+      "source": "http://example.org/zurich/station/2758",
+      "target": "Z\u00fcrich, Okenstrasse",
+      "label": "Z\u00fcrich, Okenstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2761",
+      "target": "Z\u00fcrich, Maillartstrasse",
+      "label": "Z\u00fcrich, Maillartstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2763",
+      "target": "Z\u00fcrich, Bollingerweg",
+      "label": "Z\u00fcrich, Bollingerweg"
+    },
+    {
+      "source": "http://example.org/zurich/station/2764",
+      "target": "Z\u00fcrich, H\u00fcrlimannplatz",
+      "label": "Z\u00fcrich, H\u00fcrlimannplatz"
+    },
+    {
+      "source": "http://example.org/zurich/station/2765",
+      "target": "Z\u00fcrich, Wonnebergstrasse",
+      "label": "Z\u00fcrich, Wonnebergstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2766",
+      "target": "Z\u00fcrich, Voltastrasse",
+      "label": "Z\u00fcrich, Voltastrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2768",
+      "target": "Z\u00fcrich, Rudolf-Brun-Br\u00fccke",
+      "label": "Z\u00fcrich, Rudolf-Brun-Br\u00fccke"
+    },
+    {
+      "source": "http://example.org/zurich/station/2769",
+      "target": "Z\u00fcrich, Flurstrasse",
+      "label": "Z\u00fcrich, Flurstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2770",
+      "target": "Z\u00fcrich, Grimselstrasse",
+      "label": "Z\u00fcrich, Grimselstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2771",
+      "target": "Z\u00fcrich, Fl\u00fchgasse",
+      "label": "Z\u00fcrich, Fl\u00fchgasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2772",
+      "target": "Z\u00fcrich, Werdh\u00f6lzli",
+      "label": "Z\u00fcrich, Werdh\u00f6lzli"
+    },
+    {
+      "source": "http://example.org/zurich/station/2773",
+      "target": "Z\u00fcrich, K\u00f6schenr\u00fcti",
+      "label": "Z\u00fcrich, K\u00f6schenr\u00fcti"
+    },
+    {
+      "source": "http://example.org/zurich/station/2774",
+      "target": "Z\u00fcrich, Rathaus",
+      "label": "Z\u00fcrich, Rathaus"
+    },
+    {
+      "source": "http://example.org/zurich/station/2775",
+      "target": "Z\u00fcrich, Albisrank",
+      "label": "Z\u00fcrich, Albisrank"
+    },
+    {
+      "source": "http://example.org/zurich/station/2777",
+      "target": "Z\u00fcrich, Im Gut",
+      "label": "Z\u00fcrich, Im Gut"
+    },
+    {
+      "source": "http://example.org/zurich/station/2778",
+      "target": "Z\u00fcrich, Rebbergsteig",
+      "label": "Z\u00fcrich, Rebbergsteig"
+    },
+    {
+      "source": "http://example.org/zurich/station/2779",
+      "target": "Z\u00fcrich, Englischviertelstrasse",
+      "label": "Z\u00fcrich, Englischviertelstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2781",
+      "target": "Z\u00fcrich, Waffenplatzstrasse",
+      "label": "Z\u00fcrich, Waffenplatzstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2783",
+      "target": "Z\u00fcrich, R\u00e4ffelstrasse",
+      "label": "Z\u00fcrich, R\u00e4ffelstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2784",
+      "target": "Z\u00fcrich, Waidbadstrasse",
+      "label": "Z\u00fcrich, Waidbadstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2787",
+      "target": "Z\u00fcrich, R\u00f6ntgenstrasse",
+      "label": "Z\u00fcrich, R\u00f6ntgenstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2788",
+      "target": "Z\u00fcrich, Bahnhof Tiefenbrunnen",
+      "label": "Z\u00fcrich, Bahnhof Tiefenbrunnen"
+    },
+    {
+      "source": "http://example.org/zurich/station/2789",
+      "target": "Z\u00fcrich, Bahnhof Wipkingen",
+      "label": "Z\u00fcrich, Bahnhof Wipkingen"
+    },
+    {
+      "source": "http://example.org/zurich/station/2791",
+      "target": "Z\u00fcrich, Z\u00fcrichbergstrasse",
+      "label": "Z\u00fcrich, Z\u00fcrichbergstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2792",
+      "target": "Z\u00fcrich, Hardhof",
+      "label": "Z\u00fcrich, Hardhof"
+    },
+    {
+      "source": "http://example.org/zurich/station/2799",
+      "target": "Z\u00fcrich, Platte",
+      "label": "Z\u00fcrich, Platte"
+    },
+    {
+      "source": "http://example.org/zurich/station/2800",
+      "target": "Z\u00fcrich, Kappenb\u00fchlweg",
+      "label": "Z\u00fcrich, Kappenb\u00fchlweg"
+    },
+    {
+      "source": "http://example.org/zurich/station/2802",
+      "target": "Z\u00fcrich, Schweighof",
+      "label": "Z\u00fcrich, Schweighof"
+    },
+    {
+      "source": "http://example.org/zurich/station/2803",
+      "target": "Z\u00fcrich, Freilagerstrasse",
+      "label": "Z\u00fcrich, Freilagerstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2804",
+      "target": "Z\u00fcrich, Schwert",
+      "label": "Z\u00fcrich, Schwert"
+    },
+    {
+      "source": "http://example.org/zurich/station/2807",
+      "target": "Z\u00fcrich, Im Hagacker",
+      "label": "Z\u00fcrich, Im Hagacker"
+    },
+    {
+      "source": "http://example.org/zurich/station/2808",
+      "target": "Z\u00fcrich, Wieslergasse",
+      "label": "Z\u00fcrich, Wieslergasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2809",
+      "target": "Z\u00fcrich, Albisg\u00fctli",
+      "label": "Z\u00fcrich, Albisg\u00fctli"
+    },
+    {
+      "source": "http://example.org/zurich/station/2810",
+      "target": "Z\u00fcrich, Albisrieden",
+      "label": "Z\u00fcrich, Albisrieden"
+    },
+    {
+      "source": "http://example.org/zurich/station/2811",
+      "target": "Z\u00fcrich, Giblenstrasse",
+      "label": "Z\u00fcrich, Giblenstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2812",
+      "target": "Z\u00fcrich, Heerenwiesen",
+      "label": "Z\u00fcrich, Heerenwiesen"
+    },
+    {
+      "source": "http://example.org/zurich/station/2813",
+      "target": "Z\u00fcrich, Landiwiese",
+      "label": "Z\u00fcrich, Landiwiese"
+    },
+    {
+      "source": "http://example.org/zurich/station/2814",
+      "target": "Z\u00fcrich, Rentenanstalt",
+      "label": "Z\u00fcrich, Rentenanstalt"
+    },
+    {
+      "source": "http://example.org/zurich/station/2815",
+      "target": "Z\u00fcrich, Hirzenbach",
+      "label": "Z\u00fcrich, Hirzenbach"
+    },
+    {
+      "source": "http://example.org/zurich/station/2816",
+      "target": "Z\u00fcrich, Auzelg Ost",
+      "label": "Z\u00fcrich, Auzelg Ost"
+    },
+    {
+      "source": "http://example.org/zurich/station/2817",
+      "target": "Z\u00fcrich, Letzipark",
+      "label": "Z\u00fcrich, Letzipark"
+    },
+    {
+      "source": "http://example.org/zurich/station/2818",
+      "target": "Z\u00fcrich, Bachmattstrasse",
+      "label": "Z\u00fcrich, Bachmattstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2821",
+      "target": "Z\u00fcrich, R\u00fctihof",
+      "label": "Z\u00fcrich, R\u00fctihof"
+    },
+    {
+      "source": "http://example.org/zurich/station/2823",
+      "target": "Z\u00fcrich, Friedhof H\u00f6nggerberg",
+      "label": "Z\u00fcrich, Friedhof H\u00f6nggerberg"
+    },
+    {
+      "source": "http://example.org/zurich/station/2824",
+      "target": "Z\u00fcrich, SBB-Werkst\u00e4tte",
+      "label": "Z\u00fcrich, SBB-Werkst\u00e4tte"
+    },
+    {
+      "source": "http://example.org/zurich/station/2825",
+      "target": "Z\u00fcrich, Friedhof Schwandenholz",
+      "label": "Z\u00fcrich, Friedhof Schwandenholz"
+    },
+    {
+      "source": "http://example.org/zurich/station/2826",
+      "target": "Z\u00fcrich, Friedhof Sihlfeld",
+      "label": "Z\u00fcrich, Friedhof Sihlfeld"
+    },
+    {
+      "source": "http://example.org/zurich/station/2828",
+      "target": "Z\u00fcrich, Im H\u00fcsli",
+      "label": "Z\u00fcrich, Im H\u00fcsli"
+    },
+    {
+      "source": "http://example.org/zurich/station/2829",
+      "target": "Z\u00fcrich, Sackzelg",
+      "label": "Z\u00fcrich, Sackzelg"
+    },
+    {
+      "source": "http://example.org/zurich/station/2830",
+      "target": "Z\u00fcrich, Im Kl\u00f6sterli",
+      "label": "Z\u00fcrich, Im Kl\u00f6sterli"
+    },
+    {
+      "source": "http://example.org/zurich/station/2831",
+      "target": "Z\u00fcrich, Singlistrasse",
+      "label": "Z\u00fcrich, Singlistrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2832",
+      "target": "Z\u00fcrich, Im Walder",
+      "label": "Z\u00fcrich, Im Walder"
+    },
+    {
+      "source": "http://example.org/zurich/station/2834",
+      "target": "Z\u00fcrich, Im Wingert",
+      "label": "Z\u00fcrich, Im Wingert"
+    },
+    {
+      "source": "http://example.org/zurich/station/2836",
+      "target": "Z\u00fcrich, Hegianwandweg",
+      "label": "Z\u00fcrich, Hegianwandweg"
+    },
+    {
+      "source": "http://example.org/zurich/station/2837",
+      "target": "Z\u00fcrich, Am B\u00f6rtli",
+      "label": "Z\u00fcrich, Am B\u00f6rtli"
+    },
+    {
+      "source": "http://example.org/zurich/station/2838",
+      "target": "Z\u00fcrich, Appenzellerstrasse",
+      "label": "Z\u00fcrich, Appenzellerstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2840",
+      "target": "Z\u00fcrich, Schulhaus Altweg",
+      "label": "Z\u00fcrich, Schulhaus Altweg"
+    },
+    {
+      "source": "http://example.org/zurich/station/2841",
+      "target": "Z\u00fcrich, Hohenklingensteig",
+      "label": "Z\u00fcrich, Hohenklingensteig"
+    },
+    {
+      "source": "http://example.org/zurich/station/2843",
+      "target": "Z\u00fcrich, Sch\u00f6nauring",
+      "label": "Z\u00fcrich, Sch\u00f6nauring"
+    },
+    {
+      "source": "http://example.org/zurich/station/2845",
+      "target": "Z\u00fcrich, Kirche Fluntern",
+      "label": "Z\u00fcrich, Kirche Fluntern"
+    },
+    {
+      "source": "http://example.org/zurich/station/2847",
+      "target": "Z\u00fcrich, Himmeri",
+      "label": "Z\u00fcrich, Himmeri"
+    },
+    {
+      "source": "http://example.org/zurich/station/2849",
+      "target": "Z\u00fcrich, Holzerhurd",
+      "label": "Z\u00fcrich, Holzerhurd"
+    },
+    {
+      "source": "http://example.org/zurich/station/2851",
+      "target": "Z\u00fcrich, In der Ey",
+      "label": "Z\u00fcrich, In der Ey"
+    },
+    {
+      "source": "http://example.org/zurich/station/2853",
+      "target": "Z\u00fcrich, Alte Trotte",
+      "label": "Z\u00fcrich, Alte Trotte"
+    },
+    {
+      "source": "http://example.org/zurich/station/2854",
+      "target": "Z\u00fcrich, Helmhaus",
+      "label": "Z\u00fcrich, Helmhaus"
+    },
+    {
+      "source": "http://example.org/zurich/station/2857",
+      "target": "Z\u00fcrich, Gutstrasse",
+      "label": "Z\u00fcrich, Gutstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2861",
+      "target": "Z\u00fcrich, Scheuchzerstrasse",
+      "label": "Z\u00fcrich, Scheuchzerstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2862",
+      "target": "Z\u00fcrich, Langgr\u00fctstrasse",
+      "label": "Z\u00fcrich, Langgr\u00fctstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2867",
+      "target": "Z\u00fcrich, Altenhofstrasse",
+      "label": "Z\u00fcrich, Altenhofstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2868",
+      "target": "Z\u00fcrich, Herdernstrasse",
+      "label": "Z\u00fcrich, Herdernstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2869",
+      "target": "Z\u00fcrich, Bleulerstrasse",
+      "label": "Z\u00fcrich, Bleulerstrasse"
+    },
+    {
+      "source": "http://example.org/zurich/station/2870",
+      "target": "Z\u00fcrich, Hottingerplatz",
+      "label": "Z\u00fcrich, Hottingerplatz"
+    },
+    {
+      "source": "http://example.org/zurich/station/2871",
+      "target": "Z\u00fcrich, Hubertus",
+      "label": "Z\u00fcrich, Hubertus"
+    },
+    {
+      "source": "http://example.org/zurich/station/2891",
+      "target": "Z\u00fcrich, Binz",
+      "label": "Z\u00fcrich, Binz"
+    },
+    {
+      "source": "http://example.org/zurich/station/2893",
+      "target": "Z\u00fcrich, Schiffbau",
+      "label": "Z\u00fcrich, Schiffbau"
+    },
+    {
+      "source": "http://example.org/zurich/station/3102",
+      "target": "Z\u00fcrich, Abstellplatz Garage 6",
+      "label": "Z\u00fcrich, Abstellplatz Garage 6"
+    },
+    {
+      "source": "http://example.org/zurich/station/3104",
+      "target": "Z\u00fcrich, Wenden Zentralwerkst\u00e4t",
+      "label": "Z\u00fcrich, Wenden Zentralwerkst\u00e4t"
+    },
+    {
+      "source": "http://example.org/zurich/station/3158",
+      "target": "Z\u00fcrich, Glaubtenstrasse Nord",
+      "label": "Z\u00fcrich, Glaubtenstrasse Nord"
+    },
+    {
+      "source": "http://example.org/zurich/station/373",
+      "target": "Z\u00fcrich Flughafen, Fracht",
+      "label": "Z\u00fcrich Flughafen, Fracht"
+    },
+    {
+      "source": "http://example.org/zurich/station/588",
+      "target": "Z\u00fcrich Flughafen, Bahnhof",
+      "label": "Z\u00fcrich Flughafen, Bahnhof"
+    },
+    {
+      "source": "http://example.org/zurich/station/701",
+      "target": "Z\u00fcrich, Goldbrunnenplatz",
+      "label": "Z\u00fcrich, Goldbrunnenplatz"
+    }
+  ]
+}
