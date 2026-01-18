@@ -12,8 +12,8 @@ class EdgeGenerator:
 
             edges.append({
                 "label": edge_schema["label"],
-                "start_id": row[edge_schema["startIdColumn"]],
-                "end_id": row[edge_schema["endIdColumn"]],
+                "start_id": row[edge_schema["start_id_column"]],
+                "end_id": row[edge_schema["end_id_column"]],
                 "properties": props
             })
 

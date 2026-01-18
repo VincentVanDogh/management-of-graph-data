@@ -1,3 +1,4 @@
+import csv
 from typing import List
 
 from fastapi import FastAPI, HTTPException, Form
@@ -163,6 +164,9 @@ def get_dataset_by_name(
 ):
     return dataset_service.get_dataset_by_name(name)
 
+
+from pathlib import Path
+
 @app.post("/datasets/{dataset_id}/build-graph")
 def build_graph(
     dataset_id: str,
@@ -170,18 +174,39 @@ def build_graph(
     neo4j = Depends(get_neo4j)
 ):
     dataset = dataset_service.get_dataset(dataset_id)
-
     if not dataset:
         raise HTTPException(status_code=404, detail="Dataset not found")
+    print(dataset)
 
     schema = {
-        "nodeTypes": dataset["nodeTypes"],
-        "edgeTypes": dataset["edgeTypes"]
+        "nodeTypes": dataset.get("nodeTypes", []),
+        "edgeTypes": dataset.get("edgeTypes", [])
     }
 
-    dataset_dir = dataset["csvFiles"]
+    csv_files = dataset.get("csvFiles", [])
+    if not csv_files:
+        raise HTTPException(status_code=400, detail="No CSV files found")
+
+    # Build filename: absolute path map
+    csv_path_map = {
+        f["filename"]: str(Path(f["stored_path"]).resolve())
+        for f in csv_files
+    }
+
+    print("CSV PATH MAP:", csv_path_map)
 
     pipeline = GraphPipeline(neo4j)
-    pipeline.build_graph(dataset_dir, schema)
+    pipeline.build_graph(csv_path_map, schema)
+
+    dataset_service.mark_graph_built(dataset_id)
 
     return {"status": "Graph created successfully"}
+
+
+
+@app.delete("/admin/datasets")
+def delete_all_datasets(
+    dataset_service: DatasetService = Depends(get_dataset_service)
+):
+    result = dataset_service.delete_all_datasets()
+    return result

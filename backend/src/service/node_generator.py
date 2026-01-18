@@ -6,7 +6,7 @@ class NodeGenerator:
         nodes = []
 
         for row in rows:
-            node_id = row[node_schema["idColumn"]]
+            node_id = row[node_schema["id_column"]]
 
             props = {
                 "id": node_id

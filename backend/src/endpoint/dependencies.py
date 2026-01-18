@@ -27,9 +27,9 @@ def get_db():
 
 def get_neo4j():
     neo = Neo4jService(
-        uri="bolt://localhost:7687",
-        user="neo4j",
-        password="password"
+        uri = "bolt://localhost:7687",
+        user = "neo4j",
+        password = "mogm1234"
     )
     try:
         yield neo

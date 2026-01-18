@@ -9,7 +9,8 @@ class SchemaRepository:
                 "dataset_id": dataset_id,
                 "label": n["label"],
                 "id_column": n["idColumn"],
-                "properties": n["properties"]
+                "properties": n["properties"],
+                "csvFileName": n["csvFileName"]
             })
 
     def save_edge_types(self, dataset_id, edge_types):
@@ -19,7 +20,8 @@ class SchemaRepository:
                 "label": e["label"],
                 "start_id_column": e["startIdColumn"],
                 "end_id_column": e["endIdColumn"],
-                "properties": e["properties"]
+                "properties": e["properties"],
+                "csvFileName": e["csvFileName"]
             })
 
     def find_node_types(self, dataset_id: str):

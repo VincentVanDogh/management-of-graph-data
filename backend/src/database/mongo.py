@@ -7,7 +7,7 @@ client = MongoClient(MONGO_URI)
 db = client[DB_NAME]
 
 # If database cannot be loaded due to conflicts, run command below
-# db.datasets.drop()
+db.datasets.drop()
 
 db["datasets"].create_index("name", unique=True)
 

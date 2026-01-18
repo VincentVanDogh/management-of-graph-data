@@ -20,3 +20,12 @@ class DatasetRepository:
 
     def find_by_name(self, name: str):
         return self.collection.find_one({"name": name})
+
+    def set_has_graph(self, dataset_id: str, value: bool):
+        return self.collection.update_one(
+            {"_id": ObjectId(dataset_id)},
+            {"$set": {"has_graph": value}}
+        )
+
+    def delete_all(self):
+        return self.collection.delete_many({})

@@ -9,3 +9,6 @@ class CsvRepository:
         return list(self.collection.find({
             "dataset_id": dataset_id
         }))
+
+    def delete_all(self):
+        return self.collection.delete_many({})
