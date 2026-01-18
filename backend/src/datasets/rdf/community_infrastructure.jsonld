@@ -1,0 +1,12 @@
+{
+  "@context": {
+    "ex": "https://example.org/gmbt/community/",
+    "exs": "https://example.org/gmbt/schema/"
+  },
+  "@id": "ex:1",
+  "@type": "exs:Community",
+  "exs:name": "EarthBiogenomeProject",
+  "exs:type": "Research Infrastructure",
+  "exs:description": "The EBP is a large-scale effort...",
+  "exs:subject": ["Biology", "Ecology", "Genomics"]
+}

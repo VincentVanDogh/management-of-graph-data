@@ -34,3 +34,15 @@ ul
 #header-logo-img {
   width: 15%;
 }
+
+// LINKS
+.nav-link {
+  transition: color .4s ease;
+  cursor: pointer;
+}
+.nav-link:hover {
+  color: #FFFFFF;
+}
+.navbar-nav .nav-link.active {
+  color: #FFFFFF;
+}

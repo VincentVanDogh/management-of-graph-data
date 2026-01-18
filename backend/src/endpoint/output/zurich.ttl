@@ -1,0 +1,2147 @@
+@prefix ex: <http://example.org/zurich/> .
+
+<http://example.org/zurich/station/1005> a ex:Station ;
+    ex:hasName "Thalwil, Schützenhaus" .
+
+<http://example.org/zurich/station/1010> a ex:Station ;
+    ex:hasName "Zürich, Schaufelbergerstrasse" .
+
+<http://example.org/zurich/station/1067> a ex:Station ;
+    ex:hasName "Glattbrugg, Zentrum" .
+
+<http://example.org/zurich/station/1114> a ex:Station ;
+    ex:hasName "Dübendorf, Meiershofstrasse" .
+
+<http://example.org/zurich/station/1259> a ex:Station ;
+    ex:hasName "Kilchberg ZH, Bahnhof" .
+
+<http://example.org/zurich/station/1270> a ex:Station ;
+    ex:hasName "Zürich, Triemli" .
+
+<http://example.org/zurich/station/1300> a ex:Station ;
+    ex:hasName "Thalwil, Mühlebachplatz" .
+
+<http://example.org/zurich/station/1305> a ex:Station ;
+    ex:hasName "Zürich, Kunsthaus" .
+
+<http://example.org/zurich/station/1306> a ex:Station ;
+    ex:hasName "Zürich, Bezirksgebäude" .
+
+<http://example.org/zurich/station/1308> a ex:Station ;
+    ex:hasName "Zürich, ETH/Universitätsspital" .
+
+<http://example.org/zurich/station/1309> a ex:Station ;
+    ex:hasName "Zürich, Bucheggplatz" .
+
+<http://example.org/zurich/station/1310> a ex:Station ;
+    ex:hasName "Zürich, Farbhof" .
+
+<http://example.org/zurich/station/1311> a ex:Station ;
+    ex:hasName "Zürich, Sternen Oerlikon" .
+
+<http://example.org/zurich/station/1312> a ex:Station ;
+    ex:hasName "Dietikon, Bahnhof" .
+
+<http://example.org/zurich/station/1362> a ex:Station ;
+    ex:hasName "Zürich, Im Ebnet" .
+
+<http://example.org/zurich/station/1366> a ex:Station ;
+    ex:hasName "Wallisellen, Glatt (Bus)" .
+
+<http://example.org/zurich/station/1370> a ex:Station ;
+    ex:hasName "Regensdorf, Zentrum" .
+
+<http://example.org/zurich/station/1372> a ex:Station ;
+    ex:hasName "Dübendorf, Hoffnung" .
+
+<http://example.org/zurich/station/1377> a ex:Station ;
+    ex:hasName "Kloten Balsberg, Bahnhof" .
+
+<http://example.org/zurich/station/1378> a ex:Station ;
+    ex:hasName "Rümlang, Bäuler" .
+
+<http://example.org/zurich/station/1379> a ex:Station ;
+    ex:hasName "Glattbrugg, Lindberghplatz" .
+
+<http://example.org/zurich/station/1392> a ex:Station ;
+    ex:hasName "Wallisellen, Florastrasse" .
+
+<http://example.org/zurich/station/1393> a ex:Station ;
+    ex:hasName "Zürich, Schürgistrasse" .
+
+<http://example.org/zurich/station/1400> a ex:Station ;
+    ex:hasName "Glattbrugg, Glatthof" .
+
+<http://example.org/zurich/station/1405> a ex:Station ;
+    ex:hasName "Kilchberg ZH,Schulhaus Dorfstr" .
+
+<http://example.org/zurich/station/1406> a ex:Station ;
+    ex:hasName "Zürich, Hölderlinstrasse" .
+
+<http://example.org/zurich/station/1407> a ex:Station ;
+    ex:hasName "Kilchberg ZH, Kreuzstrasse" .
+
+<http://example.org/zurich/station/1417> a ex:Station ;
+    ex:hasName "Rümlang, Letten" .
+
+<http://example.org/zurich/station/1418> a ex:Station ;
+    ex:hasName "Dübendorf, Neugut Süd" .
+
+<http://example.org/zurich/station/143> a ex:Station ;
+    ex:hasName "Birmensdorf ZH, Sternen/WSL" .
+
+<http://example.org/zurich/station/1437> a ex:Station ;
+    ex:hasName "Volketswil, Volkiland Chliriet" .
+
+<http://example.org/zurich/station/1443> a ex:Station ;
+    ex:hasName "Zürich, Leutschenbach" .
+
+<http://example.org/zurich/station/1445> a ex:Station ;
+    ex:hasName "Dübendorf, City Center" .
+
+<http://example.org/zurich/station/1449> a ex:Station ;
+    ex:hasName "D'dorf, Sportanl Heerenschürli" .
+
+<http://example.org/zurich/station/1452> a ex:Station ;
+    ex:hasName "Glattbrugg, Bahnhof" .
+
+<http://example.org/zurich/station/1454> a ex:Station ;
+    ex:hasName "Zürich, Heizenholz" .
+
+<http://example.org/zurich/station/1456> a ex:Station ;
+    ex:hasName "Dübendorf, Sonnental" .
+
+<http://example.org/zurich/station/1475> a ex:Station ;
+    ex:hasName "Dübendorf, Breitibach" .
+
+<http://example.org/zurich/station/1499> a ex:Station ;
+    ex:hasName "Zürich, Neubühl" .
+
+<http://example.org/zurich/station/1500> a ex:Station ;
+    ex:hasName "Zürich, Bahnhof Leimbach" .
+
+<http://example.org/zurich/station/1501> a ex:Station ;
+    ex:hasName "Zürich, Schwamendingerplatz" .
+
+<http://example.org/zurich/station/1502> a ex:Station ;
+    ex:hasName "Zürich, Stauffacher" .
+
+<http://example.org/zurich/station/1503> a ex:Station ;
+    ex:hasName "Zürich, Kienastenwies" .
+
+<http://example.org/zurich/station/1504> a ex:Station ;
+    ex:hasName "Zürich, Milchbuck" .
+
+<http://example.org/zurich/station/1509> a ex:Station ;
+    ex:hasName "Kilchberg ZH, Lindt & Sprüngli" .
+
+<http://example.org/zurich/station/1510> a ex:Station ;
+    ex:hasName "Adliswil, Ahornweg" .
+
+<http://example.org/zurich/station/1511> a ex:Station ;
+    ex:hasName "Zürich, Morgental" .
+
+<http://example.org/zurich/station/1517> a ex:Station ;
+    ex:hasName "Unterengstringen, Sennenbüel N" .
+
+<http://example.org/zurich/station/1518> a ex:Station ;
+    ex:hasName "Kilchberg ZH, Stockengut" .
+
+<http://example.org/zurich/station/1520> a ex:Station ;
+    ex:hasName "Urdorf, Feldegg" .
+
+<http://example.org/zurich/station/1521> a ex:Station ;
+    ex:hasName "Kilchberg ZH, Bächlerstrasse" .
+
+<http://example.org/zurich/station/1522> a ex:Station ;
+    ex:hasName "Urdorf Weihermatt, Bahnhof" .
+
+<http://example.org/zurich/station/1523> a ex:Station ;
+    ex:hasName "Zürich, Lägernstrasse" .
+
+<http://example.org/zurich/station/1524> a ex:Station ;
+    ex:hasName "Kilchberg ZH, Bendlikon" .
+
+<http://example.org/zurich/station/1525> a ex:Station ;
+    ex:hasName "Zürich, Radiostudio" .
+
+<http://example.org/zurich/station/1526> a ex:Station ;
+    ex:hasName "Kilchberg ZH, Gottlieb-Binder" .
+
+<http://example.org/zurich/station/1528> a ex:Station ;
+    ex:hasName "Zürich, Paradeplatz" .
+
+<http://example.org/zurich/station/1530> a ex:Station ;
+    ex:hasName "Kilchberg ZH, Mythenstrasse" .
+
+<http://example.org/zurich/station/1531> a ex:Station ;
+    ex:hasName "Zürich, Römerhof" .
+
+<http://example.org/zurich/station/1532> a ex:Station ;
+    ex:hasName "Zürich, Hirschwiesenstrasse" .
+
+<http://example.org/zurich/station/1533> a ex:Station ;
+    ex:hasName "Kilchberg ZH, Schwelle" .
+
+<http://example.org/zurich/station/1534> a ex:Station ;
+    ex:hasName "Zürich, Werd" .
+
+<http://example.org/zurich/station/1535> a ex:Station ;
+    ex:hasName "Zürich, Albisriederplatz" .
+
+<http://example.org/zurich/station/1536> a ex:Station ;
+    ex:hasName "Adliswil, Hofackerstrasse" .
+
+<http://example.org/zurich/station/1537> a ex:Station ;
+    ex:hasName "Schlieren, Zentrum" .
+
+<http://example.org/zurich/station/1538> a ex:Station ;
+    ex:hasName "Kilchberg ZH, Schlimbergstr." .
+
+<http://example.org/zurich/station/1539> a ex:Station ;
+    ex:hasName "Zürich, Schaffhauserplatz" .
+
+<http://example.org/zurich/station/1540> a ex:Station ;
+    ex:hasName "Schlieren, Bahnhof" .
+
+<http://example.org/zurich/station/1541> a ex:Station ;
+    ex:hasName "Zürich, Bahnhofplatz/HB" .
+
+<http://example.org/zurich/station/1542> a ex:Station ;
+    ex:hasName "Zürich, Bahnhofquai/HB" .
+
+<http://example.org/zurich/station/1543> a ex:Station ;
+    ex:hasName "Zürich, Universität Irchel" .
+
+<http://example.org/zurich/station/1552> a ex:Station ;
+    ex:hasName "Rüschlikon, Loorain" .
+
+<http://example.org/zurich/station/1553> a ex:Station ;
+    ex:hasName "Rüschlikon, Eggrain" .
+
+<http://example.org/zurich/station/1557> a ex:Station ;
+    ex:hasName "Zürich, Bahnhof Wiedikon" .
+
+<http://example.org/zurich/station/1565> a ex:Station ;
+    ex:hasName "Zürich, Bellevue" .
+
+<http://example.org/zurich/station/1571> a ex:Station ;
+    ex:hasName "Zürich, Frankental" .
+
+<http://example.org/zurich/station/1574> a ex:Station ;
+    ex:hasName "Zürich, Escher-Wyss-Platz" .
+
+<http://example.org/zurich/station/1580> a ex:Station ;
+    ex:hasName "Zürich, Altried" .
+
+<http://example.org/zurich/station/1581> a ex:Station ;
+    ex:hasName "Wallisellen, Herti" .
+
+<http://example.org/zurich/station/1596> a ex:Station ;
+    ex:hasName "Zürich, Seebach" .
+
+<http://example.org/zurich/station/1598> a ex:Station ;
+    ex:hasName "Zürich, Hungerbergstrasse" .
+
+<http://example.org/zurich/station/1631> a ex:Station ;
+    ex:hasName "Thalwil, Seehaldenstrasse" .
+
+<http://example.org/zurich/station/1638> a ex:Station ;
+    ex:hasName "Adliswil, Bahnhof" .
+
+<http://example.org/zurich/station/1677> a ex:Station ;
+    ex:hasName "Zürich, Ausserdorfstrasse" .
+
+<http://example.org/zurich/station/1679> a ex:Station ;
+    ex:hasName "Schwerzenbach ZH, Bahnhof" .
+
+<http://example.org/zurich/station/1686> a ex:Station ;
+    ex:hasName "Regensdorf, Chrüzächer" .
+
+<http://example.org/zurich/station/1687> a ex:Station ;
+    ex:hasName "Wallisellen, Bahnhof" .
+
+<http://example.org/zurich/station/1692> a ex:Station ;
+    ex:hasName "Volketswil, Hofwisen" .
+
+<http://example.org/zurich/station/1694> a ex:Station ;
+    ex:hasName "Glattbrugg, Frohbühlstrasse" .
+
+<http://example.org/zurich/station/1697> a ex:Station ;
+    ex:hasName "Glattbrugg, Mode Center TMC" .
+
+<http://example.org/zurich/station/1706> a ex:Station ;
+    ex:hasName "Dübendorf, Lindenplatz" .
+
+<http://example.org/zurich/station/1723> a ex:Station ;
+    ex:hasName "Urdorf, Rainweg" .
+
+<http://example.org/zurich/station/1724> a ex:Station ;
+    ex:hasName "Dietikon, Pestalozzi" .
+
+<http://example.org/zurich/station/1729> a ex:Station ;
+    ex:hasName "Thalwil, Post" .
+
+<http://example.org/zurich/station/1736> a ex:Station ;
+    ex:hasName "Garage Adliswil" .
+
+<http://example.org/zurich/station/1741> a ex:Station ;
+    ex:hasName "Zürich, Mittelleimbach" .
+
+<http://example.org/zurich/station/1743> a ex:Station ;
+    ex:hasName "Rüschlikon, Park im Grüene" .
+
+<http://example.org/zurich/station/1748> a ex:Station ;
+    ex:hasName "Rüschlikon, Moosstrasse" .
+
+<http://example.org/zurich/station/1773> a ex:Station ;
+    ex:hasName "Zürich, Triemlispital" .
+
+<http://example.org/zurich/station/1784> a ex:Station ;
+    ex:hasName "Rümlang, Hörnlistrasse" .
+
+<http://example.org/zurich/station/1790> a ex:Station ;
+    ex:hasName "Glattbrugg, Post" .
+
+<http://example.org/zurich/station/1797> a ex:Station ;
+    ex:hasName "Zürich, Birch-/Glatttalstrasse" .
+
+<http://example.org/zurich/station/1809> a ex:Station ;
+    ex:hasName "Rümlang, Oberdorf" .
+
+<http://example.org/zurich/station/1816> a ex:Station ;
+    ex:hasName "Zürich, Gessnerallee" .
+
+<http://example.org/zurich/station/1829> a ex:Station ;
+    ex:hasName "Zürich, Bahnhof Oerlikon" .
+
+<http://example.org/zurich/station/1843> a ex:Station ;
+    ex:hasName "Zürich, Riedhofstrasse" .
+
+<http://example.org/zurich/station/1845> a ex:Station ;
+    ex:hasName "Zürich, Zehntenhausplatz" .
+
+<http://example.org/zurich/station/1846> a ex:Station ;
+    ex:hasName "Zürich, Aubrücke" .
+
+<http://example.org/zurich/station/1850> a ex:Station ;
+    ex:hasName "Rümlang, Gemeindehaus" .
+
+<http://example.org/zurich/station/1851> a ex:Station ;
+    ex:hasName "Zürich, Sihlcity" .
+
+<http://example.org/zurich/station/1852> a ex:Station ;
+    ex:hasName "Zürich, Bahnhof Enge/Bederstr." .
+
+<http://example.org/zurich/station/1854> a ex:Station ;
+    ex:hasName "Zürich, Saalsporthalle" .
+
+<http://example.org/zurich/station/1869> a ex:Station ;
+    ex:hasName "Adliswil, Krone" .
+
+<http://example.org/zurich/station/1873> a ex:Station ;
+    ex:hasName "Zürich, Felsenrainstrasse" .
+
+<http://example.org/zurich/station/1874> a ex:Station ;
+    ex:hasName "Zürich, Bahnhof Affoltern" .
+
+<http://example.org/zurich/station/1879> a ex:Station ;
+    ex:hasName "Dübendorf, Bahnhof Nord" .
+
+<http://example.org/zurich/station/1884> a ex:Station ;
+    ex:hasName "Zürich, Messe/Hallenstadion" .
+
+<http://example.org/zurich/station/1885> a ex:Station ;
+    ex:hasName "Zürich, Bahnhof Oerlikon Nord" .
+
+<http://example.org/zurich/station/1890> a ex:Station ;
+    ex:hasName "Zürich, Neumühlequai" .
+
+<http://example.org/zurich/station/1893> a ex:Station ;
+    ex:hasName "Zürich, Bahnhof Enge" .
+
+<http://example.org/zurich/station/1895> a ex:Station ;
+    ex:hasName "Zürich, Bahnhofstrasse/HB" .
+
+<http://example.org/zurich/station/1904> a ex:Station ;
+    ex:hasName "Kilchberg ZH, Schoorenstrasse" .
+
+<http://example.org/zurich/station/1905> a ex:Station ;
+    ex:hasName "Zürich, Klusplatz" .
+
+<http://example.org/zurich/station/1906> a ex:Station ;
+    ex:hasName "Zürich,Kalkbreite/Bhf.Wiedikon" .
+
+<http://example.org/zurich/station/1907> a ex:Station ;
+    ex:hasName "Zürich, Manegg" .
+
+<http://example.org/zurich/station/1908> a ex:Station ;
+    ex:hasName "Zürich, Heuried" .
+
+<http://example.org/zurich/station/1909> a ex:Station ;
+    ex:hasName "Kilchberg ZH, Spital" .
+
+<http://example.org/zurich/station/1911> a ex:Station ;
+    ex:hasName "Kilchberg ZH, Altersheim" .
+
+<http://example.org/zurich/station/1916> a ex:Station ;
+    ex:hasName "Zürich, Ettenfeld" .
+
+<http://example.org/zurich/station/1919> a ex:Station ;
+    ex:hasName "Zürich, Bahnhof Oerlikon Ost" .
+
+<http://example.org/zurich/station/1920> a ex:Station ;
+    ex:hasName "Wallisellen, Belair" .
+
+<http://example.org/zurich/station/1928> a ex:Station ;
+    ex:hasName "Zürich, Fernsehstudio" .
+
+<http://example.org/zurich/station/1931> a ex:Station ;
+    ex:hasName "Glattpark" .
+
+<http://example.org/zurich/station/1934> a ex:Station ;
+    ex:hasName "Zürich, Seebacherplatz" .
+
+<http://example.org/zurich/station/1938> a ex:Station ;
+    ex:hasName "Zürich, Central" .
+
+<http://example.org/zurich/station/1949> a ex:Station ;
+    ex:hasName "Opfikon, Schulstrasse" .
+
+<http://example.org/zurich/station/1959> a ex:Station ;
+    ex:hasName "Dietikon, Stadthaus" .
+
+<http://example.org/zurich/station/2007> a ex:Station ;
+    ex:hasName "Schlieren, Nassacker" .
+
+<http://example.org/zurich/station/2008> a ex:Station ;
+    ex:hasName "Dübendorf, Flugplatz" .
+
+<http://example.org/zurich/station/2009> a ex:Station ;
+    ex:hasName "Bergdietikon, Vorbühl" .
+
+<http://example.org/zurich/station/2010> a ex:Station ;
+    ex:hasName "Geroldswil, Grindlen" .
+
+<http://example.org/zurich/station/2011> a ex:Station ;
+    ex:hasName "Zollikon, Garage G.-Maurer-Str" .
+
+<http://example.org/zurich/station/2013> a ex:Station ;
+    ex:hasName "Spreitenbach, Breiti" .
+
+<http://example.org/zurich/station/2014> a ex:Station ;
+    ex:hasName "Spreitenbach, Furttalstrasse" .
+
+<http://example.org/zurich/station/2015> a ex:Station ;
+    ex:hasName "Spreitenbach, Interio" .
+
+<http://example.org/zurich/station/2016> a ex:Station ;
+    ex:hasName "Unterengstringen, Aegelsee" .
+
+<http://example.org/zurich/station/2018> a ex:Station ;
+    ex:hasName "Dietikon, Vorstadt" .
+
+<http://example.org/zurich/station/2019> a ex:Station ;
+    ex:hasName "Schlieren, Wagonsfabrik" .
+
+<http://example.org/zurich/station/2020> a ex:Station ;
+    ex:hasName "Oetwil an der Limmat, Post" .
+
+<http://example.org/zurich/station/2021> a ex:Station ;
+    ex:hasName "Dietikon, Rapidplatz" .
+
+<http://example.org/zurich/station/2022> a ex:Station ;
+    ex:hasName "Zürich, Röslistrasse" .
+
+<http://example.org/zurich/station/2023> a ex:Station ;
+    ex:hasName "Zürich, Depot 2 Wollishofen" .
+
+<http://example.org/zurich/station/2025> a ex:Station ;
+    ex:hasName "Zürich, Bhf Wollishofen (Tram)" .
+
+<http://example.org/zurich/station/2027> a ex:Station ;
+    ex:hasName "Dübendorf, Zelglistrasse" .
+
+<http://example.org/zurich/station/2028> a ex:Station ;
+    ex:hasName "Weiningen ZH, Ausserdorf" .
+
+<http://example.org/zurich/station/2029> a ex:Station ;
+    ex:hasName "Geroldswil, Schweizäcker" .
+
+<http://example.org/zurich/station/2033> a ex:Station ;
+    ex:hasName "Schlieren, Reitmen" .
+
+<http://example.org/zurich/station/2034> a ex:Station ;
+    ex:hasName "Geroldswil, Zentrum" .
+
+<http://example.org/zurich/station/2035> a ex:Station ;
+    ex:hasName "Zürich, Rennweg" .
+
+<http://example.org/zurich/station/2036> a ex:Station ;
+    ex:hasName "Oberengstringen, Zentrum" .
+
+<http://example.org/zurich/station/2038> a ex:Station ;
+    ex:hasName "Dietikon, Schäflibach" .
+
+<http://example.org/zurich/station/2039> a ex:Station ;
+    ex:hasName "Dietikon, Hofacker" .
+
+<http://example.org/zurich/station/2040> a ex:Station ;
+    ex:hasName "Dübendorf, Grüzenstrasse" .
+
+<http://example.org/zurich/station/2042> a ex:Station ;
+    ex:hasName "Dietikon, Sommerau" .
+
+<http://example.org/zurich/station/2043> a ex:Station ;
+    ex:hasName "Schlieren, Zentrum/Bahnhof" .
+
+<http://example.org/zurich/station/2044> a ex:Station ;
+    ex:hasName "Urdorf, Schlierenstrasse" .
+
+<http://example.org/zurich/station/2045> a ex:Station ;
+    ex:hasName "Zürich, Guggachstrasse" .
+
+<http://example.org/zurich/station/2046> a ex:Station ;
+    ex:hasName "Zürich, Schörlistrasse" .
+
+<http://example.org/zurich/station/2047> a ex:Station ;
+    ex:hasName "Zürich, Sonneggstrasse" .
+
+<http://example.org/zurich/station/2048> a ex:Station ;
+    ex:hasName "Dietikon, Gjuchstrasse" .
+
+<http://example.org/zurich/station/2050> a ex:Station ;
+    ex:hasName "Schlieren, Heimeliweg" .
+
+<http://example.org/zurich/station/2052> a ex:Station ;
+    ex:hasName "Zürich, Glattwiesen" .
+
+<http://example.org/zurich/station/2053> a ex:Station ;
+    ex:hasName "Dübendorf, Kirche Wil" .
+
+<http://example.org/zurich/station/2054> a ex:Station ;
+    ex:hasName "Dietikon, Kirchplatz" .
+
+<http://example.org/zurich/station/2055> a ex:Station ;
+    ex:hasName "Dietikon, Stadthalle Ost" .
+
+<http://example.org/zurich/station/2056> a ex:Station ;
+    ex:hasName "Dietikon, Silbern" .
+
+<http://example.org/zurich/station/2057> a ex:Station ;
+    ex:hasName "Dietikon, Bahnhofstrasse" .
+
+<http://example.org/zurich/station/2059> a ex:Station ;
+    ex:hasName "Dietikon, Birmensdorferstrasse" .
+
+<http://example.org/zurich/station/2060> a ex:Station ;
+    ex:hasName "Zürich, Schmiede Wiedikon" .
+
+<http://example.org/zurich/station/2061> a ex:Station ;
+    ex:hasName "Bergdietikon, Rietwies" .
+
+<http://example.org/zurich/station/2063> a ex:Station ;
+    ex:hasName "Bergdietikon, Baltenschwil" .
+
+<http://example.org/zurich/station/2078> a ex:Station ;
+    ex:hasName "Wallisellen, Neugut" .
+
+<http://example.org/zurich/station/2079> a ex:Station ;
+    ex:hasName "Dübendorf, Giessen" .
+
+<http://example.org/zurich/station/2081> a ex:Station ;
+    ex:hasName "Zürich, Depot 7 Irchel" .
+
+<http://example.org/zurich/station/2082> a ex:Station ;
+    ex:hasName "Dübendorf, Ringwiesen" .
+
+<http://example.org/zurich/station/2083> a ex:Station ;
+    ex:hasName "Zürich, Auzelg" .
+
+<http://example.org/zurich/station/2084> a ex:Station ;
+    ex:hasName "Zürich, Kreuzplatz" .
+
+<http://example.org/zurich/station/2085> a ex:Station ;
+    ex:hasName "Zürich, Laubiweg" .
+
+<http://example.org/zurich/station/2086> a ex:Station ;
+    ex:hasName "Zürich, Beckenhof" .
+
+<http://example.org/zurich/station/2087> a ex:Station ;
+    ex:hasName "Zürich, Kronenstrasse" .
+
+<http://example.org/zurich/station/2088> a ex:Station ;
+    ex:hasName "Zürich, Stampfenbachplatz" .
+
+<http://example.org/zurich/station/2089> a ex:Station ;
+    ex:hasName "Zürich, Regensbergbrücke" .
+
+<http://example.org/zurich/station/2090> a ex:Station ;
+    ex:hasName "Zürich, Bad Allenmoos" .
+
+<http://example.org/zurich/station/2092> a ex:Station ;
+    ex:hasName "Zürich, Rehalp" .
+
+<http://example.org/zurich/station/2094> a ex:Station ;
+    ex:hasName "Waldburg, Station" .
+
+<http://example.org/zurich/station/2096> a ex:Station ;
+    ex:hasName "Zumikon, Waltikon" .
+
+<http://example.org/zurich/station/2103> a ex:Station ;
+    ex:hasName "Zollikerberg, Station" .
+
+<http://example.org/zurich/station/2104> a ex:Station ;
+    ex:hasName "Zürich, Opernhaus" .
+
+<http://example.org/zurich/station/2110> a ex:Station ;
+    ex:hasName "Zürich, Wetlistrasse" .
+
+<http://example.org/zurich/station/2111> a ex:Station ;
+    ex:hasName "Zürich, Bahnhof Stadelhofen" .
+
+<http://example.org/zurich/station/2113> a ex:Station ;
+    ex:hasName "Zürich, Hegibachplatz" .
+
+<http://example.org/zurich/station/2114> a ex:Station ;
+    ex:hasName "Zollikerb., Langägerten/Spital" .
+
+<http://example.org/zurich/station/2120> a ex:Station ;
+    ex:hasName "Scheuren, Station" .
+
+<http://example.org/zurich/station/2121> a ex:Station ;
+    ex:hasName "Zürich, Balgrist" .
+
+<http://example.org/zurich/station/2137> a ex:Station ;
+    ex:hasName "Zürich, Sunnau" .
+
+<http://example.org/zurich/station/2139> a ex:Station ;
+    ex:hasName "Zürich, Dangelstrasse" .
+
+<http://example.org/zurich/station/2141> a ex:Station ;
+    ex:hasName "Adliswil, Tiefacker" .
+
+<http://example.org/zurich/station/2142> a ex:Station ;
+    ex:hasName "Adliswil, Moos" .
+
+<http://example.org/zurich/station/2143> a ex:Station ;
+    ex:hasName "Adliswil, Eichenweg" .
+
+<http://example.org/zurich/station/2144> a ex:Station ;
+    ex:hasName "Zürich, Garage 6 Hardau" .
+
+<http://example.org/zurich/station/2145> a ex:Station ;
+    ex:hasName "Zürich, Wollishofen" .
+
+<http://example.org/zurich/station/2146> a ex:Station ;
+    ex:hasName "Zürich, Widmerstrasse" .
+
+<http://example.org/zurich/station/2158> a ex:Station ;
+    ex:hasName "Adliswil, Badstrasse" .
+
+<http://example.org/zurich/station/2160> a ex:Station ;
+    ex:hasName "Adliswil, Grüt" .
+
+<http://example.org/zurich/station/2183> a ex:Station ;
+    ex:hasName "Zürich, Sihlcity Nord" .
+
+<http://example.org/zurich/station/2187> a ex:Station ;
+    ex:hasName "Wallisellen, Glatt (Tram)" .
+
+<http://example.org/zurich/station/2198> a ex:Station ;
+    ex:hasName "Zürich, Geeringstrasse" .
+
+<http://example.org/zurich/station/2228> a ex:Station ;
+    ex:hasName "Zürich, Börsenstrasse" .
+
+<http://example.org/zurich/station/2244> a ex:Station ;
+    ex:hasName "Zürich, Kappeli" .
+
+<http://example.org/zurich/station/2245> a ex:Station ;
+    ex:hasName "Zürich, Letzigrund" .
+
+<http://example.org/zurich/station/2247> a ex:Station ;
+    ex:hasName "Zürich, Kernstrasse" .
+
+<http://example.org/zurich/station/2248> a ex:Station ;
+    ex:hasName "Zürich, Lochergut" .
+
+<http://example.org/zurich/station/2250> a ex:Station ;
+    ex:hasName "Zürich, Zypressenstrasse" .
+
+<http://example.org/zurich/station/2251> a ex:Station ;
+    ex:hasName "Zürich, Depot 4 Elisabethenstr" .
+
+<http://example.org/zurich/station/2253> a ex:Station ;
+    ex:hasName "Zürich, Freihofstrasse" .
+
+<http://example.org/zurich/station/2254> a ex:Station ;
+    ex:hasName "Zürich, Zentralwerkstätte" .
+
+<http://example.org/zurich/station/2256> a ex:Station ;
+    ex:hasName "Zürich, Löwenplatz" .
+
+<http://example.org/zurich/station/2257> a ex:Station ;
+    ex:hasName "Zürich, Oerlikerhus" .
+
+<http://example.org/zurich/station/2258> a ex:Station ;
+    ex:hasName "Zürich, Haldenbach" .
+
+<http://example.org/zurich/station/2260> a ex:Station ;
+    ex:hasName "Zürich, Seilbahn Rigiblick" .
+
+<http://example.org/zurich/station/2262> a ex:Station ;
+    ex:hasName "Zürich, Sihlpost / HB" .
+
+<http://example.org/zurich/station/2274> a ex:Station ;
+    ex:hasName "Zürich, Letzistrasse" .
+
+<http://example.org/zurich/station/2275> a ex:Station ;
+    ex:hasName "Zürich, Signaustrasse" .
+
+<http://example.org/zurich/station/2276> a ex:Station ;
+    ex:hasName "Zürich, Berninaplatz" .
+
+<http://example.org/zurich/station/2287> a ex:Station ;
+    ex:hasName "Zürich, Limmatplatz" .
+
+<http://example.org/zurich/station/2289> a ex:Station ;
+    ex:hasName "Zürich, Sihlquai/HB" .
+
+<http://example.org/zurich/station/2290> a ex:Station ;
+    ex:hasName "Zürich, Dammweg" .
+
+<http://example.org/zurich/station/2292> a ex:Station ;
+    ex:hasName "Zürich, Kinkelstrasse" .
+
+<http://example.org/zurich/station/2293> a ex:Station ;
+    ex:hasName "Zürich, Winkelriedstrasse" .
+
+<http://example.org/zurich/station/2294> a ex:Station ;
+    ex:hasName "Zürich, Museum für Gestaltung" .
+
+<http://example.org/zurich/station/2295> a ex:Station ;
+    ex:hasName "Zürich, Burgwies" .
+
+<http://example.org/zurich/station/2298> a ex:Station ;
+    ex:hasName "Zürich, Quellenstrasse" .
+
+<http://example.org/zurich/station/2299> a ex:Station ;
+    ex:hasName "Zürich, Depot 5 Hard" .
+
+<http://example.org/zurich/station/2300> a ex:Station ;
+    ex:hasName "Zürich, Depot 8 Oerlikon" .
+
+<http://example.org/zurich/station/2301> a ex:Station ;
+    ex:hasName "Zürich, Garage 9 Hagenholz" .
+
+<http://example.org/zurich/station/2302> a ex:Station ;
+    ex:hasName "Zürich, Haldenegg" .
+
+<http://example.org/zurich/station/2308> a ex:Station ;
+    ex:hasName "Zürich, Hedwigsteig" .
+
+<http://example.org/zurich/station/2312> a ex:Station ;
+    ex:hasName "Zürich, Friedhof Enzenbühl" .
+
+<http://example.org/zurich/station/2313> a ex:Station ;
+    ex:hasName "Zürich, Salersteig" .
+
+<http://example.org/zurich/station/2315> a ex:Station ;
+    ex:hasName "Zürich, Langmauerstrasse" .
+
+<http://example.org/zurich/station/2316> a ex:Station ;
+    ex:hasName "Zürich, Bahnhof Stettbach" .
+
+<http://example.org/zurich/station/2320> a ex:Station ;
+    ex:hasName "Zumikon, Dorfzentrum" .
+
+<http://example.org/zurich/station/2324> a ex:Station ;
+    ex:hasName "Oberengstringen, Lanzrain" .
+
+<http://example.org/zurich/station/2326> a ex:Station ;
+    ex:hasName "Dübendorf, Alterszentrum" .
+
+<http://example.org/zurich/station/2327> a ex:Station ;
+    ex:hasName "Spreitenbach, Brüel" .
+
+<http://example.org/zurich/station/2328> a ex:Station ;
+    ex:hasName "Schlieren, Spital Limmattal" .
+
+<http://example.org/zurich/station/2329> a ex:Station ;
+    ex:hasName "Wangen, Stierwisen" .
+
+<http://example.org/zurich/station/2332> a ex:Station ;
+    ex:hasName "Urdorf, Herweg" .
+
+<http://example.org/zurich/station/2333> a ex:Station ;
+    ex:hasName "Weiningen ZH, Schulhaus" .
+
+<http://example.org/zurich/station/2334> a ex:Station ;
+    ex:hasName "Weiningen ZH, Aegelsee" .
+
+<http://example.org/zurich/station/2336> a ex:Station ;
+    ex:hasName "Dietikon, Hätschen" .
+
+<http://example.org/zurich/station/2337> a ex:Station ;
+    ex:hasName "Wangen, Hätzelwisen" .
+
+<http://example.org/zurich/station/2338> a ex:Station ;
+    ex:hasName "Dietikon, Hagackerstrasse" .
+
+<http://example.org/zurich/station/2339> a ex:Station ;
+    ex:hasName "Oetwil an der Limmat, Halde" .
+
+<http://example.org/zurich/station/2341> a ex:Station ;
+    ex:hasName "Urdorf, Spitzacker" .
+
+<http://example.org/zurich/station/2346> a ex:Station ;
+    ex:hasName "Dietikon, Marmori-Weiher" .
+
+<http://example.org/zurich/station/2348> a ex:Station ;
+    ex:hasName "Opfikon, Schwimmbad" .
+
+<http://example.org/zurich/station/2350> a ex:Station ;
+    ex:hasName "Spreitenbach, Ikea" .
+
+<http://example.org/zurich/station/2351> a ex:Station ;
+    ex:hasName "Urdorf, Heinrich-Stutz-Strasse" .
+
+<http://example.org/zurich/station/2352> a ex:Station ;
+    ex:hasName "Unterengstringen, Langwisen" .
+
+<http://example.org/zurich/station/2354> a ex:Station ;
+    ex:hasName "Geroldswil, Dorfstrasse" .
+
+<http://example.org/zurich/station/2356> a ex:Station ;
+    ex:hasName "Zürich, Mattenhof" .
+
+<http://example.org/zurich/station/2358> a ex:Station ;
+    ex:hasName "Dübendorf, Kreuzbühl" .
+
+<http://example.org/zurich/station/2360> a ex:Station ;
+    ex:hasName "Spreitenbach, Asp" .
+
+<http://example.org/zurich/station/2361> a ex:Station ;
+    ex:hasName "Dietikon, Lerzen" .
+
+<http://example.org/zurich/station/2362> a ex:Station ;
+    ex:hasName "Schlieren, Talacker-Windegg" .
+
+<http://example.org/zurich/station/2363> a ex:Station ;
+    ex:hasName "Bergdietikon, Bergli" .
+
+<http://example.org/zurich/station/2366> a ex:Station ;
+    ex:hasName "Glanzenberg, Bahnhof" .
+
+<http://example.org/zurich/station/2367> a ex:Station ;
+    ex:hasName "Zürich, Brunaustrasse" .
+
+<http://example.org/zurich/station/2368> a ex:Station ;
+    ex:hasName "Fahrweid, Brunaustrasse" .
+
+<http://example.org/zurich/station/2369> a ex:Station ;
+    ex:hasName "Dietikon, Schönenwerd" .
+
+<http://example.org/zurich/station/2370> a ex:Station ;
+    ex:hasName "Spreitenbach, Shopping Center" .
+
+<http://example.org/zurich/station/2373> a ex:Station ;
+    ex:hasName "Urdorf, Neumatt" .
+
+<http://example.org/zurich/station/2374> a ex:Station ;
+    ex:hasName "Urdorf, Neumattstrasse" .
+
+<http://example.org/zurich/station/2375> a ex:Station ;
+    ex:hasName "Zürich, Waldgarten" .
+
+<http://example.org/zurich/station/2376> a ex:Station ;
+    ex:hasName "Bergdietikon, Bernold" .
+
+<http://example.org/zurich/station/2377> a ex:Station ;
+    ex:hasName "Birmensdorf ZH, Ristet" .
+
+<http://example.org/zurich/station/2378> a ex:Station ;
+    ex:hasName "Fahrweid, Limmatbrücke" .
+
+<http://example.org/zurich/station/2379> a ex:Station ;
+    ex:hasName "Dietikon, Staffelackerstrasse" .
+
+<http://example.org/zurich/station/2380> a ex:Station ;
+    ex:hasName "Schlieren, Brunngasse" .
+
+<http://example.org/zurich/station/2381> a ex:Station ;
+    ex:hasName "Dietikon, Dörfli" .
+
+<http://example.org/zurich/station/2382> a ex:Station ;
+    ex:hasName "Schlieren, Kesslerstrasse" .
+
+<http://example.org/zurich/station/2383> a ex:Station ;
+    ex:hasName "Zürich, Micafil" .
+
+<http://example.org/zurich/station/2385> a ex:Station ;
+    ex:hasName "Bergdietikon, Dünni" .
+
+<http://example.org/zurich/station/2386> a ex:Station ;
+    ex:hasName "Urdorf, Uitikonerstrasse" .
+
+<http://example.org/zurich/station/2387> a ex:Station ;
+    ex:hasName "Killwangen, Bahnhof" .
+
+<http://example.org/zurich/station/2388> a ex:Station ;
+    ex:hasName "Spreitenbach, Altersheim" .
+
+<http://example.org/zurich/station/2389> a ex:Station ;
+    ex:hasName "Fahrweid, Au" .
+
+<http://example.org/zurich/station/2391> a ex:Station ;
+    ex:hasName "Urdorf, Niederurdorf" .
+
+<http://example.org/zurich/station/2392> a ex:Station ;
+    ex:hasName "Dietikon, Stelzenacker" .
+
+<http://example.org/zurich/station/2394> a ex:Station ;
+    ex:hasName "Dietikon, Moosmatt" .
+
+<http://example.org/zurich/station/2396> a ex:Station ;
+    ex:hasName "Kindhausen AG" .
+
+<http://example.org/zurich/station/2397> a ex:Station ;
+    ex:hasName "Spreitenb, Center Spreitenbach" .
+
+<http://example.org/zurich/station/2398> a ex:Station ;
+    ex:hasName "Schlieren, Steinacker" .
+
+<http://example.org/zurich/station/2399> a ex:Station ;
+    ex:hasName "Dübendorf, Unterdorf" .
+
+<http://example.org/zurich/station/2400> a ex:Station ;
+    ex:hasName "Dübendorf, Post" .
+
+<http://example.org/zurich/station/2401> a ex:Station ;
+    ex:hasName "Weiningen ZH, Lindenplatz" .
+
+<http://example.org/zurich/station/2404> a ex:Station ;
+    ex:hasName "Zürich, Billoweg" .
+
+<http://example.org/zurich/station/2406> a ex:Station ;
+    ex:hasName "Zürich, Tierspital" .
+
+<http://example.org/zurich/station/2410> a ex:Station ;
+    ex:hasName "Unterengstringen, Eckstein" .
+
+<http://example.org/zurich/station/2411> a ex:Station ;
+    ex:hasName "Oberengstringen, Eggbühl" .
+
+<http://example.org/zurich/station/2412> a ex:Station ;
+    ex:hasName "Urdorf, Oberurdorf" .
+
+<http://example.org/zurich/station/2413> a ex:Station ;
+    ex:hasName "Zürich, Museum Rietberg" .
+
+<http://example.org/zurich/station/2414> a ex:Station ;
+    ex:hasName "Zürich, Stockerstrasse" .
+
+<http://example.org/zurich/station/2422> a ex:Station ;
+    ex:hasName "Zürich, Herzogenmühlestrasse" .
+
+<http://example.org/zurich/station/2423> a ex:Station ;
+    ex:hasName "Zürich, Blumenfeldstrasse" .
+
+<http://example.org/zurich/station/2424> a ex:Station ;
+    ex:hasName "Zürich, Aspholz" .
+
+<http://example.org/zurich/station/2425> a ex:Station ;
+    ex:hasName "Zürich, Mühlacker" .
+
+<http://example.org/zurich/station/2426> a ex:Station ;
+    ex:hasName "Zürich, Glockenacker" .
+
+<http://example.org/zurich/station/2427> a ex:Station ;
+    ex:hasName "Ebmatingen, Leeacherstrasse" .
+
+<http://example.org/zurich/station/2428> a ex:Station ;
+    ex:hasName "Zürich, Carl-Spitteler-Strasse" .
+
+<http://example.org/zurich/station/2429> a ex:Station ;
+    ex:hasName "Zürich, Neuaffoltern" .
+
+<http://example.org/zurich/station/2430> a ex:Station ;
+    ex:hasName "Benglen, Bodenacher" .
+
+<http://example.org/zurich/station/2431> a ex:Station ;
+    ex:hasName "Benglen, Gerlisbrunnen" .
+
+<http://example.org/zurich/station/2432> a ex:Station ;
+    ex:hasName "Pfaffhausen, Sängglen" .
+
+<http://example.org/zurich/station/2434> a ex:Station ;
+    ex:hasName "Zürich, Kapfstrasse" .
+
+<http://example.org/zurich/station/2435> a ex:Station ;
+    ex:hasName "Zürich, Dreispitz" .
+
+<http://example.org/zurich/station/2436> a ex:Station ;
+    ex:hasName "Binz bei Maur, Fridlimatt" .
+
+<http://example.org/zurich/station/2437> a ex:Station ;
+    ex:hasName "Zürich, Berghaldenstrasse" .
+
+<http://example.org/zurich/station/2438> a ex:Station ;
+    ex:hasName "Zürich, Drusbergstrasse" .
+
+<http://example.org/zurich/station/2439> a ex:Station ;
+    ex:hasName "Zürich, Unteraffoltern" .
+
+<http://example.org/zurich/station/2440> a ex:Station ;
+    ex:hasName "Zürich, Friedrichstrasse" .
+
+<http://example.org/zurich/station/2441> a ex:Station ;
+    ex:hasName "Zürich, Frohburg" .
+
+<http://example.org/zurich/station/2442> a ex:Station ;
+    ex:hasName "Zürich, Oberwiesenstrasse" .
+
+<http://example.org/zurich/station/2443> a ex:Station ;
+    ex:hasName "Ebmatingen, Dorf" .
+
+<http://example.org/zurich/station/2444> a ex:Station ;
+    ex:hasName "Zürich, Waserstrasse" .
+
+<http://example.org/zurich/station/2445> a ex:Station ;
+    ex:hasName "Zürich, Fronwald" .
+
+<http://example.org/zurich/station/2446> a ex:Station ;
+    ex:hasName "Effretikon, Garage Andres" .
+
+<http://example.org/zurich/station/2447> a ex:Station ;
+    ex:hasName "Pfaffhausen, Feldhof" .
+
+<http://example.org/zurich/station/2448> a ex:Station ;
+    ex:hasName "Binz bei Maur, Post" .
+
+<http://example.org/zurich/station/2449> a ex:Station ;
+    ex:hasName "Ebmatingen, Looren" .
+
+<http://example.org/zurich/station/2450> a ex:Station ;
+    ex:hasName "Zürich, Loorenstrasse" .
+
+<http://example.org/zurich/station/2451> a ex:Station ;
+    ex:hasName "Zürich, Hallenbad Oerlikon" .
+
+<http://example.org/zurich/station/2452> a ex:Station ;
+    ex:hasName "Fällanden, Eggler" .
+
+<http://example.org/zurich/station/2453> a ex:Station ;
+    ex:hasName "Zürich, Max-Bill-Platz" .
+
+<http://example.org/zurich/station/2454> a ex:Station ;
+    ex:hasName "Zürich, Glaubtenstrasse" .
+
+<http://example.org/zurich/station/2455> a ex:Station ;
+    ex:hasName "Maur, Dorf" .
+
+<http://example.org/zurich/station/2456> a ex:Station ;
+    ex:hasName "Zürich, Tulpenstrasse" .
+
+<http://example.org/zurich/station/2457> a ex:Station ;
+    ex:hasName "Zürich, Einfangstrasse" .
+
+<http://example.org/zurich/station/2458> a ex:Station ;
+    ex:hasName "Schwerzenbach ZH, Dorf" .
+
+<http://example.org/zurich/station/2459> a ex:Station ;
+    ex:hasName "Fällanden, Gemeindehaus" .
+
+<http://example.org/zurich/station/2460> a ex:Station ;
+    ex:hasName "Zürich, Dorflinde" .
+
+<http://example.org/zurich/station/2461> a ex:Station ;
+    ex:hasName "Pfaffhausen, Pfaffenstein" .
+
+<http://example.org/zurich/station/2462> a ex:Station ;
+    ex:hasName "Pfaffhausen, Müseren" .
+
+<http://example.org/zurich/station/2463> a ex:Station ;
+    ex:hasName "Zürich, Friedackerstrasse" .
+
+<http://example.org/zurich/station/2464> a ex:Station ;
+    ex:hasName "Maur, Platten" .
+
+<http://example.org/zurich/station/2465> a ex:Station ;
+    ex:hasName "Zürich, Saatlenstrasse" .
+
+<http://example.org/zurich/station/2466> a ex:Station ;
+    ex:hasName "Zürich, Friedhof Witikon" .
+
+<http://example.org/zurich/station/2467> a ex:Station ;
+    ex:hasName "Maur, Kirche" .
+
+<http://example.org/zurich/station/2468> a ex:Station ;
+    ex:hasName "Zürich, Riedgraben" .
+
+<http://example.org/zurich/station/2469> a ex:Station ;
+    ex:hasName "Zürich, Bahnhof Affoltern Süd" .
+
+<http://example.org/zurich/station/2470> a ex:Station ;
+    ex:hasName "Fällanden, Industrie" .
+
+<http://example.org/zurich/station/2471> a ex:Station ;
+    ex:hasName "Fällanden, Schützenhaus" .
+
+<http://example.org/zurich/station/2472> a ex:Station ;
+    ex:hasName "Zürich, Herbstweg" .
+
+<http://example.org/zurich/station/2473> a ex:Station ;
+    ex:hasName "Zürich, Schlyfi" .
+
+<http://example.org/zurich/station/2474> a ex:Station ;
+    ex:hasName "Maur, See" .
+
+<http://example.org/zurich/station/2475> a ex:Station ;
+    ex:hasName "Unterengstringen, Langacher" .
+
+<http://example.org/zurich/station/2476> a ex:Station ;
+    ex:hasName "Schlieren, Feldstrasse" .
+
+<http://example.org/zurich/station/2478> a ex:Station ;
+    ex:hasName "Dietikon, Oberdorf" .
+
+<http://example.org/zurich/station/2480> a ex:Station ;
+    ex:hasName "Oetwil an der Limmat, Oberdorf" .
+
+<http://example.org/zurich/station/2481> a ex:Station ;
+    ex:hasName "Urdorf, Luberzen" .
+
+<http://example.org/zurich/station/2482> a ex:Station ;
+    ex:hasName "Zürich, Luchswiesen" .
+
+<http://example.org/zurich/station/2483> a ex:Station ;
+    ex:hasName "Urdorf, Sonne" .
+
+<http://example.org/zurich/station/2484> a ex:Station ;
+    ex:hasName "Dübendorf, Eglishölzli" .
+
+<http://example.org/zurich/station/2485> a ex:Station ;
+    ex:hasName "Dietikon, Oetwilerstrasse" .
+
+<http://example.org/zurich/station/2486> a ex:Station ;
+    ex:hasName "Kindhausen AG, Eichholz" .
+
+<http://example.org/zurich/station/2487> a ex:Station ;
+    ex:hasName "Zürich, Post Wollishofen" .
+
+<http://example.org/zurich/station/2488> a ex:Station ;
+    ex:hasName "Zürich, Butzenstrasse" .
+
+<http://example.org/zurich/station/2489> a ex:Station ;
+    ex:hasName "Zürich, Probstei" .
+
+<http://example.org/zurich/station/2490> a ex:Station ;
+    ex:hasName "Dietikon, Gyrhalden" .
+
+<http://example.org/zurich/station/2491> a ex:Station ;
+    ex:hasName "Dietikon, Weidstrasse" .
+
+<http://example.org/zurich/station/2492> a ex:Station ;
+    ex:hasName "Dietikon, Lätten" .
+
+<http://example.org/zurich/station/2496> a ex:Station ;
+    ex:hasName "Dietikon, Weinberg" .
+
+<http://example.org/zurich/station/2497> a ex:Station ;
+    ex:hasName "Wangen, Weidli" .
+
+<http://example.org/zurich/station/2498> a ex:Station ;
+    ex:hasName "Kilchberg ZH, Obere Hornhalde" .
+
+<http://example.org/zurich/station/2499> a ex:Station ;
+    ex:hasName "Kilchberg ZH, Emilienheim" .
+
+<http://example.org/zurich/station/2500> a ex:Station ;
+    ex:hasName "Kilchberg ZH, Breitloo" .
+
+<http://example.org/zurich/station/2505> a ex:Station ;
+    ex:hasName "Schlieren, Gasometerbrücke" .
+
+<http://example.org/zurich/station/2506> a ex:Station ;
+    ex:hasName "Zürich, Bhf Wollishofen (Bus)" .
+
+<http://example.org/zurich/station/2508> a ex:Station ;
+    ex:hasName "Zürich, Tunnelstrasse" .
+
+<http://example.org/zurich/station/2509> a ex:Station ;
+    ex:hasName "Zürich, Ottikerstrasse" .
+
+<http://example.org/zurich/station/2510> a ex:Station ;
+    ex:hasName "Zürich, Roswiesen" .
+
+<http://example.org/zurich/station/2511> a ex:Station ;
+    ex:hasName "Zürich, Rote Fabrik" .
+
+<http://example.org/zurich/station/2514> a ex:Station ;
+    ex:hasName "Dietikon, Garage Limmatbus AG" .
+
+<http://example.org/zurich/station/2516> a ex:Station ;
+    ex:hasName "Geroldswil, Welbrig" .
+
+<http://example.org/zurich/station/2518> a ex:Station ;
+    ex:hasName "Oberengstringen, Paradies" .
+
+<http://example.org/zurich/station/2520> a ex:Station ;
+    ex:hasName "Schlieren, Mülligen" .
+
+<http://example.org/zurich/station/2524> a ex:Station ;
+    ex:hasName "Zürich, Bahnhof Selnau" .
+
+<http://example.org/zurich/station/2525> a ex:Station ;
+    ex:hasName "Fällanden, Neuhus" .
+
+<http://example.org/zurich/station/2526> a ex:Station ;
+    ex:hasName "Zürich, Hardplatz" .
+
+<http://example.org/zurich/station/2527> a ex:Station ;
+    ex:hasName "Zürich, Bäckeranlage" .
+
+<http://example.org/zurich/station/2528> a ex:Station ;
+    ex:hasName "Zürich, Helvetiaplatz" .
+
+<http://example.org/zurich/station/2529> a ex:Station ;
+    ex:hasName "Zürich, Güterbahnhof" .
+
+<http://example.org/zurich/station/2530> a ex:Station ;
+    ex:hasName "Zürich, Am Suteracher" .
+
+<http://example.org/zurich/station/2531> a ex:Station ;
+    ex:hasName "Zürich, Schulhaus Buchlern" .
+
+<http://example.org/zurich/station/2532> a ex:Station ;
+    ex:hasName "Zürich, Dunkelhölzli" .
+
+<http://example.org/zurich/station/2533> a ex:Station ;
+    ex:hasName "Zürich, Bristenstrasse" .
+
+<http://example.org/zurich/station/2534> a ex:Station ;
+    ex:hasName "Zürich, Solidapark" .
+
+<http://example.org/zurich/station/2535> a ex:Station ;
+    ex:hasName "Zürich, Lindenplatz" .
+
+<http://example.org/zurich/station/2536> a ex:Station ;
+    ex:hasName "Zürich, Bahnhof Altstetten N" .
+
+<http://example.org/zurich/station/2537> a ex:Station ;
+    ex:hasName "Zürich, Loogarten" .
+
+<http://example.org/zurich/station/2538> a ex:Station ;
+    ex:hasName "Zürich, Bändliweg" .
+
+<http://example.org/zurich/station/2539> a ex:Station ;
+    ex:hasName "Zürich, Feusisbergli" .
+
+<http://example.org/zurich/station/2540> a ex:Station ;
+    ex:hasName "Zürich, Bahnhof Altstetten" .
+
+<http://example.org/zurich/station/2541> a ex:Station ;
+    ex:hasName "Zürich, Neeserweg" .
+
+<http://example.org/zurich/station/2542> a ex:Station ;
+    ex:hasName "Zürich, Rautihalde" .
+
+<http://example.org/zurich/station/2543> a ex:Station ;
+    ex:hasName "Zürich, Rautistrasse" .
+
+<http://example.org/zurich/station/2544> a ex:Station ;
+    ex:hasName "Zürich, Grünaustrasse" .
+
+<http://example.org/zurich/station/2545> a ex:Station ;
+    ex:hasName "Zürich, Friedhof Eichbühl" .
+
+<http://example.org/zurich/station/2546> a ex:Station ;
+    ex:hasName "Zürich, Salzweg" .
+
+<http://example.org/zurich/station/2547> a ex:Station ;
+    ex:hasName "Zürich, Baslerstrasse" .
+
+<http://example.org/zurich/station/2548> a ex:Station ;
+    ex:hasName "Itschnach, Dorf" .
+
+<http://example.org/zurich/station/2549> a ex:Station ;
+    ex:hasName "Itschnach, Fallacher" .
+
+<http://example.org/zurich/station/2550> a ex:Station ;
+    ex:hasName "Zürich, Laubegg" .
+
+<http://example.org/zurich/station/2551> a ex:Station ;
+    ex:hasName "Zürich, Sukkulentensammlung" .
+
+<http://example.org/zurich/station/2552> a ex:Station ;
+    ex:hasName "Kilchberg ZH, Schooren" .
+
+<http://example.org/zurich/station/2553> a ex:Station ;
+    ex:hasName "Zürich, Hertensteinstrasse" .
+
+<http://example.org/zurich/station/2554> a ex:Station ;
+    ex:hasName "Rüschlikon, Bodengasse" .
+
+<http://example.org/zurich/station/2556> a ex:Station ;
+    ex:hasName "Küsnacht ZH, Boglerenstrasse" .
+
+<http://example.org/zurich/station/2558> a ex:Station ;
+    ex:hasName "Rüschlikon, Bahnhof" .
+
+<http://example.org/zurich/station/2559> a ex:Station ;
+    ex:hasName "Rüschlikon, Säumerstrasse" .
+
+<http://example.org/zurich/station/2561> a ex:Station ;
+    ex:hasName "Zürich, Bircher-Benner" .
+
+<http://example.org/zurich/station/2562> a ex:Station ;
+    ex:hasName "Zürich, Birchstrasse" .
+
+<http://example.org/zurich/station/2563> a ex:Station ;
+    ex:hasName "Zürich, Lehenstrasse" .
+
+<http://example.org/zurich/station/2564> a ex:Station ;
+    ex:hasName "Zürich, Albisriederdörfli" .
+
+<http://example.org/zurich/station/2565> a ex:Station ;
+    ex:hasName "Zürich, Jugendherberge" .
+
+<http://example.org/zurich/station/2566> a ex:Station ;
+    ex:hasName "Zürich, Althoos" .
+
+<http://example.org/zurich/station/2567> a ex:Station ;
+    ex:hasName "Zürich, Susenbergstrasse" .
+
+<http://example.org/zurich/station/2568> a ex:Station ;
+    ex:hasName "Zürich, Kalchbühlweg" .
+
+<http://example.org/zurich/station/2569> a ex:Station ;
+    ex:hasName "Küsnacht ZH, Hesligenstrasse" .
+
+<http://example.org/zurich/station/2570> a ex:Station ;
+    ex:hasName "Zürich, Kanonengasse" .
+
+<http://example.org/zurich/station/2571> a ex:Station ;
+    ex:hasName "Zürich, Kantonsschule" .
+
+<http://example.org/zurich/station/2572> a ex:Station ;
+    ex:hasName "Zürich, Hardturm" .
+
+<http://example.org/zurich/station/2573> a ex:Station ;
+    ex:hasName "Zürich, Maienweg" .
+
+<http://example.org/zurich/station/2575> a ex:Station ;
+    ex:hasName "Zürich, Sportweg" .
+
+<http://example.org/zurich/station/2576> a ex:Station ;
+    ex:hasName "Zürich, Manesseplatz" .
+
+<http://example.org/zurich/station/2577> a ex:Station ;
+    ex:hasName "Küsnacht ZH, Himmelistrasse" .
+
+<http://example.org/zurich/station/2578> a ex:Station ;
+    ex:hasName "Zürich, Marbachweg" .
+
+<http://example.org/zurich/station/2579> a ex:Station ;
+    ex:hasName "Zürich, Pflegezentr. Käferberg" .
+
+<http://example.org/zurich/station/2580> a ex:Station ;
+    ex:hasName "Zürich, Tüffenwies" .
+
+<http://example.org/zurich/station/2581> a ex:Station ;
+    ex:hasName "Zürich, Krematorium Nordheim" .
+
+<http://example.org/zurich/station/2582> a ex:Station ;
+    ex:hasName "Zürich, Krematorium Sihlfeld" .
+
+<http://example.org/zurich/station/2583> a ex:Station ;
+    ex:hasName "Küsnacht ZH, Bühlstrasse" .
+
+<http://example.org/zurich/station/2584> a ex:Station ;
+    ex:hasName "Zürich, Chaletweg" .
+
+<http://example.org/zurich/station/2585> a ex:Station ;
+    ex:hasName "Zollikon, Seestrasse" .
+
+<http://example.org/zurich/station/2586> a ex:Station ;
+    ex:hasName "Zürich, Mötteliweg" .
+
+<http://example.org/zurich/station/2587> a ex:Station ;
+    ex:hasName "Zürich, Segantinistrasse" .
+
+<http://example.org/zurich/station/2588> a ex:Station ;
+    ex:hasName "Zollikon, Höhestrasse" .
+
+<http://example.org/zurich/station/2589> a ex:Station ;
+    ex:hasName "Zürich, Technopark" .
+
+<http://example.org/zurich/station/2590> a ex:Station ;
+    ex:hasName "Zürich, Bürkliplatz" .
+
+<http://example.org/zurich/station/2591> a ex:Station ;
+    ex:hasName "Zürich, Seidelhof" .
+
+<http://example.org/zurich/station/2592> a ex:Station ;
+    ex:hasName "Rüschlikon, Belvoir" .
+
+<http://example.org/zurich/station/2593> a ex:Station ;
+    ex:hasName "Zürich, Lerchenrain" .
+
+<http://example.org/zurich/station/2594> a ex:Station ;
+    ex:hasName "Zürich, Leimgrübelstrasse" .
+
+<http://example.org/zurich/station/2595> a ex:Station ;
+    ex:hasName "Zürich, Schauenberg" .
+
+<http://example.org/zurich/station/2598> a ex:Station ;
+    ex:hasName "Zürich, Sprecherstrasse" .
+
+<http://example.org/zurich/station/2599> a ex:Station ;
+    ex:hasName "Zürich, Binz Center" .
+
+<http://example.org/zurich/station/2600> a ex:Station ;
+    ex:hasName "Zürich, Spyriplatz" .
+
+<http://example.org/zurich/station/2601> a ex:Station ;
+    ex:hasName "Zürich, Bocklerstrasse" .
+
+<http://example.org/zurich/station/2603> a ex:Station ;
+    ex:hasName "Zürich, Lerchenhalde" .
+
+<http://example.org/zurich/station/2604> a ex:Station ;
+    ex:hasName "Zürich, Chinagarten" .
+
+<http://example.org/zurich/station/2605> a ex:Station ;
+    ex:hasName "Zürich, Brandschenkestrasse" .
+
+<http://example.org/zurich/station/2606> a ex:Station ;
+    ex:hasName "Zürich, Hinterbergstrasse" .
+
+<http://example.org/zurich/station/2607> a ex:Station ;
+    ex:hasName "Zürich, Meierhofplatz" .
+
+<http://example.org/zurich/station/2608> a ex:Station ;
+    ex:hasName "Zürich, Schumacherweg" .
+
+<http://example.org/zurich/station/2609> a ex:Station ;
+    ex:hasName "Zürich, Neunbrunnen" .
+
+<http://example.org/zurich/station/2610> a ex:Station ;
+    ex:hasName "Zürich, Hönggerberg" .
+
+<http://example.org/zurich/station/2612> a ex:Station ;
+    ex:hasName "Zürich, Kreuzstrasse" .
+
+<http://example.org/zurich/station/2613> a ex:Station ;
+    ex:hasName "Zürich, Würzgraben" .
+
+<http://example.org/zurich/station/2614> a ex:Station ;
+    ex:hasName "Zürich, Waidfussweg" .
+
+<http://example.org/zurich/station/2615> a ex:Station ;
+    ex:hasName "Zürich, Höschgasse" .
+
+<http://example.org/zurich/station/2617> a ex:Station ;
+    ex:hasName "Zürich, Waidhof" .
+
+<http://example.org/zurich/station/2618> a ex:Station ;
+    ex:hasName "Zürich, Hügelstrasse" .
+
+<http://example.org/zurich/station/2619> a ex:Station ;
+    ex:hasName "Zürich, Waidspital" .
+
+<http://example.org/zurich/station/2620> a ex:Station ;
+    ex:hasName "Zürich, Freiestrasse" .
+
+<http://example.org/zurich/station/2621> a ex:Station ;
+    ex:hasName "Zürich, Hofstrasse" .
+
+<http://example.org/zurich/station/2622> a ex:Station ;
+    ex:hasName "Zürich, Lettenstrasse" .
+
+<http://example.org/zurich/station/2624> a ex:Station ;
+    ex:hasName "Zürich, Dreiwiesen" .
+
+<http://example.org/zurich/station/2625> a ex:Station ;
+    ex:hasName "Zürich, Stadtgrenze" .
+
+<http://example.org/zurich/station/2626> a ex:Station ;
+    ex:hasName "Zürich, Letzipark West" .
+
+<http://example.org/zurich/station/2627> a ex:Station ;
+    ex:hasName "Zürich, Talwiesenstrasse" .
+
+<http://example.org/zurich/station/2628> a ex:Station ;
+    ex:hasName "Zollikon, Dufourplatz" .
+
+<http://example.org/zurich/station/2629> a ex:Station ;
+    ex:hasName "Zürich, Kempfhofsteig" .
+
+<http://example.org/zurich/station/2630> a ex:Station ;
+    ex:hasName "Zürich, Toni-Areal" .
+
+<http://example.org/zurich/station/2631> a ex:Station ;
+    ex:hasName "Fällanden, Bruggacher" .
+
+<http://example.org/zurich/station/2632> a ex:Station ;
+    ex:hasName "Zürich, Brunau/Mutschellenstr." .
+
+<http://example.org/zurich/station/2633> a ex:Station ;
+    ex:hasName "Zürich, Uetlihof" .
+
+<http://example.org/zurich/station/2634> a ex:Station ;
+    ex:hasName "Zürich, Schwandenholz" .
+
+<http://example.org/zurich/station/2635> a ex:Station ;
+    ex:hasName "Zürich, Eschergutweg" .
+
+<http://example.org/zurich/station/2636> a ex:Station ;
+    ex:hasName "Zürich, Hürstholz" .
+
+<http://example.org/zurich/station/2637> a ex:Station ;
+    ex:hasName "Zürich, Hölderlinsteig" .
+
+<http://example.org/zurich/station/2638> a ex:Station ;
+    ex:hasName "Zürich, Botanischer Garten" .
+
+<http://example.org/zurich/station/2639> a ex:Station ;
+    ex:hasName "Zürich, Klosbach" .
+
+<http://example.org/zurich/station/2640> a ex:Station ;
+    ex:hasName "Zürich, Siemens" .
+
+<http://example.org/zurich/station/2641> a ex:Station ;
+    ex:hasName "Zürich, Neumarkt" .
+
+<http://example.org/zurich/station/2642> a ex:Station ;
+    ex:hasName "Küsnacht ZH, Bergstrasse" .
+
+<http://example.org/zurich/station/2643> a ex:Station ;
+    ex:hasName "Zürich, Schweizer Rück" .
+
+<http://example.org/zurich/station/2645> a ex:Station ;
+    ex:hasName "Zürich, Bernoulli-Häuser" .
+
+<http://example.org/zurich/station/2646> a ex:Station ;
+    ex:hasName "Zürich, Bertastrasse" .
+
+<http://example.org/zurich/station/2647> a ex:Station ;
+    ex:hasName "Zürich, Michelstrasse" .
+
+<http://example.org/zurich/station/2648> a ex:Station ;
+    ex:hasName "Zürich, Schützenhaus Höngg" .
+
+<http://example.org/zurich/station/2649> a ex:Station ;
+    ex:hasName "Küsnacht ZH, Oberwacht" .
+
+<http://example.org/zurich/station/2650> a ex:Station ;
+    ex:hasName "Zürich, Militär-/Langstrasse" .
+
+<http://example.org/zurich/station/2651> a ex:Station ;
+    ex:hasName "Zürich, Wildbachstrasse" .
+
+<http://example.org/zurich/station/2654> a ex:Station ;
+    ex:hasName "Dübendorf, Kämmaten" .
+
+<http://example.org/zurich/station/2655> a ex:Station ;
+    ex:hasName "Zürich, Besenrainstrasse" .
+
+<http://example.org/zurich/station/2656> a ex:Station ;
+    ex:hasName "Zürich, Bethanien" .
+
+<http://example.org/zurich/station/2657> a ex:Station ;
+    ex:hasName "Zürich, Sihlstrasse" .
+
+<http://example.org/zurich/station/2658> a ex:Station ;
+    ex:hasName "Zürich, Sihlweidstrasse" .
+
+<http://example.org/zurich/station/2659> a ex:Station ;
+    ex:hasName "Zollikon, Beugi" .
+
+<http://example.org/zurich/station/2660> a ex:Station ;
+    ex:hasName "Zürich, Friesenberg" .
+
+<http://example.org/zurich/station/2662> a ex:Station ;
+    ex:hasName "Zürich, Friesenbergstrasse" .
+
+<http://example.org/zurich/station/2663> a ex:Station ;
+    ex:hasName "Küsnacht ZH, Zentrum" .
+
+<http://example.org/zurich/station/2665> a ex:Station ;
+    ex:hasName "Zürich, Thujastrasse" .
+
+<http://example.org/zurich/station/2666> a ex:Station ;
+    ex:hasName "Zürich, ETH Hönggerberg" .
+
+<http://example.org/zurich/station/2667> a ex:Station ;
+    ex:hasName "Zürich, Käshaldenstrasse" .
+
+<http://example.org/zurich/station/2669> a ex:Station ;
+    ex:hasName "Zollikon, Felbenstrasse" .
+
+<http://example.org/zurich/station/2670> a ex:Station ;
+    ex:hasName "Küsnacht ZH, Bahnhof" .
+
+<http://example.org/zurich/station/2671> a ex:Station ;
+    ex:hasName "Zürich, Wartau" .
+
+<http://example.org/zurich/station/2672> a ex:Station ;
+    ex:hasName "Zürich, Nordheimstrasse" .
+
+<http://example.org/zurich/station/2673> a ex:Station ;
+    ex:hasName "Zürich, Nordstrasse" .
+
+<http://example.org/zurich/station/2674> a ex:Station ;
+    ex:hasName "Zürich, Seerose" .
+
+<http://example.org/zurich/station/2675> a ex:Station ;
+    ex:hasName "Rüschlikon, Rebsteig" .
+
+<http://example.org/zurich/station/2676> a ex:Station ;
+    ex:hasName "Dübendorf, Wasserfurren" .
+
+<http://example.org/zurich/station/2677> a ex:Station ;
+    ex:hasName "Zürich, Grubenstrasse" .
+
+<http://example.org/zurich/station/2678> a ex:Station ;
+    ex:hasName "Zürich, Frymannstrasse" .
+
+<http://example.org/zurich/station/2680> a ex:Station ;
+    ex:hasName "Zürich, Fröhlichstrasse" .
+
+<http://example.org/zurich/station/2681> a ex:Station ;
+    ex:hasName "Aesch bei Maur, Zollingerheim" .
+
+<http://example.org/zurich/station/2682> a ex:Station ;
+    ex:hasName "Zürich, Buhnstrasse" .
+
+<http://example.org/zurich/station/2683> a ex:Station ;
+    ex:hasName "Zürich, Berufswahlschule" .
+
+<http://example.org/zurich/station/2687> a ex:Station ;
+    ex:hasName "Zürich, Untermoosstrasse" .
+
+<http://example.org/zurich/station/2689> a ex:Station ;
+    ex:hasName "Zürich, Feldeggstrasse" .
+
+<http://example.org/zurich/station/2693> a ex:Station ;
+    ex:hasName "Zürich, Nürenbergstrasse" .
+
+<http://example.org/zurich/station/2694> a ex:Station ;
+    ex:hasName "Zürich, Orionstrasse" .
+
+<http://example.org/zurich/station/2695> a ex:Station ;
+    ex:hasName "Zürich, Winzerstrasse Süd" .
+
+<http://example.org/zurich/station/2696> a ex:Station ;
+    ex:hasName "Zollikon, Bahnhof" .
+
+<http://example.org/zurich/station/2698> a ex:Station ;
+    ex:hasName "Zürich, Tobelhof" .
+
+<http://example.org/zurich/station/2699> a ex:Station ;
+    ex:hasName "Zürich, Zoo" .
+
+<http://example.org/zurich/station/2700> a ex:Station ;
+    ex:hasName "Zürich, Waffenplatz-/Bederstr." .
+
+<http://example.org/zurich/station/2701> a ex:Station ;
+    ex:hasName "Zürich, Toblerplatz" .
+
+<http://example.org/zurich/station/2702> a ex:Station ;
+    ex:hasName "Zürich, Birchdörfli" .
+
+<http://example.org/zurich/station/2705> a ex:Station ;
+    ex:hasName "Zürich, Förrlibuckstrasse" .
+
+<http://example.org/zurich/station/2707> a ex:Station ;
+    ex:hasName "Zürich, Staudenbühl" .
+
+<http://example.org/zurich/station/2709> a ex:Station ;
+    ex:hasName "Zürich, EPI-Klinik" .
+
+<http://example.org/zurich/station/2710> a ex:Station ;
+    ex:hasName "Zürich, Winzerhalde" .
+
+<http://example.org/zurich/station/2711> a ex:Station ;
+    ex:hasName "Zürich, Winzerstrasse" .
+
+<http://example.org/zurich/station/2712> a ex:Station ;
+    ex:hasName "Zürich, Wipkingerplatz" .
+
+<http://example.org/zurich/station/2713> a ex:Station ;
+    ex:hasName "Zürich, Fellenbergstrasse" .
+
+<http://example.org/zurich/station/2714> a ex:Station ;
+    ex:hasName "Zürich, Strassenverkehrsamt" .
+
+<http://example.org/zurich/station/2715> a ex:Station ;
+    ex:hasName "Gockhausen, Dorf" .
+
+<http://example.org/zurich/station/2716> a ex:Station ;
+    ex:hasName "Zürich, Glaubtenstrasse Süd" .
+
+<http://example.org/zurich/station/2718> a ex:Station ;
+    ex:hasName "Zürich, Goldackerweg" .
+
+<http://example.org/zurich/station/2720> a ex:Station ;
+    ex:hasName "Rüschlikon, Weidstrasse" .
+
+<http://example.org/zurich/station/2721> a ex:Station ;
+    ex:hasName "Zürich, Zweiackerstrasse" .
+
+<http://example.org/zurich/station/2722> a ex:Station ;
+    ex:hasName "Zürich, Höfliweg" .
+
+<http://example.org/zurich/station/2723> a ex:Station ;
+    ex:hasName "Dübendorf, Högler" .
+
+<http://example.org/zurich/station/2729> a ex:Station ;
+    ex:hasName "Zürich, Luegisland" .
+
+<http://example.org/zurich/station/2730> a ex:Station ;
+    ex:hasName "Zürich, Luggwegstrasse" .
+
+<http://example.org/zurich/station/2731> a ex:Station ;
+    ex:hasName "Zürich, Zwielplatz" .
+
+<http://example.org/zurich/station/2732> a ex:Station ;
+    ex:hasName "Küsnacht ZH, Obere Heslibachst" .
+
+<http://example.org/zurich/station/2733> a ex:Station ;
+    ex:hasName "Küsnacht ZH, Gartenstrasse" .
+
+<http://example.org/zurich/station/2734> a ex:Station ;
+    ex:hasName "Zürich, Weihersteig" .
+
+<http://example.org/zurich/station/2735> a ex:Station ;
+    ex:hasName "Zürich, Zoo/Forrenweid" .
+
+<http://example.org/zurich/station/2737> a ex:Station ;
+    ex:hasName "Kilchberg ZH, Weinbergstrasse" .
+
+<http://example.org/zurich/station/2738> a ex:Station ;
+    ex:hasName "Zürich, Zwinglihaus" .
+
+<http://example.org/zurich/station/2740> a ex:Station ;
+    ex:hasName "Zürich, Aargauerstrasse" .
+
+<http://example.org/zurich/station/2742> a ex:Station ;
+    ex:hasName "Zürich, Elektrowatt" .
+
+<http://example.org/zurich/station/2743> a ex:Station ;
+    ex:hasName "Zürich, Stierenried" .
+
+<http://example.org/zurich/station/2744> a ex:Station ;
+    ex:hasName "Zürich, Bärenbohlstrasse" .
+
+<http://example.org/zurich/station/2745> a ex:Station ;
+    ex:hasName "Zürich, Verenastrasse" .
+
+<http://example.org/zurich/station/2746> a ex:Station ;
+    ex:hasName "Küsnacht ZH, Goldbacherstrasse" .
+
+<http://example.org/zurich/station/2747> a ex:Station ;
+    ex:hasName "Zollikon, Goldhaldenplatz" .
+
+<http://example.org/zurich/station/2748> a ex:Station ;
+    ex:hasName "Zürich, Vogelsangstrasse" .
+
+<http://example.org/zurich/station/2749> a ex:Station ;
+    ex:hasName "Zürich, Rosengartenstrasse" .
+
+<http://example.org/zurich/station/2750> a ex:Station ;
+    ex:hasName "Zürich, Fischerweg" .
+
+<http://example.org/zurich/station/2752> a ex:Station ;
+    ex:hasName "Zürich, Rotbuchstrasse" .
+
+<http://example.org/zurich/station/2754> a ex:Station ;
+    ex:hasName "Küsnacht ZH, Oberfeld" .
+
+<http://example.org/zurich/station/2755> a ex:Station ;
+    ex:hasName "Itschnach, Tägermoos" .
+
+<http://example.org/zurich/station/2756> a ex:Station ;
+    ex:hasName "Zürich, Bahnhof Hardbrücke" .
+
+<http://example.org/zurich/station/2757> a ex:Station ;
+    ex:hasName "Küsnacht ZH, Hallenbad" .
+
+<http://example.org/zurich/station/2758> a ex:Station ;
+    ex:hasName "Zürich, Okenstrasse" .
+
+<http://example.org/zurich/station/2760> a ex:Station ;
+    ex:hasName "Kilchberg ZH, Paradiessteig" .
+
+<http://example.org/zurich/station/2761> a ex:Station ;
+    ex:hasName "Zürich, Maillartstrasse" .
+
+<http://example.org/zurich/station/2762> a ex:Station ;
+    ex:hasName "Kilchberg ZH, Paradiesstrasse" .
+
+<http://example.org/zurich/station/2763> a ex:Station ;
+    ex:hasName "Zürich, Bollingerweg" .
+
+<http://example.org/zurich/station/2764> a ex:Station ;
+    ex:hasName "Zürich, Hürlimannplatz" .
+
+<http://example.org/zurich/station/2765> a ex:Station ;
+    ex:hasName "Zürich, Wonnebergstrasse" .
+
+<http://example.org/zurich/station/2766> a ex:Station ;
+    ex:hasName "Zürich, Voltastrasse" .
+
+<http://example.org/zurich/station/2767> a ex:Station ;
+    ex:hasName "Gockhausen, Ursprungstrasse" .
+
+<http://example.org/zurich/station/2768> a ex:Station ;
+    ex:hasName "Zürich, Rudolf-Brun-Brücke" .
+
+<http://example.org/zurich/station/2769> a ex:Station ;
+    ex:hasName "Zürich, Flurstrasse" .
+
+<http://example.org/zurich/station/2770> a ex:Station ;
+    ex:hasName "Zürich, Grimselstrasse" .
+
+<http://example.org/zurich/station/2771> a ex:Station ;
+    ex:hasName "Zürich, Flühgasse" .
+
+<http://example.org/zurich/station/2772> a ex:Station ;
+    ex:hasName "Zürich, Werdhölzli" .
+
+<http://example.org/zurich/station/2773> a ex:Station ;
+    ex:hasName "Zürich, Köschenrüti" .
+
+<http://example.org/zurich/station/2774> a ex:Station ;
+    ex:hasName "Zürich, Rathaus" .
+
+<http://example.org/zurich/station/2775> a ex:Station ;
+    ex:hasName "Zürich, Albisrank" .
+
+<http://example.org/zurich/station/2777> a ex:Station ;
+    ex:hasName "Zürich, Im Gut" .
+
+<http://example.org/zurich/station/2778> a ex:Station ;
+    ex:hasName "Zürich, Rebbergsteig" .
+
+<http://example.org/zurich/station/2779> a ex:Station ;
+    ex:hasName "Zürich, Englischviertelstrasse" .
+
+<http://example.org/zurich/station/2780> a ex:Station ;
+    ex:hasName "Itschnach, Rebweg" .
+
+<http://example.org/zurich/station/2781> a ex:Station ;
+    ex:hasName "Zürich, Waffenplatzstrasse" .
+
+<http://example.org/zurich/station/2782> a ex:Station ;
+    ex:hasName "Kilchberg ZH, Auf Brunnen" .
+
+<http://example.org/zurich/station/2783> a ex:Station ;
+    ex:hasName "Zürich, Räffelstrasse" .
+
+<http://example.org/zurich/station/2784> a ex:Station ;
+    ex:hasName "Zürich, Waidbadstrasse" .
+
+<http://example.org/zurich/station/2785> a ex:Station ;
+    ex:hasName "Küsnacht ZH, Ränkestrasse" .
+
+<http://example.org/zurich/station/2787> a ex:Station ;
+    ex:hasName "Zürich, Röntgenstrasse" .
+
+<http://example.org/zurich/station/2788> a ex:Station ;
+    ex:hasName "Zürich, Bahnhof Tiefenbrunnen" .
+
+<http://example.org/zurich/station/2789> a ex:Station ;
+    ex:hasName "Zürich, Bahnhof Wipkingen" .
+
+<http://example.org/zurich/station/2790> a ex:Station ;
+    ex:hasName "Zollikon, Gemeindehaus" .
+
+<http://example.org/zurich/station/2791> a ex:Station ;
+    ex:hasName "Zürich, Zürichbergstrasse" .
+
+<http://example.org/zurich/station/2792> a ex:Station ;
+    ex:hasName "Zürich, Hardhof" .
+
+<http://example.org/zurich/station/2795> a ex:Station ;
+    ex:hasName "Zollikon, Rebwiesstrasse" .
+
+<http://example.org/zurich/station/2796> a ex:Station ;
+    ex:hasName "Küsnacht ZH, Reform. Kirche" .
+
+<http://example.org/zurich/station/2797> a ex:Station ;
+    ex:hasName "Fällanden, Jugendherberge" .
+
+<http://example.org/zurich/station/2798> a ex:Station ;
+    ex:hasName "Maur, Aschbach" .
+
+<http://example.org/zurich/station/2799> a ex:Station ;
+    ex:hasName "Zürich, Platte" .
+
+<http://example.org/zurich/station/2800> a ex:Station ;
+    ex:hasName "Zürich, Kappenbühlweg" .
+
+<http://example.org/zurich/station/2802> a ex:Station ;
+    ex:hasName "Zürich, Schweighof" .
+
+<http://example.org/zurich/station/2803> a ex:Station ;
+    ex:hasName "Zürich, Freilagerstrasse" .
+
+<http://example.org/zurich/station/2804> a ex:Station ;
+    ex:hasName "Zürich, Schwert" .
+
+<http://example.org/zurich/station/2807> a ex:Station ;
+    ex:hasName "Zürich, Im Hagacker" .
+
+<http://example.org/zurich/station/2808> a ex:Station ;
+    ex:hasName "Zürich, Wieslergasse" .
+
+<http://example.org/zurich/station/2809> a ex:Station ;
+    ex:hasName "Zürich, Albisgütli" .
+
+<http://example.org/zurich/station/2810> a ex:Station ;
+    ex:hasName "Zürich, Albisrieden" .
+
+<http://example.org/zurich/station/2811> a ex:Station ;
+    ex:hasName "Zürich, Giblenstrasse" .
+
+<http://example.org/zurich/station/2812> a ex:Station ;
+    ex:hasName "Zürich, Heerenwiesen" .
+
+<http://example.org/zurich/station/2813> a ex:Station ;
+    ex:hasName "Zürich, Landiwiese" .
+
+<http://example.org/zurich/station/2814> a ex:Station ;
+    ex:hasName "Zürich, Rentenanstalt" .
+
+<http://example.org/zurich/station/2815> a ex:Station ;
+    ex:hasName "Zürich, Hirzenbach" .
+
+<http://example.org/zurich/station/2816> a ex:Station ;
+    ex:hasName "Zürich, Auzelg Ost" .
+
+<http://example.org/zurich/station/2817> a ex:Station ;
+    ex:hasName "Zürich, Letzipark" .
+
+<http://example.org/zurich/station/2818> a ex:Station ;
+    ex:hasName "Zürich, Bachmattstrasse" .
+
+<http://example.org/zurich/station/2821> a ex:Station ;
+    ex:hasName "Zürich, Rütihof" .
+
+<http://example.org/zurich/station/2823> a ex:Station ;
+    ex:hasName "Zürich, Friedhof Hönggerberg" .
+
+<http://example.org/zurich/station/2824> a ex:Station ;
+    ex:hasName "Zürich, SBB-Werkstätte" .
+
+<http://example.org/zurich/station/2825> a ex:Station ;
+    ex:hasName "Zürich, Friedhof Schwandenholz" .
+
+<http://example.org/zurich/station/2826> a ex:Station ;
+    ex:hasName "Zürich, Friedhof Sihlfeld" .
+
+<http://example.org/zurich/station/2828> a ex:Station ;
+    ex:hasName "Zürich, Im Hüsli" .
+
+<http://example.org/zurich/station/2829> a ex:Station ;
+    ex:hasName "Zürich, Sackzelg" .
+
+<http://example.org/zurich/station/2830> a ex:Station ;
+    ex:hasName "Zürich, Im Klösterli" .
+
+<http://example.org/zurich/station/2831> a ex:Station ;
+    ex:hasName "Zürich, Singlistrasse" .
+
+<http://example.org/zurich/station/2832> a ex:Station ;
+    ex:hasName "Zürich, Im Walder" .
+
+<http://example.org/zurich/station/2833> a ex:Station ;
+    ex:hasName "Zollikon, Allmend" .
+
+<http://example.org/zurich/station/2834> a ex:Station ;
+    ex:hasName "Zürich, Im Wingert" .
+
+<http://example.org/zurich/station/2835> a ex:Station ;
+    ex:hasName "Küsnacht ZH, Allmend" .
+
+<http://example.org/zurich/station/2836> a ex:Station ;
+    ex:hasName "Zürich, Hegianwandweg" .
+
+<http://example.org/zurich/station/2837> a ex:Station ;
+    ex:hasName "Zürich, Am Börtli" .
+
+<http://example.org/zurich/station/2838> a ex:Station ;
+    ex:hasName "Zürich, Appenzellerstrasse" .
+
+<http://example.org/zurich/station/2840> a ex:Station ;
+    ex:hasName "Zürich, Schulhaus Altweg" .
+
+<http://example.org/zurich/station/2841> a ex:Station ;
+    ex:hasName "Zürich, Hohenklingensteig" .
+
+<http://example.org/zurich/station/2843> a ex:Station ;
+    ex:hasName "Zürich, Schönauring" .
+
+<http://example.org/zurich/station/2845> a ex:Station ;
+    ex:hasName "Zürich, Kirche Fluntern" .
+
+<http://example.org/zurich/station/2846> a ex:Station ;
+    ex:hasName "Fällanden, Zil" .
+
+<http://example.org/zurich/station/2847> a ex:Station ;
+    ex:hasName "Zürich, Himmeri" .
+
+<http://example.org/zurich/station/2848> a ex:Station ;
+    ex:hasName "Küsnacht ZH, Schübel" .
+
+<http://example.org/zurich/station/2849> a ex:Station ;
+    ex:hasName "Zürich, Holzerhurd" .
+
+<http://example.org/zurich/station/2850> a ex:Station ;
+    ex:hasName "Kilchberg ZH, Sanatorium" .
+
+<http://example.org/zurich/station/2851> a ex:Station ;
+    ex:hasName "Zürich, In der Ey" .
+
+<http://example.org/zurich/station/2853> a ex:Station ;
+    ex:hasName "Zürich, Alte Trotte" .
+
+<http://example.org/zurich/station/2854> a ex:Station ;
+    ex:hasName "Zürich, Helmhaus" .
+
+<http://example.org/zurich/station/2855> a ex:Station ;
+    ex:hasName "Aesch bei Maur, Im Brünneli" .
+
+<http://example.org/zurich/station/2856> a ex:Station ;
+    ex:hasName "Rüschlikon, Schlossstrasse" .
+
+<http://example.org/zurich/station/2857> a ex:Station ;
+    ex:hasName "Zürich, Gutstrasse" .
+
+<http://example.org/zurich/station/2858> a ex:Station ;
+    ex:hasName "Kilchberg ZH, Hornhaldenstr." .
+
+<http://example.org/zurich/station/2859> a ex:Station ;
+    ex:hasName "Zumikon, Gössikon" .
+
+<http://example.org/zurich/station/2861> a ex:Station ;
+    ex:hasName "Zürich, Scheuchzerstrasse" .
+
+<http://example.org/zurich/station/2862> a ex:Station ;
+    ex:hasName "Zürich, Langgrütstrasse" .
+
+<http://example.org/zurich/station/2863> a ex:Station ;
+    ex:hasName "Rüschlikon, Langhaldenstrasse" .
+
+<http://example.org/zurich/station/2864> a ex:Station ;
+    ex:hasName "Küsnacht ZH, Schiedhaldensteig" .
+
+<http://example.org/zurich/station/2865> a ex:Station ;
+    ex:hasName "Küsnacht ZH, Schiedhaldenstr." .
+
+<http://example.org/zurich/station/2866> a ex:Station ;
+    ex:hasName "Zollikon, Bahnübergang" .
+
+<http://example.org/zurich/station/2867> a ex:Station ;
+    ex:hasName "Zürich, Altenhofstrasse" .
+
+<http://example.org/zurich/station/2868> a ex:Station ;
+    ex:hasName "Zürich, Herdernstrasse" .
+
+<http://example.org/zurich/station/2869> a ex:Station ;
+    ex:hasName "Zürich, Bleulerstrasse" .
+
+<http://example.org/zurich/station/2870> a ex:Station ;
+    ex:hasName "Zürich, Hottingerplatz" .
+
+<http://example.org/zurich/station/2871> a ex:Station ;
+    ex:hasName "Zürich, Hubertus" .
+
+<http://example.org/zurich/station/2872> a ex:Station ;
+    ex:hasName "Zollikon, Schützenstrasse" .
+
+<http://example.org/zurich/station/2891> a ex:Station ;
+    ex:hasName "Zürich, Binz" .
+
+<http://example.org/zurich/station/2893> a ex:Station ;
+    ex:hasName "Zürich, Schiffbau" .
+
+<http://example.org/zurich/station/2895> a ex:Station ;
+    ex:hasName "Fällanden, Wigarten" .
+
+<http://example.org/zurich/station/2906> a ex:Station ;
+    ex:hasName "Unterengstringen, Sennenbüel" .
+
+<http://example.org/zurich/station/3010> a ex:Station ;
+    ex:hasName "Bergdietikon, Garage 2 LIBU" .
+
+<http://example.org/zurich/station/3044> a ex:Station ;
+    ex:hasName "Dietikon, Heimstrasse" .
+
+<http://example.org/zurich/station/3049> a ex:Station ;
+    ex:hasName "Binz bei Maur, Bautacher" .
+
+<http://example.org/zurich/station/3050> a ex:Station ;
+    ex:hasName "Benglen, Langwis" .
+
+<http://example.org/zurich/station/3055> a ex:Station ;
+    ex:hasName "Waldegg, Leuen" .
+
+<http://example.org/zurich/station/3086> a ex:Station ;
+    ex:hasName "Thalwil, Sonnenberg" .
+
+<http://example.org/zurich/station/309> a ex:Station ;
+    ex:hasName "Waldegg, Birmensdorferstrasse" .
+
+<http://example.org/zurich/station/3102> a ex:Station ;
+    ex:hasName "Zürich, Abstellplatz Garage 6" .
+
+<http://example.org/zurich/station/3104> a ex:Station ;
+    ex:hasName "Zürich, Wenden Zentralwerkstät" .
+
+<http://example.org/zurich/station/3135> a ex:Station ;
+    ex:hasName "Adliswil, Grundstrasse" .
+
+<http://example.org/zurich/station/3158> a ex:Station ;
+    ex:hasName "Zürich, Glaubtenstrasse Nord" .
+
+<http://example.org/zurich/station/3176> a ex:Station ;
+    ex:hasName "Dübendorf, Hochbord Süd" .
+
+<http://example.org/zurich/station/373> a ex:Station ;
+    ex:hasName "Zürich Flughafen, Fracht" .
+
+<http://example.org/zurich/station/588> a ex:Station ;
+    ex:hasName "Zürich Flughafen, Bahnhof" .
+
+<http://example.org/zurich/station/623> a ex:Station ;
+    ex:hasName "Thalwil, Zentrum" .
+
+<http://example.org/zurich/station/701> a ex:Station ;
+    ex:hasName "Zürich, Goldbrunnenplatz" .
+
+<http://example.org/zurich/station/729> a ex:Station ;
+    ex:hasName "Uitikon, Dorf" .
+
+<http://example.org/zurich/station/751> a ex:Station ;
+    ex:hasName "Glattbrugg, Unterriet" .
+
+<http://example.org/zurich/station/809> a ex:Station ;
+    ex:hasName "Birmensdorf ZH, Bahnhof" .
+
+<http://example.org/zurich/station/832> a ex:Station ;
+    ex:hasName "Kilchberg ZH, Kirche" .
+
+<http://example.org/zurich/station/833> a ex:Station ;
+    ex:hasName "Kilchberg ZH, Hallenbad" .
+
+<http://example.org/zurich/station/891> a ex:Station ;
+    ex:hasName "Waldegg, Post" .
+
+<http://example.org/zurich/station/914> a ex:Station ;
+    ex:hasName "Thalwil, Feldstrasse" .
+

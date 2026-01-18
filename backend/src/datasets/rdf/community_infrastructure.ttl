@@ -1,0 +1,9 @@
+@prefix ex:  <https://example.org/gmbt/community/> .
+@prefix exs: <https://example.org/gmbt/schema/> .
+
+ex:1
+    a exs:Community ;
+    exs:name "EarthBiogenomeProject" ;
+    exs:type "Research Infrastructure" ;
+    exs:description "The EBP is a large-scale effort..." ;
+    exs:subject "Biology", "Ecology", "Genomics" .

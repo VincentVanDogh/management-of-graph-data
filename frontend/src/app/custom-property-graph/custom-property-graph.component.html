@@ -1,16 +1,185 @@
-<div class="query-container">
-<textarea
-  id="queryInput"
-  [(ngModel)]="queryText"
-  placeholder="Enter Cypher-like query here..."
-  rows="4"
-  style="width: 100%; font-size: 16px;"
-  (keydown)="onQueryKeydown($event)"
-></textarea>
+<div class="upload-data">
+  <h3>Upload data (CSV)</h3>
 
-<button (click)="runQuery()" style="margin-top: 10px;">
-  Run Query
-</button>
+  <!-- Hidden file input -->
+  <input
+    type="file"
+    #fileInput
+    accept=".csv"
+    multiple
+    style="display: none"
+    (change)="onFilesSelected($event)"
+  />
+
+  <!-- Select files button -->
+  <button (click)="fileInput.click()">Select files</button>
+
+  <!-- Selected files list -->
+  <ul *ngIf="selectedFiles.length > 0" class="file-list">
+    <li *ngFor="let item of selectedFiles; let i = index">
+
+      <div class="file-header">
+        <strong>{{ item.file.name }}</strong>
+        ({{ item.file.size | number }} bytes)
+
+        <button
+          class="remove-btn"
+          (click)="removeFile(i)"
+          title="Remove file"
+        >
+          ✕
+        </button>
+      </div>
+    </li>
+  </ul>
+
+  <!-- Upload button -->
+  <button
+    (click)="uploadFilesWithSchema()"
+    [disabled]="selectedFiles.length === 0"
+  >
+    Upload
+  </button>
 </div>
 
-<div id="cy" style="width: 100%; height: 600px; border: 1px solid #ccc; margin-top: 20px;"></div>
+<!-- GLOBAL CSV HEADERS -->
+<div *ngIf="uniqueHeaders.length > 0" class="csv-headers-section">
+  <h3>Detected CSV Headers</h3>
+
+  <table class="csv-header-table">
+    <thead>
+    <tr>
+      <th *ngFor="let header of uniqueHeaders">
+        {{ header }}
+      </th>
+    </tr>
+    </thead>
+  </table>
+</div>
+
+<div class="dataset-section">
+  <h3>Dataset Information</h3>
+  <label for="datasetName">Dataset Name:</label>
+  <input
+    id="datasetName"
+    type="text"
+    [(ngModel)]="datasetName"
+    placeholder="Enter dataset name"
+  />
+</div>
+
+<hr />
+
+<!-- NODES AND EDGES -->
+<h3>Define Node Type</h3>
+
+<!-- Select CSV file for nodes -->
+<select #nodeCsvFile (change)="onNodeCsvFileSelected(nodeCsvFile.value)">
+  <option value="" disabled selected>Select CSV file for nodes</option>
+  <option *ngFor="let file of selectedFiles" [value]="file.file.name">{{ file.file.name }}</option>
+</select>
+
+<!-- Then select node ID column from selected CSV -->
+<select #nodeId (change)="nodeDraft.idColumn = nodeId.value" [disabled]="!nodeCsvFileSelected">
+  <option value="" disabled selected>Node ID column</option>
+  <option *ngFor="let h of nodeCsvHeaders" [value]="h">{{ h }}</option>
+</select>
+
+<input
+  type="text"
+  placeholder="Node label"
+  [(ngModel)]="nodeDraft.label"
+/>
+
+<select #nodeProp (change)="addNodeProperty(nodeProp.value)" [disabled]="!nodeCsvFileSelected">
+  <option value="" disabled selected>Add property</option>
+  <option *ngFor="let h of nodeCsvHeaders" [value]="h">{{ h }}</option>
+</select>
+
+<div class="chips">
+  <span *ngFor="let p of nodeDraft.properties">
+    {{ p }}
+    <button (click)="removeNodeProperty(p)">✕</button>
+  </span>
+</div>
+
+<button (click)="addNodeType()">➕ Add Node Type</button>
+
+<hr />
+
+<h3>Define Edge Type</h3>
+
+<!-- Select CSV file for edges -->
+<select #edgeCsvFile (change)="onEdgeCsvFileSelected(edgeCsvFile.value)">
+  <option value="" disabled selected>Select CSV file for edges</option>
+  <option *ngFor="let file of selectedFiles" [value]="file.file.name">{{ file.file.name }}</option>
+</select>
+
+<!-- Then select edge start and end id columns -->
+<select #startId (change)="edgeDraft.startIdColumn = startId.value" [disabled]="!edgeCsvFileSelected">
+  <option value="" disabled selected>Start ID column</option>
+  <option *ngFor="let h of edgeCsvHeaders" [value]="h">{{ h }}</option>
+</select>
+
+<select #endId (change)="edgeDraft.endIdColumn = endId.value" [disabled]="!edgeCsvFileSelected">
+  <option value="" disabled selected>End ID column</option>
+  <option *ngFor="let h of edgeCsvHeaders" [value]="h">{{ h }}</option>
+</select>
+
+<input
+  type="text"
+  placeholder="Edge label"
+  [(ngModel)]="edgeDraft.label"
+/>
+
+<select #edgeProp (change)="addEdgeProperty(edgeProp.value)" [disabled]="!edgeCsvFileSelected">
+  <option value="" disabled selected>Add property</option>
+  <option *ngFor="let h of edgeCsvHeaders" [value]="h">{{ h }}</option>
+</select>
+
+<div class="chips">
+  <span *ngFor="let p of edgeDraft.properties">
+    {{ p }}
+    <button (click)="removeEdgeProperty(p)">✕</button>
+  </span>
+</div>
+
+<button (click)="addEdgeType()">➕ Add Edge Type</button>
+
+<!-- END OF NODE AND EDGES -->
+
+<h3>Node Types</h3>
+<ul>
+  <li *ngFor="let n of nodeTypes">
+    {{ n.label }} (ID: {{ n.idColumn }}) → {{ n.properties.join(', ') }}
+  </li>
+</ul>
+
+<h3>Edge Types</h3>
+<ul>
+  <li *ngFor="let e of edgeTypes">
+    {{ e.label }} ({{ e.startIdColumn }} → {{ e.endIdColumn }})
+    → {{ e.properties.join(', ') }}
+  </li>
+</ul>
+
+
+<div class="past-queries">
+  <h3>Past Queries</h3>
+  <ul>
+    <li *ngFor="let q of pastQueries">
+      {{ q }}
+    </li>
+  </ul>
+</div>
+
+<textarea [(ngModel)]="cypherQuery" rows="4"></textarea>
+
+<button (click)="executeQuery(cypherQuery)">Run</button>
+
+<div id="cy"></div>
+
+<div class="graph-wrapper">
+  <!-- we will render graph here -->
+  <div id="graphContainer"></div>
+</div>

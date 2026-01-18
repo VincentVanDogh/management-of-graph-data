@@ -1,0 +1,21 @@
+@prefix ex: <http://example.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+# Classes
+ex:City rdf:type rdfs:Class .
+ex:Station rdf:type rdfs:Class .
+ex:TransportLine rdf:type rdfs:Class .
+
+# Properties
+ex:connectedTo rdf:type rdf:Property ;
+               rdfs:domain ex:City ;
+               rdfs:range ex:City .
+
+ex:hasStation rdf:type rdf:Property ;
+              rdfs:domain ex:City ;
+              rdfs:range ex:Station .
+
+ex:servedBy rdf:type rdf:Property ;
+            rdfs:domain ex:Station ;
+            rdfs:range ex:TransportLine .

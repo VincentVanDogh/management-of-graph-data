@@ -1,0 +1,10 @@
+@prefix ex: <http://example.org/zurich/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:Station a rdfs:Class .
+ex:Line a rdfs:Class .
+ex:connectedTo a rdf:Property .
+ex:servedByLine a rdf:Property .
+ex:hasName a rdf:Property .

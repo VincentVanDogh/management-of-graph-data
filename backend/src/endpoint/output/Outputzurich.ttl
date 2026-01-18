@@ -1,0 +1,19 @@
+@prefix ex: <http://example.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+# Cities
+ex:Zurich rdf:type ex:City .
+ex:Winterthur rdf:type ex:City .
+
+# Stations
+ex:ZurichHB rdf:type ex:Station .
+ex:WinterthurCentral rdf:type ex:Station .
+
+# Transport Lines
+ex:LineS6 rdf:type ex:TransportLine .
+
+# Connections
+ex:Zurich ex:connectedTo ex:Winterthur .
+ex:Zurich ex:hasStation ex:ZurichHB .
+ex:Winterthur ex:hasStation ex:WinterthurCentral .
+ex:ZurichHB ex:servedBy ex:LineS6 .

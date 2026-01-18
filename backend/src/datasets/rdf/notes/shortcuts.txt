@@ -1,0 +1,1 @@
+py -m rdflib.tools.rdfpipe research_product.ttl -o json-ld > research_product.jsonld

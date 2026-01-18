@@ -1,0 +1,66 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix ex: <http://example.org/zurich/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+
+##################################
+# Station Shape
+##################################
+
+ex:StationShape
+    a sh:NodeShape ;
+    sh:targetClass ex:Station ;
+
+    sh:property [
+        sh:path ex:hasName ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:message "A Station must have exactly one name." ;
+    ] ;
+
+    sh:property [
+        sh:path geo:lat ;
+        sh:datatype xsd:decimal ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:message "A Station must have exactly one latitude." ;
+    ] ;
+
+    sh:property [
+        sh:path geo:long ;
+        sh:datatype xsd:decimal ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:message "A Station must have exactly one longitude." ;
+    ] .
+
+##################################
+# Line Shape
+##################################
+
+ex:LineShape
+    a sh:NodeShape ;
+    sh:targetClass ex:Line ;
+
+    sh:property [
+        sh:path ex:hasName ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+        sh:message "A Line must have a name." ;
+    ] .
+
+##################################
+# Relationship Constraint
+##################################
+
+ex:StationLineRelationShape
+    a sh:NodeShape ;
+    sh:targetSubjectsOf ex:servedByLine ;
+
+    sh:property [
+        sh:path ex:servedByLine ;
+        sh:class ex:Line ;
+        sh:minCount 1 ;
+        sh:message "A Station must be served by at least one Line." ;
+    ] .
